@@ -1,0 +1,52 @@
+﻿#***************************************************************************************
+#			Greek
+#	Link between Sampa notation & fragments (with examples)
+# Source : http://www.phon.ucl.ac.uk/home/sampa/grk-uni.htm
+
+#-- Vowels
+i	IS	[πίνω]
+e	EI	[τσέπη]
+a	A	[βράδυ]
+o	OI 	[τότε]
+u	OOS 	[ρούχα]
+
+#-- consonants 
+p	GLST P2	[πίνω]
+b	SQ B	[μπορώ]
+t	GLST T2	[τότε]
+d	SQ DL2	[ντύνω]	
+k	GLST K2	[κάνω]
+g	SQ G2	[γκρεμίζω]
+
+#-- affricates
+ts	GLST T2 S	[τσέπη]
+dz	SQ DL2 Z	[τζαμπατζής]
+
+# fricatives
+f	F	[φεύγω]
+v	V	[βράδυ]
+T	SS	[θέλω]		# unvoiced English TH, Spanish dental S
+D	DHGR	[δρόμος]	
+s	S	[σπίτι]
+z	Z	[ζέστη]
+x	KHCZ	[χρόνος]
+G	RGR	[γάλα]		#light G?
+
+# liquids, nasals
+l	LFI	[λουλούδι]
+r	RX	[ρούχα]
+
+m	M	[μιλώ]
+n	N	[νερό]
+N	NG	[αγγούρι]	# gamma nasal 
+
+# semivowel
+j	Y	[διαβάζω]
+
+#palatals
+c	GLST K2 6RS	[καί]		# K + palatizer
+gj	SQ G2 6RS	[άγγελος]	# G + pâlatizer
+C	GRSH	[χέρι]		# sch russe
+jj	Y	[γέρος]		# semivoyelle Y? avec h?
+
+# ------------------- End of file

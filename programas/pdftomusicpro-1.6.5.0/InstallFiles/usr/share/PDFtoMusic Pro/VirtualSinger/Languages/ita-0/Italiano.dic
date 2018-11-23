@@ -1,0 +1,259 @@
+#-----------------------------------------------------------------------------------------
+# 						Dictionnaire ITALIEN V 1.0
+#					    (c) Myriad Décembre 2000
+#----------------------------------------------------------------------------------------- 
+#T0
+#La
+. a
+#Là
+. a
+#Lb
+. b
+#Lc
+. k
+#Ld
+. d
+#Le
+. è
+#Lé
+. é
+#Lè
+. è
+#Lf
+. f
+#Lg
+. g
+#Lh
+. 
+#Li
+. i
+#Lì
+. i
+#Lj
+. i
+#Lk
+. k
+#Ll
+. l
+#Lm
+. m
+#Ln
+. n
+#Lo
+. o
+#Lò
+. O
+#Lp
+. p
+#Lq
+. k
+#Lr
+. R
+#Ls
+. s
+#Lt
+. t
+#Lu
+. u
+#Lù
+. u
+#Lv
+. v
+#Lw
+. w
+#Lx
+. ks
+#Ly
+. i
+#Lz
+. j
+#-------- Deux lettres
+#T1
+#Lb
+.b B
+#Lc
+.c 
+.e C
+.é C
+.è C
+.i C
+.ì C
+#Ld
+.d D
+#Le
+.* é
+#Lg
+.g 
+.n ñ
+.e J
+.é J
+.è J
+.i J
+.ì J
+#Li
+.a ï
+.à ï
+.e ï
+.é ï
+.è ï
+.ì ï
+.o ï
+.ò ï
+.u ï
+.ù ï
+.y ï
+#Lk
+.k K
+#Ln
+.g N
+.c N
+#Lo
+.l O
+#Lp
+.p P
+#Lq
+.q 
+#Ls
+.b z
+.d z
+.g z
+.l z
+.m z
+.n z
+.v z
+.z z
+#Lt
+.t T
+#Lu
+.a w
+.à w
+.e w
+.é w
+.è w
+.i w
+.ì w
+.o w
+.ò w
+.ù w
+.y w
+#Lx
+.x 
+#-------- trois lettres
+#T2
+#Lb
+b.?
+#Lc
+s.e ∫
+s.é ∫
+s.è ∫
+s.i ∫
+s.ì ∫
+#Ld
+d.?
+#Lg
+g.n ñ
+g.e J
+g.é J
+g.è J
+g.i J
+g.ì J
+g.? G
+#Li
+c.a 
+c.à 
+c.o 
+c.ò 
+c.u 
+c.ù 
+g.a 
+g.à 
+g.o 
+g.ò 
+g.u 
+g.ù 
+#Lk
+k.? 
+#Ll
+g.i L
+#Ln
+g.? 
+#Lp
+p.?
+#Lt
+t.?
+#Lu
+q.? w
+#Lz
+z.? 
+#-------- quatre lettres
+#T3
+#Lc
+?.ce
+?.cé
+?.cè
+?.ci
+?.cì
+#Lg
+?.li 
+#Li
+?.a* ï
+?.e* ï
+?.o* ï
+?.u* ï
+?.y* ï
+#Ls
+?.ce 
+?.cé 
+?.cè 
+?.ci 
+?.cì 
+#Lu
+q.?* w
+?.a* w
+?.e* w
+?.i* w
+?.o* w
+?.y* w
+#Lz
+*.ab Z
+*.av Z
+*.el Z
+*.en Z
+*.et Z
+*.ib Z
+*.ig Z
+*.iz Z
+*.on Z
+*.oo Z
+*.ot Z
+*.oz Z
+*.ua Z
+*.ur Z
+#-------- cinq lettres
+#T4
+#Li
+gl.?? 
+#Lz
+me.zo Z
+le.zo Z
+*a.zi Z
+*a.zu Z
+#Ls
+ro.a* z
+#------- six lettres
+#T5
+#Lz
+**.ima Z
+**.inc Z
+**.ain Z
+**.anz Z
+#------ sept lettres
+#T6
+#Ls
+spo.a?? z
+#------ huit lettres
+#T7
+#Lz
+***.affe Z
+***.olla Z
+#---- Fin de fichier

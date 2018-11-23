@@ -1,0 +1,56 @@
+003 - Ariana Grande - My Everything (Lyrics+Official Audio).mp3.wav -13,470552465605339
+006 - Drake - Marvins Room (Explicit),mp3,wav -13,796582199124355
+008 - Adele - Chasing Pavements,mp3,wav -16,409878654197993
+010 - Jason Mraz - I Won_t Give Up [Official Video],mp3,wav -20,515452865920384
+013 - Rihanna - Stay ft, Mikky Ekko,mp3,wav -20,362111078842755
+014 - Plain White T_s - Hey There Delilah,mp3,wav -18,43441872503614
+015 - Adele - Hello,mp3,wav -12,093310003337614
+016 - Beyoncé - Halo,mp3,wav -14,271324556689564
+01 - Alicia Keys - If I Aint Got You,mp3,wav -20,060647727177553
+023 - Blackbear - idfc [LYRICS],mp3,wav -13,134646401988523
+025 - Breathe me -- sia,mp3,wav -16,140580696500102
+028 - Christina Perri - Jar of Hearts [Official Music Video],mp3,wav 
+029 - Ron Pope- A Drop In The Ocean- lyrics,mp3,wav -17,238959759935703
+030 - Coldplay - The Scientist,mp3,wav -19,385551332855506
+034 - Ed Sheeran - Thinking Out Loud [Official Video],mp3,wav -12,720199379290019
+037 - Adele - Turning Tables (With Lyrics),mp3,wav -12,343273127411898
+039 - Helplessly- Tatiana Manaois Lyrics,mp3,wav -15,54607692495316
+03 - Meghan Trainor - Like I'm Gonna Lose You ft, John Legend,mp3,wav -16,409878654197993
+041 - Birdy Not About Angels Lyrics,mp3,wav -16,782444021567954
+043 - Little Big Town - Girl Crush,mp3,wav -25,069474871238103
+051 - Bruno Mars - When I Was Your Man [Official Video] (1),mp3,wav -15,485966722158658
+052 - Sam Smith - I'm Not The Only One (Official Audio) ft, A$AP Rocky,mp3,wav -12,37186324445027
+061 - Ed Sheeran - Don't [Official],mp3,wav -10,777414326392158
+069 - Justin Bieber - Love Yourself  (PURPOSE _ The Movement),mp3,wav -15,38565941164865
+081 - Rihanna - Take A Bow,mp3,wav -18,94966056273127
+092 - Girl on Fire by Alicia Keys (Lyrics),mp3,wav -11,613981205922776
+11 - Camila Cabello - Never Be the Same,mp3,wav -11,646342224659671
+131 - Rihanna - Love The Way You Lie (Part 2) ft, Eminem (Lyrics),mp3,wav -11,229941034555894
+13 - James Arthur - Say You Won't Let Go,mp3,wav -13,540833129310624
+16 - Ruth B, - Lost Boy (Official Video),mp3,wav -13,578718721380929
+17 - Adele - Hometown Glory,mp3,wav -16,143980927366805
+185 - Coldplay-Sparks,mp3,wav -12,252629337549287
+26 - John Legend - All of Me (Edited Video),mp3,wav -14,476589045338077
+30 - Don_t Look Back In Anger (Remastered),mp3,wav -10,064068299492932
+31 - Adele - Someone Like You,mp3,wav -14,671020312171375
+34 - ZAYN - PILLOWTALK,mp3,wav -10,77466461192671
+38 - Noah Cyrus - Again (Official Music Video) ft, XXXTENTACION,mp3,wav -11,498669000543014
+47 - Destiny_s Child - Emotion,mp3,wav -18,36387304069152
+51 - Kelly Clarkson - Because Of You (VIDEO),mp3,wav -15,382543397395295
+59 - Avril Lavigne - I_m With You (Video),mp3,wav -16,83568117428032
+66 - Titanic Theme Song ___ My Heart Will Go On ___ Celine Dion,mp3,wav -15,914088848602823
+70 - Beyonc__ - Broken-Hearted Girl (Video),mp3,wav -25,349533371958227
+74 - Alicia Keys - Fallin',mp3,wav -19,469929210029633
+75 - Howie Day - Collide (Video w- Chris Lord-Alge Mix Audio),mp3,wav -14,56829505866989
+76 - Coldplay - In My Place,mp3,wav -14,447166695662752
+78 - Ed Sheeran - Photograph (Official Music Video),mp3,wav -12,916151806162464
+138 - Maroon 5 - She Will Be Loved,mp3,wav -23,93521330023944
+028 - Christina Perri - Jar of Hearts [Official Music Video].mp3.wav -18.16204316382609
+032 - Christina Perri - A Thousand Years [Official Music Video].wav -17.985792442242698
+<<<<<<< HEAD
+005 - A Great Big World Christina Aguilera - Say Something.wav -17.162143962901833028 - Christina Perri - Jar of Hearts [Official Music Video].mp3.wav -18.16204316382609
+032 - Christina Perri - A Thousand Years [Official Music Video].wav -17.985792442242698
+005 - A Great Big World Christina Aguilera - Say Something.wav -17.162143962901833
+=======
+005 - A Great Big World Christina Aguilera - Say Something.wav -17.162143962901833
+>>>>>>> a2b94723263c1bb8c3ba571d54dada0fe98c4a92

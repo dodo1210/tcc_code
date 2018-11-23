@@ -1,0 +1,76 @@
+﻿#***************************************************************************************
+#			Hungarian
+#	Link between Sampa notation & fragments (with examples)
+# Source : http://www.phon.ucl.ac.uk/home/sampa/hung-uni.htm
+
+/ 	SQ	[az^ég]
+
+#-- Vowels
+i	EEF	[hit]
+i:	EED	[szít]
+E	EIS	[vet]
+e:	EHU	[méz]
+O	AWHU	[hat]
+a:	AAHU	[láb]
+o	OI	[sok]
+o:	OIS	[pók]
+2	EFR	[köt]
+2:	EFS	[sõt]
+u	UUF	[fut]
+u:	UUF	[kút]
+y	UFR	[süt]
+y:	UFR	[fűt]
+
+#-- diphthongs
+ai	AR Y	[]
+oi	AW Y	[]
+ei	AIR Y	[]
+
+#-- consonants (devoiced/voiced pairs)
+p	GLST P2	[Pál]
+b	SQ B	[bál]
+t	GLST TL3	[tár]
+d	SQ DL2	[dán]	
+
+t'	GLST TL2 6RS	[tyúk]
+d'	SQ 6RS		[gyár]
+k	GLST K2	[kád]
+g	SQ G3	[gát]
+
+#-- affricates ?? ts: GLST ??tS: GLST T2 CI
+ts	GLST TL2 S	[cél]
+dz	SQ DL2 Z	[bodza]
+tS	GLST TL2 SH	[cső]
+dZ	SQ DL2 ZH	[]
+
+# labiodental, alveolar, palatoalveolar
+f	F	[fát]
+v	V	[vád]
+s	S	[szép]
+z	Z	[zár]
+S	SH	[só]
+Z	ZH	[zsír]
+
+# liquids, nasals
+
+'m	MST
+m	M	[már]
+n	N	[nád]
+J	NG 6RS	[nyom]
+r	RXHU	[rák]
+l	L	[láp]
+
+# Semivowel
+j	Y	[jön,lyuk]
+
+# Soft sign (unvocalised "j" at end of word)
+'	GRSH	[]
+# French R for j between B,D,G
+R	RFR	[]
+# ng ending
+ng	NG	[]
+
+# Guttural
+h	HHE	[hát]
+x	KH	[achát]
+# ------------------- End of file

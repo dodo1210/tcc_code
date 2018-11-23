@@ -1,0 +1,49 @@
+﻿#***************************************************************************************
+#			Serbian/Croatian/Bosnian
+#	Link between Sampa notation & fragments (with examples)
+# https://www.phon.ucl.ac.uk/home/sampa/croatian.htm
+
+
+# -- Vowels.
+
+i  IS			[sir]  
+e  EIS			[pet] 
+a  A			[sat]
+o  OS			[bol] 
+O  OI			[]
+u  UUF			[put]
+
+# -- Consonants. The Croatian consonant system comprises 17 obstruents and 7 sonorant phonemes.
+
+p  GLST P2           	[pas]
+b  SQ B			[bas] 
+t  GLST T2		[tip]
+d  SQ DL2		[dan]
+k  GLST K2		[kap]
+g  SQ G2		[gol] 
+
+ts  GLST T2 S		[cura] 
+tS  GLST T2 SH		[čar]
+dZ  SQ D2 ZH		[džep] 
+
+f  F			[fonetika]
+s  S           		[sat]  
+z  Z			[zid]
+S  SH			[šef]
+Z  ZH ZH 		[žena]
+x  KH			[hod]
+
+
+m  M			[most]
+n  N			[noga] 
+J  N EEFS		[njiva]
+l  LL			[lud]
+L  L EEFS		[ljut]
+r  RX			[prst,ruka] 
+
+v\  V			[vid]
+j  EEFS			[ja]
+
+' EEFS			[]
+@  U			[roda]
+# ------------------- End of file

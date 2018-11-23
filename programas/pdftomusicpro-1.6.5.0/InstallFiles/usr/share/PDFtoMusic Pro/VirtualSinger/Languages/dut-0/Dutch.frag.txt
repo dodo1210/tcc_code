@@ -1,0 +1,335 @@
+
+FragmentListStart 
+	 DebutFragment 
+	 	 ID "RXNL" 
+	 	 Nom "Dutch rolled r" 
+	 	 Poids 103.000 
+	 	 Duree 6.047 
+	 	 TypeFrag 1 
+	 	 PRM_F1 
+	 	 	 Val 446.809 
+	 	 	 DurTAv 1.416 
+	 	 	 RaAp 18.493 
+	 	 	 DurTFi 0.210 
+	 	 	 DurTAp 0.678 
+	 	 FinPrm 
+	 	 PRM_F2 
+	 	 	 Val 1946.808 
+	 	 	 RaAv 55.479 
+	 	 	 DurTAv 1.477 
+	 	 	 DutTDeb 5.543 
+	 	 	 RaAp 78.082 
+	 	 	 DurTFi 5.760 
+	 	 	 DurTAp 0.556 
+	 	 FinPrm 
+	 	 PRM_F3 
+	 	 	 Val 2712.766 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 18.248 
+	 	 	 RaAp 98.571 
+	 	 	 DurTFi 16.126 
+	 	 FinPrm 
+	 	 PRM_F4 
+	 	 	 Val 3526.596 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 19.521 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 17.258 
+	 	 FinPrm 
+	 	 PRM_F5 
+	 	 	 Val 4021.276 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 18.814 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 17.258 
+	 	 FinPrm 
+	 	 PRM_F6 
+	 	 	 Val 5123.449 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 17.116 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 17.116 
+	 	 FinPrm 
+	 	 PRM_B1 
+	 	 	 Val 127.660 
+	 	 	 RaAv 14.286 
+	 	 	 DurTAv 1.438 
+	 	 	 DutTDeb 0.528 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.535 
+	 	 	 DurTAp 1.160 
+	 	 FinPrm 
+	 	 PRM_B2 
+	 	 	 Val 191.489 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 2.083 
+	 	 	 DutTDeb 0.821 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.320 
+	 	 	 DurTAp 0.644 
+	 	 FinPrm 
+	 	 PRM_B3 
+	 	 	 Val 70.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 5.000 
+	 	 	 DutTDeb 5.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 5.000 
+	 	 	 DurTAp 5.000 
+	 	 FinPrm 
+	 	 PRM_B4 
+	 	 	 Val 200.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B5 
+	 	 	 Val 200.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B6 
+	 	 	 Val 500.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_A1 
+	 	 	 Val 27.277 
+	 	 	 RaAv 63.699 
+	 	 	 DurTAv 0.801 
+	 	 	 DutTDeb 1.093 
+	 	 	 DurTAp 0.772 
+	 	 FinPrm 
+	 	 PRM_A2 
+	 	 	 Val 46.995 
+	 	 	 DurTAv 2.053 
+	 	 	 DurTAp 0.968 
+	 	 FinPrm 
+	 	 PRM_A3 
+	 	 	 Val 20.047 
+	 	 	 RaAv 81.507 
+	 	 	 DurTAv 0.601 
+	 	 	 DutTDeb 1.640 
+	 	 	 RaAp 81.507 
+	 	 	 DurTFi 2.172 
+	 	 	 DurTAp 0.830 
+	 	 FinPrm 
+	 	 PRM_A4 
+	 	 	 Val 17.418 
+	 	 	 RaAv 51.370 
+	 	 	 DurTAv 0.784 
+	 	 	 DutTDeb 1.640 
+	 	 	 RaAp 56.164 
+	 	 	 DurTFi 1.212 
+	 	 	 DurTAp 0.594 
+	 	 FinPrm 
+	 	 PRM_A5 
+	 	 	 Val -30.552 
+	 	 	 RaAv 50.000 
+	 	 	 DutTDeb 6.100 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 1.103 
+	 	 FinPrm 
+	 	 PRM_A6 
+	 	 	 Val -16.243 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 5.714 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 2.020 
+	 	 FinPrm 
+	 	 PRM_AV 
+	 	 	 Val 54.759 
+	 	 	 RaAv 70.548 
+	 	 	 DurTAv 0.923 
+	 	 	 DutTDeb 2.461 
+	 	 	 RaAp 49.315 
+	 	 	 DurTFi 3.038 
+	 	 	 DurTAp 2.621 
+	 	 FinPrm 
+	 	 PRM_RL 
+	 	 	 Val 94.764 
+	 	 	 DurTAv 1.282 
+	 	 	 DutTDeb 0.493 
+	 	 	 DurTFi 1.817 
+	 	 	 DurTAp 3.148 
+	 	 FinPrm 
+	 	 PRM_ASP 
+	 	 	 Val 38.403 
+	 	 	 RaAv 82.877 
+	 	 	 DurTAv 0.742 
+	 	 	 DutTDeb 0.891 
+	 	 	 DurTFi 0.696 
+	 	 	 DurTAp 1.155 
+	 	 FinPrm 
+	 	 PRM_AF 
+	 	 	 Val 52.901 
+	 	 	 RaAv 75.342 
+	 	 	 DurTAv 0.559 
+	 	 	 DutTDeb 1.073 
+	 	 	 DurTFi 0.606 
+	 	 	 DurTAp 0.947 
+	 	 FinPrm 
+	 FinFragment 
+	 DebutFragment 
+	 	 ID "VDU" 
+	 	 Nom "Dutch V" 
+	 	 Poids 95.000 
+	 	 Duree 7.209 
+	 	 TypeFrag 2 
+	 	 PRM_F1 
+	 	 	 Val 351.064 
+	 	 	 RaAv 73.288 
+	 	 	 DurTAv 0.627 
+	 	 	 DutTDeb 0.702 
+	 	 	 RaAp 63.014 
+	 	 	 DurTFi 0.585 
+	 	 	 DurTAp 0.877 
+	 	 FinPrm 
+	 	 PRM_F2 
+	 	 	 Val 1611.702 
+	 	 	 RaAv 20.548 
+	 	 	 DurTAv 1.052 
+	 	 	 DutTDeb 2.396 
+	 	 	 RaAp 88.356 
+	 	 	 DurTFi 3.091 
+	 	 	 DurTAp 0.906 
+	 	 FinPrm 
+	 	 PRM_F3 
+	 	 	 Val 2712.766 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.635 
+	 	 	 DutTDeb 0.515 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 0.788 
+	 	 	 DurTAp 1.152 
+	 	 FinPrm 
+	 	 PRM_F4 
+	 	 	 Val 3351.064 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 0.576 
+	 	 	 RaAp 67.808 
+	 	 	 DurTFi 0.518 
+	 	 	 DurTAp 0.800 
+	 	 FinPrm 
+	 	 PRM_F5 
+	 	 	 Val 3638.298 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_F6 
+	 	 	 Val 5170.212 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B1 
+	 	 	 Val 159.574 
+	 	 	 DurTAv 1.441 
+	 	 	 DurTAp 3.000 
+	 	 FinPrm 
+	 	 PRM_B2 
+	 	 	 Val 175.532 
+	 	 	 DurTAv 1.176 
+	 	 	 DurTAp 3.000 
+	 	 FinPrm 
+	 	 PRM_B3 
+	 	 	 Val 127.660 
+	 	 	 DurTAv 1.410 
+	 	 	 DurTAp 1.125 
+	 	 FinPrm 
+	 	 PRM_B4 
+	 	 	 Val 191.489 
+	 	 	 DurTAv 0.703 
+	 	 	 DurTAp 0.718 
+	 	 FinPrm 
+	 	 PRM_B5 
+	 	 	 Val 143.617 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B6 
+	 	 	 Val 500.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_A1 
+	 	 	 Val 37.793 
+	 	 	 RaAv 78.767 
+	 	 	 DurTAv 0.947 
+	 	 	 DutTDeb 2.314 
+	 	 	 RaAp 79.452 
+	 	 	 DurTFi 1.983 
+	 	 	 DurTAp 1.191 
+	 	 FinPrm 
+	 	 PRM_A2 
+	 	 	 Val 42.066 
+	 	 	 RaAv 69.178 
+	 	 	 DurTAv 1.031 
+	 	 	 DutTDeb 1.030 
+	 	 	 RaAp 76.712 
+	 	 	 DurTFi 2.986 
+	 	 	 DurTAp 1.279 
+	 	 FinPrm 
+	 	 PRM_A3 
+	 	 	 Val 48.638 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 1.813 
+	 	 	 DutTDeb 1.558 
+	 	 	 RaAp 49.286 
+	 	 	 DurTFi 1.007 
+	 	 	 DurTAp 0.874 
+	 	 FinPrm 
+	 	 PRM_A4 
+	 	 	 Val 48.638 
+	 	 	 RaAv 47.945 
+	 	 	 DurTAv 1.265 
+	 	 	 DutTDeb 0.912 
+	 	 	 RaAp 45.205 
+	 	 	 DurTFi 1.146 
+	 	 	 DurTAp 1.832 
+	 	 FinPrm 
+	 	 PRM_A5 
+	 	 	 Val 47.653 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 1.259 
+	 	 	 DutTDeb 1.059 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 1.320 
+	 	 	 DurTAp 1.299 
+	 	 FinPrm 
+	 	 PRM_A6 
+	 	 	 Val 32.864 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_AV 
+	 	 	 Val 49.183 
+	 	 	 RaAv 67.808 
+	 	 	 DurTAv 0.917 
+	 	 	 DutTDeb 4.190 
+	 	 	 RaAp 72.603 
+	 	 	 DurTFi 1.034 
+	 	 	 DurTAp 0.844 
+	 	 FinPrm 
+	 	 PRM_RL 
+	 	 FinPrm 
+	 	 PRM_ASP 
+	 	 	 Val 54.387 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 1.299 
+	 	 	 DutTDeb 1.766 
+	 	 	 RaAp 45.890 
+	 	 	 DurTFi 0.747 
+	 	 	 DurTAp 1.497 
+	 	 FinPrm 
+	 	 PRM_AF 
+	 	 	 Val 59.220 
+	 	 	 RaAv 50.000 
+	 	 	 OfDe 4.110 
+	 	 	 DurTAv 2.693 
+	 	 	 DutTDeb 1.955 
+	 	 	 RaAp 67.808 
+	 	 	 DurTFi 1.158 
+	 	 	 DurTAp 0.811 
+	 	 FinPrm 
+	 FinFragment 
+
+FragmentListEnd 

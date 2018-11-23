@@ -1,0 +1,52 @@
+﻿#***************************************************************************************
+#			Romanian
+#	Link between Sampa notation & fragments (with examples)
+# Source : https://www.phon.ucl.ac.uk/home/sampa/rom-uni.htm
+#
+
+#-- Vowels
+i	IS	[vin]
+i_0	EEFS	[câini]
+e	EIS	[fel]
+a	A	[cap]
+@	E9	[măr]
+o	OI	[loc]
+O	OS	[]
+u	OOS	[kus]
+1	EFR 	[fân]
+# --- Semivowels
+j	IS	[doi]
+e_X	EFIS 	[deasă]
+w	UUFS	[sau]
+o_X	OIS	[culoare]
+
+#-- consonants (devoiced/voiced pairs)
+p	GLST P2	[păr]
+b	SQ B	[barbă]
+t	GLST T2	[tun]
+d	SQ DL2	[dar]	
+k	GLST K2	[cal]
+g	SQ G2	[gât]
+
+#-- affricates ?? ts: GLST ??tS: GLST T2 CI
+ts	SQ T2 S	[ţară]
+tS	GLST T2 SH	[ceas]
+dZ	SQ DL2 ZH	[geantă]
+
+# labiodental, alveolar, palatoalveolar devoiced/voiced pairs
+f	F	[fată]
+v	V	[vale]
+s	S	[scaun]
+z	Z	[zi]
+S	SH	[şa]
+Z	ZH	[joi]
+h	HFI	[haină]
+
+# liquids, nasals
+
+m	M	[mână]
+n	N	[nas]
+l	L	[lapte]
+r	RX	[râs]
+
+# ------------------- End of file

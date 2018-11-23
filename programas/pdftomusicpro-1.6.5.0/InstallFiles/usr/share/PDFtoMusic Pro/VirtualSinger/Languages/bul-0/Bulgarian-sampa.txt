@@ -1,0 +1,40 @@
+﻿#***************************************************************************************
+#			Bulgarian
+#	Link between Sampa notation & fragments (with examples)
+
+#--- Consonants
+p	GLST P2	[пак]	
+b	SQ B	[бал]
+t	GLST T2	[там]
+d	SQ DL2	[дам]
+k	GLST K2	[как]
+g	SQ G2	[газ]
+ts	GLST T2 S	[цар]
+dz	SQ DLZ Z	[дзън]
+tS	GLST T2 SH	[чам]
+dZ	SQ DL2 ZH	[джам]
+f	F	[фал]
+v	V	[вал]
+s	S	[сам]
+z	ZZ   	[зар]
+S	SH	[шал]
+Z	ZH ZH	[жал]
+x	KH	[хал]
+m	M	[мах]
+n	N	[нас]
+l	LFR	[лют]
+L	LLBG	[лак]
+r	RXCZ	[раз]
+#---------- Semivowels
+j 	Y	[ял]
+#---------- Vowels
+i	EEF	[пик]
+I	EEFS	[й]
+e	EF	[пек]
+a	ARF	[пак]
+@	E2	[пък]
+O	AW 	[под]
+u	UUF	[пук]
+# ---- Depalatizer
+'  EEFS	[???]
+# ------------------- End of file

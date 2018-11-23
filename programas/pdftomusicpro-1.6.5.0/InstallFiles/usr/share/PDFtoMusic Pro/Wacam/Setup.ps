@@ -1,0 +1,185 @@
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+% Setup Version 1.4 - Juin 2014
+
+/setRectPath % usage: x1 y1 x2 y2 
+	{
+	/y2 exch def
+	/x2 exch def
+	/y1 exch def
+	/x1 exch def
+	newpath
+	x1 y1 moveto
+	x2 y1 lineto
+	x2 y2 lineto
+	x1 y2 lineto
+	closepath
+	} bind def
+	
+
+/line % usage: x1 y1 x2 y2 - Ligne de x1 y1 a x2 y2
+	{
+	/vfin exch def
+	/hfin exch def
+	/vdep exch def
+	/hdep exch def
+	hdep hfin eq 
+		{
+		vdep vfin lt
+			{
+			hdep vdep hfin lwX add vfin lwY add setRectPath fill
+			}
+			{
+			hfin vfin hdep lwX add vdep lwY add setRectPath fill
+			} ifelse
+		}
+		{
+		vdep vfin eq
+			{
+			hdep hfin lt			
+				{
+				hdep vdep hfin lwX add vfin lwY add setRectPath fill
+				}
+				{
+				hfin vfin hdep lwX add vdep lwY add setRectPath fill
+				} ifelse
+			}
+			{
+			hdep hfin gt
+				{
+				hdep hfin /hdep exch def /hfin exch def
+				vdep vfin /vdep exch def /vfin exch def
+				}if
+			newpath
+			vdep vfin lt
+				{
+				hdep vdep moveto
+				hdep lwX add vdep lineto
+				hfin lwX add vfin lineto
+				hfin lwX add vfin lwY add lineto
+				hfin vfin lwY add lineto
+				hdep vdep lwY add lineto
+				hdep vdep lineto
+				}
+				{
+				hdep vdep moveto
+				hfin vfin lineto
+				hfin lwX add vfin lineto
+				hfin lwX add vfin lwY add lineto
+				hdep lwX add vdep lwY add lineto
+				hdep vdep lwY add lineto
+				hdep vdep lineto 
+				}ifelse
+			closepath fill
+			}ifelse
+		}ifelse
+	} bind def
+
+/lineWidth % usage tailleX tailleY 
+	{
+	/lwY exch def
+	/lwX exch def
+	}bind def
+	
+/frameRect % usage: x1 y1 x2 y2 
+	{
+	setRectPath  stroke
+	}bind def
+	
+/paintRect % usage: x1 y1 x2 y2 
+	{
+	setRectPath  fill
+	}bind def
+
+% General defs for fonts
+/_d{bind def}bind def
+/_m{moveto}_d
+/_l{lineto}_d
+/_clf{closepath eofill}_d
+/_cls{closepath gsave 2670 _fsize div setlinewidth stroke grestore}_d
+/_c{curveto}_d
+/_sc{7 -1 roll{setcachedevice}{pop pop pop pop pop pop}ifelse}_d
+/_e{exec}_d
+ 
+% String concat
+/concat {2 copy length exch length add string dup dup
+4 3 roll 4 index length exch putinterval 3 1 roll exch
+0 exch putinterval}_d
+
+% Glyph show + style
+/_gs {
+_underline{currentpoint /savey exch def /savex exch def}if
+_shadow {dup gsave 10 -10 rmoveto 0.8 0.8 0.8 setrgbcolor glyphshow grestore} if
+_bold { 0 1 _fsize 25 div {gsave neg 0 rmoveto dup glyphshow grestore} for glyphshow _fsize 50 div 0 rmoveto } {glyphshow} ifelse 
+_underline{gsave /slwX lwX def /slwY lwY def 1 _fsize 15 div lineWidth currentpoint _fsize 8 div sub savex savey _fsize 8 div sub line slwX slwY lineWidth grestore}if
+}_d
+
+
+% String drawing
+/_pr
+	{
+	 {16 6 string cvrs (x) exch concat cvn _gs} forall 
+	}_d
+
+% String drawing for default non-embedded font
+/_prstd
+{
+ {dup /ISOLatin1Encoding load exch get _gs} forall 
+}_d
+
+% Text rotate
+/_rt
+{
+rotate
+} bind def
+
+% Font / size / style set
+/_ft 
+{
+% set face  bold = 1,     italic = 2,      underline = 4,      outline = 8,      shadow = 16,      condense = 32,      extend = 64
+(00000000) 8 string copy dup
+3 2 roll 2 8 string cvrs dup length
+8 exch sub exch putinterval 
+dup 7 1 getinterval (1) eq /_bold exch def
+dup 6 1 getinterval (1) eq /_italic exch def
+dup 5 1 getinterval (1) eq /_underline exch def
+dup 4 1 getinterval (1) eq /_outline exch def
+dup 3 1 getinterval (1) eq /_shadow  exch def
+dup 2 1 getinterval (1) eq /_condense  exch def
+dup 1 1 getinterval (1) eq /_extend  exch def
+pop
+/_fsize exch def 
+/m2 0 def
+/m3 0 def
+/m1 _fsize _condense {0.8}{1} ifelse mul def
+/m1 m1 _extend {1.2}{1} ifelse mul def
+/m3 _fsize _italic {0.36}{0} ifelse mul def
+findfont m1 m2 m3 _fsize 0 0 [null null null null null null] astore makefont setfont
+}bind def
+% Picture drawing/_pict			% x_pos y_pos target_width target_height source_width source_height <image data> <mask data>	{	/MaskData exch def	/ImageData exch def	/ysize exch def	/xsize exch def	/yscale exch def	/xscale exch def	yscale sub /ypos exch def	/xpos exch def	/negImgH ysize neg def	/deltx xpos xscale div dup floor sub xscale mul def	/delty ypos yscale div dup floor sub yscale mul def	gsave	deltx delty translate	/ImagePat	<<		/PatternType    1		/PaintType      1		/TilingType     2		/BBox           [ 0 0 xscale yscale ]		/XStep    xscale		/YStep    yscale		/PaintProc  			{			begin			/DeviceRGB setcolorspace			xscale yscale scale			<<	/ImageType 1				/Width xsize				/Height ysize				/BitsPerComponent 8				/ImageMatrix [ xsize 0 0 negImgH 0 ysize ]				/Decode [ 0 1 0 1 0 1 ]				/DataSource ImageData			>> image			end		} >>	matrix	makepattern	def	grestore	gsave	/Pattern ImagePat setpattern	xpos ypos translate % origine de l'image
+	xscale yscale scale % echelle de l'image
+	<< 	/ImageType 1		/Width xsize		/Height ysize		/BitsPerComponent 1		/ImageMatrix [ xsize 0 0 negImgH 0 ysize ]		/DataSource MaskData		/Decode [ 0 1  ]	>>	imagemask
+	grestore} bind def
+
+/Unregistered
+{	
+gsave
+17 22 translate
+60 40 moveto .5 setgray 45 rotate
+80 TimesFont (Unregistered version) show
+grestore
+150 110 moveto 0 setgray
+18 HelveticaFont (The unregistered version don't show all symbols.) show
+150 60 moveto
+25 HelveticaFont (Please register !) show
+showpage
+}bind def
+
+% Valeurs par defaut	
+2 setlinecap 
+1 setlinejoin 
+0 0 0 setrgbcolor
+/lwX 1 def
+/lwY 1 def
+0.5 setlinewidth

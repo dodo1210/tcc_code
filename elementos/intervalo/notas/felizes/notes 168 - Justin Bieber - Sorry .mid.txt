@@ -1,0 +1,162 @@
+EXTRACT: sysex data=(126,127,9,1) time=0
+EXTRACT: sysex data=(65,16,66,18,64,0,127,0,65) time=0.3
+EXTRACT: control_change channel=0 control=0 value=0 time=0.30125
+EXTRACT: control_change channel=0 control=32 value=0 time=0.00125
+EXTRACT: program_change channel=0 program=0 time=0.00125
+EXTRACT: control_change channel=0 control=7 value=110 time=0.00125
+EXTRACT: control_change channel=0 control=10 value=64 time=0.00125
+EXTRACT: control_change channel=0 control=11 value=127 time=0.00125
+EXTRACT: control_change channel=0 control=91 value=55 time=0.00125
+EXTRACT: control_change channel=0 control=93 value=0 time=0.00125
+EXTRACT: control_change channel=1 control=0 value=0 time=0.00125
+EXTRACT: control_change channel=1 control=32 value=0 time=0.00125
+EXTRACT: program_change channel=1 program=39 time=0.00125
+EXTRACT: control_change channel=1 control=7 value=116 time=0.00125
+EXTRACT: control_change channel=1 control=10 value=64 time=0.00125
+EXTRACT: control_change channel=1 control=11 value=127 time=0.00125
+EXTRACT: control_change channel=1 control=91 value=55 time=0.00125
+EXTRACT: control_change channel=1 control=93 value=0 time=0.00125
+EXTRACT: control_change channel=2 control=0 value=0 time=0.00125
+EXTRACT: control_change channel=2 control=32 value=0 time=0.00125
+EXTRACT: program_change channel=2 program=62 time=0.00125
+EXTRACT: control_change channel=2 control=7 value=110 time=0.00125
+EXTRACT: control_change channel=2 control=10 value=64 time=0.00125
+EXTRACT: control_change channel=1 control=101 value=0 time=0.00125
+EXTRACT: control_change channel=2 control=91 value=96 time=0.00125
+EXTRACT: control_change channel=2 control=11 value=127 time=0
+EXTRACT: control_change channel=2 control=93 value=0 time=0.00125
+EXTRACT: control_change channel=3 control=0 value=0 time=0.00125
+EXTRACT: control_change channel=1 control=100 value=0 time=0.00125
+EXTRACT: control_change channel=3 control=32 value=0 time=0.00125
+EXTRACT: program_change channel=3 program=66 time=0
+EXTRACT: control_change channel=3 control=7 value=110 time=0.00125
+EXTRACT: control_change channel=3 control=10 value=64 time=0.00125
+EXTRACT: control_change channel=1 control=6 value=2 time=0.00125
+EXTRACT: control_change channel=3 control=91 value=55 time=0.00125
+EXTRACT: control_change channel=3 control=11 value=127 time=0
+EXTRACT: control_change channel=3 control=93 value=0 time=0.00125
+EXTRACT: control_change channel=4 control=0 value=0 time=0.00125
+EXTRACT: control_change channel=1 control=101 value=127 time=0.00125
+EXTRACT: control_change channel=4 control=32 value=0 time=0.00125
+EXTRACT: program_change channel=4 program=54 time=0
+EXTRACT: control_change channel=4 control=7 value=110 time=0.00125
+EXTRACT: control_change channel=4 control=10 value=64 time=0.00125
+EXTRACT: control_change channel=1 control=100 value=127 time=0.00125
+EXTRACT: control_change channel=4 control=91 value=55 time=0.00125
+EXTRACT: control_change channel=4 control=11 value=127 time=0
+EXTRACT: control_change channel=4 control=93 value=0 time=0.00125
+EXTRACT: control_change channel=5 control=0 value=0 time=0.00125
+EXTRACT: control_change channel=5 control=32 value=0 time=0.00125
+EXTRACT: program_change channel=5 program=52 time=0.00125
+EXTRACT: control_change channel=5 control=7 value=110 time=0.00125
+EXTRACT: control_change channel=5 control=10 value=64 time=0.00125
+EXTRACT: control_change channel=5 control=11 value=127 time=0.00125
+EXTRACT: control_change channel=5 control=91 value=55 time=0.00125
+EXTRACT: control_change channel=5 control=93 value=0 time=0.00125
+EXTRACT: control_change channel=6 control=0 value=0 time=0.00125
+EXTRACT: control_change channel=7 control=0 value=0 time=0
+EXTRACT: control_change channel=8 control=0 value=0 time=0
+EXTRACT: control_change channel=10 control=0 value=0 time=0
+EXTRACT: control_change channel=11 control=0 value=0 time=0
+EXTRACT: control_change channel=15 control=0 value=0 time=0
+EXTRACT: control_change channel=6 control=32 value=0 time=0.00125
+EXTRACT: control_change channel=7 control=32 value=0 time=0
+EXTRACT: control_change channel=8 control=32 value=0 time=0
+EXTRACT: control_change channel=10 control=32 value=0 time=0
+EXTRACT: control_change channel=11 control=32 value=0 time=0
+EXTRACT: control_change channel=15 control=32 value=0 time=0
+EXTRACT: program_change channel=6 program=80 time=0.00125
+EXTRACT: program_change channel=7 program=81 time=0
+EXTRACT: program_change channel=8 program=48 time=0
+EXTRACT: program_change channel=10 program=48 time=0
+EXTRACT: program_change channel=11 program=17 time=0
+EXTRACT: program_change channel=15 program=0 time=0
+EXTRACT: control_change channel=6 control=7 value=110 time=0.00125
+EXTRACT: control_change channel=7 control=7 value=110 time=0
+EXTRACT: control_change channel=8 control=7 value=50 time=0
+EXTRACT: control_change channel=10 control=7 value=100 time=0
+EXTRACT: control_change channel=11 control=7 value=100 time=0
+EXTRACT: control_change channel=15 control=7 value=110 time=0
+EXTRACT: control_change channel=6 control=10 value=64 time=0.00125
+EXTRACT: control_change channel=7 control=10 value=64 time=0
+EXTRACT: control_change channel=8 control=10 value=64 time=0
+EXTRACT: control_change channel=10 control=10 value=64 time=0
+EXTRACT: control_change channel=11 control=10 value=64 time=0
+EXTRACT: control_change channel=15 control=10 value=64 time=0
+EXTRACT: control_change channel=6 control=11 value=127 time=0.00125
+EXTRACT: control_change channel=7 control=11 value=127 time=0
+EXTRACT: control_change channel=8 control=11 value=127 time=0
+EXTRACT: control_change channel=10 control=11 value=127 time=0
+EXTRACT: control_change channel=11 control=11 value=127 time=0
+EXTRACT: control_change channel=15 control=11 value=127 time=0
+EXTRACT: control_change channel=6 control=91 value=96 time=0.00125
+EXTRACT: control_change channel=7 control=91 value=55 time=0
+EXTRACT: control_change channel=8 control=91 value=55 time=0
+EXTRACT: control_change channel=10 control=91 value=55 time=0
+EXTRACT: control_change channel=11 control=91 value=55 time=0
+EXTRACT: control_change channel=15 control=91 value=55 time=0
+EXTRACT: control_change channel=6 control=93 value=0 time=0.00125
+EXTRACT: control_change channel=7 control=93 value=0 time=0
+EXTRACT: control_change channel=8 control=93 value=0 time=0
+EXTRACT: control_change channel=10 control=93 value=0 time=0
+EXTRACT: control_change channel=11 control=93 value=0 time=0
+EXTRACT: control_change channel=15 control=93 value=0 time=0
+EXTRACT: control_change channel=9 control=0 value=0 time=0.02125
+EXTRACT: control_change channel=9 control=32 value=0 time=0.00125
+EXTRACT: program_change channel=9 program=25 time=0.00125
+EXTRACT: control_change channel=9 control=7 value=127 time=0.00125
+EXTRACT: control_change channel=9 control=10 value=64 time=0.00125
+EXTRACT: control_change channel=9 control=11 value=127 time=0.00125
+EXTRACT: control_change channel=9 control=91 value=46 time=0.00125
+EXTRACT: control_change channel=9 control=93 value=0 time=0.00125
+EXTRACT: control_change channel=0 control=101 value=0 time=0.0225
+EXTRACT: control_change channel=0 control=100 value=0 time=0.005
+EXTRACT: control_change channel=0 control=6 value=2 time=0.005
+EXTRACT: control_change channel=0 control=101 value=127 time=0.005
+EXTRACT: control_change channel=0 control=100 value=127 time=0.005
+EXTRACT: control_change channel=2 control=101 value=0 time=0.0375
+EXTRACT: control_change channel=2 control=100 value=0 time=0.005
+EXTRACT: control_change channel=2 control=6 value=2 time=0.005
+EXTRACT: control_change channel=3 control=101 value=0 time=0.00125
+EXTRACT: control_change channel=2 control=101 value=127 time=0.00375
+EXTRACT: control_change channel=2 control=100 value=127 time=0.005
+EXTRACT: control_change channel=6 control=101 value=0 time=0.00375
+EXTRACT: control_change channel=7 control=101 value=0 time=0
+EXTRACT: control_change channel=8 control=101 value=0 time=0
+EXTRACT: control_change channel=10 control=101 value=0 time=0
+EXTRACT: control_change channel=11 control=101 value=0 time=0
+EXTRACT: control_change channel=15 control=101 value=0 time=0
+EXTRACT: control_change channel=5 control=101 value=0 time=0.005
+EXTRACT: control_change channel=6 control=100 value=0 time=0.00125
+EXTRACT: control_change channel=7 control=100 value=0 time=0
+EXTRACT: control_change channel=8 control=100 value=0 time=0
+EXTRACT: control_change channel=10 control=100 value=0 time=0
+EXTRACT: control_change channel=11 control=100 value=0 time=0
+EXTRACT: control_change channel=15 control=100 value=0 time=0
+EXTRACT: control_change channel=4 control=101 value=0 time=0.0025
+EXTRACT: control_change channel=5 control=100 value=0 time=0.00125
+EXTRACT: control_change channel=6 control=6 value=2 time=0.00125
+EXTRACT: control_change channel=7 control=6 value=2 time=0
+EXTRACT: control_change channel=8 control=6 value=2 time=0
+EXTRACT: control_change channel=10 control=6 value=2 time=0
+EXTRACT: control_change channel=11 control=6 value=2 time=0
+EXTRACT: control_change channel=15 control=6 value=2 time=0
+EXTRACT: control_change channel=4 control=100 value=0 time=0.0025
+EXTRACT: control_change channel=5 control=6 value=2 time=0.00125
+EXTRACT: control_change channel=6 control=101 value=127 time=0.00125
+EXTRACT: control_change channel=7 control=101 value=127 time=0
+EXTRACT: control_change channel=8 control=101 value=127 time=0
+EXTRACT: control_change channel=10 control=101 value=127 time=0
+EXTRACT: control_change channel=11 control=101 value=127 time=0
+EXTRACT: control_change channel=15 control=101 value=127 time=0
+EXTRACT: control_change channel=4 control=6 value=2 time=0.0025
+EXTRACT: control_change channel=5 control=101 value=127 time=0.00125
+EXTRACT: control_change channel=6 control=100 value=127 time=0.00125
+EXTRACT: control_change channel=7 control=100 value=127 time=0
+EXTRACT: control_change channel=8 control=100 value=127 time=0
+EXTRACT: control_change channel=10 control=100 value=127 time=0
+EXTRACT: control_change channel=11 control=100 value=127 time=0
+EXTRACT: control_change channel=15 control=100 value=127 time=0
+EXTRACT: control_change channel=4 control=101 value=127 time=0.0025
+EXTRACT: control_change channel=5 control=100 value=127 time=0.00125
+EXTRACT: control_change channel=4 control=100 value=127 time=0.00375

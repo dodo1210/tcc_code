@@ -1,0 +1,28 @@
+file6.wav.mid A major
+file7.wav.mid A major
+file8.wav.mid E major
+file9.wav.mid A major
+file10.wav.mid A major
+file11.wav.mid A major
+file12.wav.mid A major
+file13.wav.mid E major
+file15.wav.mid A major
+file16.wav.mid C# minor
+file17.wav.mid C# minor
+file18.wav.mid C# minor
+file19.wav.mid A major
+file20.wav.mid C# minor
+file21.wav.mid C# major
+file23.wav.mid C# minor
+file24.wav.mid C# minor
+file25.wav.mid C# minor
+file26.wav.mid C# minor
+file27.wav.mid C# minor
+file28.wav.mid C# major
+0 - gwen_stefani-the_sweet_escape.mid C# major
+001 - Bruno Mars - The Lazy Song.mid B major
+0 - gwen_stefani-the_sweet_escape.mid C# major
+001 - Bruno Mars - The Lazy Song.mid B major
+0 - gwen_stefani-the_sweet_escape.mid C# major
+001 - Bruno Mars - The Lazy Song.mid B major
+refrao_Girl_on_Fire.wav.mid F# minor

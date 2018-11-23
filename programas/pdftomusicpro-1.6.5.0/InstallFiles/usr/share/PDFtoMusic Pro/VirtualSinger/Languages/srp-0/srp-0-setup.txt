@@ -1,0 +1,5 @@
+﻿CASE=yes
+DICT=SerbCroa.txt
+SAMPA=SerbCroa-sampa.txt
+FLAG=SerbCroa.png
+TAG=srp

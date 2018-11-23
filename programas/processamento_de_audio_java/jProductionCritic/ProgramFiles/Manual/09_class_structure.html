@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>Class Structure</title>
+</head>
+
+<body text="#000000" bgcolor="#e4e4e4" link="#0033C4" vlink="#0033C4" alink="#0033C4">
+
+<a name="Top"></a>
+
+<TABLE cellSpacing=0 cellPadding=4 width="100%" bgColor=#0033C4 border=0>
+  <TBODY><TR>
+      <TH align=left><FONT face=Arial color=#ffffff size=+3>Class Structure</FONT></TH>
+    </TR></TBODY>
+</TABLE>
+<p><strong>EXPLANATION OF THIS SECTION</strong></p>
+<p>This section of the manual provides an overview of 
+    the jProductionCritic <a href="http://www.java.com" target="top">Java</a> class structure.</p>
+<p><strong>OVERVIEW OF THE CLASS STRUCTURE</strong></p>
+<p>jProductionCritic is divided into three main packages: <em>jproductioncritic</em>,<em> jproductioncritic.errorchecker </em>and<em> jproductioncritic.gui.</em></p>
+<p>The <em>jproductioncritic</em> package contains classes for the general holding and processing of data. All jProductionCritic functionality other than the specific error checking algorithms and the GUI is implemented in the classes of this package. The <em>JProductionCritic</em> class in particular contains the high-level implementation of all basic processing.</p>
+<p>The <em>jproductioncritic.errorcheckers</em> package contains the implementations of each error checking algorithm. Of particular importance, each error checker is a subclass of the <em>ErrorChecker </em>class. This makes it easy to add new error checking algorithms to jProductionCritic, as one must simply create a new <em>ErrorChecker</em> subclass that implements <em>ErrorChecker</em>'s abstract methods. </p>
+<p>The <em>jproductioncritic.gui</em> package contains the classes that implement the jProductionCritic <a href="04_graphical_user_interface.html">graphical user interface</a>.</p>
+<p>More 
+  details are available in the jProductionCritic Javadocs and in the source code itself, both of which may be downloaded from the  <a href="http://jmir.sourceforge.net" target="top">jMIR</a> web page. 
+  The reader may also wish to review the <a href="08_processing_sequence.html">Processing Sequence</a> section of the manual in order to obtain an 
+  overview of how the system operates. The <a href="10_extending_the_software.html">Extending the Software</a> section also includes information on how to extend jProductionCritic.</p>
+<p><strong>CLASSES IN THE jproductioncritic PACKAGE</strong></p>
+<ul>
+  <li><strong>JProductionCritic: </strong>This is the core class for the jProductionCritic project. It contains jProductionCritic's <em>main</em> method, as well as  methods implementing jProductionCritic's <a href="08_processing_sequence.html">top-level processing</a> functionality.</li>
+  <li><strong>ConfigurationSettings: </strong>An object of this class holds the configuration settings used for jProductionCritic processing, which are typically parsed from a jProductionCritic <a href="06_configuration_settings_file.html">configuration file</a>. This class also includes methods for  parsing such files, for saving such files, for preparing default settings and for validating settings.</li>
+  <li><strong>ErrorReport: </strong>An object of this class stores the information associated with a particular error detected in an audio file. The fields of objects of this class store the basic information associated with the error. Methods are also included for merging error reports of the same type that are  close in time, and for formatting error reports for output in various ways.</li>
+  <li><strong>ReportBuilder: </strong>A class consisting of static methods for generating various types of <a href="07_types_of_error_reports.html">reports</a> detailing the contents of sets of <em>ErrorReport</em> objects.</li>
+  <li><strong>MetaData: </strong>Objects of this class store pairs of strings: one indicating the identifier for a piece of metadata, and the other indicating the value for this piece of metadata. Any kind of metadata acquired during jProductionCritic processing can be stored in objects of this type, other than reports of detected errors, which are rather be stored in <em>ErrorReport</em> objects. Typically, <em>MetaData</em> objects store metadata about the audio files that are checked for errors. Methods are also included for formatting error reports in various ways.</li>
+  <li><strong>JaudioFeatures: </strong>This class holds static methods that port over <a href="http://jmir.sourceforge.net/index_jAudio.html" target="top">jAudio</a> features adapted for the purposes of jProductionCritic.</li>
+</ul>
+<p> <strong>CLASSES IN THE jproductioncritic.errorcheckers PACKAGE</strong></p>
+<p>More details on each class in this package that extends <em>ErrorChecker </em>can be found in the section of the manual on <a href="05_errors_checked_for.html">the types of errors checked for</a>.</p>
+<ul>
+  <li><strong>ErrorChecker: </strong>This abstract class serves as the superclass of algorithms that check for production errors.</li>
+  <li><strong>DCBias</strong></li>
+  <li><strong>DigitalClipping</strong></li>
+  <li><strong>Duration</strong></li>
+  <li><strong>EditClick</strong></li>
+  <li><strong>EncodingQuality</strong></li>
+  <li><strong>GroundLoopHum</strong></li>
+  <li><strong>InstantaneousNoise</strong></li>
+  <li><strong>InsufficientDynamicRange</strong></li>
+  <li><strong>InsufficientDynamicRangeCompression</strong></li>
+  <li><strong>InsufficientVarietyInDynamics</strong></li>
+  <li><strong>IsNotStereo</strong></li>
+  <li><strong>LongSilence</strong></li>
+  <li><strong>NarrowbandNoise</strong></li>
+  <li><strong>Phasing</strong></li>
+  <li><strong>StereoChannelBalance</strong></li>
+  <li><strong>StereoChannelSimilarity</strong></li>
+</ul>
+<p><strong>CLASSES IN THE jproductioncritic.gui PACKAGE</strong></p>
+<ul>
+  <li><strong>AnalysisPanel:</strong> The AnalysisPanel is used for controlling the reports that are generated when audio files are analyzed for technical production errors. It initiates processing and displays the results.</li>
+  <li><strong>ConfigurationSettingsTableModel: </strong>A Java TableModel used for displaying jProductionCritic configuration settings in a table.</li>
+  <li><strong>OuterFrame: </strong>The container holding the jProductionCritic <a href="04_graphical_user_interface.html">GUI</a>. Holds the AnalysisPane and SettingsPane as well as the GUI's menu items. Also provides methods for accessing functionality offered by the AnalysisPane and SettingsPane.</li>
+  <li><strong>SettingsPanel: </strong>The  SettingsPanel is used for selecting <a href="06_configuration_settings_file.html">configuration settings</a> governing which production errors are checked for and using what thresholds. It allows users to parse settings from configuration settings files, edit these settings and save the settings to configuration settings files.</li>
+</ul>
+<p><strong>OTHER JMIR PACKAGES USED BY JPRODUCTIONCRITIC</strong></p>
+<ul>
+  <li><strong>ACE:</strong> A metalearning tool. jProductionCritic uses it to save ACE XML files.</li>
+  <li><strong>UtilityClasses:</strong> A set of utility classes providing a variety 
+    of general-purpose functionality. jProductionCritic uses it to perform miscellaneous 
+    tasks, especially those relating to parsing audio files.</li>
+</ul>
+<p> <strong>THIRD-PARTY LIBRARIES USED BY JPRODUCTIONCRITIC</strong></p>
+<p> The only third-party library used by jProductionCritic is the mp3plugin.jar JMF MP3 plugin <a href="http://www.oracle.com/technetwork/java/javase/download-137625.html" target=top>distributed by Oracle</a>.</p>
+<TABLE height=5 width="100%" bgColor=#0033C4 border=0><TBODY><TR><TH></TH></TR></TBODY></TABLE>
+<p><tt><a href="#Top">-top of page-</a></tt></p>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+﻿############### Vietnamese Phonetic file ################
+##############     (c) 2015 Myriad      ################
+$ENTITLE Vietnamese 
+$ENAUTHOR by Myriad
+$ENCOMMENT  v1
+
+$FRTITLE Vietnamien
+$FRAUTHOR par Myriad
+$FRCOMMENT v1
+
+$SAMPA
+$DATASTART
+
+# dipthongs
+
+#--- AN/AI/AO/AU/EU/EO
+[_]an|An|AN|àn|Àn|ÀN|ản|Ản|ẢN|ãn|Ãn|ÃN|án|Án|ÁN|ạn|Ạn|ẠN=/+a~
+an|An|AN|àn|Àn|ÀN|ản|Ản|ẢN|ãn|Ãn|ÃN|án|Án|ÁN|ạn|Ạn|ẠN=a~
+#[an|An|AN|àn|Àn|ÀN|ản|Ản|ẢN|ãn|Ãn|ÃN|án|Án|ÁN|ạn|Ạn|ẠN]h=6
+#[an|An|AN|àn|Àn|ÀN|ản|Ản|ẢN|ãn|Ãn|ÃN|án|Án|ÁN|ạn|Ạn|ẠN]H=6
+h|H[_]=6
+[_]ai=/+a+i)
+ai[_]=a+i)
+ai=a+i)
+a[o]=a)
+[a|â|e|ê]u=u)
+#--- IA/IE
+[i]a=e)
+[_]i[e|ê]=/+i)
+i[e|ê]=i)
+#---- OA/OI
+[_]o[a]=/+u)
+o[a]=u)
+[o|O|ò|Ò|ỏ|Ỏ|õ|Õ|ó|Ó|ọ|Ọ|ơ|Ơ|ờ|Ờ|ở|Ở|ỡ|Ỡ|ớ|Ớ|ợ|Ợ|ô|Ô|ồ|Ồ|ổ|Ổ|ỗ|Ỗ|ố|Ố|ộ|Ộ]i=i)
+#--- Uxxx
+u|U[a|A|à|À|ả|Ả|ã|Ã|i|I|ì|Ì|ỉ|Ỉ|ĩ|Ĩ|í|Í|ị|Ịô|Ô|ồ|Ồ|ổ|Ổ|ỗ|Ỗ|ố|Ố|ộ|Ộ|ê|Ê|ề|Ề|ể|Ể|ễ|Ễ|ế|Ế|ệ|Ệ|â|Â|ầ|Ầ|ẩ|Ẩ|ẫ|Ẫ|ấ|Ấ|ậ|Ậ|y|Y|ỳ|Ỳ|ỷ|Ỷ|ỹ|Ỹ|ý|Ý|ỵ|Ỵ|ơ|Ơ|ờ|Ờ|ở|Ở|ỡ|Ỡ|ớ|Ớ|ợ|Ợ]=u)
+
+# a	α:	'a' as in father
+[_]a|A|à|À|ả|Ả|ã|Ã|á|Á|ạ|Ạ=/+a
+a|A|à|À|ả|Ả|ã|Ã|á|Á|ạ|Ạ=a
+# â	ɜ	'u' as in but
+[_]â|Â|ầ|Ầ|ẩ|Ẩ|ẫ|Ẫ|ấ|Ấ|ậ|Ậ=/+A
+â|Â|ầ|Ầ|ẩ|Ẩ|ẫ|Ẫ|ấ|Ấ|ậ|Ậ=A
+# ă	α	'a' as in hat
+[_]ă|Ă|ằ|Ằ|ẳ|Ẳ|ẵ|Ẵ|ắ|Ắ|ặ|Ặ=/+a
+ă|Ă|ằ|Ằ|ẳ|Ẳ|ẵ|Ẵ|ắ|Ắ|ặ|Ặ=a
+# b	ɓ	'b' as in big
+b|B=b
+[_]b|B=/+b
+
+# c	k	'c' as in cat
+c|C=k
+[_]c|C=/+k
+# ch	t∫, c	'ch' as in church
+ch|Ch|CH=tS
+[_]ch|Ch|CH=/+tS
+# d	z, j	'z' as in zoo (north), 'y' as in yes (south)
+d|D=z
+[_]d|D=/+z
+# đ	ɗ	'd' as in done
+đ|Đ=d
+[_]đ|Đ=/+d
+# e	ε	'e' as in get
+[_]e|E|è|È|ẻ|Ẻ|ẽ|Ẽ|é|É|ẹ|Ẹ=/+e
+e|E|è|È|ẻ|Ẻ|ẽ|Ẽ|é|É|ẹ|Ẹ=e
+# ê	e	'a' as in mate
+[_]ê|Ê|ề|Ề|ể|Ể|ễ|Ễ|ế|Ế|ệ|Ệ=/+E
+ê|Ê|ề|Ề|ể|Ể|ễ|Ễ|ế|Ế|ệ|Ệ=E
+# gh	ɣ	'g' as in good
+gh|Gh|GH=g
+[_]gh|Gh|GH=/+g
+# gi	z, j	'z' as in zoo (north), 'y' as in yes (south)
+gi|Gi|GI|gì|Gì|GÌ|gỉ|Gỉ|GỈ|gĩ|Gĩ|GĨ|gí|Gí|GÍ|gị|Gị|GỊ=z+y
+# g	ɣ	'g' as in good
+g|G=g
+# h	h	'h' as in house
+h|H=h
+# i	i	'i' as in machine (north), 'b' as in bit (south)
+[_]i|I|ì|Ì|ỉ|Ỉ|ĩ|Ĩ|í|Í|ị|Ị=/+y
+i|I|ì|Ì|ỉ|Ỉ|ĩ|Ĩ|í|Í|ị|Ị=y
+# kh	kh, x	'ch' as in the German Bach
+kh|Kh|KH=x
+[_]kh|Kh|KH=/+x
+# k	k	'c' as in cat
+k|K=k
+[_]k|K=/+k
+# l	l	'l' as in life
+l|L=l
+[_]l|L=/+l
+# m	m	'm' as in man
+m|M=m
+[_]m|M=/+m
+# ng	ŋ	'ng' as in singer
+ng|Ng|NG=~
+[_]ng|Ng|NG=/+~
+# ngh	ŋ	'ng' as in singer
+ngh|Ngh|NGH=~
+[_]ngh|Ngh|NGH=/+~
+# nh	ɲ	'ny' as in cranyon
+ny|Ny|NY=n+6
+[_]ny|Ny|NY=/+n+6
+# n	n	'n' as in nice
+n|N=n
+[_]n|N=/+n
+# o	ɔ	'o' as in hot
+[_]o|O|ò|Ò|ỏ|Ỏ|õ|Õ|ó|Ó|ọ|Ọ=/+o
+o|O|ò|Ò|ỏ|Ỏ|õ|Õ|ó|Ó|ọ|Ọ=o
+# ô	o	'oa' as in boat
+[_]ô|Ô|ồ|Ồ|ổ|Ổ|ỗ|Ỗ|ố|Ố|ộ|Ộ=/+O
+ô|Ô|ồ|Ồ|ổ|Ổ|ỗ|Ỗ|ố|Ố|ộ|Ộ=O
+# ơ	ɜ:	'u' as in fur
+[_]ơ|Ơ|ờ|Ờ|ở|Ở|ỡ|Ỡ|ớ|Ớ|ợ|Ợ=/+o'
+ơ|Ơ|ờ|Ờ|ở|Ở|ỡ|Ỡ|ớ|Ớ|ợ|Ợ=o'
+# ph	f	'f' as in find
+ph|Ph|PH=f
+[_]ph|Ph|PH=/+f
+# p	p	watch video below
+p|P=p
+[_]p|P=/+p
+# qu	kw	'qu' as in queue
+qu|Qu|QU=k+w)
+[_]qu|Qu|QU=/+k+w)
+# r	z, ɹ	'z' as in zoo (north), 'r' as in ring (south)
+r|R=r
+[_]r|R=/+r
+# s	s, ∫	's' as in sore (north), 's' as in sure (south)
+s|S=s
+[_]s|S=/+s
+# th	th	't' as in top
+th|Th|TH=T
+[_]th|Th|TH=/+T
+# tr	t∫, ʈɽ	'ch' as in church (north), 'tr' as in tree (south)
+tr|Tr|TR=tS
+[_]tr|Tr|TR=/+tS
+# t	t	't' as in stop
+t|T=t
+[_]t|T=/+t
+# u	ʊ	'oo' as in boot
+[_]u|U|ù|Ù|ủ|Ủ|ũ|Ũ|ú|Ú|ụ|Ụ=/+u
+u|U|ù|Ù|ủ|Ủ|ũ|Ũ|ú|Ú|ụ|Ụ=u
+# ư	ɨ	'oo' as in boot
+[_]ư|Ư|ừ|Ừ|ử|Ử|ữ|Ữ|ứ|Ứ|ự|Ự=/+u'
+ư|Ư|ừ|Ừ|ử|Ử|ữ|Ữ|ứ|Ứ|ự|Ự=u'
+# v	v, j	'v' as in van (north), 'y' as in yes (south)
+v|V=v
+[_]v|V=/+v
+# x	s	's' as in sore
+x|X=s
+[_]x|X=/+s
+# y	i	watch video below
+[_]y|Y|ỳ|Ỳ|ỷ|Ỷ|ỹ|Ỹ|ý|Ý|ỵ|Ỵ=/+y)
+y|Y|ỳ|Ỳ|ỷ|Ỷ|ỹ|Ỹ|ý|Ý|ỵ|Ỵ=i)
+
+$DATAEND

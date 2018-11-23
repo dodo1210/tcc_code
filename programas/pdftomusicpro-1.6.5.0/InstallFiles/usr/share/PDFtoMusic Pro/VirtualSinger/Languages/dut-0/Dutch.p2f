@@ -1,0 +1,65 @@
+#**************************************************************
+#							Néerlandais
+#	Definition des liens entre notation Sampa et Fragments
+#			(c) Myriad , Juin-2015
+# Syntaxe :
+# Structure
+# 	Caractere SyPhoMy (Sumbole Phonetique Myriad) 1 octet
+#	Symbole Sampa correspondant (1 a deux Caracteres)
+#	Liste de Fragments separes par espace
+#   Exemple entre crochet 
+#***************************************************************************************
+# ------------------- Commun 
+_ _ _ Q
+#---------- Plosives
+p p p GLST P2	 	[pak]
+b b b SQ B 		[bak]
+t t t GLST T2		[tak]
+d d d SQ DL2		[dal]
+k k k GLST K2 		[kap]
+g g g SQ G2 	 	[goal]
+#---------- Fricatives
+f f f F			[fel]
+v v v VDU			[vel]
+s s s S			[sein]
+z z z Z 			[zijn]
+x x x KH			[toch]
+G G G KH			[goed]
+h h h H			[hand]
+Z Z Z ZH 			[bagage]
+S S S SH			[show]
+#---------- Nasales
+m m m M			[met]
+n n n N			[net]
+N N N NG			[bang]
+#---------- Liquides
+l l l LL			[land]
+R R R R			[vier]
+r r r RXNL		[rand]
+#---------- Glissees sonores
+w w w V			[wit]
+j j j Y		 	[ja]
+#---------- Voyelles marquees 
+I I I I			[put]
+E E E EI			[pet]
+A A A ARF	 	[pat]
+O O O O		 	[pot]
+} } Y E2	 	[put]
+@ @ @ A		[gemakelijk]
+
+#---------- Voyelles monpthonges 
+i i i EEF	 	[vier]
+y y y UFR		[vuur]
+u u u UUF		[voer]
+a a a: AF		[naam]
+e E e: EFI 		[veer]	
+| } 2: E2 OV	[deur]
+o O o: OA OV	[voor]
+K E Ei AIR ID	[fijn]
+L A 9y OU OV	[huis]
+M A Au OU OV	[goud] #?
+) ) E: EI		[crème]
+* * 9: E9		[freule]
+< < O: OI		[roze]
+
+# ------------------- Fin de fichier

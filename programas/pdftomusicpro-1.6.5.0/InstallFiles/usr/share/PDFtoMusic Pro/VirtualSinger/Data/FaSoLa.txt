@@ -1,0 +1,22 @@
+#----------------------------------------------------------------------------------
+#  			Definition des mots FaSoLa a chanter pour chacune des notes
+#					(c) Myriad Aout 2000
+#----------------------------------------------------------------------------------
+# --------------------- Fasola 4 shapes --------------------- 
+# Becarre (natural)
+Fa[#fA] Sol[#sQl] La[#lA] Fa[#fA] Sol[#sQl] La[#lA] Mi[#mi]
+# Diese (sharp)
+Fi[#fi] Si[#si] Li[#li] Fi[#fi] Si[#si] Li[#li] Mi[#mi]
+# Bemol (flat)
+Fay[#feI] Say[#seI] Lay[#leI] Fay[#feI] Say[#seI] Lay[#leI] May[#meI]
+
+# ---------------------  Fasola 7 shapes --------------------- 
+#sans alteration (without accidental)
+Do[#dQ] Ray[#reI] Mi[#mi] Fa[#fA] Sol[#sQl] La[#lA] Si[#si]
+#Becarre avec Alteration
+Do[#dQ] Ray[#reI] Mi[#mi] Fa[#fA] Sol[#sQl] La[#lA] Ti[#ti]
+# Diese (sharp)
+Di[#di] Ri[#ri] Mi[#mi] Fi[#fi] Si[#si] Li[#li] Ti[#ti]
+# Bemol
+Day[#deI] Ra[#rA] May[#meI] Fay[#feI] Say[#seI] Lay[#leI] Tay[#teI]
+# EOF  

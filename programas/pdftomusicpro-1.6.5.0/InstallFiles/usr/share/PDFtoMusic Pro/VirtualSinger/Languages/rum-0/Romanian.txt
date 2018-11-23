@@ -1,0 +1,96 @@
+﻿############### Romanian phonetic file ################
+##############     (c) 2008 Sylvain Machefert      ################
+
+$ENTITLE Romanian
+$ENAUTHOR by Sylvain Machefert
+$ENCOMMENT v20111212
+
+$FRTITLE Roumain
+$FRAUTHOR par Sylvain Machefert
+$FRCOMMENT v20111212
+$SAMPA
+$DATASTART
+[c|C|g|G]eai|Eai|EAI=i_0+a+i_0
+eai|Eai|EAI=e_X+a+i_0
+[c|C|g|G]eau|Eau|EAU=i_0+a+w
+eau|Eau|EAU=e_X+a+w
+iai|Iai|IAI=i_0+a+i_0
+iau|Iau|IAU=i_0+a+w
+iei|Iei|IEI=i_0+e+i_0
+ieu|Ieu|IEU=i_0+e+w
+ioi|Ioi|IOI=i_0+o+i_0
+iou|Iou|IOU=i_0+o+w
+oai|Oai|OAI=o_X+a+i_0
+eoa|Eoa|EOA=e_X+o_X+a
+ioa|Ioa|IOA=i_0+o_X+a
+ei|Ei|EI|e-i|E-i|E-I|e-I=e+i_0
+eu|Eu|EU|e-u|E-u|E-U|e-U=e+w
+ii|Ii|II|i-i|I-i|I-I|i-I=i+i_0
+oi|Oi|OI|o-i|O-i|O-I|o-I=o+i_0
+ou|Ou|OU|o-u|O-u|O-U|o-U=o+w
+ăi|Ăi|ĂI|ãi|Ãi|ÃI|ă-i|Ă-i|Ă-I|ă-I|ã-i|Ã-i|Ã-I|ã-I=@+i_0
+ău|Ău|ĂU|ãu|Ãu|ÃU|ă-u|Ă-u|Ă-U|ă-U|ã-u|Ã-u|Ã-U|ã-U=@+w
+îi|Îi|ÎI|âi|Âi|ÂI|î-i|Î-i|Î-I|î-I|â-i|Â-i|Â-I|â-I=w+i_0
+îu|Îu|ÎU|âu|Âu|ÂU|î-u|Î-u|Î-U|î-U|â-u|Â-u|Â-U|â-U=w+w
+[c|C|g|G]ea|Ea|EA=i_0+a
+ea|Ea|EA|e-a|E-a|E-A|e-A=e_X+a
+eo|Eo|EO|e-o|E-o|E-O|e-O=e_X+o
+ia|Ia|IA|i-a|I-a|I-A|i-A=i_0+a
+ie|Ie|IE|i-e|I-e|I-E|i-E=i_0+e
+io|Io|IO|i-o|I-o|I-O|i-O=i_0+o
+iu|Iu|IU|i-u|I-u|I-U|i-U=i_0+u
+oa|Oa|OA|o-a|O-a|O-A|o-A=o_X+a
+ua|Ua|UA|u-a|U-a|U-A|u-A=w+a
+uă|Uă|UĂ|uã|Uã|UÃ|u-ă|U-ă|U-Ă|u-Ă|u-ã|U-ã|U-Ã|u-Ã=w+@
+[e_|E_|o_|O_|ă_|Ă_|ã_|Ã_|î_|Î_|â_|Â_]i|I=i_0
+[e_|E_|o_|O_|ă_|Ă_|ã_|Ã_|î_|Î_|â_|Â_]u|U=w
+e|E[_a|_A|_o|_O]=e_X
+[e_|E_|o_|O_]a|A=a
+o|O[_a|_A]=o_X
+u|U[_a|_A|_ă|_Ă|_ã|_Ã]=1
+a|A=a
+ă|Ă|ã|Ã=@
+â|Â|ê|Ê|î|Î|ô|Ô|û|Û=1
+b|B=b
+ch|Ch|CH=k
+
+# New rule (TP 07/15)
+ci|Ci|CI|ce|Ce|CE[a|A|ă|Ă|ã|Ã|e|E|ê|Ê|i|I|î|Î|o|O|ô|Ô|u|U|û|Û|y|Y]=tS
+c|C[e|E|i|I]=tS
+c|C=k
+d|D=d
+[_]e|E[_|şti|ŞTI|şte|ŞTE]=i_0+e
+e|E=e
+f|F=f
+gh|Gh|GH=g
+# New rule (TP 07/15)
+gi|Gi|GI|ge|Ge|GE[a|A|ă|Ă|ã|Ã|e|E|ê|Ê|i|I|î|Î|o|O|ô|Ô|u|U|û|Û|y|Y]=dZ
+g|G[e|E|i|I]=dZ
+g|G=g
+h|H=h
+i|I[_]=i_0
+i|I=i
+j|J=Z
+k|K=k
+l|L=l
+m|M=m
+n|N=n
+#o|O[m|M|n|N|r|R|t|T]=O
+o|O=o
+p|P=p
+q|Q=k
+r|R=r
+s|S=s
+ş|ș|Ş|Ș=S
+t|T=t
+ţ|ț|Ţ|Ț=ts
+u|U=u
+v|V=v
+#-- Previous : w (changed as requested by TP)
+w|W=v
+# -------- X pronounced GZ (exemple)
+[_e|_E|_ê|_Ê]x[a|A|ă|Ă|ã|Ã|e|E|ê|Ê|i|I|î|Î|o|O|ô|Ô|u|U|û|Û|y|Y]=g+z
+x|X=k+s
+y|Y=i
+z|Z=z
+$DATAEND

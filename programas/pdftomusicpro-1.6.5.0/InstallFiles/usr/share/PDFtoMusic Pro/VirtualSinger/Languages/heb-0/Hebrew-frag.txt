@@ -1,0 +1,360 @@
+FragmentListStart 
+	
+FragmentListStart 
+	 DebutFragment 
+	 	 ID "HHE" 
+	 	 Nom "Hebrew aspired h" 
+	 	 Poids 58.000 
+	 	 Duree 6.279 
+	 	 TypeFrag 2 
+	 	 PRM_F1 
+	 	 	 Val 271.277 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 1.534 
+	 	 	 DutTDeb 3.604 
+	 	 	 DurTFi 2.722 
+	 	 	 DurTAp 1.749 
+	 	 FinPrm 
+	 	 PRM_F2 
+	 	 	 Val 1468.085 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.597 
+	 	 	 DutTDeb 3.913 
+	 	 	 DurTFi 1.716 
+	 	 	 DurTAp 2.530 
+	 	 FinPrm 
+	 	 PRM_F3 
+	 	 	 Val 2744.681 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.741 
+	 	 	 DutTDeb 2.699 
+	 	 	 DurTFi 2.314 
+	 	 	 DurTAp 3.546 
+	 	 FinPrm 
+	 	 PRM_F4 
+	 	 	 Val 4340.425 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_F5 
+	 	 	 Val 3335.106 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 1.538 
+	 	 	 DutTDeb 1.696 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 1.997 
+	 	 	 DurTAp 1.413 
+	 	 FinPrm 
+	 	 PRM_F6 
+	 	 	 Val 5218.085 
+	 	 	 RaAv 73.973 
+	 	 	 DurTAv 0.495 
+	 	 	 DutTDeb 0.412 
+	 	 	 RaAp 80.137 
+	 	 	 DurTFi 0.550 
+	 	 	 DurTAp 0.770 
+	 	 FinPrm 
+	 	 PRM_B1 
+	 	 	 Val 159.574 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 3.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.000 
+	 	 	 DurTAp 3.000 
+	 	 FinPrm 
+	 	 PRM_B2 
+	 	 	 Val 207.447 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 3.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.000 
+	 	 	 DurTAp 3.000 
+	 	 FinPrm 
+	 	 PRM_B3 
+	 	 	 Val 239.362 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 3.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.000 
+	 	 	 DurTAp 3.000 
+	 	 FinPrm 
+	 	 PRM_B4 
+	 	 	 Val 191.489 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 0.389 
+	 	 	 DutTDeb 0.389 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 0.389 
+	 	 	 DurTAp 0.252 
+	 	 FinPrm 
+	 	 PRM_B5 
+	 	 	 Val 239.362 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 0.441 
+	 	 	 DutTDeb 0.321 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 0.589 
+	 	 	 DurTAp 0.417 
+	 	 FinPrm 
+	 	 PRM_B6 
+	 	 	 Val 494.681 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 0.305 
+	 	 	 DutTDeb 0.633 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 0.412 
+	 	 	 DurTAp 0.389 
+	 	 FinPrm 
+	 	 PRM_A1 
+	 	 	 Val 17.089 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 1.858 
+	 	 	 DutTDeb 5.670 
+	 	 	 RaAp 49.286 
+	 	 	 DurTFi 1.740 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A2 
+	 	 	 Val 60.469 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 1.825 
+	 	 	 DutTDeb 2.708 
+	 	 	 RaAp 51.429 
+	 	 	 DurTFi 1.146 
+	 	 	 DurTAp 1.527 
+	 	 FinPrm 
+	 	 PRM_A3 
+	 	 	 Val 45.352 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.478 
+	 	 	 DutTDeb 0.677 
+	 	 	 RaAp 49.286 
+	 	 	 DurTFi 2.588 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A4 
+	 	 	 Val 35.164 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 1.980 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 1.251 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A5 
+	 	 	 Val 45.023 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_A6 
+	 	 	 Val 29.577 
+	 	 	 RaAv 88.356 
+	 	 	 DurTAv 0.190 
+	 	 	 DutTDeb 0.412 
+	 	 	 RaAp 76.712 
+	 	 	 DurTFi 0.425 
+	 	 	 DurTAp 0.401 
+	 	 FinPrm 
+	 	 PRM_AV 
+	 	 	 DurTAv 1.290 
+	 	 	 DurTAp 2.750 
+	 	 FinPrm 
+	 	 PRM_RL 
+	 	 FinPrm 
+	 	 PRM_ASP 
+	 	 	 Val 56.246 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 1.163 
+	 	 	 DutTDeb 3.208 
+	 	 	 DurTFi 1.203 
+	 	 	 DurTAp 3.545 
+	 	 FinPrm 
+	 	 PRM_AF 
+	 	 	 Val -1.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.870 
+	 	 	 DutTDeb 4.255 
+	 	 	 RaAp 10.000 
+	 	 	 DurTFi 0.988 
+	 	 	 DurTAp 6.100 
+	 	 FinPrm 
+	 FinFragment 
+	 DebutFragment 
+	 	 ID "SHVA" 
+	 	 Nom "Hebrew sh'va" 
+	 	 Poids 64.000 
+	 	 Duree 2.070 
+	 	 TypeFrag 4 
+	 	 PRM_F1 
+	 	 	 Val 478.723 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 2.505 
+	 	 	 DutTDeb 1.744 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_F2 
+	 	 	 Val 1771.276 
+	 	 	 RaAv 17.143 
+	 	 	 DurTAv 5.882 
+	 	 	 DutTDeb 6.448 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 6.448 
+	 	 	 DurTAp 7.710 
+	 	 FinPrm 
+	 	 PRM_F3 
+	 	 	 Val 2704.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 1.970 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 1.591 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_F4 
+	 	 	 Val 3702.127 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 2.000 
+	 	 FinPrm 
+	 	 PRM_F5 
+	 	 	 Val 4005.319 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 2.000 
+	 	 FinPrm 
+	 	 PRM_F6 
+	 	 	 Val 4740.500 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 2.000 
+	 	 FinPrm 
+	 	 PRM_B1 
+	 	 	 Val 96.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B2 
+	 	 	 Val 112.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B3 
+	 	 	 Val 100.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B4 
+	 	 	 Val 120.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B5 
+	 	 	 Val 120.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B6 
+	 	 	 Val 500.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_A1 
+	 	 	 Val 50.202 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A2 
+	 	 	 Val 49.848 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A3 
+	 	 	 Val 47.020 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A4 
+	 	 	 Val 15.083 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A5 
+	 	 	 Val 20.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A6 
+	 	 	 Val -30.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_AV 
+	 	 	 Val 62.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 2.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 0.954 
+	 	 	 DurTAp 1.162 
+	 	 FinPrm 
+	 	 PRM_RL 
+	 	 FinPrm 
+	 	 PRM_ASP 
+	 	 	 RaAv 50.000 
+	 	 	 RaAp 50.000 
+	 	 FinPrm 
+	 	 PRM_AF 
+	 	 	 RaAv 50.000 
+	 	 	 RaAp 50.000 
+	 	 FinPrm 
+	 FinFragment 
+
+FragmentListEnd  

@@ -1,0 +1,60 @@
+﻿#### Slavonic (Cyrlillic & Latin) Phonetic file
+#### Sylvain Machefert
+
+#http://www.utexas.edu/cola/centers/lrc/eieol/ocsol-1-X.html
+
+$ENTITLE Slavonic
+$ENAUTHOR by Sylvain Machefert
+$ENCOMMENT Cyrillic and Latin alphabet, v20111212
+
+$FRTITLE Slavon
+$FRAUTHOR par Sylvain Machefert
+$FRCOMMENT Alphabet cyrillique et latine, v20111212
+$SAMPA
+
+$DATASTART
+Ж|ж|Ž|ž|ZH|Zh|zh=Z
+Ѕ|ѕ|DZ|Dz|dz=d+z
+Ћ|ћ=g+'
+Щ|щ|ŠT|Št|št|SHT|SHt|Sht|sht=St
+Ч|ч|Č|č|CH|Ch|ch=tS
+Ш|ш|Š|š|SH|Sh|sh=S
+Ц|ц|C|c|TS|Ts|ts=ts
+Ю|ю|JU|Ju|ju=j+u
+Я|я|JA|Ja|ja=j+a
+Ѩ|ѩ|JĘ|Ję|ję=j+e~
+Ѭ|ѭ|JǪ|Jǫ|jǫ=j+o~
+Ѯ|ѯ|KS|Ks|ks=k+s
+Ѱ|ѱ|PS|Ps|ps=p+s
+Ѳ|ѳ|Θ|θ|TH|Th|th=T
+Х|х|X|x|H|h|KH|Kh|kh=x
+А|а|A|a=a
+Б|б|B|b=b
+В|в|V|v=v
+Г|г|G|g=g
+Д|д|D|d=d
+Е|є|E|e=e
+З|з|Z|z=z
+І|і|И|и|I|i=I
+Й|й|J|j=j
+К|к|K|k=k
+Л|л|L|l=L
+М|м|M|m=m
+Н|н|N|n=n
+О|о|O|o=o
+П|п|P|p=p
+Р|р|R|r=r
+С|с|S|s=s
+Т|т|T|t=t
+Ѹ|ѹ|U|u=u
+Ф|ф|F|f=f
+Ѡ|ѡ|Ō|ō=o
+Ъ|ъ|Ŭ|ŭ=y
+Ы|ы|Y|y=w+i
+Ь|ь|Ĭ|ĭ=I
+Ѣ|ѣ|Ě|ě=j+@
+Ѧ|ѧ|Ę|ę=e~
+Ѫ|ѫ|Ǫ|ǫ=o~
+Ѵ|ѵ|Ü|ü=U
+'|′|‘|’|‛='
+$DATAEND

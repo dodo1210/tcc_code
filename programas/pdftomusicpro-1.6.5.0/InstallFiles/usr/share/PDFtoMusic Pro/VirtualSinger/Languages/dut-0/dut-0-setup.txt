@@ -1,0 +1,13 @@
+﻿NAME_FR=Néerlandais
+NAME_EN=Dutch
+CREDIT_FR=Myriad
+CREDIT_EN=Myriad
+
+PREPROCESS=één/§§n eén/§§n à/a â/a é/e è/e ê/e ë/e î/i ï/i ô/o ö/o û/u ü/u ù/u ç/c
+
+CASE=no
+DICT=Dutch.dic
+SAMPA=Dutch.p2f
+FLAG=Dutch.png
+FRAGMENTS=Dutch.frag.txt
+TAG=dut

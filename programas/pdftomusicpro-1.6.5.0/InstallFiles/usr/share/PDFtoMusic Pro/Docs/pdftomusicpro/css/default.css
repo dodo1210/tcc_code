@@ -1,0 +1,94 @@
+h1 {
+	font-family:    arial, verdana, helvetica, sans-serif;
+	margin:0px 0px 15px 0px;
+	padding:0px;
+	font-size:28px;
+	line-height:28px;
+	font-weight:900;
+	color:#000;
+	}
+h2 {
+	font-family:    arial, verdana, helvetica, sans-serif;
+	margin:8px 0px 0px 0px;
+	padding:0px;
+	font-size:18px;
+	line-height:20px;
+	font-weight:900;
+	color:#222;
+	}
+h3 {
+	margin:8px 0px 0px 0px;
+	padding:1px;
+	font-size:13px;
+	/*line-height:20px;*/
+	font-weight:900;
+	background-color:#F0E8C0;
+	color:#888;
+	} 
+/* Version des logiciels */
+h4 {
+	font-family: arial, verdana, helvetica, sans-serif;
+	margin:4px 0px 4px 0px;
+	padding:1px;
+	font-size:14px;
+	line-height:20px;
+	text-align:right;
+	font-weight:900;
+	background-color:#fff;
+	color:#AAA;
+	}
+/* Sous titre */
+h5 {
+	font-family: arial, verdana, helvetica, sans-serif;
+	margin:4px 0px 4px 0px;
+	padding:1px;
+	font-size:16px;	
+	font-style:italic;
+	line-height:22px;
+	text-align:center;
+	font-weight:900;
+	background-color:#fff;
+	color:#000;
+	}
+
+body {
+	margin:0px;
+	padding:0px;
+	font-family:   helvetica, verdana, arial, sans-serif;
+	color:#111;
+	background-color:#FFF;
+	font-size:13px;
+	line-height:16px;
+	}
+tr {
+	font-size:13px;
+	line-height:16px;
+	margin:0px;
+	padding:0px;
+	}
+p {
+	font-size:13px;
+	line-height:16px;
+	margin:0px 0px 16px 0px;
+	padding:0px;
+	}
+a {
+	font-family: helvetica, verdana, arial, sans-serif;
+	color:#00F;
+	font-size:12px;
+	text-decoration:none;
+	font-weight:600;
+	}
+a:smalllink 
+	{
+	font-size:10px;
+	color:#037;
+	}
+	
+a:link {color:#037;}
+a:active { color: #037 }
+a:visited {color:#138;}
+a:hover {color:#037; text-decoration:underline;}
+
+#Menu {	line-height:17px; }
+

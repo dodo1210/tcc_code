@@ -1,0 +1,65 @@
+# pronoms febles
+em
+et
+es
+el
+la
+els
+les
+en
+ho
+li
+hi
+ens
+us
+
+# possessius
+mon
+ton
+ma
+ta
+sa
+mos
+tos
+sos
+mes
+tes
+ses
+
+# articles 
+el
+la
+els
+les
+un
+uns
+na
+
+# preposició febles 
+a
+en
+de
+amb
+per
+
+# conjuncions 
+i
+o
+ni
+que 
+si
+
+# verbs auxiliars
+has
+ha
+han
+vas
+va
+van
+
+# ???
+del
+dels
+me
+te
+se

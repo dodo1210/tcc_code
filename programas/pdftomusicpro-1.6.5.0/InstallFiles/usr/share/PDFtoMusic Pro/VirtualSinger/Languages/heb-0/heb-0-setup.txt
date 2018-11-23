@@ -1,0 +1,9 @@
+﻿# Sh'va
+PREPROCESS='/è
+DICT=Hebrew.txt
+SAMPA=Hebrew-sampa.txt
+FRAGMENTS=hebrew-frag.txt
+FLAG=hebrew.png
+POSTPROCESSING=HEB
+TAG=heb
+

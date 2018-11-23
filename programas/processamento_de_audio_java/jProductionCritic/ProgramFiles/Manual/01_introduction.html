@@ -1,0 +1,110 @@
+<html>
+<head>
+	<title>Introduction</title>
+</head>
+
+<body text="#000000" bgcolor="#e4e4e4" link="#0033C4" vlink="#0033C4" alink="#0033C4">
+
+<a name="Top"></a>
+
+<TABLE cellSpacing=0 cellPadding=4 width="100%" bgColor=#0033C4 border=0>
+  <TBODY><TR>
+      <TH align=left><FONT face=Arial color=#ffffff size=+3>Introduction</FONT></TH>
+    </TR></TBODY>
+</TABLE>
+<p><strong>EXPLANATION OF THIS SECTION</strong></p>
+<p>This section of the manual provides an introduction to and overview of jProductionCritic. It also 
+  outlines the contents 
+  of each chapter of the jProductionCritic manual. </p>
+<p> <strong>INTRODUCTION TO JPRODUCTIONCRITIC</strong></p>
+<p>jProductionCritic is an open-source educational framework for automatically detecting technical recording, editing and mixing problems in audio files. It is intended to be used as a learning and proofreading tool by students and amateur producers, and can also assist teachers as a timesaving tool when grading recordings.</p>
+<p>
+  A number of novel error detection algorithms are implemented by jProductionCritic. Problems detected include edit errors, clipping, noise infiltration, poor use of dynamics, poor track balancing, and many others. 
+  The error detection algorithms are highly configurable, in order to meet the varying aesthetics of different musical genres (e.g. Baroque vs. noise music). Effective general-purpose default settings were developed based on experiments with a variety of student pieces, and these settings were then validated using a reserved set of student pieces. The settings for each error checking algorithm may be accessed and modified via the jProductionCritic configuration file. Multiple such configuration files may be saved and applied to different kinds of music if desired.</p>
+<p>  jProductionCritic is also designed to serve as an extensible framework to which new error detection modules can be easily plugged in. It is hoped that this will help to galvanize MIR research relating to audio production, an area that is currently underrepresented in the MIR literature, and that this work will also help to address the current general lack of educational production software.</p>
+<p>jProductionCritic is part of the <a href="http://jmir.sourceforge.net" target="top">jMIR</a> 
+  project, and as such can be easily integrated with other jMIR applications. 
+  However, it is also designed to be used entirely independently if desired. Like the rest of jMIR, jProductionCritic is open-source and available for free. It 
+  is implemented in Java in order to maximize cross-platform utilization.</p>
+<p>jProductionCritic may be used via either a command line interface or a GUI. The software also has a well-documented API in order to facilitate the use of 
+  jProductionCritic as a library incorporated into other software. The results of error processing may be viewed directly with the jProductionCritic, or may be saved in a variety of formats.</p>
+<p><strong>BASIC MOTIVATION</strong></p>
+<p>Audio production is a broad field that essentially involves recording and creating music. Important aspects include:</p>
+<ul>
+  <li><strong>
+	Recording: </strong>configuring an acoustic environment, microphone selection, microphone placement, etc.</li>
+  <li><strong>
+	Editing: </strong>shifting segments of audio in time within a track, or moving them between tracks.</li>
+  <li><strong>
+	Mixing:</strong> combining multiple tracks with appropriate gains, panning and EQ settings, applying effects, etc.</li>
+  <li><strong>
+	Synthesis: </strong>artificially generating audio.</li>
+  <li><strong>
+	Sampling:</strong> incorporating pre-existing audio.</li>
+  <li><strong>	Mastering:</strong> preparing a mix for final distribution via specific audio formats.
+  </li>
+</ul>
+<p>DAW (Digital Audio Workstation) software has come to play a central role in production. Such software ranges from recording-oriented tools like Avid Pro Tools, to live performance-oriented software such as Ableton Live, to free tools like Audacity.</p>
+<p>
+  Improved functionality, better user interfaces and decreasing costs have made audio production more and more accessible in recent years. This has helped to cause an explosion of content created in home studios, ranging from amateur mashups to recordings by professional musicians. While this has certainly resulted in a great deal of interesting music, it has also led to error-prone technical work on the part of overconfident amateur producers who lack the professional training that was previously necessary to be involved in production at all.</p>
+<p>
+  This problem is part of the motivation behind the jProductionCritic software, which automatically detects technical production errors, especially those relating to editing and mixing. It can help students and amateur producers check their work for unnoticed errors, much as one might use a grammar checker when writing prose. This is beneficial from an educational perspective, as it teaches users to notice problems that they might not otherwise have known to look for. This in effect trains them to improve their listening skills, which are arguably a producer&#8217;s greatest asset, and pushes them to learn how to avoid or correct the detected problems, thus improving not only their current work, but also the skills that they will be able to apply in the future.</p>
+<p>
+  Such error checking software is also useful to those teaching audio production, as it can greatly facilitate grading. While it would certainly be ill-advised to rely exclusively on automated marking, as expert humans are needed to fully evaluate the difficult-to-quantify aesthetics involved in the art of production, simply automating the painstaking task of enumerating and time-stamping basic technical errors can be a great time saver. </p>
+<p>
+  Finally, error checking software could even be of some use to professional audio engineers as a final verification tool, just as professional writers make use of spell checkers. It is not unheard of to find technical errors in professional work, often due to rushed production schedules and the high costs of studio time.</p>
+<p>
+  Aside from such practical benefits, developing algorithms for detecting production errors can also have important research value. Not only is there currently a surprising dearth of production-oriented research in the music information retrieval research community specifically, but those tools that do exist in the general audio world tend to be closed-source black boxes or based on disappointingly naive algorithms. This presents an exciting research opportunity, particularly considering the importance of production from both commercial and artistic perspectives. jProductionCritic has therefore been designed not only as a ready-to-use application, but also as a modular framework for developing and deploying new error detection and analysis algorithms in the future.</p>
+<p><strong>OVERVIEW OF DESIGN OBJECTIVES</strong></p>
+<p>The first main design objective of jProductionCritic is that it be useful and accessible to music students, amateur producers and teachers, all of whom may have little or no experience with software development. To this end, jProductionCritic is distributed with this manual in order to make it as easy to learn as possible. Its basic interface (either <a href="03_command_line_arguments.html">command line arguments</a> or <a href="04_graphical_user_interface.html">GUI</a>) is also designed to be minimalistic and direct so that users can avoid being distracted by anything superfluous. Users simply need to specify an audio file or batch of files to check and where reports are to be saved, and the software automatically takes care of the rest.</p>
+<p>
+  Of course, it is also important that the software be highly configurable for those who desire flexibility. There is therefore a separate extensive <a href="06_configuration_settings_file.html">configuration file</a> that advanced users can modify in order to control which <a href="05_errors_checked_for.html">errors</a> are checked for, what error thresholds are used for each error, and so on. It is thus possible to customize jProductionCritic for certain styles of music (e.g. metal vs. jazz), or to simply use the provided general-purpose default settings without worrying about the details.</p>
+<p>jProductionCritic processes final mixes in the form of single mono or stereo files rather than DAW projects with tracks still separated out. Although this does make certain errors much harder to detect, it also ensures that no new unchecked errors are incorporated during final mixing and mastering. This also makes it possible to process any standard audio recording with jProductionCritic, and avoids tying it to any particular DAW framework.</p>
+<p>
+Various types of <a href="07_types_of_error_reports.html">error reports</a> can be generated by jProductionCritic for each audio file. The first overall type of report is simply an enumeration of the errors that were detected, annotated with time stamps indicating either an instantaneous time or time range, as appropriate. Errors are also marked as being mild, moderate or severe. 
+  This kind or report can either be generated directly for display to the user, or in saved text or HTML formats. The second overall type of report consists of <a href="http://manual.audacityteam.org/man/Label_Tracks" target=top>Audacity Label Tracks</a>, which are metadata tracks that <a href="http://audacity.sourceforge.net/" target=top>Audacity</a> displays alongside audio and MIDI tracks. This can be very useful for visually demonstrating to users where errors occur in a waveform or spectrogram. Audacity was chosen in particular because it is free and thus accessible to all users, whether or not they used it to prepare the audio being checked for errors.
+  The third overall type of error report consists of error annotations in <a href="http://www.cs.waikato.ac.nz/ml/weka/arff.html" target="top">Weka ARFF</a> or <a href="http://jmir.sourceforge.net/index_ACE_XML.html" target=top>ACE XML</a>, two file formats related to machine learning that are used by the MIR community. Although not directly applicable to the educational context targeted by jProductionCritic, these reports could be helpful to MIR researchers who might want to use the output of jProductionCritic in research involving machine learning. These formats can also be useful when performing experimental validations.</p>
+<p>jProductionCritic is implemented in <a href="http://www.java.com" target="top">Java</a>, in order to help make it as cross-platform and accessible as possible. This avoids forcing users to buy proprietary environments such as Matlab, and avoids the installation and linking problems that one can encounter with languages like C++. </p>
+<p>
+  The second main design objective of jProductionCritic is that it serve as a framework under which new <a href="05_errors_checked_for.html">error detection algorithms</a> can be developed and deployed, and not only as a ready-to-use application. This is an important priority in encouraging future MIR research and development focusing on audio production. A strong emphasis was therefore put on designing jProductionCritic using a <a href="09_class_structure.html">modular and highly extensible architecture</a> to which new error checking algorithms can be easily <a href="10_extending_the_software.html">added as plug-ins</a>, with virtually no changes needed to the overall jProductionCritic processing infrastructure. Special attention was also paid to extensively documenting the code.</p>
+<p>
+  jProductionCritic is distributed as an integrated part of the <a href="http://jmir.sourceforge.net" target="top">jMIR</a> suite of MIR research software. This allows researchers to easily combine jProductionCritic&#8217;s functionality with other jMIR components, such as the <a href="http://jmir.sourceforge.net/index_jAudio.html" target="top">jAudio</a> feature extractor or the <a href="http://jmir.sourceforge.net/index_ACE.html" target="top">ACE</a> meta-learning system.
+  As with all jMIR components, jProductionCritic is free and open-source. </p>
+<p><strong>CAVEAT</strong></p>
+Different styles of music can have dramatically different signal characteristics. For example, a live metal recording will have far more spectral noise than a classical solo flute studio recording. The error detection thresholds therefore need to be much more forgiving in the former case (in order to avoid false positives) but more stringent in the latter case (in order to avoid false negatives).
+<p>The default <a href="06_configuration_settings_file.html">configuration settings</a> distributed with jProductionCritic are designed to be applicable to as wide a variety of recording scenarios and musical styles as possible. Having noted this, one will inevitably achieve better results by fine-tuning the settings to one's particular needs. Users are therefore strongly encouraged to experiment with the configuration settings to meet their own particular needs. It may be particularly useful to develop a number of settings profiles to use for different recording scenarios<strong>.</strong></p>
+<p><strong>OVERVIEW OF THIS MANUAL </strong></p>
+<ol>
+  <li><strong>Introduction: </strong>This section provides an introduction to and overview of jProductionCritic. It also 
+  outlines the contents 
+  of each chapter of the jProductionCritic manual. </li>
+  <li><strong> Installation:</strong> This section describes how to access and 
+    install jProductionCritic onto one's computer, and includes an outline of some of 
+    the files and resources included with the jProductionCritic distribution package.</li>
+  <li><strong> Command Line Arguments: </strong>This section explains all of 
+    the command line arguments that may be used with jProductionCritic, and provides 
+    usage examples.</li>
+  <li><strong> Graphical User Interface:</strong> This section explains how to use the jProductionCritic GUI.</li>
+  <li><strong> Error Checked For: </strong>This section lists and explains all of the various types of technical production errors that jProductionCritic looks for.</li>
+  <li><strong> Configuration Settings File:</strong> This section describes 
+    the jProductionCritic configuration file, which specifies various processing settings. 
+    Explanations of each of the configuration settings are included.</li>
+  <li><strong> Types of Error Reports:</strong> This section describes the various ways in which the user may view the results of jProductionCritic processing. Each of the error report types are described.</li>
+  <li><strong> Processing Sequence: </strong>This section provides an overview 
+    of each of the major processing steps performed by jProductionCritic during its operation, 
+    in the sequence that they occur.</li>
+  <li><strong> Class Structure: </strong>This section provides an overview of 
+    the jProductionCritic Java class structure.</li>
+  <li><strong> Extending the Software:</strong> This section provides hints on how programmers can extend jProductionCritic's functionality.</li>
+  <li><strong> Licensing:</strong> This section describes the licensing under 
+    which jProductionCritic is distributed, and highlights the associated liability waiver. 
+    It also briefly describes  the libraries used by jProductionCritic. Finally, thanks are made to those who deserve acknowledgement.</li>
+  <li><strong> Contact Information:</strong> This section describes how users, developers and researchers can acquire more information on jProductionCritic.</li>
+  <li><strong> Version History:</strong> This section highlights various changes that have occurred since the first version of jProductionCritic.</li>
+</ol>
+<p></p>
+<TABLE height=5 width="100%" bgColor=#0033C4 border=0><TBODY><TR><TH></TH></TR></TBODY></TABLE>
+<p><tt><a href="#Top">-top of page-</a></tt></p>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+#***************************************************************************************
+#							Esperanto
+#	Link between sampa & phonetic fragments + examples
+# Source : http://aholab.ehu.es/sampa_basque.htm
+#--- Plosives
+p	GLST P2		[apeza]
+b	SQ B		[begia]
+t	GLST T2		[etorri]
+c	GLST T2 6RS	[ttantta]
+d	SQ DL2		[denda]
+k	GLST K2		[ekarri]
+g	SQ G2		[gaia]
+#---------- Affricates
+gj	SQ G2 6RS	[onddo]
+#---------- Fricatives
+jj	Y Y 		[leoia]
+f	F 		[afaria]
+B	BCA		[hamabi]
+T	TH		[perez]
+D	DCA		[adiskide]
+s	GSH 		[hasi]
+s`	SS		[zoroa]
+S	SH		[xoxoa]
+x	KH		[ijito]
+G	GCA		[agindu]
+#---------- Nasals
+m	M		[ama]
+n	N		[neska]
+J	N Y		[ñabar]
+#--------- Liquids
+l	LFR		[lana]
+L	LFR 6R	[iluna]
+r	RXS		[dirua]
+rr	RX		[arrunta]
+#---------- Semivowels
+j	Y		[aita]
+w	UUFS		[euskera]
+#---------- Voyelles orales
+i	IS	 	[ipar]
+e	EIS		[hemen]
+a	AF 		[ama]
+o	OS	 	[oso]
+u	UUF		[umorea] 
+#--- For variations
+# Souletan
+U	UFR		[ü]	
+# ------------------- Fin de fichier

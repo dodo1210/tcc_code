@@ -1,0 +1,38 @@
+#***************************************************************************************
+#							Esperanto
+#	Definition des liens entre la notation Sampa et les Fragments
+
+#--- Consonnes plosives
+p GLST P2	[Pont]
+t GLST T2	[Temps]
+k GLST K2	[Quand]
+b SQ B		[Bon]
+d SQ DL2	[Dans]
+g SQ G2		[Gant]
+#---------- Fricatives
+f F 		[Femme]
+v V			[Vent]
+s SS 		[Sans]
+z Z			[Zone]
+S SH 		[Champ]
+Z ZH	 	[Gens]
+ts GLST T2 S [tse]
+#---------- Nasales/Liquides
+m M			[Mont]
+n N			[Nom]
+l LFR		[Long]
+#------- Autres consonnes
+R RX		[Rond]
+h HFI		[]
+x KH		[]
+#---------- Glissement de voyelle
+w UUFS		[ou]
+j EEFS		[Ion,pIErre]
+#---------- Voyelles orales
+i IS	 	[sI]
+e EIS		[sEs]
+èa A 		[pAtte]
+o OS	 	[cOmme]
+u UUF 		[ou] 
+
+# ------------------- Fin de fichier

@@ -1,0 +1,1406 @@
+
+FragmentListStart 
+DebutFragment 
+	 	 ID "6R" 
+	 	 Nom "Russian Soft sign" 
+	 	 Poids 127.000 
+	 	 Duree 7.674 
+	 	 TypeFrag 4 
+	 	 PRM_F1 
+	 	 	 Val 127.660 
+	 	 	 RaAv 67.123 
+	 	 	 DurTAv 3.120 
+	 	 	 DutTDeb 2.995 
+	 	 	 RaAp 76.712 
+	 	 	 DurTFi 3.436 
+	 	 	 DurTAp 1.274 
+	 	 FinPrm 
+	 	 PRM_F2 
+	 	 	 Val 2377.659 
+	 	 	 RaAv 90.411 
+	 	 	 DurTAv 3.861 
+	 	 	 DutTDeb 2.648 
+	 	 	 RaAp 74.658 
+	 	 	 DurTFi 3.018 
+	 	 	 DurTAp 10.223 
+	 	 FinPrm 
+	 	 PRM_F3 
+	 	 	 Val 2936.170 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 3.134 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.067 
+	 	 	 DurTAp 4.057 
+	 	 FinPrm 
+	 	 PRM_F4 
+	 	 	 Val 3686.170 
+	 	 	 RaAv 62.329 
+	 	 	 DurTAv 3.510 
+	 	 	 DutTDeb 3.644 
+	 	 	 RaAp 63.699 
+	 	 	 DurTFi 2.140 
+	 	 	 DurTAp 5.100 
+	 	 FinPrm 
+	 	 PRM_F5 
+	 	 	 Val 4292.553 
+	 	 	 DurTAv 0.711 
+	 	 	 DutTDeb 1.327 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 1.050 
+	 	 	 DurTAp 0.688 
+	 	 FinPrm 
+	 	 PRM_F6 
+	 	 	 Val 4755.319 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 0.446 
+	 	 	 DutTDeb 0.822 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 0.812 
+	 	 	 DurTAp 0.633 
+	 	 FinPrm 
+	 	 PRM_B1 
+	 	 	 Val 111.702 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B2 
+	 	 	 Val 127.660 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B3 
+	 	 	 Val 207.447 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B4 
+	 	 	 Val 191.489 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 2.055 
+	 	 	 DutTDeb 0.932 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 1.103 
+	 	 	 DurTAp 1.462 
+	 	 FinPrm 
+	 	 PRM_B5 
+	 	 	 Val 191.489 
+	 	 	 RaAv 70.548 
+	 	 	 DurTAv 1.554 
+	 	 	 DutTDeb 1.281 
+	 	 	 RaAp 63.014 
+	 	 	 DurTFi 0.441 
+	 	 	 DurTAp 0.971 
+	 	 FinPrm 
+	 	 PRM_B6 
+	 	 	 Val 500.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_A1 
+	 	 	 Val 55.211 
+	 	 	 RaAv 75.342 
+	 	 	 OfDe -3.836 
+	 	 	 DurTAv 5.707 
+	 	 	 DutTDeb 3.045 
+	 	 	 DurTFi 2.791 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A2 
+	 	 	 Val 37.793 
+	 	 	 RaAv 48.630 
+	 	 	 DurTAv 1.030 
+	 	 	 DutTDeb 6.591 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 1.020 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A3 
+	 	 	 Val 5.258 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.134 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 1.008 
+	 	 	 DurTAp 1.392 
+	 	 FinPrm 
+	 	 PRM_A4 
+	 	 	 Val 43.709 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 1.613 
+	 	 	 DurTAp 2.195 
+	 	 FinPrm 
+	 	 PRM_A5 
+	 	 	 Val -30.235 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A6 
+	 	 	 Val 30.235 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_AV 
+	 	 	 Val 62.565 
+	 	 	 RaAv 50.000 
+	 	 	 OfDe -0.274 
+	 	 	 DurTAv 1.017 
+	 	 	 DutTDeb 2.196 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 3.752 
+	 	 	 DurTAp 3.343 
+	 	 FinPrm 
+	 	 PRM_RL 
+	 	 FinPrm 
+	 	 PRM_ASP 
+	 	 	 Val 20.932 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 1.580 
+	 	 	 DutTDeb 1.233 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 1.650 
+	 	 	 DurTAp 0.979 
+	 	 FinPrm 
+	 	 PRM_AF 
+	 	 	 Val 14.984 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 1.432 
+	 	 	 DutTDeb 1.142 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 3.070 
+	 	 	 DurTAp 1.284 
+	 	 FinPrm 
+	 FinFragment 
+
+
+	 	 DebutFragment 
+	 	 ID "RXCZ" 
+	 	 Nom "Czech Rolled R" 
+	 	 Poids 103.000 
+	 	 Duree 9.070 
+	 	 TypeFrag 1 
+	 	 PRM_F1 
+	 	 	 Val 446.809 
+	 	 	 DurTAv 1.416 
+	 	 	 RaAp 18.493 
+	 	 	 DurTFi 0.210 
+	 	 	 DurTAp 0.678 
+	 	 FinPrm 
+	 	 PRM_F2 
+	 	 	 Val 1946.808 
+	 	 	 RaAv 55.479 
+	 	 	 DurTAv 1.477 
+	 	 	 DutTDeb 5.543 
+	 	 	 RaAp 78.082 
+	 	 	 DurTFi 5.760 
+	 	 	 DurTAp 0.556 
+	 	 FinPrm 
+	 	 PRM_F3 
+	 	 	 Val 2712.766 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 18.248 
+	 	 	 RaAp 98.571 
+	 	 	 DurTFi 16.126 
+	 	 FinPrm 
+	 	 PRM_F4 
+	 	 	 Val 3526.596 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 19.521 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 17.258 
+	 	 FinPrm 
+	 	 PRM_F5 
+	 	 	 Val 4021.276 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 18.814 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 17.258 
+	 	 FinPrm 
+	 	 PRM_F6 
+	 	 	 Val 5123.449 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 17.116 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 17.116 
+	 	 FinPrm 
+	 	 PRM_B1 
+	 	 	 Val 127.660 
+	 	 	 RaAv 14.286 
+	 	 	 DurTAv 1.438 
+	 	 	 DutTDeb 0.528 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.535 
+	 	 	 DurTAp 1.160 
+	 	 FinPrm 
+	 	 PRM_B2 
+	 	 	 Val 191.489 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 2.083 
+	 	 	 DutTDeb 0.821 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.320 
+	 	 	 DurTAp 0.644 
+	 	 FinPrm 
+	 	 PRM_B3 
+	 	 	 Val 70.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 5.000 
+	 	 	 DutTDeb 5.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 5.000 
+	 	 	 DurTAp 5.000 
+	 	 FinPrm 
+	 	 PRM_B4 
+	 	 	 Val 200.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B5 
+	 	 	 Val 200.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B6 
+	 	 	 Val 500.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_A1 
+	 	 	 Val 27.277 
+	 	 	 RaAv 63.699 
+	 	 	 DurTAv 0.801 
+	 	 	 DutTDeb 1.093 
+	 	 	 DurTAp 0.772 
+	 	 FinPrm 
+	 	 PRM_A2 
+	 	 	 Val 36.414 
+	 	 	 DurTAv 2.053 
+	 	 	 DurTAp 0.968 
+	 	 FinPrm 
+	 	 PRM_A3 
+	 	 	 Val 42.778 
+	 	 	 RaAv 81.507 
+	 	 	 DurTAv 0.601 
+	 	 	 DutTDeb 1.640 
+	 	 	 RaAp 81.507 
+	 	 	 DurTFi 2.172 
+	 	 	 DurTAp 0.830 
+	 	 FinPrm 
+	 	 PRM_A4 
+	 	 	 Val 24.747 
+	 	 	 RaAv 51.370 
+	 	 	 DurTAv 0.784 
+	 	 	 DutTDeb 1.640 
+	 	 	 RaAp 56.164 
+	 	 	 DurTFi 1.212 
+	 	 	 DurTAp 0.594 
+	 	 FinPrm 
+	 	 PRM_A5 
+	 	 	 Val -30.552 
+	 	 	 RaAv 50.000 
+	 	 	 DutTDeb 6.100 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 1.103 
+	 	 FinPrm 
+	 	 PRM_A6 
+	 	 	 Val -16.243 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 5.714 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 2.020 
+	 	 FinPrm 
+	 	 PRM_AV 
+	 	 	 Val 59.220 
+	 	 	 RaAv 70.548 
+	 	 	 DurTAv 0.923 
+	 	 	 DutTDeb 2.461 
+	 	 	 RaAp 49.315 
+	 	 	 DurTFi 3.038 
+	 	 	 DurTAp 2.621 
+	 	 FinPrm 
+	 	 PRM_RL 
+	 	 	 Val 72.775 
+	 	 	 DurTAv 1.282 
+	 	 	 DutTDeb 0.493 
+	 	 	 DurTFi 1.817 
+	 	 	 DurTAp 3.148 
+	 	 FinPrm 
+	 	 PRM_ASP 
+	 	 	 Val 43.236 
+	 	 	 RaAv 82.877 
+	 	 	 DurTAv 0.742 
+	 	 	 DutTDeb 0.891 
+	 	 	 DurTAp 1.155 
+	 	 FinPrm 
+	 	 PRM_AF 
+	 	 	 Val 52.901 
+	 	 	 RaAv 75.342 
+	 	 	 DurTAv 0.559 
+	 	 	 DutTDeb 1.073 
+	 	 	 DurTAp 0.947 
+	 	 FinPrm 
+	 FinFragment 
+
+	 FinFragment 
+
+		 DebutFragment 
+	 	 ID "HCZ" 
+	 	 Nom "Czech aspired h" 
+	 	 Poids 60.000 
+	 	 Duree 6.512 
+	 	 TypeFrag 2 
+	 	 PRM_F1 
+	 	 	 Val 191.489 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 7.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 7.000 
+	 	 FinPrm 
+	 	 PRM_F2 
+	 	 	 Val 1675.532 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 7.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 7.000 
+	 	 FinPrm 
+	 	 PRM_F3 
+	 	 	 Val 2744.681 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 7.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 7.000 
+	 	 FinPrm 
+	 	 PRM_F4 
+	 	 	 Val 3734.042 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 1.177 
+	 	 	 DutTDeb 3.850 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 5.893 
+	 	 	 DurTAp 1.238 
+	 	 FinPrm 
+	 	 PRM_F5 
+	 	 	 Val 3761.050 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_F6 
+	 	 	 Val 4740.500 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B1 
+	 	 	 Val 255.319 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 7.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 7.000 
+	 	 FinPrm 
+	 	 PRM_B2 
+	 	 	 Val 414.894 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 7.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 7.000 
+	 	 FinPrm 
+	 	 PRM_B3 
+	 	 	 Val 367.021 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 7.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 7.000 
+	 	 FinPrm 
+	 	 PRM_B4 
+	 	 	 Val 382.979 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B5 
+	 	 	 Val 200.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B6 
+	 	 	 Val 500.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_A1 
+	 	 	 Val 47.324 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 7.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 7.000 
+	 	 FinPrm 
+	 	 PRM_A2 
+	 	 	 Val 21.033 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 7.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 7.000 
+	 	 FinPrm 
+	 	 PRM_A3 
+	 	 	 Val 16.103 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 1.659 
+	 	 	 DutTDeb 7.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 7.000 
+	 	 	 DurTAp 2.153 
+	 	 FinPrm 
+	 	 PRM_A4 
+	 	 	 Val 12.488 
+	 	 	 DurTAv 2.220 
+	 	 	 DutTDeb 1.129 
+	 	 	 RaAp 51.370 
+	 	 	 DurTFi 0.868 
+	 	 	 DurTAp 2.931 
+	 	 FinPrm 
+	 	 PRM_A5 
+	 	 	 Val -30.000 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 7.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 7.000 
+	 	 FinPrm 
+	 	 PRM_A6 
+	 	 	 Val -30.000 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 7.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 7.000 
+	 	 FinPrm 
+	 	 PRM_AV 
+	 	 	 Val 0.115 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.688 
+	 	 	 DutTDeb 0.764 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 0.622 
+	 	 	 DurTAp 0.461 
+	 	 FinPrm 
+	 	 PRM_RL 
+	 	 FinPrm 
+	 	 PRM_ASP 
+	 	 	 Val -1.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 2.587 
+	 	 	 DutTDeb 2.420 
+	 	 	 RaAp 93.836 
+	 	 	 DurTFi 1.630 
+	 	 	 DurTAp 3.147 
+	 	 FinPrm 
+	 	 PRM_AF 
+	 	 	 Val 48.812 
+	 	 	 RaAv 21.233 
+	 	 	 OfDe -13.699 
+	 	 	 DurTAv 0.590 
+	 	 	 DutTDeb 6.937 
+	 	 	 RaAp 86.301 
+	 	 	 DurTFi 0.591 
+	 	 	 DurTAp 3.925 
+	 	 FinPrm 
+	 FinFragment 
+
+
+		 DebutFragment 
+	 	 ID "KHCZ" 
+	 	 Nom "Czech Guttural R" 
+	 	 Poids 70.000 
+	 	 Duree 7.442 
+	 	 TypeFrag 2 
+	 	 PRM_F1 
+	 	 	 Val 303.191 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_F2 
+	 	 	 Val 1388.298 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_F3 
+	 	 	 Val 2505.319 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_F4 
+	 	 	 Val 3615.159 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_F5 
+	 	 	 Val 3973.404 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_F6 
+	 	 	 Val 5026.596 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B1 
+	 	 	 Val 303.191 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B2 
+	 	 	 Val 159.574 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B3 
+	 	 	 Val 100.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B4 
+	 	 	 Val 120.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B5 
+	 	 	 Val 120.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B6 
+	 	 	 Val 500.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_A1 
+	 	 	 Val 32.864 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A2 
+	 	 	 Val 54.883 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A3 
+	 	 	 Val 21.362 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A4 
+	 	 	 Val 19.718 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A5 
+	 	 	 Val 23.005 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A6 
+	 	 	 Val 19.390 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_AV 
+	 	 	 Val -1.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 2.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.000 
+	 	 	 DurTAp 2.000 
+	 	 FinPrm 
+	 	 PRM_RL 
+	 	 FinPrm 
+	 	 PRM_ASP 
+	 	 	 Val 57.733 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.816 
+	 	 	 DutTDeb 1.160 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 0.978 
+	 	 	 DurTAp 1.907 
+	 	 FinPrm 
+	 	 PRM_AF 
+	 	 	 Val 50.670 
+	 	 	 RaAv 50.000 
+	 	 	 RaAp 50.000 
+	 	 FinPrm 
+	 FinFragment 
+
+
+	 DebutFragment 
+	 	 ID "ACZ" 
+		 Nom "Czech shwa (transitional)" 
+	 	 Poids 56.000 
+	 	 Duree 2.791 
+	 	 TypeFrag 4 
+	 	 PRM_F1 
+	 	 	 Val 574.468 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_F2 
+	 	 	 Val 1484.042 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_F3 
+	 	 	 Val 2712.766 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 1.515 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 1.758 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_F4 
+	 	 	 Val 3702.127 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_F5 
+	 	 	 Val 4005.319 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_F6 
+	 	 	 Val 4740.500 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B1 
+	 	 	 Val 112.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B2 
+	 	 	 Val 96.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B3 
+	 	 	 Val 150.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B4 
+	 	 	 Val 200.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B5 
+	 	 	 Val 200.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B6 
+	 	 	 Val 500.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_A1 
+	 	 	 Val 50.750 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A2 
+	 	 	 Val 36.354 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A3 
+	 	 	 Val 33.250 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A4 
+	 	 	 Val 26.250 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A5 
+	 	 	 Val 30.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A6 
+	 	 	 Val -30.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_AV 
+	 	 	 Val 62.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 2.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.000 
+	 	 	 DurTAp 2.000 
+	 	 FinPrm 
+	 	 PRM_RL 
+	 	 FinPrm 
+	 	 PRM_ASP 
+	 	 	 RaAv 50.000 
+	 	 	 RaAp 50.000 
+	 	 FinPrm 
+	 	 PRM_AF 
+	 	 	 RaAv 50.000 
+	 	 	 RaAp 50.000 
+	 	 FinPrm 
+	 FinFragment 
+
+
+
+	 DebutFragment 
+	 	 ID "RCZ1" 
+	 	 Nom "Voc. Czech ^R sound" 
+	 	 Poids 96.000 
+	 	 Duree 9.744 
+	 	 TypeFrag 2 
+	 	 PRM_F1 
+	 	 	 Val 384.000 
+	 	 	 RaAv 35.616 
+	 	 	 DurTAv 0.890 
+	 	 	 DutTDeb 0.588 
+	 	 	 RaAp 45.890 
+	 	 	 DurTFi 4.481 
+	 	 	 DurTAp 0.830 
+	 	 FinPrm 
+	 	 PRM_F2 
+	 	 	 Val 1771.276 
+	 	 	 RaAv 29.452 
+	 	 	 DurTAv 0.571 
+	 	 	 DutTDeb 1.689 
+	 	 	 RaAp 84.932 
+	 	 	 DurTFi 2.973 
+	 	 	 DurTAp 1.244 
+	 	 FinPrm 
+	 	 PRM_F3 
+	 	 	 Val 2569.149 
+	 	 	 DurTAv 1.003 
+	 	 	 DutTDeb 1.622 
+	 	 	 DurTFi 2.085 
+	 	 	 DurTAp 2.135 
+	 	 FinPrm 
+	 	 PRM_F4 
+	 	 	 Val 3526.596 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 0.815 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 6.211 
+	 	 FinPrm 
+	 	 PRM_F5 
+	 	 	 Val 3909.574 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 0.760 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 6.702 
+	 	 FinPrm 
+	 	 PRM_F6 
+	 	 	 Val 5120.000 
+	 	 	 RaAv 55.479 
+	 	 	 DutTDeb 1.521 
+	 	 	 RaAp 56.164 
+	 	 	 DurTFi 6.048 
+	 	 FinPrm 
+	 	 PRM_B1 
+	 	 	 Val 127.660 
+	 	 	 RaAv 22.603 
+	 	 	 DurTAv 2.605 
+	 	 	 DutTDeb 1.702 
+	 	 	 RaAp 30.822 
+	 	 	 DurTFi 1.470 
+	 	 	 DurTAp 2.644 
+	 	 FinPrm 
+	 	 PRM_B2 
+	 	 	 Val 159.574 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 3.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.000 
+	 	 	 DurTAp 3.000 
+	 	 FinPrm 
+	 	 PRM_B3 
+	 	 	 Val 143.617 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 3.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 2.000 
+	 	 	 DurTAp 3.000 
+	 	 FinPrm 
+	 	 PRM_B4 
+	 	 	 Val 143.617 
+	 	 	 RaAv 51.370 
+	 	 	 DurTAv 1.006 
+	 	 	 DutTDeb 0.982 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 0.774 
+	 	 	 DurTAp 0.771 
+	 	 FinPrm 
+	 	 PRM_B5 
+	 	 	 Val 137.931 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B6 
+	 	 	 Val 430.851 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 0.401 
+	 	 	 DutTDeb 0.489 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 0.401 
+	 	 	 DurTAp 1.036 
+	 	 FinPrm 
+	 	 PRM_A1 
+	 	 	 Val 38.451 
+	 	 	 DurTAv 0.787 
+	 	 	 DutTDeb 0.827 
+	 	 	 RaAp 15.000 
+	 	 	 DurTFi 1.489 
+	 	 	 DurTAp 3.106 
+	 	 FinPrm 
+	 	 PRM_A2 
+	 	 	 Val 50.610 
+	 	 	 RaAv 51.370 
+	 	 	 DurTAv 1.217 
+	 	 	 DutTDeb 0.622 
+	 	 	 RaAp 52.740 
+	 	 	 DurTFi 1.143 
+	 	 	 DurTAp 1.992 
+	 	 FinPrm 
+	 	 PRM_A3 
+	 	 	 Val 51.925 
+	 	 	 RaAv 48.630 
+	 	 	 DurTAv 1.684 
+	 	 	 DutTDeb 0.730 
+	 	 	 RaAp 45.890 
+	 	 	 DurTFi 1.278 
+	 	 	 DurTAp 1.985 
+	 	 FinPrm 
+	 	 PRM_A4 
+	 	 	 Val 48.967 
+	 	 	 RaAv 51.370 
+	 	 	 DurTAv 1.199 
+	 	 	 DutTDeb 0.629 
+	 	 	 RaAp 44.521 
+	 	 	 DurTFi 1.290 
+	 	 	 DurTAp 0.927 
+	 	 FinPrm 
+	 	 PRM_A5 
+	 	 	 Val 42.424 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.832 
+	 	 	 DutTDeb 1.506 
+	 	 	 RaAp 50.685 
+	 	 	 DurTFi 1.015 
+	 	 	 DurTAp 0.695 
+	 	 FinPrm 
+	 	 PRM_A6 
+	 	 	 Val 25.101 
+	 	 	 RaAv 51.370 
+	 	 	 DurTAv 0.838 
+	 	 	 DutTDeb 1.015 
+	 	 	 RaAp 50.685 
+	 	 	 DurTFi 0.937 
+	 	 	 DurTAp 0.771 
+	 	 FinPrm 
+	 	 PRM_AV 
+	 	 	 Val 61.079 
+	 	 	 RaAv 43.836 
+	 	 	 OfDe 1.096 
+	 	 	 DurTAv 1.436 
+	 	 	 DutTDeb 1.273 
+	 	 	 RaAp 47.945 
+	 	 	 DurTFi 1.537 
+	 	 	 DurTAp 0.809 
+	 	 FinPrm 
+	 	 PRM_RL 
+	 	 	 Val 53.403 
+	 	 FinPrm 
+	 	 PRM_ASP 
+	 	 	 Val -1.000 
+	 	 	 DurTAv 3.015 
+	 	 	 DutTDeb 4.844 
+	 	 	 DurTFi 0.659 
+	 	 	 DurTAp 2.427 
+	 	 FinPrm 
+	 	 PRM_AF 
+	 	 	 Val 54.759 
+	 	 	 RaAv 50.000 
+	 	 	 OfDe 0.548 
+	 	 	 DurTAv 1.859 
+	 	 	 DutTDeb 1.502 
+	 	 	 RaAp 100.000 
+	 	 	 OfFi 9.863 
+	 	 	 DurTFi 1.643 
+	 	 	 DurTAp 6.098 
+	 	 FinPrm 
+	 FinFragment
+	 DebutFragment 
+	 	 ID "RCZ2" 
+	 	 Nom "Unvoc. Czech ^R sound" 
+	 	 Poids 96.000 
+	 	 Duree 9.744 
+	 	 TypeFrag 2 
+	 	 PRM_F1 
+	 	 	 Val 384.000 
+	 	 	 RaAv 35.616 
+	 	 	 DurTAv 0.890 
+	 	 	 DutTDeb 0.588 
+	 	 	 RaAp 45.890 
+	 	 	 DurTFi 4.481 
+	 	 	 DurTAp 0.830 
+	 	 FinPrm 
+	 	 PRM_F2 
+	 	 	 Val 1771.276 
+	 	 	 RaAv 29.452 
+	 	 	 DurTAv 0.571 
+	 	 	 DutTDeb 1.689 
+	 	 	 RaAp 84.932 
+	 	 	 DurTFi 2.973 
+	 	 	 DurTAp 1.244 
+	 	 FinPrm 
+	 	 PRM_F3 
+	 	 	 Val 2569.149 
+	 	 	 DurTAv 1.003 
+	 	 	 DutTDeb 1.622 
+	 	 	 DurTFi 2.085 
+	 	 	 DurTAp 2.135 
+	 	 FinPrm 
+	 	 PRM_F4 
+	 	 	 Val 3526.596 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 0.815 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 6.211 
+	 	 FinPrm 
+	 	 PRM_F5 
+	 	 	 Val 3909.574 
+	 	 	 RaAv 100.000 
+	 	 	 DutTDeb 0.760 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 6.702 
+	 	 FinPrm 
+	 	 PRM_F6 
+	 	 	 Val 5120.000 
+	 	 	 RaAv 55.479 
+	 	 	 DutTDeb 1.521 
+	 	 	 RaAp 56.164 
+	 	 	 DurTFi 6.048 
+	 	 FinPrm 
+	 	 PRM_B1 
+	 	 	 Val 127.660 
+	 	 	 RaAv 22.603 
+	 	 	 DurTAv 2.605 
+	 	 	 DutTDeb 1.702 
+	 	 	 RaAp 30.822 
+	 	 	 DurTFi 1.470 
+	 	 	 DurTAp 2.644 
+	 	 FinPrm 
+	 	 PRM_B2 
+	 	 	 Val 159.574 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 3.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.000 
+	 	 	 DurTAp 3.000 
+	 	 FinPrm 
+	 	 PRM_B3 
+	 	 	 Val 143.617 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 3.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 2.000 
+	 	 	 DurTAp 3.000 
+	 	 FinPrm 
+	 	 PRM_B4 
+	 	 	 Val 143.617 
+	 	 	 RaAv 51.370 
+	 	 	 DurTAv 1.006 
+	 	 	 DutTDeb 0.982 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 0.774 
+	 	 	 DurTAp 0.771 
+	 	 FinPrm 
+	 	 PRM_B5 
+	 	 	 Val 137.931 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B6 
+	 	 	 Val 430.851 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 0.401 
+	 	 	 DutTDeb 0.489 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 0.401 
+	 	 	 DurTAp 1.036 
+	 	 FinPrm 
+	 	 PRM_A1 
+	 	 	 Val 38.451 
+	 	 	 DurTAv 0.787 
+	 	 	 DutTDeb 0.827 
+	 	 	 RaAp 15.000 
+	 	 	 DurTFi 1.489 
+	 	 	 DurTAp 3.106 
+	 	 FinPrm 
+	 	 PRM_A2 
+	 	 	 Val 50.610 
+	 	 	 RaAv 51.370 
+	 	 	 DurTAv 1.217 
+	 	 	 DutTDeb 0.622 
+	 	 	 RaAp 52.740 
+	 	 	 DurTFi 1.143 
+	 	 	 DurTAp 1.992 
+	 	 FinPrm 
+	 	 PRM_A3 
+	 	 	 Val 51.925 
+	 	 	 RaAv 48.630 
+	 	 	 DurTAv 1.684 
+	 	 	 DutTDeb 0.730 
+	 	 	 RaAp 45.890 
+	 	 	 DurTFi 1.278 
+	 	 	 DurTAp 1.985 
+	 	 FinPrm 
+	 	 PRM_A4 
+	 	 	 Val 48.967 
+	 	 	 RaAv 51.370 
+	 	 	 DurTAv 1.199 
+	 	 	 DutTDeb 0.629 
+	 	 	 RaAp 44.521 
+	 	 	 DurTFi 1.290 
+	 	 	 DurTAp 0.927 
+	 	 FinPrm 
+	 	 PRM_A5 
+	 	 	 Val 42.424 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.832 
+	 	 	 DutTDeb 1.506 
+	 	 	 RaAp 50.685 
+	 	 	 DurTFi 1.015 
+	 	 	 DurTAp 0.695 
+	 	 FinPrm 
+	 	 PRM_A6 
+	 	 	 Val 25.101 
+	 	 	 RaAv 51.370 
+	 	 	 DurTAv 0.838 
+	 	 	 DutTDeb 1.015 
+	 	 	 RaAp 50.685 
+	 	 	 DurTFi 0.937 
+	 	 	 DurTAp 0.771 
+	 	 FinPrm 
+	 	 PRM_AV 
+	 	 	 Val 0.0 
+	 	 	 RaAv 43.836 
+	 	 	 OfDe 1.096 
+	 	 	 DurTAv 1.436 
+	 	 	 DutTDeb 1.273 
+	 	 	 RaAp 47.945 
+	 	 	 DurTFi 1.537 
+	 	 	 DurTAp 0.809 
+	 	 FinPrm 
+	 	 PRM_RL 
+	 	 	 Val 76.5 
+	 	 FinPrm 
+	 	 PRM_ASP 
+	 	 	 Val -1.000 
+	 	 	 DurTAv 3.015 
+	 	 	 DutTDeb 4.844 
+	 	 	 DurTFi 0.659 
+	 	 	 DurTAp 2.427 
+	 	 FinPrm 
+	 	 PRM_AF 
+	 	 	 Val 54.759 
+	 	 	 RaAv 50.000 
+	 	 	 OfDe 0.548 
+	 	 	 DurTAv 1.859 
+	 	 	 DutTDeb 1.502 
+	 	 	 RaAp 100.000 
+	 	 	 OfFi 9.863 
+	 	 	 DurTFi 1.643 
+	 	 	 DurTAp 6.098 
+	 	 FinPrm 
+	 FinFragment
+	DebutFragment 
+	 	 ID "OOCZ" 
+	 	 Nom "Czech OO" 
+	 	 Poids 10.000 
+	 	 Duree 11.500 
+	 	 PRM_F1 
+	 	 	 Val 398.936 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_F2 
+	 	 	 Val 989.362 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_F3 
+	 	 	 Val 2521.276 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_F4 
+	 	 	 Val 3575.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_F5 
+	 	 	 Val 3780.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_F6 
+	 	 	 Val 4740.500 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B1 
+	 	 	 Val 127.660 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B2 
+	 	 	 Val 111.702 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B3 
+	 	 	 Val 100.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_B4 
+	 	 	 Val 120.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B5 
+	 	 	 Val 120.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_B6 
+	 	 	 Val 500.000 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_A1 
+	 	 	 Val 50.750 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A2 
+	 	 	 Val 39.834 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A3 
+	 	 	 Val 43.380 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A4 
+	 	 	 Val 18.950 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A5 
+	 	 	 Val 15.856 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A6 
+	 	 	 Val -30.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_AV 
+	 	 	 Val 62.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 2.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.000 
+	 	 	 DurTAp 2.000 
+	 	 FinPrm 
+	 	 PRM_RL 
+	 	 FinPrm 
+	 	 PRM_ASP 
+	 	 	 RaAv 50.000 
+	 	 	 RaAp 50.000 
+	 	 FinPrm 
+	 	 PRM_AF 
+	 	 	 RaAv 50.000 
+	 	 	 RaAp 50.000 
+	 	 FinPrm 
+	 FinFragment 
+
+FragmentListEnd  

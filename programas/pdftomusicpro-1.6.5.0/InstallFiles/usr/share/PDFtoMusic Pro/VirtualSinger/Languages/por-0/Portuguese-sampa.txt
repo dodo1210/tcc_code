@@ -1,0 +1,59 @@
+#***************************************************************************************
+#							Portuguese
+#	Definition des liens entre la notation Sampa et les Fragments
+
+#--- Consonnes plosives
+p GLST P2	[pai]
+b SQ B		[barco]
+t GLST T2	[tenho]
+k GLST K2	[com]
+d SQ DL2	[doce]
+g SQ G2		[grande]
+#---------- Fricatives
+f F 		[falo]
+v V		[verde]
+s S		[cÈu]
+z Z		[casa]
+S SH 		[chapÈu]
+Z ZH	 	[jÛia]
+
+#---------- Nasales/Liquides
+m M		[mar]
+n N		[nada]
+
+l LL		[lanche]
+L LFR		[trabalho]
+r RXB		[caro]
+R KH		[rua]
+		
+#---------- Voyelles orales
+i IS 		[vinte]
+e ES		[fazer]
+E EIS		[belo]
+èa ARF		[falo]
+A AF		[]
+6 E9S	 	[cama]
+O AWF		[ontem]
+o OS		[lobo]
+u OOS		[jus]
+@ SHVA		[felizes]
+
+#---------- transitional
+J EEFS 		[vinho]
+u: UUFS		[]
+#---- nasalized
+i~ EEF NG	[fim]
+e~ E NG		[emprego]
+6~ EIN		[irm„]
+o~ ON2		[bom]
+u~ UN		[um]
+~ NS		
+#---------- Diphthong ends
+w OV		[mau]
+aw A OV		[mau]
+j IB		[mais]
+aj A IB		[mais]
+ej AIR ID	[]
+j~ IB NG	[tÍm]
+
+# ------------------- Fin de fichier

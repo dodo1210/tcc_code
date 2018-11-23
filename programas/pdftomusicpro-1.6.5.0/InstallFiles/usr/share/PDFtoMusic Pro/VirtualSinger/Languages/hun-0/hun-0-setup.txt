@@ -1,0 +1,6 @@
+﻿
+DICT=Hungarian.txt
+SAMPA=Hungarian-sampa.txt
+FRAGMENTS=Hungarian-frag.txt
+FLAG=Hungarian.png
+TAG=hun

@@ -1,0 +1,51 @@
+#***************************************************************************************
+#			Romani
+#	Link between Sampa notation & fragments (with examples)
+# Source : https://www.phon.ucl.ac.uk/home/sampa/rom-uni.htm (for Romanian)
+#
+'	6R	[]
+#-- Vowels
+i	IS	[]
+e	EIS	[]
+a	A	[]
+o	OI	[]
+O	OS	[]
+u	U	[]
+y	UUF	[]
+# --- Semivowels
+j	Y 	[]
+
+
+#-- consonants (devoiced/voiced pairs)
+p	GLST P2	[]
+b	SQ B	[]
+t	GLST T2	[]
+d	SQ DL2	[]	
+k	GLST K2	[]
+K	K2	[]
+g	SQ G2	[]
+G	G2	[]
+
+#-- affricates ?? ts: GLST ??tS: GLST T2 CI
+ts	T2 S		[]
+tS	GLST T2 SH	[]
+dZ	SQ DL2 ZH	[]
+
+# labiodental, alveolar, palatoalveolar devoiced/voiced pairs
+f	F	[]
+v	V	[]
+s	S	[]
+z	Z	[]
+S	SH	[]
+Z	ZH	[]
+h	HFI	[]
+x	KH	[]
+# liquids, nasals
+
+m	M	[]
+n	N	[]
+l	LFR	[]
+L 	LL	[]
+r	RX	[]
+
+# ------------------- End of file

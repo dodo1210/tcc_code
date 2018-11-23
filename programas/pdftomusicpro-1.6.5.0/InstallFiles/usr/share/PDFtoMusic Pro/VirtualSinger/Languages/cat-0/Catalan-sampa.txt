@@ -1,0 +1,59 @@
+﻿#***************************************************************************************
+#			Catalan
+#	Link between Sampa notation & fragments (with examples)
+# Source : http://liceu.uab.es/~joaquim/language_resources/SAMPA_Catalan.html
+
+#----------- Commun 
+_ Q Q	
+#---------- Plosives
+p GLST P2	[pala]
+b SQ BS		[bala]
+t GLST TL2	[tela]
+d SQ DL2	[donar]
+k GLST K2 	[cala]
+g SQ G2		[gala]
+
+#---------- Fricatives
+f F 		[fals]
+s S 		[sala]
+z Z		[desde]
+S JSH 		[caixa]
+Z ZH		[màgic]
+#---------- Nasales
+m M		[mena]
+n N		[nena]
+J N Y		[any] 
+#---------- Liquides
+l LFR		[liquid]
+L LLCA		[llamp]
+R RX		[carro]
+r RXB		[cara]
+#---------- Glissement de voyelle
+j Y		[iaia]
+w WS		[veuen]
+#---------- Voyelles orales
+i IS	 	[ric]
+e ES		[bé] 
+E EIS		[sec]
+a AS		[sac]
+O OI		[soc]
+o OS		[sóc]
+u UUF		[suc] 
+#========== Allophones ===========
+
+ts GLST TL2 S	[tots]
+dz SQ DL2 Z	[totze]
+tS GLST TL2 SH	[cotxe]
+dZ SQ DL2 ZH	[metge]
+ 
+#--- Fricatives
+B BCA		[acaba] # IPA β Voiced bilabial fricative
+D DCA		[cada]	# IPA ð Voiced dental fricative
+G GCA		[amagar] #IPA ɣ Voiced velar fricative
+v V		[afgà]
+#-- Nasals
+F M		[àmfora] # IPA ɱ Labiodental nasal (M devant F ou V se prononce avec levre inferieure touchant les dents superieures)
+N NG		[fang]
+#-- Vowels
+@ SWCA		[amor]
+# ------------------- Fin de fichier

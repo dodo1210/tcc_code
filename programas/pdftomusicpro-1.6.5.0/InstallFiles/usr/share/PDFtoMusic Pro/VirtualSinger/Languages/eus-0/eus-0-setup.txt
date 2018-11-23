@@ -1,0 +1,6 @@
+﻿CASE=yes
+DICT=Basque.txt
+SAMPA=Basque-sampa.txt
+FLAG=Basque.png
+TAG=eus
+

@@ -1,0 +1,199 @@
+<html>
+<head>
+	<title>Errors Checked For</title>
+</head>
+
+<body text="#000000" bgcolor="#e4e4e4" link="#0033C4" vlink="#0033C4" alink="#0033C4">
+
+<a name="Top"></a>
+
+<TABLE cellSpacing=0 cellPadding=4 width="100%" bgColor=#0033C4 border=0>
+  <TBODY><TR>
+      <TH align=left><FONT face=Arial color=#ffffff size=+3>Errors Checked For</FONT></TH>
+    </TR></TBODY>
+</TABLE>
+<p><strong>EXPLANATION OF THIS SECTION</strong></p>
+<p>This section of the manual lists and explains all of the various types of technical production errors that jProductionCritic looks for.</p>
+<p><strong>OVERVIEW OF JPRODUCTIONCRITIC'S ERROR ANALYSIS</strong></p>
+<p>jProductionCritic's core functionality is to check audio files for technical production errors. This involves  checking each file for each of a variety of error types independently. Each of these error types is described below. Those wishing to know the implementation details of each error detection algorithm in greater detail are encouraged to look at the open source code and its associated Javadocs, which are all available for free download at <a href="http://jmir.sourceforge.net" target="top">jmir.sourceforge.net</a>. The error detection algorithm for each error type has its own Java class. More details on the low-level processing and Java class structure of jProductionCritic are available in the sections of the manual on jProductionCritic's <a href="08_processing_sequence.html">processing sequence</a>, on its <a href="09_class_structure.html">class structure</a> and on <a href="10_extending_the_software.html">extending the software</a>.</p>
+<p>It is important to emphasize here that there are many important subtle subjective and artistic qualities that must be considered if one is to truly evaluate the production quality of a mix. Performing such an evaluation is well beyond the current technological capabilities of any automated system, and is best left to human experts, such as professional producers and instructors.
+  jProductionCritic therefore only attempts to detect clear objective technical errors, which many students and amateurs can still unfortunately produce many of. jProductionCritic is intended as a supplement and aid to human experts, not as a replacement for them.</p>
+<p>
+  It should also be noted that the operation of all of the error checkers is highly dependant on the <a href="06_configuration_settings_file.html">configuration settings</a> specified in the configuration file. Improper configuration settings for any given error detection algorithm can easily lead to false positives and/or false negatives. Although every effort has been made to distribute jProductionCritic with good general-purpose default settings, it is still certainly the case that any given configuration setting might work very well with one type of music, but quite poorly with another. What might be considered unwanted noise in a classical flute recording, for example, might be part of a desirable production aesthetic in a flute sample used in an electronic dance track. Fortunately, jProductionCritic&#8217;s diverse range of configuration settings makes it possible to easily modify the detection thresholds of given error types, or to disable individual error detectors entirely, in order to match the various production aesthetics of different musical styles. Finally, it should be noted that very short files (e.g. 20 seconds or less) may result in the reporting of a number of false positives, as such short files may have unusual average signal statistics that can influence error reporting.</p>
+<p><strong>ERRORS LOOKED FOR BY JPRODUCTIONCRITIC</strong></p>
+<p><strong><em>Digital Clipping</em></strong></p>
+<blockquote>
+  <p> Digital clipping occurs when a signal exceeds the representational limits of its bit depth. Clipped signals are characterized by flat peaks and troughs, as samples are rounded to maximum and minimum values.</p>
+  <p>Digitally clipped signals sound rough and distorted, and are almost never aesthetically desirable. Analog clipping, in contrast, can be desirable in certain styles of music, and is characterized by more curved peaks and troughs. Digital clipping tends to occur in two main ways in student work: either the gain is set too high during recording or synthesis of an individual track, or the gains on individual tracks mixed onto the same channel are too high, such that the combined signals clip, even if none of the source signals are themselves clipped individually.</p>
+  <p> Although clipping detection is a common software feature, the popular implementation of simply flagging any  samples at the representational limits is surprisingly naive. This approach has two major problems.  Firstly, a sample that actually should have a value at the representational limit is not in fact clipped,  and such samples are to be expected in normalized signals. Secondly, students may attempt to hide clipping by reducing the master gain in the final mix, such that sample values fall below representational limits (and are thus not flagged) but the signal distortion caused by the clipping remains.</p>
+  <p>The algorithm used here can overcome these two problems: if a number of adjacent samples beyond a  threshold have an identical signal value (whether or not it is at the representational limit), then report clipping. The number of such consecutive samples also gives an indication of clipping severity. Also, since a signal at very low levels may hold a steady value for a little while even when there is no clipping, clipping is only reported if consecutive samples are identical at a value above a minimum. If there are multiple channels in the audio being examined, then each channel is checked separately, and an error report is generated if a problem is detected on one or multiple channels.</p>
+  <p>The user may specify the following preferences relevant to detecting this type of error in the configuration file (in addition to whether or not to look for this type of error): </p>
+  <ul>
+    <li><em>digital_clipping_minimum_identical_samples:</em> The minimum number of consecutive samples which must be identical in order for digital clipping to be detected.  This value must be more than 1.</li>
+    <li><em>digital_clipping_signal_floor:</em> The minimum absolute value that a signal may have (between 0 and 1) in order for digital clipping to be detected. This value must be between between 0.0 and 1.0.</li>
+  </ul>
+</blockquote>
+<p><em><strong>Edit Clicks</strong></em></p>
+<blockquote>
+  <p> An edit click occurs when an improperly treated edit is made, and can result in a discontinuity in the waveform that typically sounds like a click. This can happen when two signals are spliced together, or at the beginnings and ends of tracks (due to a sudden jump in the signal from or to silence). Although there  are a number of techniques that can be used to avoid edit clicks, students and amateurs often neglect to use them.</p>
+  <p>The algorithm used here detects edit clicks based on windows of only four samples: report an edit click  if a signal jumps in value beyond a threshold from samples 2 to 3, but does not change in value beyond another threshold when progressing from samples 1 to 2 or 3 to 4. Clicks at the beginnings and ends of tracks are found separately by respectively looking for first and last samples that are far from 0 (a different, typically more sensitive threshold is used here than for the window-based detection).  If there  are multiple channels in the audio being examined, then each channel is checked separately, and an error  report is generated if a problem is detected on one or multiple channels.</p>
+  <p>It should be noted that this  algorithm focuses only on a particular kind of edit error. It does not detect edit  errors in general, of  which there are many other types (e.g. a splice involving two segments of audio recorded under very  different reverberant conditions). It was decided to have a specialized error detector for edit clicks because it is useful for students to know where imperfections in their work come from.</p>
+  <p>The user may specify the following preferences relevant to detecting this type of error in the  configuration file (in addition to whether or not to look for this type of error): </p>
+  <ul>
+    <li><em>edit_click_window_maximum_sample_jump:</em> In a four-sample window, the maximum change in sample value from  sample 2 to sample 3 that the signal may undergo and still avoid the detection of an edit click error (other conditions notwithstanding). This value must be above 0.0 and not more than 2.0.</li>
+    <li><em>edit_click_window_boundary_fraction</em>: In a four-sample window, the fraction of the edit_click_window_maximum_sample_jump configuration setting value that, when multiplied with the edit_click_window_maximum_sample_jump value, indicates the maximum change in sample value from samples 1 to 2 and from samples 3 to 4 in order for the jump between samples 2 and 3 to be eligible for being counted as an edit click error. This value must be above 0.0 and not more than 1.0.</li>
+    <li><em>edit_click_boundary_maximum_sample_jump</em>: The maximum absolute sample value that the first and last samples of a signal under examination may have in order to avoid the reporting of an edit click error. This value must be between 0.0 and 1.0.</li>
+  </ul>
+</blockquote>
+<p><em><strong>Instantaneous Noise</strong></em></p>
+<blockquote>
+  <p> Instantaneous noise occurs when there is a sudden change in a signal. It is typically spread over a  broad range of frequencies. Examples include plosive pops due to the improper micing of a singer and noise when a needle jumps on a record.</p>
+  <p>The detection used here proceeds by breaking the signal into short windows, calculating the magnitude spectrum of each window and then using this to find the spectral flux from one window to the next. This  spectral flux indicates how much spectral change there is from one window to a next, and a large spectral flux can thus be an indication of undesirable instantaneous noise. An error report is thus generated  whenever the spectral flux is higher than a threshold value for any window to the next. However, this can  result in false positives, as desirable parts of a signal can have a large spectral flux in some cases. This algorithm therefore filters out lower frequencies from consideration in the spectral flux calculation, as undesirable instantaneous noise is typically more evident in the higher frequencies relative to  desirable instantaneous noise. If there are multiple channels in the audio being examined, then each  channel is checked separately, and an error report is generated if a problem is detected on one or multiple channels.</p>
+  <p>
+
+The user may specify the following preferences relevant to detecting this type of error in the  configuration file (in addition to whether or not to look for this type of error):</p>
+  <ul>
+    <li><em>analysis_window_size</em>:  The number of samples that each analysis window should consist of. This value must be greater than 1, and it is advisable that it be a power or 2 for the purpose of calculation efficiency.</li>
+    <li><em>instantaneous_noise_detection_threshold:</em> The lowest (filtered) spectral flux value that will result in an  error being detected. Must be 0.0 or above.</li>
+    <li><em>instantaneous_noise_highpass_fraction:</em> The fraction of low frequencies to filter out before calculating spectral flux values during the course of looking for instantaneous noise. No such high pass filtering is done if this value is not above 0 and below 1. For example, a value of 0.7 means that the lowest 70% of the spectral content will be  filtered out before calculating the spectral flux.</li>
+  </ul>
+  </blockquote>
+<p><em><strong>Ground Loop Hum</strong></em></p>
+<blockquote>
+  <p> A ground loop hum is a kind of electrical noise that can be picked up when using imperfectly configured or operated studios. Such noise consists of a hum at the AC frequency of the power supply (and its integer multiples), which is generally either 50 Hz or 60 Hz, depending on where one is.</p>
+  <p>The algorithm used here to detect ground loops consists of first finding the power spectrum value for  the bin holding each of the possible ground loop fundamental frequencies (50 Hz and 60 Hz). An error is reported whenever this value exceeds a user-defined threshold. Large analysis windows are used in order to not generate false positives from fundamental frequencies of shorter desirable bass notes at the ground  loop frequencies. If there are multiple channels in the audio being examined, then each channel is checked  separately, and an error report is generated if a problem is detected on one or multiple channels.</p>
+  <p>The user may specify the following preferences relevant to detecting this type of error in the  configuration file (in addition to whether or not to look for this type of error): </p>
+  <ul>
+    <li><em>long_window_size</em>: The number of samples that each analysis window should consist of.  This value must be greater than 1, and it is advisable that it be a power or 2 for the purpose of calculation efficiency.</li>
+    <li><em>ground_loop_hum_maximum_power:
+   </em>The maximum power spectrum value that the power spectrum bin holding a ground loop fundamental frequency may have in order to avoid the detection of a ground loop hum error.  This value must be more than 0.0.</li>
+  </ul>
+</blockquote>
+<p><em><strong>Narrowband Noise</strong></em></p>
+<blockquote>
+  <p> Narrowband noise is a kind of background noise consisting of a relatively narrow spread of frequencies. Tracks can be infiltrated by various types of such sustained noise (as opposed to the more sudden and  short-lived instantaneous noise). Ventilation systems in recording environments and faulty cable shielding  are two of the many possible sources. Unfortunately, detecting such noise in general can be particularly difficult, as it can be hard to distinguish from the musical signal.</p>
+  <p>The algorithm used here to detect narrowband background noise consists of windowing each channel of the audio and calculating the power spectrum of each resulting window. Large analysis windows are used in order to avoid generating false positives from fundamental frequencies of shorter desirable notes. The average power spectrum bin value is calculated for each window, as is the maximum power spectrum bin value for each window. An error is generated if the maximum value for a window is higher than a user-specified multiple of the average value for the window. If there are multiple channels in the audio being examined, then each  channel is checked separately, and an error report is generated if a problem is detected on one or multiple channels. This approach has the benefit of being particularly sensitive to frequencies that stand out  amongst relatively quiet spectral surroundings, which is when background noise is most evident to the ear.  Unfortunately, this approach is not good at detecting broadband background noise, and can generate false positives for styles of music featuring sustained drones. This is, along with Phasing, one of jProductionCritic's most under-performing error detectors.</p>
+  <p>
+
+The user may specify the following preferences relevant to detecting this type of error in the  configuration file (in addition to whether or not to look for this type of error):</p>
+  <ul>
+    <li><em>long_window_size</em>: The number of samples that each analysis window should consist of.  This value must be greater than 1, and it is advisable that it be a power or 2 for the purpose of calculation efficiency.</li>
+    <li><em>narrowband_noise_maximum_spectral_peak_ratio:</em> The maximum multiple of the average power spectrum value over an analysis window that a single power spectrum bin's value may have before a narrowband noise error is  reported. This value must be more than 1.0.</li>
+  </ul>
+</blockquote>
+<p><em><strong>Phasing</strong></em></p>
+<blockquote>
+  <p> Phasing is a problem that occurs when a signal is mixed with another signal that includes a phase  delayed version of itself. This can occur, for example, when two omnidirectional microphones mapped to the  same channel are too close to each other, or a single microphone is too close to an acoustically  reflective surface. This results in cancellation or reinforcement of various frequencies, depending on the phase offset, which can result in a muddy tone. The effect of this in the frequency domain is similar to that of a comb filter. Although the literature specifies several effective ways to detect phasing before  mixing is carried out, it is much more difficult to automatically detect afterwards, and is easily confused with sometimes desirable audio effects based on short delays, such as flanging.</p>
+  <p>The algorithm used here involves first calculating the power spectrum of relatively large windows of sound. Each such power spectrum is then collapsed/compressed and the autocorrelation of each compressed  power spectrum is calculated (the compression is necessary for the sake of computational efficiency, given the many bins in the power spectrum resulting from the long analysis windows). Long analysis windows are needed to avoid false positives from held harmonic notes. Autocorrelation essentially measures the  self-similarity of a signal, and in particular generates peaks indicating harmonicities in the signal being  analyzed. Here the &quot;signal&quot; being analyzed is in fact a power spectrum, so the harmonicities highlighted by the autocorrelation indicate regular peaks or troughs in the frequency domain. A signal that has been processed by a comb filter (which is in essence the spectral effect of phasing) will thus have a noticeable autocorrelation peak. A phasing error report is thus generated if the highest peak of the normalized  autocorrelation of the power spectrum is beyond a user-specified threshold (the normalization is performed  in order to ensure balance). If there are multiple channels in the audio being examined, then each channel is checked separately, and an error report is generated if a problem is detected on one or multiple  channels. Although this approach can effectively detect phasing, it unfortunately can also produce false  errors due to very long held harmonic notes or to the application of audio effects like flanging. There is therefore significant room for improvement to this algorithm, and it is perhaps currently the weakest one  used by jProductionCritic.</p>
+  <p>
+
+The user may specify the following preferences relevant to detecting this type of error in the  configuration file (in addition to whether or not to look for this type of error): </p>
+  <ul>
+    <li>
+      <em>long_window_size</em>: The number of samples that each analysis window should consist of.  This value must be greater than 1, and it is advisable that it be a power or 2 for the purpose of calculation efficiency.</li>
+    <li><em>phasing_maximum_autocorrelation:</em> The maximum normalized power spectrum autocorrelation value for any given lag that can be present in order to avoid the reporting of a phasing error. This value must be above zero and not more than 1.0.</li>
+  </ul>
+</blockquote>
+<p><em><strong>Is Not  Stereo</strong></em></p>
+<blockquote>
+  <p> A stereo recording has two distinct channels, and stereo is still the typical format for music distribution. Most final mastered tracks should therefore be stereo. However, there are certainly times when mono or multi-channel (e.g. surround sound) recordings are desirable, so there are times when it is appropriate to disable this error checker.</p>
+  <p>An error is generated here simply if the total number of channels in a recording is something other than two.</p>
+  <p>There are no user-defined preferences for this error checker, other than whether or not to apply it.</p>
+</blockquote>
+<p><em><strong>Stereo Channel Similarity</strong></em></p>
+<blockquote>
+  <p> Some students do not include enough channel separation in their recordings to create a sufficient sense of stereo space, or even forget to specify panning settings at all, with the result that they end up with identical or near-identical samples in the left and right stereo channels. A stereo channel similarity error is thus generated if the left and right stereo tracks are too similar.</p>
+  <p>The algorithm used here essentially operates by calculating the average absolute difference between matching samples in the left and right stereo channels (no error reporting is done if the recording is mono or has more than 2 channels). An error is generated if this average difference is less than the  user-specified minimum threshold. It should be noted that each of the stereo channels is separately  normalized before the differences are calculated in order to ensure that an error will still be detected if the only significant difference between the stereo channels is differing channel gains. There are many alternative approaches that could have been used, including spectral approaches, but it was found that this simple approach was quite effective. In particular, it was decided not to use an approach based on cross-correlation, as a phase-delayed version of one signal in the other stereo channel is actually  desirable in many stereo micing approaches, and should not result in an error being reported. A Pearson correlator might also have been an effective choice, but it was not found to be necessary here.</p>
+  <p>The user may specify the following preference relevant to detecting this type of error in the  configuration file (in addition to whether or not to look for this type of error):</p>
+  <ul>
+    <li><em>stereo_channel_similarity_minimum_average_distance:</em> The minimum average difference between matching samples in each of the two separately normalized stereo tracks that must be present in order to avoid the reporting of a stereo channel similarity error. Must have a value between 0.0 to 2.0.</li>
+  </ul>
+</blockquote>
+<p><em><strong>Stereo Channel Balance</strong></em></p>
+<blockquote>
+  <p> Students sometimes fail to properly balance the stereo channels, with the result that one stereo channel is consistently louder than the other. This can lead to an uneven listening experience, especially with headphones.</p>
+  <p>The algorithm used here is to measure the Root Mean Square (RMS) of each stereo channel as a whole. RMS provides a good indication of the average power of a signal. The difference between the RMS or the two channels is calculated, and an error report is generated if it is above a user-defined threshold. No error is reported if the recording under examination is not stereo.</p>
+  <p>The user may specify the following preference relevant to detecting this type of error in the  configuration file (in addition to whether or not to look for this type of error): </p>
+  <ul>
+    <li><em>stereo_channel_balance_maximum_difference:</em> The maximum amount that the RMS of one stereo channel in its entirety may differ from that of the other without an error being reported. Must be greater that 0.0.</li>
+  </ul>
+</blockquote>
+<p><em><strong>Insufficient Dynamic Range</strong></em></p>
+<blockquote>
+  <p> An insufficient use of the available dynamic range error indicates that a signal is too quiet throughout its entirety, which is to say that its highest absolute sample value is too far below the maximum absolute  sample value afforded by the signal's bit depth. This kind of error does not occur if part of a signal is  quiet (which can be desirable), but rather if all parts of a signal are too quiet. This is a common mistake made by students who keep gains excessively low due to fear of clipping. Students then sometimes exacerbate  this by forgetting to normalize their work during mastering (which can be desirable in order to achieve  relatively consistent volumes when listening to multiple recordings sequentially).</p>
+  <p>The algorithm used here to detect this kind of problem is to find the maximum absolute sample value in each channel and report an error if it is below a user-defined threshold. An error is reported if this problem is detected in one or more channels.</p>
+  <p>The user may specify the following preference relevant to detecting this type of error in the  configuration file (in addition to whether or not to look for this type of error):</p>
+  <ul>
+    <li><em> insufficient_dynamic_range_minimum_highest_absolute_sample_value: </em>The minimum absolute value (above 0.0  and no higher than 1.0) that the sample with the highest absolute value in each channel must have in order  to avoid the detection of an insufficient dynamic range error. Must be above 0.0 and no higher than 1.0, otherwise this error will not be looked for.</li>
+  </ul>
+</blockquote>
+<p><em><strong>Insufficient Variety in Dynamics</strong></em></p>
+<blockquote>
+  <p> Certain genres of music (e.g. Romantic classical music) typically stylistically require that there be  some significant contrast in dynamics throughout a piece. In other words, some parts should be louder than  others. There may therefore be insufficient variety in dynamics if all parts of a signal are of very similar loudness. It is important to emphasize, however, that this is more of a stylistic consideration than a  technical error, and limited variety in dynamics can actually be stylistically desirable in some genres of music (e.g. dance pop).</p>
+  <p>The algorithm used here breaks each channel of a recording into a sequence of windows, and the Root Mean  Square (RMS) is calculated for each window. RMS provides a good indication of the average power of the signal over the window. The standard deviation of these RMS values is then calculated for each channel. An  error is reported if this standard deviation is below the user defined threshold for one or more  channels.</p>
+  <p>The user may specify the following preferences relevant to detecting this type of error in the  configuration file (in addition to whether or not to look for this type of error): </p>
+  <ul>
+    <li><em>analysis_window_size</em>:  The number of samples that each analysis window should consist of. This value must be greater than 1, and it is advisable that it be a power or 2 for the purpose of calculation efficiency.</li>
+    <li><em> insufficient_variety_in_dynamics_minimum_stddev: </em>The minimum standard deviation of windowed RMS values in each channel necessary to avoid the reporting of an insufficient variety in dynamics error. This value must be 0.0 or more.</li>
+  </ul>
+</blockquote>
+<p><em><strong>Insufficient Dynamic Range Compression</strong></em></p>
+<blockquote>
+  <p> Certain genres of music (e.g. dance pop) typically stylistically require that there be a high degree of dynamic range compression applied in order to make the sound &quot;hot&quot;. This means that there must be a relatively limited amount of contrast in dynamics throughout a piece, as softer parts become louder and/or louder parts become softer when dynamic range compression is applied. There may therefore be insufficient dynamic range compression if some parts of the signal are much louder than others. It is important to emphasize, however, that this is more of a stylistic consideration than a technical error, and a high dynamic range is in fact stylistically desirable in some genres of music (e.g. Romantic classical).</p>
+  <p>The algorithm used here breaks each channel of a recording into a sequence of windows, and the Root Mean  Square (RMS) is calculated for each window. RMS provides a good indication of the average power of the signal over the window. The standard deviation of these RMS values is then calculated for each channel. An  error is reported if this standard deviation is above the user defined threshold for one or more  channels.</p>
+  <p>The user may specify the following preferences relevant to detecting this type of error in the  configuration file (in addition to whether or not to look for this type of error):<em> </em></p>
+  <ul>
+    <li><em>analysis_window_size</em>:  The number of samples that each analysis window should consist of. This value must be greater than 1, and it is advisable that it be a power or 2 for the purpose of calculation efficiency.</li>
+    <li><em>insufficient_dynamic_range_compression_maximum_stddev: </em>the maximum standard deviation of windowed RMS  values in each channel necessary to avoid the reporting of an insufficient dynamic range compression error. This value be above 0.0.</li>
+  </ul>
+  </blockquote>
+<p><em><strong>Long Silences</strong></em></p>
+<blockquote>
+  <p> Some students make the mistake of leaving too much silence at the beginnings and ends of tracks.  Although it is certainly often desirable to allow notes to gradually die off at ends of tracks, leaving  long silences is typically not a good idea, particularly since many media players automatically insert  their own additional silences between tracks. Audio dropout can also sometimes occur, such that there is an undesirable gap of silence in the middle of a track (e.g. due to a missing file during mastering). Of  course, such silences might sometimes be musically desirable, so it is important to adjust error detection parameters as needed.</p>
+  <p>The algorithm used here to detect undesirable silences begins by mixing down all channels into a single  channel. The audio is then broken into short windows and the Root Mean Square (RMS) is calculated for each window. RMS provides a good indication of the average power of the signal over the window. All windows with an RMS below the user-specified noise floor are then considered silent, and a list if compiled of the start and end times of all consecutive streaks of such silent windows. Any such set of consecutive windows with a total length greater than a user-defined threshold then generates an error. The user may specify different  threshold for the beginnings, middles and ends of tracks.</p>
+  <p>The user may specify the following preferences relevant to detecting this type of error in the configuration file (in addition to whether or not to look for this type of error):</p>
+  <ul>
+    <li><em>analysis_window_size</em>:  The number of samples that each analysis window should consist of. This value must be greater than 1, and it is advisable that it be a power or 2 for the purpose of calculation efficiency.</li>
+    <li><em>long_silence_floor:</em> The minimum Root Mean Square (RMS) value of a section of sound that will allow it to not be treated as  silence. Must be greater or equal to 0.0.</li>
+    <li><em>long_silence_maximum_duration_at_start: </em>The maximum amount of consecutive silence, in milliseconds, which may occur at the very beginning of a track without an error being reported. Must be greater than 0.</li>
+    <li><em> long_silence_maximum_duration_dropout: </em>The maximum amount of consecutive silence, in milliseconds, which  may occur anywhere in a track without an error being reported. Must be greater than 0.</li>
+    <li><em>long_silence_maximum_duration_at_end:</em> The maximum amount of consecutive silence, in milliseconds, which may occur at the very end of a track  without an error being reported. Must be greater than 0.</li>
+  </ul>
+</blockquote>
+<p><strong><em>DC Bias</em></strong></p>
+<blockquote>
+  <p> A DC bias occurs in a signal when the signal has a net offset above or below 0, which is to say it has a non-zero average. This can occur in an audio recording in a variety of ways, but the most common way is likely via improper grounding of analog studio equipment. A DC offset such as this can cause clicks at the beginning and end of tracks, and can also cause unnecessary compression of the dynamic range (by causing either peaks or troughs to clip before the other).</p>
+  <p>The algorithm used here to detect this problem involves simply calculating the average sample value of each channel, and generating an error if it is beyond a user-defined threshold away from zero. If there are multiple channels in the audio being examined, then each channel is checked separately, and an error report is generated if a problem is detected on one or multiple channels.</p>
+  <p>
+The user may specify the following preference relevant to detecting this type of error in the  configuration file (in addition to whether or not to look for this type of error): </p>
+  <ul>
+    <li><em>dc_bias_maximum_offset: </em>The maximum amount that the average sample value of a channel may differ from 0 before an error is reported. Must be greater that 0.0 and no greater than 1.0.</li>
+  </ul>
+</blockquote>
+<p><em><strong>Encoding Quality</strong></em></p>
+<blockquote>
+  <p> A poor encoding quality results in a quality of audio that is of insufficient quality as a whole, even if the underlying production work is otherwise good. Some of the possible causes include a bit depth or sampling rate that are too low, or the use of a lossy file format such as an MP3. Typically, the masters submitted by students should have a high encoding quality, even if they are eventually distributed as lower-quality files.</p>
+  <p>An error is generated here if the bit depth or sampling rate fall below user-defined minima, or if the audio file being examined is an MP3 and this is not permitted under the user-defined settings.</p>
+  <p>The user may specify the following preferences relevant to detecting this type of error in the  configuration file (in addition to whether or not to look for this type of error):</p>
+  <ul>
+    <li><em> encoding_quality_minimum_sampling_rate: </em>The minimum sampling rate that a recording must have in order to  avoid an error being reported. This  value must be more than 0.0.</li>
+    <li><em>encoding_quality_minimum_bit_depth: </em>The minimum bit depth that a recording must have in order to avoid an error being reported. This value must be more than 0.</li>
+    <li><em>encoding_quality_may_be_mp3</em>: Whether or not a  recording may be an MP3. Should be &quot;true&quot; or &quot;false&quot;.</li>
+  </ul>
+</blockquote>
+<p><em><strong>Duration</strong></em></p>
+<blockquote>
+  <p> Some recording assignments have minimum and maximum track durations, so the purpose of this error  checker is to ensure that these constraints are respected. Length constraints can also be present in the professional world, particularly in advertisements or music intended to accompany TV shows or movies.</p>
+  <p>An error is generated here simply if the total duration of a recording falls outside the user-defined boundaries.</p>
+  <p>The user may specify the following preferences relevant to detecting this type of error in the  configuration file (in addition to whether or not to look for this type of error):</p>
+  <ul>
+    <li><em>duration_minimum_length:</em> The minimum duration, in seconds, that a recording must have in order to avoid an error being reported. This value must be 0.0 or greater.</li>
+    <li><em>duration_maximum_length: </em>The maximum duration, in seconds, that a recording may  have in order to avoid an error being reported. This value must be greater than 0.0.</li>
+  </ul>
+</blockquote>
+<p></p>
+<TABLE height=5 width="100%" bgColor=#0033C4 border=0><TBODY><TR><TH></TH></TR></TBODY></TABLE>
+<p><tt><a href="#Top">-top of page-</a></tt></p>
+
+</body>
+</html>

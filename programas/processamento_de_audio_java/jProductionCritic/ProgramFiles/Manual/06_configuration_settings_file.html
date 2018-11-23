@@ -1,0 +1,106 @@
+<html>
+<head>
+	<title>Configuration Settings File</title>
+</head>
+
+<body text="#000000" bgcolor="#e4e4e4" link="#0033C4" vlink="#0033C4" alink="#0033C4">
+
+<a name="Top"></a>
+
+<TABLE cellSpacing=0 cellPadding=4 width="100%" bgColor=#0033C4 border=0>
+  <TBODY><TR>
+      <TH align=left><FONT face=Arial color=#ffffff size=+3>Configuration Settings 
+        File </FONT></TH>
+    </TR></TBODY>
+</TABLE>
+<p><strong>EXPLANATION OF THIS SECTION</strong></p>
+<p>This section of the manual describes 
+    the jProductionCritic configuration file, which specifies various processing settings. 
+    Explanations of each of the configuration settings are included.</p>
+<p><strong>OVERVIEW OF THE CONFIGURATION SETTINGS FILE</strong></p>
+<p>jProductionCritic stores a number of processing settings for its error checkers in a configuration file, as well as indicators of which error checkers to apply (i.e. which errors are to be checked for during processing). By default, this configuration file is stored in the jProductionCritic main directory, and has the name &quot;jProductionCriticConfigs.jpc&quot;. However, the user may place a configuration file anywhere and name it anything he or she wishes, as long as the path of such an alternative location is supplied via the <a href="03_command_line_arguments.html">command line arguments</a> or the <a href="04_graphical_user_interface.html">GUI</a> at runtime. Users are encouraged to keep multiple different configuraiton files holding different settings to apply to different kinds of music.</p>
+<p>The configuration settings can have a huge effect on the effiicacy of the various <a href="05_errors_checked_for.html">error checking algorithms</a>, so it is suggested that the user experiment these settings if he or she finds that many false positives or false negatives are being generated for a particular error checker when applied to a particular kind of music. It should be emphasized that the particular settings that work well for one style of music may not work well for another style of music. Having said this, strong efforts have been made to provide default configuration settings that are as widely applicable as possible.</p>
+<p><strong>CONFIGURATION SETTINGS FILE FORMAT</strong></p>
+<p>The configuration file is essentially a text file with one line for each setting, with each line consisting of the setting's key (i.e. its identifier, specified below), followed by a tab, followed by the setting's value. Neither the name of a setting nor its value may contain whitespace characters, but otherwise this file is quite flexible. The order in which settings are listed is irrelevant, superfluous settings are ignored and if a particular configuration setting is missing from the configuration file, then jProductionCrticic simply assumes that it has its default value.</p>
+<p><strong>MODIFYING THE CONFIGURATION SETTINGS FILE</strong></p>
+<p>The user is encouraged to experiment with varying the configuration settings, either using any text editor or the jProductionCritic <a href="04_graphical_user_interface.html">GUI</a>. If at any point the user has essentially chosen untenable settings, the original default settings can be restored simply by deleting the configuration file.</p>
+<p>jProductionCritic does perform some basic error checking when parsing the configuration file, and generates an error message if an invalid value is specified for any particular error checker. This will happen, for example, if a numerical value ouside the acceptable range for a given setting is given, if an alphabetical character is specified for a numerical setting, if a decimal number is specified where an integer should be present (see under the description of each individual configuration setting whether a decimal point should be present), etc.</p>
+<p>If a configuration file cannot be found by jProductionCritic at runtime, it simply generates a new default configuration file holding default values. </p>
+<p><strong>TYPES OF CONFIGURATION SETTINGS</strong></p>
+<p>There are three types of settings stored in the configuration settings file: Enable/Disable Settings, Global Settings and Local Settings. Each of these three types of settings are detailed below.</p>
+<p><strong>ENABLE/DISABLE SETTINGS</strong></p>
+<p>Settings of this type indicate which error checkers to apply. Each one should have a value of either &quot;true&quot; or &quot;false&quot;. Settings of this type all begin with the &quot;check_&quot; prefix, and there is one for each error checking algorithm.</p>
+<ul>
+  <li>check_dc_bias	true</li>
+  <li>
+  check_digital_clipping	true</li>
+  <li>
+  check_duration	true</li>
+  <li>
+  check_edit_click	true</li>
+  <li>
+  check_encoding_quality	true</li>
+  <li>
+  check_ground_loop_hum	true</li>
+  <li>
+  check_instantaneous_noise	true</li>
+  <li>
+  check_insufficient_dynamic_range	true</li>
+  <li>
+  check_insufficient_dynamic_range_compression	false</li>
+  <li>
+  check_insufficient_variety_in_dynamics	true</li>
+  <li>
+  check_is_not_streo	true</li>
+  <li>
+  check_long_silence	true</li>
+  <li>
+  check_narrowband_noise	true</li>
+  <li>
+  check_phasing	false</li>
+  <li>
+  check_stereo_channel_balance	true</li>
+  <li>
+  check_stereo_channel_similarity	true</li>
+</ul>
+<p><strong>GLOBAL CONFIGURATION SETTINGS</strong></p>
+<p>These are settings that can each be used by multiple error checkers.  Their values are typcially but not necessarily always numerical.</p>
+<ul>
+  <li><strong> error_report_merge_proximity_maximum: </strong>The maximum amount of time in milliseconds that may separate detected errors of the same kind whose reports should be merged. No merging will occur if the time separation between errors is greater than this, or if this  value is negative (except in the case of merging overlapping non-instantaneous reports, which will  always be merged).</li>
+  <li><strong>analysis_window_size: </strong>The analysis window size (in samples) to use when performing short analyses in the course of looking for various kinds of errors. This window size may be used by individual error checkers unless they have a particular setting of their own to override it. This value must be greater than 1, and it is advisable that it be a power or 2 for the purpose of calculation efficiency.</li>
+  <li><strong>long_window_size: </strong>The analysis window size (in samples) to use when performing analyses over long windows (usually more than a second) in the course of looking for various kinds of errors. This window size may be used by individual error checkers  unless they have a particular setting of their own to override it. This value must be greater than 1, and it is advisable that it be a power or 2 for the purpose of calculation efficiency.</li>
+</ul>
+<p><strong>LOCAL SETTINGS</strong></p>
+<p>These settings are each only  used by a single error checker. Each local setting's name begins with the name of its associated error checker. The values for these settings are typcially but not necessarily always numerical.</p>
+<ul>
+  <li><strong>dc_bias_maximum_offset: </strong>The maximum amount that the average sample value of a channel may differ from 0 before an error is reported. Must be greater that 0.0 and no greater than 1.0.</li>
+  <li><strong>digital_clipping_minimum_identical_samples:</strong> The minimum number of consecutive samples which must be identical in order for digital clipping to be detected.  This value must be more than 1.</li>
+  <li><strong>digital_clipping_signal_floor:</strong> The minimum absolute value that a signal may have (between 0 and 1) in order for digital clipping to be detected. This value must be between between 0.0 and 1.0.</li>
+  <li><strong>duration_maximum_length:</strong><em> </em>The maximum duration, in seconds, that a recording may  have in order to avoid an error being reported. This value must be greater than 0.0.</li>
+  <li><strong>duration_minimum_length: </strong>The minimum duration, in seconds, that a recording must have in order to avoid an error being reported. This value must be 0.0 or greater.</li>
+  <li><strong>edit_click_boundary_maximum_sample_jump:</strong> The maximum absolute sample value that the first and last samples of a signal under examination may have in order to avoid the reporting of an edit click error. This is used to check for clicks at the very beginning or very end of a track. This value must be between 0.0 and 1.0.</li>
+  <li><strong>edit_click_window_boundary_fraction:</strong> In a four-sample window, the fraction of the edit_click_window_maximum_sample_jump configuration setting value that, when multiplied with the edit_click_window_maximum_sample_jump value, indicates the maximum change in sample value from samples 1 to 2 and from samples 3 to 4 in order for the jump between samples 2 and 3 to be eligible for being counted as an edit click error. This value must be above 0.0 and not more than 1.0.</li>
+  <li><strong>edit_click_window_maximum_sample_jump:</strong> In a four-sample window, the maximum change in sample value from  sample 2 to sample 3 that the signal may undergo and still avoid the detection of an edit click error (other conditions notwithstanding). This value must be above 0.0 and not more than 2.0.</li>
+  <li><strong>encoding_quality_may_be_mp3:</strong> Whether or not a  recording may be an MP3. Should be &quot;true&quot; or &quot;false&quot;.</li>
+  <li><strong>encoding_quality_minimum_bit_depth:</strong><em> </em>The minimum bit depth that a recording must have in order to avoid an error being reported. This value must be more than 0.</li>
+  <li><strong>encoding_quality_minimum_sampling_rate:</strong><em> </em>The minimum sampling rate that a recording must have in order to  avoid an error being reported. This  value must be more than 0.0.</li>
+  <li><strong>ground_loop_hum_maximum_power:</strong> The maximum power spectrum value that the power spectrum bin holding a ground loop fundamental frequency may have in order to avoid the detection of a ground loop hum error.  This value must be more than 0.0.</li>
+  <li><strong>instantaneous_noise_detection_threshold:</strong> The lowest (filtered) spectral flux value that will result in an  error being detected. Must be 0.0 or above.</li>
+  <li><strong>instantaneous_noise_highpass_fraction:</strong> The fraction of low frequencies to filter out before calculating spectral flux values during the course of looking for instantaneous noise. No such high pass filtering is done if this value is not above 0 and below 1. For example, a value of 0.7 means that the lowest 70% of the spectral content will be  filtered out before calculating the spectral flux.</li>
+  <li><strong>insufficient_dynamic_range_compression_maximum_stddev:</strong><em> </em>the maximum standard deviation of windowed RMS  values in each channel necessary to avoid the reporting of an insufficient dynamic range compression error. This value be above 0.0.</li>
+  <li><strong> insufficient_dynamic_range_minimum_highest_absolute_sample_value: </strong>The minimum absolute value (above 0.0  and no higher than 1.0) that the sample with the highest absolute value in each channel must have in order  to avoid the detection of an insufficient dynamic range error. Must be above 0.0 and no higher than 1.0, otherwise this error will not be looked for.</li>
+  <li><strong> insufficient_variety_in_dynamics_minimum_stddev:</strong><em> </em>The minimum standard deviation of windowed RMS values in each channel necessary to avoid the reporting of an insufficient variety in dynamics error. This value must be 0.0 or more.</li>
+  <li><strong>long_silence_floor: </strong>The minimum Root Mean Square (RMS) value of a section of sound that will allow it to not be treated as  silence. Must be greater or equal to 0.0.</li>
+  <li><strong>long_silence_maximum_duration_at_end:</strong> The maximum amount of consecutive silence, in milliseconds, which may occur at the very end of a track  without an error being reported. Must be greater than 0.</li>
+  <li><strong>long_silence_maximum_duration_at_start: </strong>The maximum amount of consecutive silence, in milliseconds, which may occur at the very beginning of a track without an error being reported. Must be greater than 0.</li>
+  <li><strong>long_silence_maximum_duration_dropout:</strong><em> </em>The maximum amount of consecutive silence, in milliseconds, which  may occur anywhere in a track without an error being reported. Must be greater than 0.</li>
+  <li><strong>narrowband_noise_maximum_spectral_peak_ratio: </strong>The maximum multiple of the average power spectrum value over an analysis window that a single power spectrum bin's value may have before a narrowband noise error is  reported. This value must be more than 1.0.</li>
+  <li><strong>phasing_maximum_autocorrelation: </strong>The maximum normalized power spectrum autocorrelation value for any given lag that can be present in order to avoid the reporting of a phasing error. This value must be above zero and not more than 1.0.</li>
+  <li><strong>stereo_channel_balance_maximum_difference:</strong> The maximum amount that the RMS of one stereo channel in its entirety may differ from that of the other without an error being reported. Must be greater that 0.0.</li>
+  <li><strong>stereo_channel_similarity_minimum_average_distance:</strong> The minimum average difference between matching samples in each of the two separately normalized stereo tracks that must be present in order to avoid the reporting of a stereo channel similarity error. Must have a value between 0.0 to 2.0.</li>
+</ul>
+<TABLE height=5 width="100%" bgColor=#0033C4 border=0><TBODY><TR><TH></TH></TR></TBODY></TABLE>
+<p><tt><a href="#Top">-top of page-</a></tt></p>
+
+</body>
+</html>

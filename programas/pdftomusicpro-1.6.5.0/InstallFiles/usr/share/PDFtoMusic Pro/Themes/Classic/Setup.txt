@@ -1,0 +1,47 @@
+###########################################################################
+#		Theme for ACAM 2.0
+# 		(c) Myriad 2002
+# To build your own Themes, please read the manual
+# Web :    http://www.myriad-online.com
+# e-mail : info@myriad-online.com
+###########################################################################
+# This Theme is the classic look & feel
+
+DEBUG
+
+COMMENT EN Classic theme (Windows 98 look & feel)
+COMMENT FR Thème classique (Aspect Windows 98)
+VERSION EN v.1.2
+COPYRIGHT EN (c) Myriad 2002/2006
+EMAIL EN info@myriad-online.com
+HOMEPAGE EN www.myriad-online.com/enindex.htm
+HOMEPAGE FR www.myriad-online.com/frindex.htm
+DOWNLOADPAGE EN www.myriad-online.com/themes/index.htm
+DOWNLOADPAGE FR www.myriad-online.com/themes/frindex.htm
+BACKGROUNDBMP brownwoodheart.bmp
+BACKGROUNDTYPE MOSAIC
+
+EXTRAMARGIN POPUPBUTTONCAPTION -4 -1 -4 -1
+
+# Japanese Fonts
+JPFONT SYSTEM MS PGothic,8;MS Gothic;MS PMincho;MS Mincho;*
+JPFONT MENUTITLE MS PGothic,8;MS Gothic;MS PMincho;MS Mincho;*
+JPFONT MENUITEM MS PGothic,8;MS Gothic;MS PMincho;MS Mincho;*
+JPFONT WINDOWTITLE MS PGothic,10,bold;MS Gothic;MS PMincho;MS Mincho;*
+JPFONT PUSHBUTTON MS PGothic,9;MS Gothic;MS PMincho;MS Mincho;*
+JPFONT TABTITLE MS PGothic,8;MS Gothic;MS PMincho;MS Mincho;*
+JPFONT UTILITYWINDOWTITLE MS PGothic,8;MS Gothic;MS PMincho;MS Mincho;*
+
+#---- Window transition effects and translucency ---
+WINDOWEFFECT FIRSTMENUPANE 		NONE 100 NONE 100 0
+WINDOWEFFECT HIERARCHICALMENUPANE 	NONE 100 NONE 100 0
+WINDOWEFFECT POPUPMENUPANE 		NONE 100 NONE 100 0
+WINDOWEFFECT OTHERMENUPANE 		NONE 100 NONE 100 0
+
+WINDOWEFFECT ALERTWINDOW 		NONE 100 NONE 100 0
+WINDOWEFFECT MODALWINDOW 		NONE 100 NONE 100 0
+WINDOWEFFECT FLOATINGWINDOW 		NONE 100 NONE 100 0
+WINDOWEFFECT DOCUMENTWINDOW 		NONE 100 NONE 100 0
+WINDOWEFFECT OTHERWINDOW 		NONE 100 NONE 100 0
+
+#EOF#

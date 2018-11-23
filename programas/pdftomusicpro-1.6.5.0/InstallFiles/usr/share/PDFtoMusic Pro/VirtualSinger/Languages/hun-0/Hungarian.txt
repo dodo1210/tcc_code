@@ -1,0 +1,68 @@
+﻿#### Hungarian phonetic file ################
+#### 2011 Sylvain Machefert #################
+#http://fr.wikipedia.org/wiki/Phonologie_et_graphie_du_hongrois
+#http://en.wikipedia.org/wiki/Hungarian_phonology
+
+$ENTITLE Hungarian
+$ENAUTHOR by Sylvain Machefert
+$ENCOMMENT v20111212
+
+$FRTITLE Hongrois
+$FRAUTHOR par Sylvain Machefert
+$FRCOMMENT v20111212
+$SAMPA
+$DATASTART
+ÁI|Ái|ái|ÁJ|Áj|áj|ÁY|Áy|áy|ÁLY|Ály|ály=ai
+AI|Ai|ai|AJ|Aj|aj|AY|Ay|ay|ALY|Aly|aly=ai
+OI|Oi|oi|OJ|Oj|oj|OY|Oy|oy|OLY|Oly|oly=ai
+EE|Ee|ee|ELY|Ely|ely=ei
+CS|Cs|cs=tS
+[MARO|Maro|maro]SSZ|ssz[éki|ÉKI|EKI]=S+s
+SSZ|Ssz|ssz=s+s
+SS|Ss|ss=S
+SZ|Sz|sz=s
+ZS|Zs|zs=Z
+GY|Gy|gy=d'
+LY|Ly|ly=j
+NY|Ny|ny=J
+TY|Ty|ty=t'
+A|a=O
+Á|á=a:
+E|e=E
+É|é=e:
+I|i|Y|y=i
+Í|í=i:
+O|o|Ó|ó=o
+Ö|ö=2
+Ő|ő=2:
+U|u|Ú|ú=u:
+Ü|ü|Ű|ű=y
+BB|Bb|bb=/+/+b
+B|b=b
+CH|Ch|ch=x
+C|c=ts
+D|d=d
+F|f=f
+G|g=g
+H|h=h
+[P|p|T|t|K|k]J|j[_]='
+[B|b|D|d|G|g]J|j[_B|_b|_D|_d|_G|_g|B|b|D|d|G|g]=R
+J|j=j
+K|k=k
+L|l=l
+M|m=m
+N|n[GY|Gy|gy]=J
+N|n[G|g|K|k]=ng
+N|n=n
+P|p=p
+Q|q=k+v
+R|r=r
+S|s=S
+TT|Tt|tt=/+/+t
+T|t=t
+V|v|W|w=v
+X|x=k+s
+[_a|_A]z|Z[_]=z+/
+Z|z=z
+$DATAEND
+

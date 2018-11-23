@@ -1,0 +1,7 @@
+﻿DICT=Greek.txt
+SAMPA=Greek-sampa.txt
+FLAG=Greek.png
+TAG=gre
+FRAGMENTS=Greek-frag.txt
+
+A=άλφα

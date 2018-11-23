@@ -1,0 +1,86 @@
+<html>
+<head>
+	<title>Processing Sequence</title>
+</head>
+
+<body text="#000000" bgcolor="#e4e4e4" link="#0033C4" vlink="#0033C4" alink="#0033C4">
+
+<a name="Top"></a>
+
+<TABLE cellSpacing=0 cellPadding=4 width="100%" bgColor=#0033C4 border=0>
+  <TBODY><TR>
+      <TH align=left><FONT face=Arial color=#ffffff size=+3>Processing Sequence</FONT></TH>
+    </TR></TBODY>
+</TABLE>
+<p><strong>EXPLANATION OF THIS SECTION</strong></p>
+<p>This section of the manual provides an overview 
+    of each of the major processing steps performed by jProductionCritic during its operation, 
+    in the sequence that they occur.</p>
+<p><strong>JPRODUCTIONCRITIC'S PROCESSING SEQUENCE</strong></p>
+<p>It should be noted that jProductionCritic outputs its status as processing occurs. The information below provides a more detailed overview of this processing:</p>
+<ol>
+  <li> Parse the command line arguments.
+    <ol>
+      <li>If the software is used directly from the command line, then these are provided directly by the user. If the software is used via its GUI, then the GUI generates command line arguments based on user actions in the GUI.</li>
+      <li>The command line arguments are checked for validity. If they are not valid, then an error is generated and processing is terminated.</li>
+    </ol>
+  </li>
+  <li>Parse the configuration settings file.
+    <ol>
+      <li>If the user specifies a particular configuration file path, then the file at that location is parsed. If the user does not, then a file at the default location is used.</li>
+      <li>If no valid configuration file can be found, then one is generated with default settings (and the user is notified of this).</li>
+    </ol>
+  </li>
+  <li>Initialize each of the error checker algorithms.
+<ol>
+      <li>Each error checker is configured based on the settings parsed from the configuration settings file.
+        <ol>
+          <li>Only error checkers that have been flagged for used in the configurations settings file will be prepared.</li>
+          <li>If no error checkers have been flagged for use then execution is terminated and the user is notified.</li>
+        </ol>
+      </li>
+      <li>A check is performed to ensure that the specified settings for each error checker are valid. If not, then execution is terminated and the user is notified.</li>
+    </ol>
+  </li>
+  <li>Process audio files.
+    <ol>
+      <li>The specified file or all files in the specified directory (depending on the user's selection) are accessed.
+        <ol>
+          <li>Any files that are not valid compatible parsible audio files are ignored (although the user is notified that they cannot be parsed).</li>
+          <li>An error is generated and execution is terminated if no  compatible parsible audio files are found.</li>
+        </ol>
+      </li>
+      <li>Each parsible audio file is processed one-by-one.        
+        <ol>
+          <li>Audio samples are parsed from the file.</li>
+          <li>Each error checker examines the file.
+Each error checker is applied to the file one-by-one.
+            <ol>
+              <li>Any errors found by an error checker are added to a list of errors found so far for the file by that error checker.</li>
+              <li>Once a given error checker has completed its examination of a file, then some, none or all of the errors it found are merged into single reports based on the <em>error_report_merge_proximity_maximum</em> configuration setting. Non-instantaneous errors  that overlap with one another (in terms of the interval between their start and end times) as well as any pairs of errors that are within <em>error_report_merge_proximity_maximum</em> milliseconds of one another are merged. This helps to avoid an explosion of redundant reports (e.g. a separate clipping report every time a clipped peak or trough is encountered during an extended clipped signal).</li>
+            </ol>
+          </li>
+          <li>Metadata is collected from the file.</li>
+        </ol>
+      </li>
+      <li>If a problem occurs while processing an individual file, then the user is notified and execution continues to the next file.</li>
+    </ol>
+  </li>
+  <li>Prepare and output/save reports.
+    <ol>
+      <li>Anywhere from one to all report types are generated, depending on the user's selections.</li>
+    </ol>
+  </li>
+</ol>
+<p><strong>ACQUIRING MORE DETAILS ON THE PROCESSING SEQUENCE</strong></p>
+<p>More details on all aspects of jProductionCritic's operation are available in the 
+  jProductionCritic Javadocs and in the code itself. Readers exploring the code may wish 
+  to begin with the <em>jProductionCritic</em> class, which implements each of the major tasks performed 
+  by jProductionCritic, whether jProductionCritic is operated via its <a href="03_command_line_arguments.html">command line arguments</a> or its <a href="04_graphical_user_interface.html">GUI</a> at runtime (operation is essentially the same either way, as the GUI essentially just generates artificial command line arguments based on the user's actions in the GUI). In particular, the <em>jProductionCritic.performAllProcessingBasedOnCommandLineArguements</em> method outlines all high-level operations performed during jProductionCritic analysis. The 
+  code structure is outlined in more detail in the section 
+    of the manual on jProductionCritic's <a href="09_class_structure.html">class structure</a>.</p>
+<TABLE height=5 width="100%" bgColor=#0033C4 border=0><TBODY><TR><TH></TH></TR></TBODY></TABLE>
+<p><tt><a href="#Top">-top of page-</a></tt></p>
+
+</body>
+</html>

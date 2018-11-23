@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_key_file [
+   <!ELEMENT feature_key_file (comments, feature+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT feature (name, description?, is_sequential, parallel_dimensions)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT description (#PCDATA)>
+   <!ELEMENT is_sequential (#PCDATA)>
+   <!ELEMENT parallel_dimensions (#PCDATA)>
+]>
+
+<feature_key_file>
+
+   <comments></comments>
+
+	<feature>
+		<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+		<description>Peak Based Spectral Smoothness is calculated from partials, not frequency bins. It is implemented accortding to McAdams 99 
+
+McAdams, S. 1999. 
+This is the overall standard deviation over all windows.</description>
+		<is_sequential>true</is_sequential>
+		<parallel_dimensions>1</parallel_dimensions>
+	</feature>
+	<feature>
+		<name>Peak Based Spectral Smoothness Overall Average</name>
+		<description>Peak Based Spectral Smoothness is calculated from partials, not frequency bins. It is implemented accortding to McAdams 99 
+
+McAdams, S. 1999. 
+This is the overall average over all windows.</description>
+		<is_sequential>true</is_sequential>
+		<parallel_dimensions>1</parallel_dimensions>
+	</feature>
+</feature_key_file>

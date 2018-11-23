@@ -1,0 +1,59 @@
+                    <span><b>{{ userName }}</b> aceitou a sua solicitação de amizade</span>
+            <a href="/?q=<%query%>" class="suggest-all">Todos os resultados para <b><%query%></b></a>
+    <span class="exib">exibições <b>183.573</b></span>
+            <pre>(intro) <b>D</b>  <b>F#m</b>  <b>Bm</b>  <b>G</b>
+<span class="tablatura">      <b>D</b>                               <b>F#m</b>
+<span class="tablatura">      <b>Bm</b>                              <b>G</b>
+               <b>D</b>
+                  <b>F#m</b>
+                      <b>Bm</b>
+                       <b>G</b>
+             <b>D</b>
+              <b>F#m</b>
+           <b>Bm</b>
+                  <b>G</b>
+           <b>D</b>
+                     <b>F#m</b>
+            <b>Bm</b>
+                  <b>G</b>
+       <b>D</b>                        <b>F#m</b>
+                             <b>Bm</b>
+               <b>G</b>
+    <b>D</b>                  <b>F#m</b>
+                        <b>Bm</b>
+                    <b>G</b>
+        <b>D</b>
+             <b>F#m</b>
+          <b>Bm</b>
+                    <b>G</b>
+           <b>D</b>
+                     <b>F#m</b>
+            <b>Bm</b>
+                  <b>G</b>
+       <b>D</b>                        <b>F#m</b>
+                             <b>Bm</b>
+               <b>G</b>
+( <b>D</b>  <b>F#m</b>  <b>Bm</b>  <b>G</b> )
+     <b>D</b>                         <b>F#m</b>
+                    <b>Bm</b>
+                   <b>G</b>
+           <b>D</b>
+                     <b>F#m</b>
+            <b>Bm</b>
+                  <b>G</b>
+       <b>D</b>                        <b>F#m</b>
+                             <b>Bm</b>
+               <b>G</b>
+                    <a href="#" class="js-tun-st">6ª corda <b>E</b><button class="btn-afi"></button></a>
+                    <a href="#" class="js-tun-st">5ª corda <b>A</b><button class="btn-afi"></button></a>
+                    <a href="#" class="js-tun-st">4ª corda <b>D</b><button class="btn-afi"></button></a>
+                    <a href="#" class="js-tun-st">3ª corda <b>G</b><button class="btn-afi"></button></a>
+                    <a href="#" class="js-tun-st">2ª corda <b>B</b><button class="btn-afi"></button></a>
+                    <a href="#" class="js-tun-st">1ª corda <b>E</b><button class="btn-afi"></button></a>
+                                    <b>Composição: </b>
+                        <b>Colaboração e revisão: </b>
+                <%#liked%><b>Descurtir <%#likes.length%>(<% likes.length %>)<%/likes.length%></b><%/liked%>
+                        <b>outros vídeos desta música</b>
+                            <b>repetir</b>
+                            <b>qualidade</b>
+                        <b>Acordes para:</b>

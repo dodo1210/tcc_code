@@ -1,0 +1,53 @@
+﻿#***************************************************************************************
+#			Turkish
+#	Link between Sampa notation & fragments (with examples)
+# Source : http://www.phon.ucl.ac.uk/home/sampa/turkish.htm
+
+#-- Front Vowels
+i	EEF	[cil]
+E 	EIS	[tüten]
+e	EF	[keçi] 
+y 	UFR	[kül]
+2	E9	[göl]
+#-- Back Vowels]
+u	UUF	[kul]
+o	AWF	[kol]
+1	E2	[kıl]
+a	AF	[kal]
+
+#--- Semivowel
+j	Y	[yat]
+
+#-- consonants 
+p	GLST P2	[ip]
+b	SQ B	[balık]
+t	GLST TL2	[ütü]
+d	SQ DL2	[dede]	
+c	GLSQ TL2 SH	[kedi]
+gj	Y	[genç]
+k	GLST K2	[akıl]
+g	SQ G2	[karga]
+
+#-- Fricatives
+f	F	[fare]
+v	V	[ver]
+s	S	[ses]
+z	Z	[azık]
+S	SH	[aşı]
+Z	ZH	[hasta]
+h	H	[haină]
+G	G2	[sağır]
+
+#-- Affricates
+tS	GLST TL2 SH	[seçim]
+dZ	SQ DL2 ZH	[cam]
+
+# liquids, nasals
+
+m	M	[dam]
+n	N	[anı]
+l	L	[lale]
+5 	LL	[hala]
+r	RXS	[raf]
+
+# ------------------- End of file

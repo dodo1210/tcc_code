@@ -1,0 +1,4 @@
+﻿DICT=Portuguese.txt
+SAMPA=Portuguese-sampa.txt
+FLAG=Portuguese.png
+TAG=por

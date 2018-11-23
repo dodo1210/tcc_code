@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Extending the Software</title>
+</head>
+
+<body text="#000000" bgcolor="#e4e4e4" link="#0033C4" vlink="#0033C4" alink="#0033C4">
+
+<a name="Top"></a>
+
+<TABLE cellSpacing=0 cellPadding=4 width="100%" bgColor=#0033C4 border=0>
+  <TBODY><TR>
+      <TH align=left><FONT face=Arial color=#ffffff size=+3>Extending the Software</FONT></TH>
+    </TR></TBODY>
+</TABLE>
+<p><strong>EXPLANATION OF THIS SECTION</strong></p>
+<p>This section of the manual provides hints on how programmers can extend jProductionCritic's functionality.</p>
+<p>In order to extend jProductionCritic developers can download its source code and Javadocs from the  <a href="http://sourceforge.net/projects/jmir/files/" target="top">jMIR</a> web page. </p>
+<p><strong>ADDING NEW ERROR CHECKING ALGORITHMS</strong></p>
+<p>The principle way in which researchers will likely want to extend jProductionCritic is to add new error checking algorithms. As noted in the section of the manual on jProductionCritic's <a href="09_class_structure.html">class structure</a>, each error checking algorithm is implemented as a separate class in the<em> jproductioncritic.errorcheckers</em> <a href="http://www.java.com" target="top">Java</a> package, and each such separate class extends the <em>ErrorChecker</em> abstract class. This architecture makes it easy to add new error checking algorithms essentially as plug-ins.</p>
+<p>Each <em>ErrorChecker</em> subclass must, of course, implement <em>ErrorChecker</em>'s abstract methods. Of particular importance, the <em>checkForErrors</em> method is where the core error checking processing must be implemented. jProductionCritic will call this method (with the audio to analyze provided as an argument), and this method must return a list of <em>ErrorReport</em> objects detailing any problems found.</p>
+<p>The other abstract methods which must be implemented (<em>getDefaultConfigurationSettings</em> and <em>validateConfigurationSettings</em>) are simply related to specifying the valid configuration settings that the new error checker needs. The new <em>ErrorChecker</em> subclass can specify whatever new configuration settings it needs, and jProductionCritic will automatically add these new configuration settings to new <a href="06_configuration_settings_file.html">configuration files</a> that it generates (jProductionCritic can be forced to generate a new configuration file simply by deleting the old file).</p>
+<p>New <em>ErrorChecker</em> subclasses must also  implement  a constructor that sets all fields (inherited and not) to default values and that has a single argument consisting of a <em>ConfigurationSettings</em> object. If this <em>ConfigurationSettings</em>  argument is non-null, then some or all defaults are replaced by the specified values.</p>
+<p>Developers are encouraged to look at the code for any of the existing <em>ErrorChecker</em> subclasses (e.g. <em>DigitalClipping</em>), as they can serve as helpful models.</p>
+<p>Once the new <em>ErrorChecker</em> class is complete, all that a developer must do  to have jProductionCritic begin checking for it is to add one line to the <em>JProductionCritic.getAllErrorCheckers</em> method that adds an object of the new class to the list of implemented <em>ErrorChecker</em> objects. Everything else is then automatically taken care of, including providing the new error checking algorithm with audio, formatting its error reports, parsing its configuration settings and more.</p>
+<p><strong>ADDING NEW GLOBAL SETTINGS TO THE CONFIGURATION FILE</strong></p>
+<p>As noted in the section of the manual on <a href="06_configuration_settings_file.html">configuration settings</a>, certain settings are specific to individual error checkers, and others can be applied to multiple error checkers. If developers wish to add new global configuration settings, they can do so by adding an appropriate line to the <em>ConfigurationSettings.setConfigurationsToDefaults</em> method. Developers can observe how this is done with the <em>error_report_merge_proximity_maximum</em> setting, for example.</p>
+<p><strong>EXTENDING THE GUI</strong></p>
+<p>Those who wish to extend the GUI may do so by modifying the <em>jproductioncritic.gui package</em>. It should be noted that the GUI classes do not  provide any real processing functionality, as all they do in essence is to formulate the actions of the user in ways that can be fed into the <em>JProductionCritic.performAllProcessingBasedOnCommandLineArguements</em> method, just as command line arguments would be.</p>
+<TABLE height=5 width="100%" bgColor=#0033C4 border=0><TBODY><TR><TH></TH></TR></TBODY></TABLE>
+<p><tt><a href="#Top">-top of page-</a></tt></p>
+
+</body>
+</html>

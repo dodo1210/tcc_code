@@ -1,0 +1,179 @@
+﻿############### Czech Phonetic file ################
+##############     (c) 2010 Vaclav Muller      ################
+$ENTITLE Czech
+$ENAUTHOR by Vaclav Muller
+$ENCOMMENT  v6
+
+$FRTITLE Tchèque
+$FRAUTHOR par Vaclav Muller
+$FRCOMMENT
+$SAMPA
+$PROCESSUNBREAKABLESPACE
+
+$DATASTART
+
+# Softened consonants before ě
+mě|Mě|MĚ=m+n'+e
+dě|Dě|DĚ=d'+e
+tě|Tě|TĚ=t'+e
+ně|Ně|NĚ=n'+e
+
+# Softened consonants before i
+di|Di|DI|dí|Dí|DÍ=d'+i
+ti|Ti|TI|tí|Tí|TÍ=t'+i
+ni|Ni|NI|ní|Ní|NÍ=n'+i
+
+# CH
+ch|Ch|CH=x
+
+# SM
+[_]sm|Sm|SM[_]=s+u+m
+
+# JSxx (disabled)
+#[_]jsem|Jsem|JSEM[_]=s+e+m
+#[_]jsi|Jsi|JSI[_]=s+i
+#[_]jsme|Jsme|JSME[_]=s+m+e
+#[_]jste|Jste|JSTE[_]=s+t+e
+#[_]jsou|Jsou|JSOU[_]=s+o+u 
+
+# Prepositions ending w/ D
+# Some rules are disabled since VS can't process the letter after a word break
+# [_]od|Od|OD[_c|_C|_č|_Č|_f|_F|_ch|_Ch|_CH|_k|_K|_p|_P|_s|_S|_š|_Š|_t|_T|_ť|_Ť]=/+o+t
+# [_]nad|Nad|NAD[_c|_C|_č|_Č|_f|_F|_ch|_Ch|_CH|_k|_K|_p|_P|_s|_S|_š|_Š|_t|_T|_ť|_Ť]=n+a+t
+# [_]pod|Pod|POD[_c|_C|_č|_Č|_f|_F|_ch|_Ch|_CH|_k|_K|_p|_P|_s|_S|_š|_Š|_t|_T|_ť|_Ť]=p+o+t
+# [_]před|Před|PŘED[_c|_C|_č|_Č|_f|_F|_ch|_Ch|_CH|_k|_K|_p|_P|_s|_S|_š|_Š|_t|_T|_ť|_Ť]=p+r'+e+t
+[_]od|Od|OD[_]=/+o+d
+[_]nad|Nad|NAD[_]=n+a+d
+[_]pod|Pod|POD[_]=p+o+d
+[_]před|Před|PŘED[_]=p+r'+e+d
+
+# Diphthongs
+au|Au|AU=au
+eu|Eu|EU=eu
+ou|Ou|OU=ou
+
+# A
+[_]a|A|á|Á=/+a
+a|A|á|Á=a
+
+# B
+b|B[c|C|č|Č|f|F|k|K|p|P|s|S|š|Š|t|T|ť|Ť|_]=p
+b|B=b
+
+# C
+c|C=ts
+č|Č=tS
+
+#D
+d|D[c|C|č|Č|f|F|k|K|p|P|s|S|š|Š|t|T|ť|Ť|_]=t
+d|D=d
+ď|Ď[c|C|č|Č|f|F|k|K|p|P|s|S|š|Š|t|T|ť|Ť|_]=t'
+ď|Ď=d'
+
+# E
+[_]e|E|é|É=/+e
+e|E|é|É=e
+[_]ě|Ě=/+j+e
+ě|Ě=j+e
+
+# F
+f|F[b|B|d|D|ď|Ď|g|G|h|H|z|Z|ž|Ž]=v
+f|F=f
+
+# G
+g|G[c|C|č|Č|f|F|k|K|p|P|s|S|š|Š|t|T|ť|Ť|_]=k
+g|G=g
+
+# H
+h|H[c|C|č|Č|f|F|k|K|p|P|s|S|š|Š|t|T|ť|Ť|_]=x
+h|H=h\
+
+# I
+[_]i|I|í|Í=/+i
+i|I|í|Í=i
+
+# J
+j|J=j
+
+# K
+k|K[^a|^A|^á|^Á|^e|^E|^é|^É|^ě|^Ě|^i|^I|^í|^Í|^o|^O|^ó|^Ó|^u|^U|^ú|^Ú|^ů|^Ů|^y|^Y|^ý|^Ý]=k+/
+k|K[^b|^B|^d|^D|^ď|^Ď|^g|^G|^h|^H|^z|^Z|^ž|^Ž]=g
+k|K[b|B|d|D|ď|Ď|g|G|h|H|z|Z|ž|Ž]=g
+k|K=k
+
+# L
+[a|A|á|Á|e|E|é|É|ě|Ě|i|I|í|Í|o|O|ó|Ó|u|U|ú|Ú|ů|Ů|y|Y|ý|Ý]l|L=l
+l|L[a|A|á|Á|e|E|é|É|ě|Ě|i|I|í|Í|o|O|ó|Ó|u|U|ú|Ú|ů|Ů|y|Y|ý|Ý]=l
+[_]l|L=l
+l|L=l=
+
+# M
+m|M=m
+
+# N
+n|N=n
+ň|Ň=n'
+
+# O
+[_]o|O|ó|Ó=/+o
+o|O|ó|Ó=o
+
+# P
+p|P[b|B|d|D|ď|Ď|g|G|h|H|z|Z|ž|Ž]=b
+p|P=p
+
+# Q
+q|Q=k+w
+
+# R
+[a|A|á|Á|e|E|é|É|ě|Ě|i|I|í|Í|o|O|ó|Ó|u|U|ú|Ú|ů|Ů|y|Y|ý|Ý]r|R=r
+r|R[a|A|á|Á|e|E|é|É|ě|Ě|i|I|í|Í|o|O|ó|Ó|u|U|ú|Ú|ů|Ů|y|Y|ý|Ý]=r
+[_]r|R=r
+r|R=r=
+ř|Ř[_]=r'
+[c|C|č|Č|f|F|k|K|p|P|s|S|š|Š|t|T|ť|Ť]ř|Ř=r'
+ř|Ř[c|C|č|Č|f|F|k|K|p|P|s|S|š|Š|t|T|ť|Ť]=r'
+ř|Ř=r"
+
+# S
+s|S[^a|^A|^á|^Á|^e|^E|^é|^É|^ě|^Ě|^i|^I|^í|^Í|^o|^O|^ó|^Ó|^u|^U|^ú|^Ú|^ů|^Ů|^y|^Y|^ý|^Ý]=s+/
+s|S[^b|^B|^d|^D|^ď|^Ď|^g|^G|^h|^H|^z|^Z|^ž|^Ž]=z
+s|S[b|B|d|D|ď|Ď|g|G|h|H|z|Z|ž|Ž]=z
+s|S=s
+š|Š[b|B|d|D|ď|Ď|g|G|h|H|z|Z|ž|Ž]=Z
+š|Š=S
+
+# T
+t|T[b|B|d|D|ď|Ď|g|G|h|H|z|Z|ž|Ž]=d
+t|T=t
+ť|Ť[b|B|d|D|ď|Ď|g|G|h|H|z|Z|ž|Ž]=d'
+ť|Ť=t'
+
+# U
+[_]u|U|ú|Ú|ů|Ů=/+u
+u|U|ú|Ú|ů|Ů=u
+
+# V
+v|V[^a|^A|^á|^Á|^e|^E|^é|^É|^ě|^Ě|^i|^I|^í|^Í|^o|^O|^ó|^Ó|^u|^U|^ú|^Ú|^ů|^Ů|^y|^Y|^ý|^Ý]=f+/
+v|V[^c|^C|^č|^Č|^f|^F|^ch|^Ch|^CH|^k|^K|^p|^P|^s|^S|^š|^Š|^t|^T|^ť|^Ť]=f
+v|V[c|C|č|Č|f|F|k|K|p|P|s|S|š|Š|t|T|ť|Ť|_]=f
+v|V=v
+
+# W
+w|W=w
+
+# X
+x|X=k+s
+
+[_]y|Y|ý|Ý=/+i
+y|Y|ý|Ý=i
+
+# Z
+z|Z[^a|^A|^á|^Á|^e|^E|^é|^É|^ě|^Ě|^i|^I|^í|^Í|^o|^O|^ó|^Ó|^u|^U|^ú|^Ú|^ů|^Ů|^y|^Y|^ý|^Ý]=s+/
+z|Z[^c|^C|^č|^Č|^f|^F|^ch|^Ch|^CH|^k|^K|^p|^P|^s|^S|^š|^Š|^t|^T|^ť|^Ť]=s
+z|Z[c|C|č|Č|f|F|k|K|p|P|s|S|š|Š|t|T|ť|Ť|_]=s
+z|Z=z
+ž|Ž[c|C|č|Č|f|F|k|K|p|P|s|S|š|Š|t|T|ť|Ť|_]=S
+ž|Ž=Z
+
+$DATAEND

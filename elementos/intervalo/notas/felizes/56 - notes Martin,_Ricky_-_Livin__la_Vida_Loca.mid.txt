@@ -1,0 +1,1479 @@
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=12 note=39 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=52 velocity=95 time=0
+EXTRACT: note_on channel=3 note=49 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=33 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=12 note=33 velocity=95 time=0.031249968750000003
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.02430553125
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0555555
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.0555555
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0555555
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.0555555
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.0555555
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.0555555
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0555555
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.0555555
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=49 velocity=95 time=0
+EXTRACT: note_on channel=2 note=49 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=49 velocity=95 time=0
+EXTRACT: note_on channel=2 note=47 velocity=95 time=0
+EXTRACT: note_on channel=12 note=30 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=47 velocity=95 time=0
+EXTRACT: note_on channel=2 note=40 velocity=95 time=0
+EXTRACT: note_off channel=12 note=30 velocity=95 time=0
+EXTRACT: note_on channel=12 note=30 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=40 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=3 note=49 velocity=95 time=0
+EXTRACT: note_off channel=12 note=30 velocity=95 time=0
+EXTRACT: note_on channel=12 note=33 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.0555555
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0555555
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.0555555
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0555555
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.0555555
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.0555555
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=49 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=12 note=33 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=40 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=32 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=40 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=12 note=32 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_on channel=3 note=42 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.014930540625
+EXTRACT: pitchwheel channel=3 pitch=256 time=0.014930540625
+EXTRACT: pitchwheel channel=3 pitch=384 time=0.014930540625
+EXTRACT: pitchwheel channel=3 pitch=512 time=0.014930540625
+EXTRACT: pitchwheel channel=3 pitch=640 time=0.014930540625
+EXTRACT: pitchwheel channel=3 pitch=768 time=0.014930540625
+EXTRACT: pitchwheel channel=3 pitch=896 time=0.014930540625
+EXTRACT: pitchwheel channel=3 pitch=1024 time=0.014930540625
+EXTRACT: pitchwheel channel=3 pitch=1152 time=0.014930540625
+EXTRACT: pitchwheel channel=3 pitch=1280 time=0.014930540625
+EXTRACT: pitchwheel channel=3 pitch=1408 time=0.014930540625
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.002430553125
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=1408 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=1408 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=40 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=32 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=40 velocity=95 time=0
+EXTRACT: note_on channel=14 note=79 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=40 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=12 note=32 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=14 note=79 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=85 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=44 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=40 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=14 note=85 velocity=95 time=0.08333325
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.08333325
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=44 velocity=95 time=0
+EXTRACT: note_on channel=2 note=47 velocity=95 time=0
+EXTRACT: note_off channel=12 note=40 velocity=95 time=0
+EXTRACT: note_on channel=12 note=39 velocity=95 time=0
+EXTRACT: note_on channel=14 note=85 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=12 note=39 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=14 note=85 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=47 velocity=95 time=0
+EXTRACT: note_on channel=3 note=49 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=33 velocity=95 time=0
+EXTRACT: note_on channel=14 note=85 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=12 note=33 velocity=95 time=0.031249968750000003
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.02430553125
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0555555
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.0555555
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=14 note=85 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0555555
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.0555555
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.0555555
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=49 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=14 note=85 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=40 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=14 note=85 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=40 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=30 velocity=95 time=0
+EXTRACT: note_on channel=14 note=85 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=12 note=30 velocity=95 time=0
+EXTRACT: note_on channel=12 note=30 velocity=95 time=0
+EXTRACT: note_off channel=14 note=85 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=14 note=85 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_on channel=3 note=40 velocity=95 time=0
+EXTRACT: note_off channel=12 note=30 velocity=95 time=0
+EXTRACT: note_on channel=12 note=33 velocity=95 time=0
+EXTRACT: note_off channel=14 note=85 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.041666625
+EXTRACT: pitchwheel channel=3 pitch=256 time=0.041666625
+EXTRACT: pitchwheel channel=3 pitch=256 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.08333325
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=256 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=40 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=14 note=88 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=12 note=33 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=14 note=88 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=40 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=32 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=40 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=12 note=32 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_on channel=3 note=42 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.022569421875000002
+EXTRACT: pitchwheel channel=3 pitch=256 time=0.022569421875000002
+EXTRACT: pitchwheel channel=3 pitch=384 time=0.022569421875000002
+EXTRACT: pitchwheel channel=3 pitch=512 time=0.022569421875000002
+EXTRACT: pitchwheel channel=3 pitch=640 time=0.022569421875000002
+EXTRACT: pitchwheel channel=3 pitch=768 time=0.022569421875000002
+EXTRACT: pitchwheel channel=3 pitch=896 time=0.022569421875000002
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.008680546875
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=1024 time=0.013888875
+EXTRACT: pitchwheel channel=3 pitch=1152 time=0.022569421875000002
+EXTRACT: pitchwheel channel=3 pitch=1280 time=0.022569421875000002
+EXTRACT: pitchwheel channel=3 pitch=1408 time=0.022569421875000002
+EXTRACT: pitchwheel channel=3 pitch=1408 time=0.001736109375
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.08333325
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=1408 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=40 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=32 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=40 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_on channel=3 note=40 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.041666625
+EXTRACT: pitchwheel channel=3 pitch=256 time=0.041666625
+EXTRACT: pitchwheel channel=3 pitch=256 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.08333325
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=256 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=40 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=12 note=32 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=40 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0.041666625
+EXTRACT: note_on channel=2 note=44 velocity=70 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.12499987500000001
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=44 velocity=70 time=0
+EXTRACT: note_on channel=2 note=47 velocity=95 time=0
+EXTRACT: note_off channel=12 note=40 velocity=95 time=0
+EXTRACT: note_on channel=12 note=39 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=12 note=39 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=47 velocity=95 time=0
+EXTRACT: note_on channel=3 note=49 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=33 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=12 note=33 velocity=95 time=0.031249968750000003
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.02430553125
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0555555
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.0555555
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0555555
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.0555555
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.0555555
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=49 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=40 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=40 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=12 note=30 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=3 note=49 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=12 note=30 velocity=95 time=0
+EXTRACT: note_on channel=12 note=30 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.0555555
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0555555
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.0555555
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0555555
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.0555555
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.0555555
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=49 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=67 velocity=95 time=0
+EXTRACT: note_off channel=12 note=30 velocity=95 time=0
+EXTRACT: note_on channel=12 note=33 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=6 note=67 velocity=95 time=0
+EXTRACT: note_on channel=6 note=68 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_off channel=12 note=33 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_off channel=6 note=68 velocity=95 time=0
+EXTRACT: note_on channel=6 note=61 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_off channel=6 note=61 velocity=95 time=0
+EXTRACT: note_on channel=6 note=64 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_on channel=14 note=79 velocity=95 time=0
+EXTRACT: note_on channel=14 note=72 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=32 velocity=95 time=0
+EXTRACT: note_off channel=14 note=79 velocity=95 time=0
+EXTRACT: note_off channel=14 note=72 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=2 note=56 velocity=70 time=0
+EXTRACT: note_off channel=6 note=64 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_on channel=14 note=79 velocity=95 time=0
+EXTRACT: note_on channel=14 note=72 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=56 velocity=70 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_off channel=12 note=32 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=14 note=79 velocity=95 time=0
+EXTRACT: note_off channel=14 note=72 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0.1041665625
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.062499937500000005
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=3 note=61 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_on channel=14 note=79 velocity=95 time=0
+EXTRACT: note_on channel=14 note=72 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.0555555
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0555555
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.0555555
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=14 note=79 velocity=95 time=0
+EXTRACT: note_off channel=14 note=72 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0555555
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.0555555
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.0555555
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=49 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=49 velocity=95 time=0
+EXTRACT: note_on channel=2 note=52 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=12 note=30 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=52 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_on channel=3 note=54 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=12 note=30 velocity=95 time=0
+EXTRACT: note_on channel=12 note=30 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=256 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=384 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=512 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=640 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=768 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=896 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1024 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1152 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1280 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1408 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1408 time=0.003124996875
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.08333325
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=1408 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=1280 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1152 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1024 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=896 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=768 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=640 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=512 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=384 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=256 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.003124996875
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.08333325
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=54 velocity=95 time=0
+EXTRACT: note_on channel=2 note=52 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=67 velocity=95 time=0
+EXTRACT: note_off channel=12 note=30 velocity=95 time=0
+EXTRACT: note_on channel=12 note=33 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=52 velocity=95 time=0
+EXTRACT: note_on channel=2 note=49 velocity=95 time=0
+EXTRACT: note_off channel=6 note=67 velocity=95 time=0
+EXTRACT: note_on channel=6 note=68 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=49 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_off channel=12 note=33 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_off channel=6 note=68 velocity=95 time=0
+EXTRACT: note_on channel=6 note=61 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=0 note=56 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=52 velocity=95 time=0
+EXTRACT: note_on channel=0 note=47 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_off channel=0 note=56 velocity=95 time=0.031249968750000003
+EXTRACT: note_off channel=0 note=52 velocity=95 time=0
+EXTRACT: note_off channel=0 note=47 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0.13541653125
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_off channel=6 note=61 velocity=95 time=0
+EXTRACT: note_on channel=6 note=64 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=32 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=6 note=64 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_on channel=0 note=56 velocity=95 time=0
+EXTRACT: note_on channel=0 note=52 velocity=95 time=0
+EXTRACT: note_on channel=0 note=47 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_on channel=3 note=40 velocity=95 time=0
+EXTRACT: note_off channel=12 note=32 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_off channel=0 note=56 velocity=95 time=0.031249968750000003
+EXTRACT: note_off channel=0 note=52 velocity=95 time=0
+EXTRACT: note_off channel=0 note=47 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.01041665625
+EXTRACT: pitchwheel channel=3 pitch=256 time=0.041666625
+EXTRACT: pitchwheel channel=3 pitch=256 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0.0208333125
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.062499937500000005
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=256 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=40 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_on channel=2 note=42 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=42 velocity=95 time=0
+EXTRACT: note_on channel=2 note=49 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=49 velocity=95 time=0
+EXTRACT: note_on channel=2 note=52 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=12 note=30 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_on channel=14 note=79 velocity=95 time=0
+EXTRACT: note_on channel=14 note=72 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=52 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_on channel=3 note=54 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=12 note=30 velocity=95 time=0
+EXTRACT: note_on channel=12 note=30 velocity=95 time=0
+EXTRACT: note_off channel=14 note=79 velocity=95 time=0
+EXTRACT: note_off channel=14 note=72 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=256 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=384 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=512 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=640 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=768 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=896 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1024 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1152 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1280 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1408 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1408 time=0.003124996875
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.08333325
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=1408 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=66 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_on channel=14 note=79 velocity=95 time=0
+EXTRACT: note_on channel=14 note=72 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=1280 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1152 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=1024 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=896 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=768 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=640 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=512 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=384 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=256 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.0072916593750000005
+EXTRACT: pitchwheel channel=3 pitch=0 time=0.003124996875
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.08333325
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=54 velocity=95 time=0
+EXTRACT: note_on channel=2 note=52 velocity=95 time=0
+EXTRACT: note_off channel=6 note=66 velocity=95 time=0
+EXTRACT: note_on channel=6 note=67 velocity=95 time=0
+EXTRACT: note_off channel=12 note=30 velocity=95 time=0
+EXTRACT: note_on channel=12 note=33 velocity=95 time=0
+EXTRACT: note_off channel=14 note=79 velocity=95 time=0
+EXTRACT: note_off channel=14 note=72 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=52 velocity=95 time=0
+EXTRACT: note_on channel=2 note=49 velocity=95 time=0
+EXTRACT: note_off channel=6 note=67 velocity=95 time=0
+EXTRACT: note_on channel=6 note=68 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_on channel=14 note=79 velocity=95 time=0
+EXTRACT: note_on channel=14 note=72 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=49 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_off channel=12 note=33 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=14 note=79 velocity=95 time=0
+EXTRACT: note_off channel=14 note=72 velocity=95 time=0
+EXTRACT: note_on channel=14 note=80 velocity=95 time=0
+EXTRACT: note_on channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=6 note=68 velocity=95 time=0.1041665625
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.062499937500000005
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_off channel=14 note=80 velocity=95 time=0
+EXTRACT: note_off channel=14 note=73 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: note_on channel=2 note=61 velocity=95 time=0
+EXTRACT: note_on channel=2 note=59 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_on channel=12 note=32 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_on channel=0 note=71 velocity=95 time=0
+EXTRACT: note_on channel=0 note=66 velocity=95 time=0
+EXTRACT: note_on channel=0 note=63 velocity=95 time=0
+EXTRACT: note_on channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=36 velocity=95 time=0
+EXTRACT: note_off channel=0 note=71 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=66 velocity=95 time=0
+EXTRACT: note_off channel=0 note=63 velocity=95 time=0
+EXTRACT: note_off channel=0 note=59 velocity=95 time=0
+EXTRACT: note_off channel=2 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=59 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_on channel=3 note=40 velocity=95 time=0
+EXTRACT: note_off channel=12 note=32 velocity=95 time=0
+EXTRACT: note_on channel=12 note=35 velocity=95 time=0
+EXTRACT: note_off channel=9 note=36 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_on channel=9 note=40 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=128 time=0.041666625
+EXTRACT: pitchwheel channel=3 pitch=256 time=0.041666625
+EXTRACT: pitchwheel channel=3 pitch=256 time=0
+EXTRACT: note_on channel=0 note=73 velocity=95 time=0.08333325
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=64 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: pitchwheel channel=3 pitch=256 time=0
+EXTRACT: pitchwheel channel=3 pitch=0 time=0
+EXTRACT: note_off channel=3 note=40 velocity=95 time=0
+EXTRACT: note_on channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=12 note=35 velocity=95 time=0
+EXTRACT: note_on channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=9 note=40 velocity=95 time=0
+EXTRACT: note_on channel=9 note=42 velocity=95 time=0
+EXTRACT: note_off channel=0 note=73 velocity=95 time=0.1666665
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0
+EXTRACT: note_off channel=0 note=64 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=2 note=37 velocity=95 time=0
+EXTRACT: note_off channel=12 note=37 velocity=95 time=0
+EXTRACT: note_off channel=9 note=42 velocity=95 time=0
+INTERVALS56 - Martin,_Ricky_-_Livin__la_Vida_Loca.mid
+unison0
+2m0
+2M15
+3m699
+3M699
+4m732
+4M0
+5m0
+5M0
+6m3
+7m30
+7M0

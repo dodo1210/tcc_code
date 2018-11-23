@@ -1,0 +1,1897 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_key_file [
+   <!ELEMENT feature_key_file (comments, feature+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT feature (name, description?, is_sequential, parallel_dimensions)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT description (#PCDATA)>
+   <!ELEMENT is_sequential (#PCDATA)>
+   <!ELEMENT parallel_dimensions (#PCDATA)>
+]>
+
+<feature_key_file>
+
+   <comments></comments>
+
+	<feature>
+		<name>LPC Overall Standard Deviation</name>
+		<description>Linear Prediction Coeffecients calculated using autocorrelation and Levinson-Durbin recursion.
+This is the overall standard deviation over all windows.</description>
+		<is_sequential>true</is_sequential>
+		<parallel_dimensions>10</parallel_dimensions>
+	</feature>
+	<feature>
+		<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+		<description>Peak Based Spectral Smoothness is calculated from partials, not frequency bins. It is implemented accortding to McAdams 99 
+
+McAdams, S. 1999. 
+This is the overall standard deviation over all windows.</description>
+		<is_sequential>true</is_sequential>
+		<parallel_dimensions>1</parallel_dimensions>
+	</feature>
+	<feature>
+		<name>LPC Overall Average</name>
+		<description>Linear Prediction Coeffecients calculated using autocorrelation and Levinson-Durbin recursion.
+This is the overall average over all windows.</de	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\001 - Bruno Mars - The Lazy Song [OFFICIAL VIDEO].mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.147E-1</v>
+			<v>1.841E-1</v>
+			<v>2.725E-1</v>
+			<v>1.823E-1</v>
+			<v>2.281E-1</v>
+			<v>1.66E-1</v>
+			<v>1.8E-1</v>
+			<v>1.572E-1</v>
+			<v>1.523E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>7.328E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.477E-1</v>
+			<v>6.351E-1</v>
+			<v>-2.899E-1</v>
+			<v>2.737E-1</v>
+			<v>-1.127E-1</v>
+			<v>1.079E-1</v>
+			<v>-2.336E-2</v>
+			<v>3.451E-2</v>
+			<v>4.987E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>6.623E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\002 - Aerosmith - Crazy.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.538E-1</v>
+			<v>3.633E-1</v>
+			<v>2.408E-1</v>
+			<v>1.96E-1</v>
+			<v>1.96E-1</v>
+			<v>1.775E-1</v>
+			<v>1.332E-1</v>
+			<v>1.155E-1</v>
+			<v>1.269E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>5.613E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.576E-1</v>
+			<v>4.167E-1</v>
+			<v>-2.884E-1</v>
+			<v>2.767E-1</v>
+			<v>-1.483E-1</v>
+			<v>1.011E-1</v>
+			<v>1.489E-3</v>
+			<v>-2.638E-2</v>
+			<v>3.877E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>4.552E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\003 - Journey - Dont Stop Believin (Audio).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.884E-1</v>
+			<v>2.356E-1</v>
+			<v>3.165E-1</v>
+			<v>3.092E-1</v>
+			<v>1.549E-1</v>
+			<v>1.612E-1</v>
+			<v>1.122E-1</v>
+			<v>9.515E-2</v>
+			<v>8.125E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>3.917E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.484E-1</v>
+			<v>7.048E-1</v>
+			<v>-1.519E-1</v>
+			<v>4.889E-2</v>
+			<v>-7.995E-2</v>
+			<v>3.254E-2</v>
+			<v>1.499E-2</v>
+			<v>-7.392E-3</v>
+			<v>-2.798E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>6.015E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\005 - Elvis Presley - Jailhouse Rock (Music Video).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.478E-1</v>
+			<v>1.789E-1</v>
+			<v>3.226E-1</v>
+			<v>2.696E-1</v>
+			<v>1.995E-1</v>
+			<v>1.559E-1</v>
+			<v>1.113E-1</v>
+			<v>9.369E-2</v>
+			<v>8.108E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>6.512E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.517E-1</v>
+			<v>7.101E-1</v>
+			<v>-4.13E-1</v>
+			<v>1.45E-1</v>
+			<v>4.939E-2</v>
+			<v>-6.389E-2</v>
+			<v>-3.764E-2</v>
+			<v>2.587E-2</v>
+			<v>4.65E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>7.644E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\006 - Earth, Wind _ Fire - September.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.341E-1</v>
+			<v>2.059E-1</v>
+			<v>2.454E-1</v>
+			<v>2.559E-1</v>
+			<v>1.769E-1</v>
+			<v>2.005E-1</v>
+			<v>1.53E-1</v>
+			<v>1.346E-1</v>
+			<v>1.104E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>5.421E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.529E-1</v>
+			<v>6.308E-1</v>
+			<v>-3.204E-1</v>
+			<v>2.659E-1</v>
+			<v>-1.622E-1</v>
+			<v>1.131E-1</v>
+			<v>-4.279E-2</v>
+			<v>-3.922E-2</v>
+			<v>1.089E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>8.455E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\008 - Bee Gees Stayin Alive (Extended Remaster).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>7.319E-2</v>
+			<v>1.952E-1</v>
+			<v>2.56E-1</v>
+			<v>1.726E-1</v>
+			<v>1.959E-1</v>
+			<v>1.495E-1</v>
+			<v>1.614E-1</v>
+			<v>1.207E-1</v>
+			<v>1.049E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>5.289E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.69E-1</v>
+			<v>5.343E-1</v>
+			<v>-3.618E-1</v>
+			<v>1.662E-1</v>
+			<v>-1.828E-1</v>
+			<v>7.79E-2</v>
+			<v>-6.598E-2</v>
+			<v>-1.219E-2</v>
+			<v>1.743E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>4.889E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\009 - Michael Jackson - Beat It - Single Version.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.676E-1</v>
+			<v>1.865E-1</v>
+			<v>1.894E-1</v>
+			<v>2.094E-1</v>
+			<v>2.764E-1</v>
+			<v>2.431E-1</v>
+			<v>2.234E-1</v>
+			<v>1.846E-1</v>
+			<v>1.442E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>9.233E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.891E-1</v>
+			<v>5.666E-1</v>
+			<v>-5.755E-1</v>
+			<v>4.134E-1</v>
+			<v>-3.133E-1</v>
+			<v>8.275E-2</v>
+			<v>2.054E-2</v>
+			<v>-8.758E-2</v>
+			<v>-2.718E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>9.913E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\011 - Queen _ David Bowie - Under Pressure (Remastered Audio 2011).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>9.635E-2</v>
+			<v>2.501E-1</v>
+			<v>2.81E-1</v>
+			<v>2.601E-1</v>
+			<v>2.073E-1</v>
+			<v>1.835E-1</v>
+			<v>1.557E-1</v>
+			<v>1.421E-1</v>
+			<v>1.17E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>9.729E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.579E-1</v>
+			<v>5.812E-1</v>
+			<v>-1.787E-1</v>
+			<v>1.525E-1</v>
+			<v>-1.429E-1</v>
+			<v>4.965E-2</v>
+			<v>-4.535E-2</v>
+			<v>2.884E-2</v>
+			<v>3.388E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>6.579E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\014 - Mark Ronson - Uptown Funk ft. Bruno Mars.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.643E-1</v>
+			<v>2.346E-1</v>
+			<v>2.272E-1</v>
+			<v>2.043E-1</v>
+			<v>2.15E-1</v>
+			<v>1.689E-1</v>
+			<v>1.801E-1</v>
+			<v>1.422E-1</v>
+			<v>1.227E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>1.09E2</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.051E-1</v>
+			<v>6.235E-1</v>
+			<v>-3.621E-1</v>
+			<v>2.542E-1</v>
+			<v>-1.677E-1</v>
+			<v>1.206E-1</v>
+			<v>-7.637E-2</v>
+			<v>3.327E-2</v>
+			<v>2.055E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>1.066E2</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\017 - Gwen Stefani - Hollaback Girl.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.672E-1</v>
+			<v>2.002E-1</v>
+			<v>2.199E-1</v>
+			<v>1.923E-1</v>
+			<v>1.917E-1</v>
+			<v>1.641E-1</v>
+			<v>1.655E-1</v>
+			<v>1.51E-1</v>
+			<v>1.352E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>7.029E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.292E-1</v>
+			<v>5.571E-1</v>
+			<v>-3.485E-1</v>
+			<v>3.018E-1</v>
+			<v>-1.525E-1</v>
+			<v>1.334E-1</v>
+			<v>-9.194E-2</v>
+			<v>1.768E-2</v>
+			<v>3.503E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>7.012E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\020 - Wannabe (Radio Edit).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.47E-1</v>
+			<v>2.337E-1</v>
+			<v>2.458E-1</v>
+			<v>2.211E-1</v>
+			<v>2.246E-1</v>
+			<v>1.912E-1</v>
+			<v>1.76E-1</v>
+			<v>1.387E-1</v>
+			<v>1.251E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>5.341E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.418E-1</v>
+			<v>5.622E-1</v>
+			<v>-4.252E-1</v>
+			<v>2.667E-1</v>
+			<v>-1.608E-1</v>
+			<v>7.933E-2</v>
+			<v>-1.283E-2</v>
+			<v>2.96E-2</v>
+			<v>2.992E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>6.044E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\025 - Spice Girls - Spiceworld - 7. Do It.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.089E-1</v>
+			<v>2.389E-1</v>
+			<v>2.031E-1</v>
+			<v>1.804E-1</v>
+			<v>1.84E-1</v>
+			<v>2.001E-1</v>
+			<v>1.957E-1</v>
+			<v>1.641E-1</v>
+			<v>1.382E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>6.794E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.483E-1</v>
+			<v>5.317E-1</v>
+			<v>-3.738E-1</v>
+			<v>2.95E-1</v>
+			<v>-2.321E-1</v>
+			<v>1.677E-1</v>
+			<v>-7.182E-2</v>
+			<v>-1.286E-2</v>
+			<v>-3.079E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>8.012E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\027 - Spice Girls - Stop.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>7.588E-2</v>
+			<v>2.165E-1</v>
+			<v>3.421E-1</v>
+			<v>1.846E-1</v>
+			<v>2.484E-1</v>
+			<v>1.741E-1</v>
+			<v>1.704E-1</v>
+			<v>1.418E-1</v>
+			<v>1.215E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>5.832E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.674E-1</v>
+			<v>5.764E-1</v>
+			<v>-2.945E-1</v>
+			<v>2.639E-1</v>
+			<v>-1.562E-1</v>
+			<v>5.639E-2</v>
+			<v>-3.879E-2</v>
+			<v>7.51E-3</v>
+			<v>3.382E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>5.84E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\028 - Spice Girls - Spice Up Your Life.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>5.05E-2</v>
+			<v>1.912E-1</v>
+			<v>3.168E-1</v>
+			<v>2.459E-1</v>
+			<v>2.04E-1</v>
+			<v>1.751E-1</v>
+			<v>1.29E-1</v>
+			<v>1.113E-1</v>
+			<v>1.032E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>4.759E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.779E-1</v>
+			<v>5.988E-1</v>
+			<v>-2.55E-1</v>
+			<v>2.156E-1</v>
+			<v>-1.613E-1</v>
+			<v>-8.706E-3</v>
+			<v>-2.148E-2</v>
+			<v>-4.058E-2</v>
+			<v>7.121E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>5.531E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\030 - Jamiroquai - Seven Days In Sunny June.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>5.012E-2</v>
+			<v>2.218E-1</v>
+			<v>3.242E-1</v>
+			<v>1.616E-1</v>
+			<v>1.995E-1</v>
+			<v>1.233E-1</v>
+			<v>1.29E-1</v>
+			<v>9.583E-2</v>
+			<v>9.373E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>3.32E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.808E-1</v>
+			<v>4.81E-1</v>
+			<v>-2.451E-1</v>
+			<v>1.34E-1</v>
+			<v>-7.504E-2</v>
+			<v>4.474E-2</v>
+			<v>-1.792E-4</v>
+			<v>9.133E-4</v>
+			<v>1.172E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>2.602E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\032 - Alanis Morissette - Ironic (OFFICIAL VIDEO).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>6.788E-2</v>
+			<v>2.45E-1</v>
+			<v>2.7E-1</v>
+			<v>1.731E-1</v>
+			<v>1.988E-1</v>
+			<v>1.498E-1</v>
+			<v>1.474E-1</v>
+			<v>1.099E-1</v>
+			<v>1.027E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>4.264E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.828E-1</v>
+			<v>5.615E-1</v>
+			<v>-1.098E-1</v>
+			<v>2.228E-1</v>
+			<v>-4.715E-2</v>
+			<v>5.359E-2</v>
+			<v>-9.271E-3</v>
+			<v>3.086E-2</v>
+			<v>6.888E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>3.849E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\035 - Britney Spears - (You Drive Me) Crazy.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>2.072E-1</v>
+			<v>2.765E-1</v>
+			<v>2.035E-1</v>
+			<v>2.022E-1</v>
+			<v>1.752E-1</v>
+			<v>2.131E-1</v>
+			<v>2.17E-1</v>
+			<v>1.86E-1</v>
+			<v>1.838E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>1.041E2</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.5E-1</v>
+			<v>4.356E-1</v>
+			<v>-4.868E-1</v>
+			<v>3.917E-1</v>
+			<v>-3.17E-1</v>
+			<v>2.05E-1</v>
+			<v>-1.586E-1</v>
+			<v>6.275E-2</v>
+			<v>-6.249E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>1.253E2</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\037 - Britney Spears What U See (Is What U Get) Lyrics.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.696E-1</v>
+			<v>2.006E-1</v>
+			<v>1.601E-1</v>
+			<v>1.631E-1</v>
+			<v>2.202E-1</v>
+			<v>2.256E-1</v>
+			<v>2.199E-1</v>
+			<v>1.846E-1</v>
+			<v>1.532E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>1.135E2</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.858E-1</v>
+			<v>4.919E-1</v>
+			<v>-5.007E-1</v>
+			<v>4.104E-1</v>
+			<v>-3.027E-1</v>
+			<v>1.386E-1</v>
+			<v>-1.169E-1</v>
+			<v>1.912E-2</v>
+			<v>-5.809E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>1.161E2</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\040 - Britney Spears - I Love Rock _N_ Roll.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.028E-1</v>
+			<v>2.368E-1</v>
+			<v>2.813E-1</v>
+			<v>2.506E-1</v>
+			<v>2.004E-1</v>
+			<v>1.986E-1</v>
+			<v>1.828E-1</v>
+			<v>1.496E-1</v>
+			<v>1.262E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>9.102E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.462E-1</v>
+			<v>5.201E-1</v>
+			<v>-3.636E-1</v>
+			<v>1.915E-1</v>
+			<v>-1.678E-1</v>
+			<v>2.78E-2</v>
+			<v>-1.06E-1</v>
+			<v>-8.78E-3</v>
+			<v>1.441E-5</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>5.933E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\044 - Britney Spears - Till The World Ends.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>2.95E-1</v>
+			<v>2.333E-1</v>
+			<v>2.637E-1</v>
+			<v>1.9E-1</v>
+			<v>2.192E-1</v>
+			<v>1.818E-1</v>
+			<v>1.949E-1</v>
+			<v>1.502E-1</v>
+			<v>1.51E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>9.131E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.736E-1</v>
+			<v>4.043E-1</v>
+			<v>-2.366E-1</v>
+			<v>3.036E-1</v>
+			<v>-1.75E-1</v>
+			<v>1.391E-1</v>
+			<v>-9.643E-2</v>
+			<v>2.765E-2</v>
+			<v>-4.568E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>6.508E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\046 - Britney Spears - Criminal.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.574E-1</v>
+			<v>1.696E-1</v>
+			<v>2.761E-1</v>
+			<v>1.842E-1</v>
+			<v>1.78E-1</v>
+			<v>1.37E-1</v>
+			<v>1.107E-1</v>
+			<v>9.363E-2</v>
+			<v>8.928E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>6.012E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.487E-1</v>
+			<v>7.017E-1</v>
+			<v>-1.775E-1</v>
+			<v>1.982E-1</v>
+			<v>-7.18E-2</v>
+			<v>2.709E-2</v>
+			<v>-2.728E-2</v>
+			<v>-9.63E-3</v>
+			<v>2.813E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>6.532E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\049 - Christina Aguilera - Come On Over (All I Want Is You) (AC3 Stereo).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>8.5E-2</v>
+			<v>2.035E-1</v>
+			<v>2.55E-1</v>
+			<v>2.987E-1</v>
+			<v>2.59E-1</v>
+			<v>2.178E-1</v>
+			<v>1.745E-1</v>
+			<v>1.61E-1</v>
+			<v>1.494E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>7.23E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.475E-1</v>
+			<v>7.472E-1</v>
+			<v>-3.895E-1</v>
+			<v>1.298E-1</v>
+			<v>-1.81E-1</v>
+			<v>8.843E-3</v>
+			<v>-3.106E-2</v>
+			<v>3.201E-2</v>
+			<v>5.166E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>9.815E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\053 - Aqua - Barbie Girl.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>5.714E-2</v>
+			<v>2.036E-1</v>
+			<v>2.817E-1</v>
+			<v>2.427E-1</v>
+			<v>2.641E-1</v>
+			<v>2.021E-1</v>
+			<v>1.673E-1</v>
+			<v>1.381E-1</v>
+			<v>1.208E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>5.887E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.698E-1</v>
+			<v>5.852E-1</v>
+			<v>-2.19E-1</v>
+			<v>3.753E-1</v>
+			<v>-1.926E-1</v>
+			<v>7.273E-3</v>
+			<v>-3.789E-2</v>
+			<v>-4.16E-2</v>
+			<v>5.932E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>7.173E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\054 - Cartoon Heroes - Aqua.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.825E-1</v>
+			<v>1.802E-1</v>
+			<v>2.752E-1</v>
+			<v>2.864E-1</v>
+			<v>2.646E-1</v>
+			<v>2.357E-1</v>
+			<v>1.89E-1</v>
+			<v>1.612E-1</v>
+			<v>1.565E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>1.119E2</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.892E-1</v>
+			<v>6.182E-1</v>
+			<v>-4.921E-1</v>
+			<v>3.9E-1</v>
+			<v>-2.587E-1</v>
+			<v>-1.162E-2</v>
+			<v>2.509E-2</v>
+			<v>-7.926E-2</v>
+			<v>-2.504E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>1.161E2</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\056 - Ricky Martin - Livin_ La Vida Loca.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>6.955E-2</v>
+			<v>1.735E-1</v>
+			<v>1.552E-1</v>
+			<v>1.523E-1</v>
+			<v>1.883E-1</v>
+			<v>1.58E-1</v>
+			<v>1.881E-1</v>
+			<v>1.493E-1</v>
+			<v>1.441E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>5.164E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.512E-1</v>
+			<v>4.683E-1</v>
+			<v>-5.035E-1</v>
+			<v>2.693E-1</v>
+			<v>-3.402E-1</v>
+			<v>1.493E-1</v>
+			<v>-1.06E-1</v>
+			<v>1.835E-2</v>
+			<v>5.404E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>5.646E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\057 - Hanson - MMMBop.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.503E-1</v>
+			<v>2.318E-1</v>
+			<v>2.335E-1</v>
+			<v>1.735E-1</v>
+			<v>1.983E-1</v>
+			<v>1.596E-1</v>
+			<v>1.665E-1</v>
+			<v>1.316E-1</v>
+			<v>1.239E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>4.973E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.532E-1</v>
+			<v>4.311E-1</v>
+			<v>-3.353E-1</v>
+			<v>2.279E-1</v>
+			<v>-2.016E-1</v>
+			<v>9.546E-2</v>
+			<v>-7.121E-2</v>
+			<v>1.417E-2</v>
+			<v>1.956E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>4.207E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\060 - No Doubt - Don_t Speak.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>3.781E-1</v>
+			<v>2.715E-1</v>
+			<v>2.821E-1</v>
+			<v>1.951E-1</v>
+			<v>2.494E-1</v>
+			<v>1.81E-1</v>
+			<v>2.078E-1</v>
+			<v>1.797E-1</v>
+			<v>1.863E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>1.076E2</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-7.925E-1</v>
+			<v>5.534E-1</v>
+			<v>-3.661E-1</v>
+			<v>2.05E-1</v>
+			<v>-1.546E-1</v>
+			<v>1.814E-1</v>
+			<v>-1.406E-1</v>
+			<v>7.739E-2</v>
+			<v>-5.236E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>1.107E2</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\063 - No Doubt - Simple Kind Of Life.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.701E-1</v>
+			<v>1.996E-1</v>
+			<v>2.195E-1</v>
+			<v>2.57E-1</v>
+			<v>1.889E-1</v>
+			<v>1.645E-1</v>
+			<v>1.383E-1</v>
+			<v>1.218E-1</v>
+			<v>1.076E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>6.849E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.418E-1</v>
+			<v>6.473E-1</v>
+			<v>-3.136E-1</v>
+			<v>2.195E-1</v>
+			<v>-1.017E-1</v>
+			<v>5.903E-2</v>
+			<v>5.361E-3</v>
+			<v>1.9E-2</v>
+			<v>2.882E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>7.59E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\064 - No Doubt - Ex-Girlfriend.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.482E-1</v>
+			<v>2.257E-1</v>
+			<v>3.223E-1</v>
+			<v>1.917E-1</v>
+			<v>1.776E-1</v>
+			<v>1.326E-1</v>
+			<v>1.207E-1</v>
+			<v>9.551E-2</v>
+			<v>8.485E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>4.912E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.629E-1</v>
+			<v>5.539E-1</v>
+			<v>-1.732E-1</v>
+			<v>1.23E-1</v>
+			<v>-9.456E-2</v>
+			<v>4.001E-2</v>
+			<v>-5.845E-3</v>
+			<v>-6.58E-3</v>
+			<v>1.282E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>3.983E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\067 - Will Smith - Men In Black (Video Version).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.285E-1</v>
+			<v>2.154E-1</v>
+			<v>2.887E-1</v>
+			<v>2.556E-1</v>
+			<v>2.132E-1</v>
+			<v>1.771E-1</v>
+			<v>1.491E-1</v>
+			<v>1.203E-1</v>
+			<v>1.087E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>5.505E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.536E-1</v>
+			<v>5.915E-1</v>
+			<v>-3.374E-1</v>
+			<v>1.219E-1</v>
+			<v>-1.777E-1</v>
+			<v>-2.389E-2</v>
+			<v>-4.583E-2</v>
+			<v>-3.228E-2</v>
+			<v>5.364E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>5.178E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\075 - Nelly Furtado - Promiscuous ft. Timbaland.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>2.179E-1</v>
+			<v>2.153E-1</v>
+			<v>2.506E-1</v>
+			<v>1.849E-1</v>
+			<v>2.149E-1</v>
+			<v>1.789E-1</v>
+			<v>1.651E-1</v>
+			<v>1.369E-1</v>
+			<v>1.101E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>9.017E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.109E-1</v>
+			<v>5.304E-1</v>
+			<v>-2.867E-1</v>
+			<v>1.984E-1</v>
+			<v>-1.194E-1</v>
+			<v>3.756E-2</v>
+			<v>-6.64E-2</v>
+			<v>5.523E-3</v>
+			<v>-2.561E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>5.993E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\076 - Nelly Furtado - I_m Like A Bird.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>4.2E-1</v>
+			<v>3.764E-1</v>
+			<v>3.483E-1</v>
+			<v>2.65E-1</v>
+			<v>2.416E-1</v>
+			<v>2.405E-1</v>
+			<v>2.649E-1</v>
+			<v>1.881E-1</v>
+			<v>1.579E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>5.526E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.37E-1</v>
+			<v>2.486E-1</v>
+			<v>-1.861E-2</v>
+			<v>4.7E-1</v>
+			<v>-5.764E-1</v>
+			<v>3.257E-1</v>
+			<v>-4.744E-2</v>
+			<v>-8.432E-2</v>
+			<v>1.936E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>7.509E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\079 - Nelly Furtado - Powerless (Say What You Want) [official music video].mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>2.195E-1</v>
+			<v>2.137E-1</v>
+			<v>2.274E-1</v>
+			<v>2.132E-1</v>
+			<v>1.566E-1</v>
+			<v>1.426E-1</v>
+			<v>1.237E-1</v>
+			<v>9.568E-2</v>
+			<v>9.505E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>5.211E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.211E-1</v>
+			<v>6.568E-1</v>
+			<v>-2.651E-1</v>
+			<v>1.594E-1</v>
+			<v>-1.748E-1</v>
+			<v>-2.266E-2</v>
+			<v>-8.078E-2</v>
+			<v>1.633E-2</v>
+			<v>6.119E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>6.887E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\083 - Savage Garden - The Animal Song (Video Version).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>6.387E-2</v>
+			<v>1.5E-1</v>
+			<v>2.52E-1</v>
+			<v>1.731E-1</v>
+			<v>2.376E-1</v>
+			<v>1.578E-1</v>
+			<v>1.811E-1</v>
+			<v>1.298E-1</v>
+			<v>1.123E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>4.5E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.7E-1</v>
+			<v>3.721E-1</v>
+			<v>-4.667E-1</v>
+			<v>2.254E-1</v>
+			<v>-1.802E-1</v>
+			<v>7.964E-2</v>
+			<v>-1.12E-2</v>
+			<v>1.869E-2</v>
+			<v>2.47E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>2.967E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\085 - Natalie Imbruglia - Wrong Impression.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>5.924E-2</v>
+			<v>2.315E-1</v>
+			<v>1.988E-1</v>
+			<v>2.443E-1</v>
+			<v>2.038E-1</v>
+			<v>1.953E-1</v>
+			<v>1.657E-1</v>
+			<v>1.575E-1</v>
+			<v>1.492E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>5.589E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.63E-1</v>
+			<v>5.414E-1</v>
+			<v>-3.778E-1</v>
+			<v>2.997E-1</v>
+			<v>-2.187E-1</v>
+			<v>7.883E-2</v>
+			<v>-9.887E-2</v>
+			<v>3.389E-3</v>
+			<v>1.599E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>7.007E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\088 - Vengaboys - Boom, Boom, Boom, Boom!!.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.082E-1</v>
+			<v>2.074E-1</v>
+			<v>2.269E-1</v>
+			<v>1.504E-1</v>
+			<v>2.165E-1</v>
+			<v>1.728E-1</v>
+			<v>1.841E-1</v>
+			<v>1.628E-1</v>
+			<v>1.571E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>8.024E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.41E-1</v>
+			<v>3.78E-1</v>
+			<v>-4.312E-1</v>
+			<v>3.005E-1</v>
+			<v>-2.261E-1</v>
+			<v>1.525E-1</v>
+			<v>-1.241E-1</v>
+			<v>5.386E-2</v>
+			<v>3.326E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>6.089E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\089 - Marc Anthony - I Need to Know (Video).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>8.019E-2</v>
+			<v>2.243E-1</v>
+			<v>2.319E-1</v>
+			<v>2.262E-1</v>
+			<v>2.249E-1</v>
+			<v>1.798E-1</v>
+			<v>1.647E-1</v>
+			<v>1.4E-1</v>
+			<v>1.183E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>7.271E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.511E-1</v>
+			<v>6.271E-1</v>
+			<v>-3.974E-1</v>
+			<v>2.476E-1</v>
+			<v>-1.58E-1</v>
+			<v>6.678E-2</v>
+			<v>-4.433E-2</v>
+			<v>5.292E-4</v>
+			<v>-1.114E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>9.333E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\090 - Marc Anthony - Vivir Mi Vida.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.578E-1</v>
+			<v>2.476E-1</v>
+			<v>2.985E-1</v>
+			<v>1.425E-1</v>
+			<v>1.414E-1</v>
+			<v>1.055E-1</v>
+			<v>1.34E-1</v>
+			<v>9.566E-2</v>
+			<v>9.026E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>3.348E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.639E-1</v>
+			<v>5.141E-1</v>
+			<v>5.349E-2</v>
+			<v>1.769E-1</v>
+			<v>4.766E-2</v>
+			<v>5.007E-2</v>
+			<v>-1.986E-3</v>
+			<v>6.285E-3</v>
+			<v>1.744E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>2.635E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\092 - Jennifer Lopez - If You Had My Love (Official Video).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.627E-1</v>
+			<v>2.731E-1</v>
+			<v>1.352E-1</v>
+			<v>2.089E-1</v>
+			<v>2.081E-1</v>
+			<v>2.204E-1</v>
+			<v>2.222E-1</v>
+			<v>1.924E-1</v>
+			<v>1.646E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>8.995E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.726E-1</v>
+			<v>5.058E-1</v>
+			<v>-5.336E-1</v>
+			<v>3.354E-1</v>
+			<v>-2.76E-1</v>
+			<v>1.126E-1</v>
+			<v>-1.06E-1</v>
+			<v>-4.529E-3</v>
+			<v>-1.979E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>1.266E2</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\094 - Jennifer Lopez - Feelin' So Good ft. Fat Joe, big pun.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.985E-1</v>
+			<v>1.869E-1</v>
+			<v>1.563E-1</v>
+			<v>1.521E-1</v>
+			<v>2.367E-1</v>
+			<v>2.396E-1</v>
+			<v>2.298E-1</v>
+			<v>1.803E-1</v>
+			<v>1.769E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>1.252E2</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.118E-1</v>
+			<v>2.935E-1</v>
+			<v>-5.504E-1</v>
+			<v>2.275E-1</v>
+			<v>-3.596E-1</v>
+			<v>1.511E-1</v>
+			<v>-1.654E-1</v>
+			<v>1.19E-1</v>
+			<v>-5.869E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>1.117E2</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\098 - Jennifer Lopez - Play.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>8.211E-2</v>
+			<v>2.17E-1</v>
+			<v>3.095E-1</v>
+			<v>2.522E-1</v>
+			<v>2.087E-1</v>
+			<v>1.713E-1</v>
+			<v>1.505E-1</v>
+			<v>1.164E-1</v>
+			<v>8.746E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>9.408E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.432E-1</v>
+			<v>6.463E-1</v>
+			<v>-3.687E-1</v>
+			<v>1.756E-1</v>
+			<v>-1.797E-1</v>
+			<v>7.222E-2</v>
+			<v>-5.048E-2</v>
+			<v>2.179E-2</v>
+			<v>7.693E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>9.853E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\099 - Jennifer Lopez - Get Right.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.229E-1</v>
+			<v>2.418E-1</v>
+			<v>2.429E-1</v>
+			<v>1.899E-1</v>
+			<v>1.915E-1</v>
+			<v>1.748E-1</v>
+			<v>1.731E-1</v>
+			<v>1.629E-1</v>
+			<v>1.31E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>9.648E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.219E-1</v>
+			<v>4.132E-1</v>
+			<v>-3.994E-1</v>
+			<v>1.803E-1</v>
+			<v>-2.572E-1</v>
+			<v>1.507E-1</v>
+			<v>-5.499E-2</v>
+			<v>4.92E-2</v>
+			<v>-3.467E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>8.083E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\100 - Jennifer Lopez - Hold You Down ft. Fat Joe.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>2.715E-1</v>
+			<v>2.662E-1</v>
+			<v>3.103E-1</v>
+			<v>2.843E-1</v>
+			<v>3.057E-1</v>
+			<v>2.731E-1</v>
+			<v>2.362E-1</v>
+			<v>1.869E-1</v>
+			<v>1.642E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>8.673E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-7.581E-1</v>
+			<v>5.888E-1</v>
+			<v>-4.397E-1</v>
+			<v>3.261E-1</v>
+			<v>-1.991E-1</v>
+			<v>1.925E-1</v>
+			<v>3.327E-2</v>
+			<v>2.449E-2</v>
+			<v>3.463E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>8.703E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\102 - Madonna - Ray Of Light.mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.918E-1</v>
+			<v>2.157E-1</v>
+			<v>3.307E-1</v>
+			<v>1.716E-1</v>
+			<v>1.458E-1</v>
+			<v>1.029E-1</v>
+			<v>7.069E-2</v>
+			<v>6.143E-2</v>
+			<v>5.554E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>2.097E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.558E-1</v>
+			<v>6.001E-1</v>
+			<v>-1.096E-1</v>
+			<v>1.877E-2</v>
+			<v>-2.815E-2</v>
+			<v>-2.903E-2</v>
+			<v>-1.45E-2</v>
+			<v>-6.271E-4</v>
+			<v>1.31E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>2.523E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\104 - Madonna - Like A Virgin (video).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>7.618E-2</v>
+			<v>2.451E-1</v>
+			<v>2.743E-1</v>
+			<v>1.788E-1</v>
+			<v>1.937E-1</v>
+			<v>1.401E-1</v>
+			<v>1.431E-1</v>
+			<v>1.101E-1</v>
+			<v>9.238E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>5.185E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.749E-1</v>
+			<v>5.638E-1</v>
+			<v>-2.112E-1</v>
+			<v>2.045E-1</v>
+			<v>-1.669E-1</v>
+			<v>3.695E-2</v>
+			<v>-1.006E-2</v>
+			<v>-2.206E-3</v>
+			<v>2.98E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>4.398E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\105 - Madonna - Material Girl (Official Music Video).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>8.692E-2</v>
+			<v>1.178E-1</v>
+			<v>2.84E-1</v>
+			<v>2.852E-1</v>
+			<v>1.577E-1</v>
+			<v>1.271E-1</v>
+			<v>1.457E-1</v>
+			<v>1.016E-1</v>
+			<v>7.916E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>6.736E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.295E-1</v>
+			<v>8.114E-1</v>
+			<v>-5.645E-1</v>
+			<v>5.341E-2</v>
+			<v>1.618E-2</v>
+			<v>9.033E-2</v>
+			<v>-6.689E-2</v>
+			<v>-2.276E-2</v>
+			<v>9.454E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>1.031E2</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\106 - Madonna - Hung Up (Official Music Video).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>7.75E-2</v>
+			<v>2.465E-1</v>
+			<v>2.624E-1</v>
+			<v>1.507E-1</v>
+			<v>1.839E-1</v>
+			<v>1.49E-1</v>
+			<v>1.475E-1</v>
+			<v>1.032E-1</v>
+			<v>1.126E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>5.275E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.751E-1</v>
+			<v>4.157E-1</v>
+			<v>-2.861E-1</v>
+			<v>1.449E-1</v>
+			<v>-9.45E-2</v>
+			<v>4.71E-2</v>
+			<v>-2.513E-2</v>
+			<v>4.629E-5</v>
+			<v>-1.383E-3</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>2.284E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\121 - Everybody (Backstreet_s Back) (Radio Edit).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>1.403E-1</v>
+			<v>1.918E-1</v>
+			<v>2.65E-1</v>
+			<v>1.905E-1</v>
+			<v>2.204E-1</v>
+			<v>1.721E-1</v>
+			<v>2.015E-1</v>
+			<v>1.299E-1</v>
+			<v>1.112E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>9.32E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-9.526E-1</v>
+			<v>6.573E-1</v>
+			<v>-2.961E-1</v>
+			<v>2.544E-1</v>
+			<v>-1.113E-1</v>
+			<v>1.258E-1</v>
+			<v>3.191E-2</v>
+			<v>9.142E-3</v>
+			<v>-3.001E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>8.267E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>C:\Users\ibyte\Downloads\felizes_30\168 - Justin Bieber - Sorry (PURPOSE _ The Movement).mp3.wav</data_set_id>
+		<feature>
+			<name>LPC Overall Standard Deviation</name>
+			<v>3.318E-1</v>
+			<v>3.108E-1</v>
+			<v>2.89E-1</v>
+			<v>2.672E-1</v>
+			<v>2.006E-1</v>
+			<v>1.811E-1</v>
+			<v>1.571E-1</v>
+			<v>1.25E-1</v>
+			<v>1.133E-1</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Standard Deviation</name>
+			<v>3.138E1</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.571E-1</v>
+			<v>4.344E-1</v>
+			<v>-2.277E-1</v>
+			<v>2.254E-1</v>
+			<v>-1.824E-2</v>
+			<v>8.549E-2</v>
+			<v>2.353E-2</v>
+			<v>-2.44E-3</v>
+			<v>2.814E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Peak Based Spectral Smoothness Overall Average</name>
+			<v>3.135E1</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>

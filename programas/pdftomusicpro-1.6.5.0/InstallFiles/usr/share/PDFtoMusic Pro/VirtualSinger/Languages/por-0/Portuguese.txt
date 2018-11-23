@@ -1,0 +1,104 @@
+﻿#### Portuguese phonetic file ########
+#### 2011 Sylvain Machefert ##########
+#Sources:
+#http://wikitravel.org/fr/Guide_linguistique_portugais
+#http://wikitravel.org/en/Portuguese_phrasebook
+#http://fr.wikiversity.org/wiki/Alphabet/Portugais#Prononciation
+#See also:
+#http://rudhar.com/foneport/en/foneport.htm
+
+$ENTITLE Portuguese
+$ENAUTHOR by Sylvain Machefert
+$ENCOMMENT v20111212
+
+$FRTITLE Portugais
+$FRAUTHOR par Sylvain Machefert
+$FRCOMMENT v20111212
+
+$DATASTART
+gue|GUE|Gue|guê|GUÊ|Guê|gué|GUÉ|Gué=SQ+G2+ES
+gui|GUI|Gui=SQ+G2+IS
+que|QUE|Que|quê|QUÊ|Quê|qué|QUÉ|Qué=GLST+K2+ES
+qui|QUI|Qui=GLST+K2+IS
+uei|UEI|Uei=AIR+ID
+ai|AI|Ai=A+IB
+au|AU|Au=A+OV
+ão|ÃO|Ão=EIN+ON2
+ea|EA|Ea=EEFS+AF
+ei|EI|Ei=E9S+IB
+eo|EO|Eo=EEFS+OS
+eu|EU|Eu=EEFS+OOS
+io|IO|Io=EEFS+UN
+oi|OI|Oi=OS+EEFS
+ou|OU|Ou=OOS
+ua|UA|Ua=UUFS+AF
+ui|UI|Ui=UUFS+IS
+ã|Ã|am|AM|Am=EIN+M
+em|EM|Em|êm|ÊM|Êm|ém|ÉM|Ém=E+NG
+en|EN|En=IS+N
+on|ON|On=OOS+N
+õ|Õ|om|OM|Om=ON2
+[_Y|_y|_L|_l]a|A[_]=SHVA
+a|A[_]=E9S
+a|A|â|Â=AF
+á|Á|à|À=ARF
+[_]e|E[_]=EEFS
+e|E[_]=E9S
+#e|E[*]=EFIS
+e|E[b|B|c|C|ç|Ç|f|F|j|J|k|K|l|L|v|V|w|W]=ES
+e|E=E9S
+é|É|è|È=E9S
+ê|Ê=ES
+i|I|í|Í|î|Î|ì|Ì=IS
+o|O[_]=OOS
+[_]o|O=OOS  
+o|O[ar_|AR_]=OOS
+o|O|ó|Ó|ò|Ò=OS
+ô|Ô=OS+IB
+u|U|ú|Ú|ù|Ù|ü|Ü=OOS
+û|Û=UN
+ch|CH|Ch=SH
+lh|LH|Lh=LFR+EEFS
+nh|NH|Nh=N+EEFS
+b|B=SQ+B
+c|C[e|E|ê|Ê|i|I]=S
+c|C=GLST+K2
+ç|Ç=S
+d|D[_]=SQ+DL2+ZH
+d|D=SQ+DL2
+#BP : de[_]->SQ+DL+ZH+EFR, di[_]->SQ+DL+ZH+IS
+f|F=F
+g|G[e|E|i|I]=ZH
+g|G=SQ+G2
+#h|H=muet
+j|J=ZH
+k|K=GLST+K2
+l|L[_]=LL
+[_]l|L=LL
+#BP: W (plus prononcé)
+l|L=LL
+m|M[_]=NS
+#BP : prononcer n
+m|M=M
+n|N[a|A|á|Á|ã|Ã|à|À|e|E|é|É|ê|Ê|i|I|o|O|õ|Õ|u|U]=N
+[a|A|á|Á|ã|Ã|à|À|e|E|é|É|ê|Ê|i|I|o|O|õ|Õ|u|U]n|N=NS
+n|N=N
+p|P=GLST+P2
+q|Q=GLST+K2
+rr|RR|r|R=RXB
+#BP : guttural, comme un h aspiré
+ss|SS=S
+s|S[_]=SH
+[_|b|B|c|C|d|D|f|F|g|G|j|J|k|K|l|L|m|M|n|N|p|P|q|Q|r|R|t|T|v|V|w|W|x|X|z|Z]s|S=S
+s|S[b|B|c|C|d|D|f|F|g|G|j|J|k|K|l|L|m|M|n|N|p|P|q|Q|r|R|t|T|v|V|w|W|x|X|z|Z]=S
+s|S=Z
+t|T=GLST+T2
+#BP : te, ti final -> tch (comme litchi)
+v|V=V
+w|W=UUFS	
+x|X=SH
+#taXi, SHip, Same
+y|Y=EEFS
+z|Z[_]=SH
+z|Z=Z
+$DATAEND

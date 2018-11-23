@@ -1,0 +1,100 @@
+MUSIC001 - Bruno Mars - The Lazy Song [OFFICIAL VIDEO].mp3.wav
+Estimated tempo: 172.27 beats per minute
+MUSIC002 - Aerosmith - Crazy.mp3.wav
+Estimated tempo: 161.50 beats per minute
+MUSIC003 - Journey - Dont Stop Believin (Audio).mp3.wav
+Estimated tempo: 117.45 beats per minute
+MUSIC005 - Elvis Presley - Jailhouse Rock (Music Video).mp3.wav
+Estimated tempo: 83.35 beats per minute
+MUSIC006 - Earth, Wind _ Fire - September.mp3.wav
+Estimated tempo: 123.05 beats per minute
+MUSIC009 - Michael Jackson - Beat It - Single Version.mp3.wav
+Estimated tempo: 136.00 beats per minute
+MUSIC011 - Queen _ David Bowie - Under Pressure (Remastered Audio 2011).mp3.wav
+Estimated tempo: 112.35 beats per minute
+MUSIC014 - Mark Ronson - Uptown Funk ft. Bruno Mars.mp3.wav
+Estimated tempo: 117.45 beats per minute
+MUSIC020 - Wannabe (Radio Edit).mp3.wav
+Estimated tempo: 112.35 beats per minute
+MUSIC025 - Spice Girls - Spiceworld - 7. Do It.mp3.wav
+Estimated tempo: 99.38 beats per minute
+MUSIC027 - Spice Girls - Stop.mp3.wav
+Estimated tempo: 129.20 beats per minute
+MUSIC028 - Spice Girls - Spice Up Your Life.mp3.wav
+Estimated tempo: 123.05 beats per minute
+MUSIC030 - Jamiroquai - Seven Days In Sunny June.mp3.wav
+Estimated tempo: 103.36 beats per minute
+MUSIC032 - Alanis Morissette - Ironic (OFFICIAL VIDEO).mp3.wav
+Estimated tempo: 112.35 beats per minute
+MUSIC035 - Britney Spears - (You Drive Me) Crazy.mp3.wav
+Estimated tempo: 99.38 beats per minute
+MUSIC037 - Britney Spears What U See (Is What U Get) Lyrics.mp3.wav
+Estimated tempo: 92.29 beats per minute
+MUSIC040 - Britney Spears - I Love Rock _N_ Roll.mp3.wav
+Estimated tempo: 89.10 beats per minute
+MUSIC044 - Britney Spears - Till The World Ends.mp3.wav
+Estimated tempo: 89.10 beats per minute
+MUSIC046 - Britney Spears - Criminal.mp3.wav
+Estimated tempo: 107.67 beats per minute
+MUSIC049 - Christina Aguilera - Come On Over (All I Want Is You) (AC3 Stereo).mp3.wav
+Estimated tempo: 117.45 beats per minute
+MUSIC053 - Aqua - Barbie Girl.mp3.wav
+Estimated tempo: 129.20 beats per minute
+MUSIC054 - Cartoon Heroes - Aqua.mp3.wav
+Estimated tempo: 129.20 beats per minute
+MUSIC056 - Ricky Martin - Livin_ La Vida Loca.mp3.wav
+Estimated tempo: 89.10 beats per minute
+MUSIC057 - Hanson - MMMBop.mp3.wav
+Estimated tempo: 103.36 beats per minute
+MUSIC060 - No Doubt - Don_t Speak.mp3.wav
+Estimated tempo: 152.00 beats per minute
+MUSIC063 - No Doubt - Simple Kind Of Life.mp3.wav
+Estimated tempo: 123.05 beats per minute
+MUSIC064 - No Doubt - Ex-Girlfriend.mp3.wav
+Estimated tempo: 86.13 beats per minute
+MUSIC067 - Will Smith - Men In Black (Video Version).mp3.wav
+Estimated tempo: 107.67 beats per minute
+MUSIC075 - Nelly Furtado - Promiscuous ft. Timbaland.mp3.wav
+Estimated tempo: 112.35 beats per minute
+MUSIC076 - Nelly Furtado - I_m Like A Bird.mp3.wav
+Estimated tempo: 89.10 beats per minute
+MUSIC079 - Nelly Furtado - Powerless (Say What You Want) [official music video].mp3.wav
+Estimated tempo: 143.55 beats per minute
+MUSIC089 - Marc Anthony - I Need to Know (Video).mp3.wav
+Estimated tempo: 117.45 beats per minute
+MUSIC090 - Marc Anthony - Vivir Mi Vida.mp3.wav
+Estimated tempo: 103.36 beats per minute
+MUSIC092 - Jennifer Lopez - If You Had My Love (Official Video).mp3.wav
+Estimated tempo: 95.70 beats per minute
+MUSIC099 - Jennifer Lopez - Get Right.mp3.wav
+Estimated tempo: 95.70 beats per minute
+MUSIC0 - Gwen Stefani - The Sweet Escape ft Akon.mp3.wav
+Estimated tempo: 117.45 beats per minute
+MUSIC102 - Madonna - Ray Of Light.mp3.wav
+Estimated tempo: 129.20 beats per minute
+MUSIC104 - Madonna - Like A Virgin (video).mp3.wav
+Estimated tempo: 117.45 beats per minute
+MUSIC105 - Madonna - Material Girl (Official Music Video).mp3.wav
+Estimated tempo: 136.00 beats per minute
+MUSIC106 - Madonna - Hung Up (Official Music Video).mp3.wav
+Estimated tempo: 123.05 beats per minute
+MUSIC121 - Everybody (Backstreet_s Back) (Radio Edit).mp3.wav
+Estimated tempo: 107.67 beats per minute
+MUSIC083 - Savage Garden - The Animal Song (Video Version).mp3
+Estimated tempo: 117.45 beats per minute
+MUSIC085 - Natalie Imbruglia - Wrong Impression.mp3
+Estimated tempo: 99.38 beats per minute
+MUSIC088 - Vengaboys - Boom, Boom, Boom, Boom!!.mp3
+Estimated tempo: 136.00 beats per minute
+MUSIC094 - Jennifer Lopez - Feelin' So Good ft. Fat Joe, big pun.mp3
+Estimated tempo: 107.67 beats per minute
+MUSIC098 - Jennifer Lopez - Play.mp3
+Estimated tempo: 103.36 beats per minute
+MUSIC100 - Jennifer Lopez - Hold You Down ft. Fat Joe.mp3
+Estimated tempo: 86.13 beats per minute
+MUSIC025 - Spice Girls - Spiceworld - 7. Do It.mp3
+Estimated tempo: 99.38 beats per minute
+MUSIC008 - Bee Gees Stayin Alive (Extended Remaster).mp3
+Estimated tempo: 103.36 beats per minute
+MUSIC168 - Justin Bieber - Sorry (PURPOSE _ The Movement).mp3
+Estimated tempo: 136.00 beats per minute

@@ -1,0 +1,5 @@
+﻿
+DICT=Turkish.txt
+SAMPA=Turkish-sampa.txt
+FLAG=Turkish.png
+TAG=tur

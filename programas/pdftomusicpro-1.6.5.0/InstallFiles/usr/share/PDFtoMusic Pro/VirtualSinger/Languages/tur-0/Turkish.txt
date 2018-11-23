@@ -1,0 +1,50 @@
+﻿#### Turkish languages phonetic file
+#### 2011 Sylvain Machefert
+
+$ENTITLE Turkish
+$ENAUTHOR by Sylvain Machefert
+$ENCOMMENT v20111212
+$SAMPA
+$FRTITLE Turc
+$FRAUTHOR par Sylvain Machefert
+$FRCOMMENT v20111212
+
+#http://fr.wikipedia.org/wiki/Prononciation_du_turc
+
+$DATASTART
+a|A|â|Â=a
+b|B=b
+c|C=dZ
+ç|Ç=tS
+d|D=d
+e|E|ê|Ê[?_]=E
+e|E|ê|Ê=e
+f|F=f
+g|G=g
+[e|E|i|I|ö|Ö|ü|Ü]ğ|Ğ=j
+ğ|Ğ[a|A|ı|I|o|O|u|U]=G
+ğ|Ğ=
+h|H=h
+ı|I=1
+i|I|î|Î=i
+j|J=Z
+k|K[â|Â|e|E|i|I|ö|Ö|ü|Ü]=k+j
+k|K|q|Q=k
+# l|L[â|Â|e|E|i|I|ö|Ö|ü|Ü]=l+j
+l|L=l
+m|M=m
+n|N=n
+o|O|ô|Ô=o
+ö|Ö=2
+p|P=p
+r|R=r
+s|S=s
+ş|Ş=S
+t|T=t
+u|U|û|Û=u
+ü|Ü=y
+v|V|w|W=v
+x|X=k+s
+y|Y=j
+z|Z=z
+$DATAEND$

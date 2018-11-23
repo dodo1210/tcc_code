@@ -1,0 +1,93 @@
+# Syntaxe de recherche:
+#	| = ou
+#	& = et
+#	* = wildcard (n'importe quel caractere)
+#	()= expression imbriquee
+#	. = en debut, la source doit commencer par ce qui suit
+#	    en fin, la source doit terminer par ce qui precede
+
+#  Si change, GENERATE_SOUND_BASE a 1 pour regenerer la base 
+# Structure:
+# numero de son  "pattern de recherche" [position stereo]
+
+0 "Piano|Pn|Pf" -90
+500 "(El**t|El.)&(Piano|Pn)|El. Pn|Wurly|Rhodes P|Clavi" -90
+600 "Clavec|Harpsi|Cravo|Clavicem|Cembalo|Hpd" -90
+1100 "C*lest|Cel|Glock|Music&Box|Boit&Musi|Vibra|Vib" -4
+1200 "Marimb|Xylo|Balaf|Mar|Xyl" -4
+1400 "Tubul|Ch Bell|Campa|Cloch|Carill"
+1600 "Organ|Orgel|Orgu|Org*o|P*dal|Swell|Manual|Positi|Org"
+2100 "Accord*on|Fisarm|Acorde|Acc"
+2200 "Harm*nica|Armonic|Hca"
+2400 "Guit|Gitar|Nylon|Luth|Lute|Gtr|Gt"
+2480 "Ukul|Yuku|Balala|Mandol|Uke"
+2500 "(Folk|Steel|BlueGr|Metal|Jazz.)&(Guit|Gt)|Dobro"
+2900 "(El.|El**t|Overdr|)&(Guit|Gt)"
+3200 "(Ac|Double)&(Bass|Baix|Baj)|(Bass|Baix|Baj)&(Guit|Git)|(Bass|Baix|Baj)"
+3500 "(Fret|Trast)&(Bass|Baix|Baj)"
+3600 "Slap&(Bass|Baix|Baj)"
+3800 "(Synth|Sint)&(Bass|Baix|Baj)"
+4000 "Viol*n|Fiddle|Kokyu|Vln|Vl" -80
+4100 "Alt&Viol|Viola|Vla" 70
+4200 "Cello|Violonc|Vc" 80
+4300 "Contr*bass|Contrabb"
+4500 "Pizzicat"
+4600 "Harp.|Harpe|Arpe|Arpa" -80
+4700 "Timpan|Timba"
+4800 "(Cord|Str|Cuerd)&Ensemble|Strings|Cordes|Cordi|Viol*ns.|Orchestra.|Orchestre|.Str." -20
+5500 "Orch&(Hit|P*che.)"
+5600 "Tr*mpet|Tr" 40
+5700 "Tromb|Trb|Tbn" 30
+5800 "Tuba" 90
+6900 "(Eng|Ang|Ingl)&(Horn|Cor|Tromp)"
+6000 "Horn|Cor|Tromp" -20
+6100 "Cuivr|Brass|Bronce"
+6400 "Sop&(Sax|Ss.)" 
+6500 "Alt&(Sax|Ss)" 
+6600 "Ten&(Sax|Ss)" 
+6700 "Bar&(Sax|Ss)"
+6800 "Obo|Hautb|Htb" 20
+7000 "Bassoo|Basson|Fagot|Baj*n" 10
+7100 "Clar|Cl.|Cl&(Sop|Al|Ten|Bas)" 0
+7200 "Picc"
+7300 "Fl*te|Flau"
+7400 "Recorder|Flut&Bec|(Fl|Rec)&(Sop|Al|Ten|Bas)" -10
+7500 "Pan&Fl"
+7700 "Shaku"
+7800 "Whistle|Siffl"
+8000 "Syn|Sint"
+10500 "Sita|Banj|Bangi"
+10600 "Shamis|Koto"
+10800 "Kalimb"
+10900 "Bagp|Cornem|Gait|Cornamu"
+11100 "Shanai"
+11700 "Percuss" -20
+11680 "Bass&Dr|Gr&Cais|Bombo|Grancas" -20
+5200 ".Voice|.Chant|.Cant|.Voix|.Voce|Choirs|Choeur|Coro|Cori|.Sop|.Mez&Sop|.Alt|.Ten|.Bass|.Baix|.Baj|.Bar*to|.S.|.A.|.T.|.B.|Superi*s."
+
+# Percussifs generalement monolignes = standard set
+
+20033 "Metronome&Click"
+20034 "Metronome&Bell"
+20037 "Stick|Rimshot"
+20039 "Hand Cl"
+20035 "(Kick|Bass)&Dr|B.D.|B.Dr|BD"
+20038 "Snare|S.D.|Sn&D|SD"	
+20044 "Ped&HiHat|Ped&HH"
+20046 "Op&HiHat|Op&HH"
+20042 "HiHat|HH"
+20045 "Tom."
+20049 "Crash|Splash"
+20051 "Ride"
+20054 "Tambouri"
+20056 "Bell|Cowb"
+20061 "Bongo"
+20065 "Conga"
+20068 "Agogo"
+20069 "Cabas"
+20070 "Maraca"
+20075 "Claves"
+20077 "Wood Bl"
+20080 "Triang"
+20085 "Castanet"
+20090 "Gong"

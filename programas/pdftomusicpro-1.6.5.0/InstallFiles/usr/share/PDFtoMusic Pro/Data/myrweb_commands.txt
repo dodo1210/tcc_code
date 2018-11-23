@@ -1,0 +1,54 @@
+# List of HTML Commands
+# V 1.0.4
+# © Myriad April 2016-January 2017
+# Structure : command=list of values separated by ;
+# First value is default value
+# String input : $STRING;default string
+# Color input : $COLOR;default color
+# Number input : $NUMBER;default value;min;max
+# Explanation : |french version|english version|italian version|german version|spanish version|japanese version|portuguese version|dutch version
+# Title : !|french version|english version|italian version|german version|spanish version|japanese version|portuguese version|dutch version
+
+!|Audio|Audio||||||
+useaudiofailsafe=no;yes 		|Mode sécurisé (des fonctionnalités peuvent être désactivées)|Force audio safe mode (some features will be disabled)||||||
+volume=$NUMBER;100;0;100		|Volume de sortie en %|Default output volume in %||||||
+playmetronomestart=no;yes		|Jeu du métronome avant le départ de la musique|Metronome sound before music start||||||
+playmetronomebeat=no;yes		|Tick du métronome à chaque temps|Metronome click at each beat||||||
+playmetronomebar=no;yes			|Cloche du métronome à chaque mesure|Metronome bell at each bar||||||
+playloop=no;yes				|Jeu en boucle|Loop play||||||
+playstart=$NUMBER;0;0;10000		|Position de démarrage de jeu en secondes|Play start position in seconds||||||
+playend=$NUMBER;10000;0;10000 		|Position de fin de jeu en secondes|Play end position in seconds||||||
+playtempo=$NUMBER;100;25;400		|Changement de tempo en % (non implémenté)|Tempo change in % (not implemented)||||||
+playdetune=$NUMBER;0;-5;5		|Changement de fréquence en demi-ton (non implémenté)|Detune in semitone (not implemented)||||||
+
+!|Graphisme|Graph||||||
+title=$STRING;				|Texte à afficher dans le titre (par défaut titre de la partition)|Title to display in title bar (default: score title)||||||
+minimal=no;yes				|Interface minimale (seulement des boutons)|Minimal interface (no score or lyrics view, only buttons)||||||
+playmarker=line;bar;none		|Forme du curseur de jeu|Shape of play marker ||||||
+playmarkerwidth=$NUMBER;8;1;30	|Epaisseur ligne du curseur de jeu|Play marker line width||||||
+playpositioncolor=$COLOR;		|Couleur du curseur de jeu|Color of play marker||||||
+playpositionopacity=$NUMBER;50;0;100	|Opacité du curseur de jeu in %|Opacity of play marker in %||||||
+animationratio=$NUMBER;100;10;1000	|Vitesse d'animation de l'interface en %|Interface animation speed ratio in %||||||
+scoreview=yes;no			|Affiche la partition si possible|Display score if available||||||
+keyboard=no;yes				|Affiche le clavier si possible|Display keyboard if available||||||
+keyboardheight=$NUMBER;;20;500		|Hauteur du clavier en pixels|Keyboard height in pixels||||||
+keyboardusenotecolor=no;yes |Utilise la couleur des notes et non une couleur par portée|Use note color instead of one color per staff||||||
+titlebar=no;yes				|Affiche la barre de titre|Display title bar||||||
+titleheight=$NUMBER;;10;100		|Hauteur de la barre de titre en pixels|Title bar height in pixels||||||
+toolset=$STRING;default			|Liste des icones d'outils (voir manuel)|List of tool icons (see manual)||||||
+toolheight=$NUMBER;;10;100		|Hauteur de la barre d'outils en pixels|Tool bar height in pixels||||||
+timebar=no;yes				|Affiche la barre de gestion de temps|Display time management bar||||||
+timebarheight=$NUMBER;;6;50		|Hauteur de la barre de gestion de temps en pixels|Time management bar height in pixels||||||
+
+!|Thème|Theme||||||
+look=moon 				|Aspect général de l'interface||Interface general look||||||
+toolhmargin=$NUMBER;0;0;50		|Marge supp. horizontale entre les icones en pixels|Extra horizontal margin between tool icons in pixels||||||
+toolvmargin=$NUMBER;0;0;50		|Marge supp. vertical au dessus et en dessous des icones|Extra vertical margin above and below tool icons in pixels||||||
+theme-stroke=$COLOR;			|Couleur de détourage des icones|Tool icons outline color||||||
+theme-fill=$COLOR;			|Couleur de remplissage des icones|Tool icons fill color||||||
+theme-pagebgcolor=$COLOR;		|Couleur de fond des partitions|Score view background color||||||
+theme-toolbarbackground=$COLOR; 	|Couleur de fond de la barre d'outil|Tool bar background color||||||
+theme-titlebackground=$COLOR;		|Couleur de fond du titre|Title bar background color||||||
+theme-positionbackground=$COLOR;	|Couleur de fond de la barre de positionnement rapide|Quick positionning bar background color||||||
+theme-keyboardbackground=$COLOR;	|Couleur de fond du clavier|Keyboard background color||||||
+theme-menupanebgcolor=$COLOR;		|Couleur de fond du menu surgissant|pop-up menu background color||||||

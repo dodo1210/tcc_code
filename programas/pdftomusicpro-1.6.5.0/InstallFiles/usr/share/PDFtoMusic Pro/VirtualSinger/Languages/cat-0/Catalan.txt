@@ -1,0 +1,103 @@
+﻿############### Catalan Phonetic file ################
+##############     2015 Myriad      ################
+$ENTITLE Catalan
+$ENAUTHOR by Myriad / Gil Rossell 
+$ENCOMMENT  v1
+
+$FRTITLE Catalan
+$FRAUTHOR par Myriad / Gil Rossell 
+$FRCOMMENT
+$PREPROCESS CATALAN
+$SAMPA
+
+$DATASTART
+
+#diphthongs
+
+[a|à|e|é|è|o|ó|ò]i=j
+[a|à|e|é|è|o|ó|ò]u=w
+[i|í|ï]u=w
+[u|ú|ü]i=j
+
+#other letters
+
+à=a
+a=@
+[*]b=b
+b[s|p|t|k|*]=p
+b=B
+c[e|é|è|i|í|ï]=s
+c=k
+ç=s
+[*]d=d
+[a|à|e|é|è|i|í|ï|o|ó|ò|u|ú|ü|y]d[a|à|e|é|è|i|í|ï|o|ó|ò|u|ú|ü|y]=D
+d[p|t|k|qu|*]=t
+d=d
+é=e
+è=E
+e=@
+f=f
+gu[e|é|è|i|í|ï]=G
+gu[a|à|o|ó|ò|u|ú|ü]=g+w
+gü=g+w
+[a|à|e|é|è|i|í|ï|o|ó|ò|u|ú|ü|y]g[a|à|e|é|è|i|í|ï|o|ó|ò|u|ú|ü|y]=G
+g[r]=G
+g[e|é|è|i|í|ï]=Z
+g[p|t|k|f|s|S]=k
+[í]g[*]=tS
+g[*]=k
+g=g
+h=
+[a|à|e|é|è|i|í|ï|o|ó|ò|u|ú|ü|y]ig[*]=tS
+i|í|ï=i
+j=Z
+k=k
+ll=L
+l·l=l
+l=l
+mm=m
+m[v|f]=F
+m=m
+nn=n
+nys[*]=n+tS
+ny=J
+n[g|k]=n
+n=n
+n[v|f]=F
+ò=O
+ó=o
+o=u
+p=p
+qu[e|é|è|i|í|ï]=k
+qu[a|à|o|ó|ò|u|ú|ü]=k+w
+qü=k+w
+q=k
+rr=R
+[*]r=R
+r[a|à|e|é|è|i|í|ï|o|ó|ò|u|ú|ü|y]=r
+r[*]=
+r=R
+[a|à|e|é|è|i|í|ï|o|ó|ò|u|ú|ü|y]s[a|à|e|é|è|i|í|ï|o|ó|ò|u|ú|ü|y]=z
+ss=s
+s=s
+tll=L+j
+tg=dZ
+tz=dz
+[b|c|d|f|g|h|k|l|m|n|p|q|r|s|t|v|x|z]t[*]=
+t=t
+ú=u
+ü=w
+u=u
+v=b
+w=w
+# -------- X pronounced GZ (exemple)
+[e|é|è]x[a|à|e|é|è|i|í|ï|o|ó|ò|u|ú|ü|y]=g+z
+# ------- X pronounced KS (extra)
+[e|é|è]x=k+s
+# ------- X pronounced KS (fixar)
+[fi|fí|fï]x=k+s					
+x=S
+y=j
+z=z
+
+$DATAEND

@@ -1,0 +1,1094 @@
+DebutFichier
+	DebutFragment
+		Nom END
+		DisplayName "End of piece"
+		TypeLocalisation SILENCE
+		LibExemple "-Silence-"
+ 		TypeFragment 3
+ 	  	Taille 10
+ 	  	BeginTrans 10
+ 	 	EndTrans 10
+ 	 	Noise 0
+ 	 	PowerStart 0
+ 	 	PowerMax 0
+		DebutMot
+			END 30
+		FinMot
+	FinFragment
+	DebutFragment
+		Nom Q
+		DisplayName "Pause"
+		TypeLocalisation SILENCE
+		LibExemple "-Silence-"
+ 		TypeFragment 3
+ 	  	Taille 10
+ 	  	BeginTrans 10
+ 	 	EndTrans 10
+ 	 	Noise 0
+ 	 	PowerStart 0
+ 	 	PowerMax 0
+		DebutMot
+			Q 30
+		FinMot
+	FinFragment
+	DebutFragment
+		Nom GLST
+		DisplayName "Glottal Stop"
+		TypeLocalisation SILENCE
+		LibExemple "-Silence-"
+		TypeFragment 3
+ 	  	Taille 30
+ 	  	BeginTrans 30
+ 	 	EndTrans 6
+ 	 	Noise 0
+ 	 	PowerStart 0
+ 	  	PowerMax 0
+		DebutMot
+			GLST 30
+		FinMot
+	FinFragment
+	DebutFragment
+		Nom I
+		DisplayName "I (1)"
+		TypeLocalisation PROLONGE
+		LibExemple "bIn"
+		TypeFragment 0	
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			SQ 20
+			B 50
+			I 1000
+			N 100
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom A
+		DisplayName "A (1)"
+		TypeLocalisation PROLONGE
+		LibExemple "thE"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			SQ 30
+			DH 50	
+			A 1000
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom AA
+		DisplayName "A (2)"
+		TypeLocalisation PROLONGE
+		LibExemple "lAd"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			L 80
+			AA 1000
+			SQ 30
+			D2 50
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom E
+		DisplayName "E"
+		TypeLocalisation PROLONGE
+		LibExemple "mEn"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			M 70
+			E 1000
+			N 70
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom EE
+		DisplayName "EE"
+		TypeLocalisation PROLONGE
+		LibExemple "EAse"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			EE 1000
+			Z 70
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom AW
+		DisplayName "AW"
+		TypeLocalisation PROLONGE
+		LibExemple "rAW"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			R 60
+			AW 1000
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom O
+		DisplayName "O"
+		TypeLocalisation PROLONGE
+		LibExemple "nOt"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			N 60
+			O 1000
+			GLST 40
+			T2 50
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom OO
+		DisplayName "U (1)"
+		TypeLocalisation PROLONGE
+		LibExemple "pUt"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			P2 30
+			OO 1000
+			GLST 40
+			T2 50
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom U
+		DisplayName "U (2)"
+		TypeLocalisation PROLONGE
+		LibExemple "nUt"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			N 60
+			U 1000
+			GLST 70
+			T2 70
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom UU
+		DisplayName "OO"
+		TypeLocalisation PROLONGE
+		LibExemple "lOse"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			L 60
+			UU 1000
+			Z 70
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom AIR
+		DisplayName "AIR"
+		TypeLocalisation PROLONGE
+		LibExemple "lAIR"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			L 60
+			AIR 1000
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom AR
+		DisplayName "AR"
+		TypeLocalisation PROLONGE
+		LibExemple "mAR"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			M 60
+			AR 1000
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom ER
+		DisplayName "UR"
+		TypeLocalisation PROLONGE
+		LibExemple "fUR"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			F 60
+			ER 1000
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom OOR
+		DisplayName "OOR"
+		TypeLocalisation PROLONGE
+		LibExemple "mOOt"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			M 60
+			OOR 1000
+			GLST 20
+			T2 40
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom W
+		DisplayName "W (transitional)"
+		TypeLocalisation PROLONGE
+		LibExemple "Win (prolongate W)"
+		TypeFragment 4
+		Taille 55
+		BeginTrans 20
+		EndTrans 35
+		Noise 0
+		PowerStart 100
+		PowerMax 100
+		DebutMot
+			GLST 350
+			W 1000
+			I 80
+			N 70
+			GLST 60
+		FinMot	
+
+	FinFragment
+	DebutFragment
+		Nom OA
+		DisplayName "O (diphthong)"
+		TypeLocalisation PROLONGE
+		LibExemple "hOpe"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			H 60
+			OA 1000
+			OV 70
+			GLST 20
+			P2 40
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom OU
+		DisplayName "OU (diphthong)"
+		TypeLocalisation PROLONGE
+		LibExemple "rOUse"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			R 60
+			OU 1000
+			OV 100
+			Z 60
+			GLST 60
+		FinMot	
+	FinFragment
+	
+	DebutFragment
+		Nom AIR/ID
+		DisplayName "AI (full diphthong)"
+		TypeLocalisation DIPHTONGUE
+		LibExemple "rAIse"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			R 60
+			AIR 200
+			AIR 500
+			ID 80
+			Z 60
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom AR/ID
+		DisplayName "I (full diphthong)"
+		TypeLocalisation DIPHTONGUE
+		LibExemple "I"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			AR 100
+			AR 500
+			ID 150
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom AW/ID
+		DisplayName "OI (full diphthong)"
+		TypeLocalisation DIPHTONGUE
+		LibExemple "nOIse"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			N 60
+			AW 150
+			AW 500
+			ID 150
+			Z 60
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom OA/OV
+		DisplayName "OW (full diphthong)"
+		TypeLocalisation DIPHTONGUE
+		LibExemple "hOpe"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			H 60
+			OA 150
+			OA 500
+			OV 150
+			GLST 20
+			P2 40
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom OU/OV
+		DisplayName "OU (full diphthong)"
+		TypeLocalisation DIPHTONGUE
+		LibExemple "rOUse"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			R 60
+			OU 500
+			OV 80
+			Z 60
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom EE/IB
+		DisplayName "EA (full diphthong)"
+		TypeLocalisation DIPHTONGUE
+		LibExemple "fEAr"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			F 60
+			EE 150
+			EE 500
+			IB 150
+			R 60
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom AIR/IB
+		DisplayName "AIR (full diphthong)"
+		TypeLocalisation DIPHTONGUE
+		LibExemple "lAIr"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			L 60
+			AIR 500
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom OOR/IB
+		DisplayName "UR (full diphthong)"
+		TypeLocalisation DIPHTONGUE
+		LibExemple "lURe"
+		TypeFragment 0
+		Taille 90
+		BeginTrans 18
+		EndTrans 30
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			L 60
+			OOR 500
+			IB 80
+			R 60
+			GLST 60
+		FinMot	
+	FinFragment
+		
+	DebutFragment
+		Nom M
+		DisplayName "M"
+		TypeLocalisation PROLONGE
+		LibExemple "Me or Mmmm"
+		TypeFragment 1
+		Taille 60
+		BeginTrans 8
+		EndTrans 10
+		Noise 0
+		PowerStart 55
+		PowerMax 100
+		CloseLips 1
+		DebutMot
+			GLST 350
+			M 1000
+			EE 350
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom N
+		DisplayName "N"
+		TypeLocalisation PROLONGE
+		LibExemple "No or Nnn"
+		TypeFragment 1
+		Taille 60
+		BeginTrans 12
+		EndTrans 11
+		Noise 0
+		PowerStart 55
+		PowerMax 100
+		CloseLips 0.2
+		DebutMot
+			GLST 350
+			N 1000
+			OA 350
+			OV 70
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom L
+		DisplayName "L"
+		TypeLocalisation PROLONGE
+		LibExemple "Law or Lll"
+		TypeFragment 1
+		Taille 60
+		BeginTrans 12
+		EndTrans 12
+		Noise 0
+		PowerStart 65
+		PowerMax 100
+		DebutMot
+			GLST 350
+			L 1000
+			AW 350
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom NG
+		DisplayName "NG"
+		TypeLocalisation PROLONGE
+		LibExemple "piNG"
+		TypeFragment 1
+		Taille 60
+		BeginTrans 18
+		EndTrans 18
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+		DebutMot
+			GLST 350
+			P2 60
+			EEF 160
+			NG 1000
+			SQ 20
+			G2 40
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom ZH
+		DisplayName "J"		
+		TypeLocalisation PROLONGE
+		LibExemple "Gin or Jjj"
+		TypeFragment 1
+		Taille 55
+		BeginTrans 9
+		EndTrans 9
+		Noise 60
+		PowerStart 13
+		PowerMax 70
+		DebutMot
+			GLST 350
+			ZH 1000
+			I 250
+			N 70
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom V
+		DisplayName "V"
+		TypeLocalisation PROLONGE
+		LibExemple "Vim or Vvv"
+		TypeFragment 1
+		Taille 55
+		BeginTrans 9
+		EndTrans 9
+		Noise 60
+		PowerStart 13
+		PowerMax 70
+		CloseLips 0.7
+		DebutMot
+			GLST 350
+			V 1000
+			I 350
+			M 70
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom Z
+		DisplayName "Z"
+		TypeLocalisation PROLONGE
+		LibExemple "Zzz"
+		TypeFragment 1
+		Taille 60
+		BeginTrans 9
+		EndTrans 9
+		Noise 40
+		PowerStart 10
+		PowerMax 40
+		CloseLips 0.4
+		DebutMot
+			GLST 350
+			Z 1000
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom R
+		DisplayName "R"
+		TypeLocalisation PROLONGE
+		LibExemple "Raw ou Rrr"
+		TypeFragment 1
+		Taille 55
+		BeginTrans 10
+		EndTrans 20
+		Noise 40
+		PowerStart 85
+		PowerMax 85
+		CloseLips 0.4
+		DebutMot
+			GLST 350
+			R 1000
+			AW 350
+			GLST 60
+			FinMot	
+	FinFragment
+	DebutFragment
+		Nom DH
+		DisplayName "TH (vocalized)"
+		TypeLocalisation PROLONGE
+		LibExemple "THis or THhh (vocalized)"
+		TypeFragment 1
+		Taille 50
+		BeginTrans 7
+		EndTrans 12
+		Noise 40
+		PowerStart 35
+		PowerMax 90
+		CloseLips 0.4
+		DebutMot
+			GLST 350
+			DH 1000
+			EE 350
+			S 60
+			GLST 60
+			FinMot	
+	FinFragment
+	DebutFragment
+		Nom TH
+		DisplayName "TH (unvocalized)"
+		TypeLocalisation PROLONGE
+		LibExemple "THin or THhh (unvocalized)"
+		TypeFragment 1
+		Taille 60
+		BeginTrans 10
+		EndTrans 20
+		Noise 100
+		PowerStart 20
+		PowerMax 30
+		CloseLips 0.6
+		DebutMot
+			GLST 350
+			TH 1000
+			I 350
+			N 60
+			GLST 60
+			FinMot	
+	FinFragment
+	DebutFragment
+		Nom S
+		DisplayName "S"
+		TypeLocalisation PROLONGE
+		LibExemple "Sea or Sss"
+		TypeFragment 2
+		Taille 60
+		BeginTrans 9
+		EndTrans 9
+		Noise 100
+		PowerStart 10
+		PowerMax 20
+		CloseLips 0.4		
+		DebutMot
+			GLST 350
+			S 1000
+			EE 350
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom H
+		DisplayName "H (aspiration)"
+		TypeLocalisation PROLONGE
+		LibExemple "Hit"
+		TypeFragment 2
+		Taille 60
+		BeginTrans 6
+		EndTrans 8
+		Noise 100
+		PowerStart 10
+		PowerMax 20
+		DebutMot
+			GLST 350
+			H 1000
+			EE 160
+			GLST 20
+			T2 40
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom CI
+		DisplayName "CH"
+		TypeLocalisation PROLONGE
+		LibExemple "CHin or CHhhh"
+		TypeFragment 2
+		Taille 55
+		BeginTrans 7
+		EndTrans 15
+		Noise 100
+		PowerStart 15
+		PowerMax 30
+		CloseLips 0.4		
+		DebutMot
+			GLST 350
+			CI 1000
+			I 350
+			N 70
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom SH
+		DisplayName "SH"
+		TypeLocalisation PROLONGE
+		LibExemple "SHin or SHhhh"
+		TypeFragment 2
+		Taille 55
+		BeginTrans 11
+		EndTrans 12
+		Noise 100
+		PowerStart 25
+		PowerMax 25
+		CloseLips 0.4		
+		DebutMot
+			GLST 350
+			SH 1000
+			I 350
+			N 70
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom F
+		DisplayName "F"		
+		TypeLocalisation PROLONGE
+		LibExemple "Fee or Fff"
+		TypeFragment 2
+		Taille 60
+		BeginTrans 9
+		EndTrans 9
+		Noise 100
+		PowerStart 1
+		PowerMax 12
+		CloseLips 1		
+		DebutMot
+			GLST 350
+			F 1000
+			EE 350
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom T2
+		DisplayName "T"
+		TypeLocalisation PLOSIVE
+		LibExemple "noT"
+		TypeFragment 3
+		Taille 40
+		BeginTrans 6
+		EndTrans 16
+		Noise 20
+		PowerStart 20
+		PowerMax 20
+		CloseLips 0.2
+		DebutMot
+			GLST 350
+			N 50
+			O 350
+			GLST 30
+			T2 50
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom P2
+		DisplayName "P"
+		TypeLocalisation PLOSIVE
+		LibExemple "maP"
+		TypeFragment 3
+		Taille 40
+		BeginTrans 6
+		EndTrans 16
+		Noise 40
+		PowerStart 100
+		PowerMax 100
+		CloseLips 1
+		DebutMot
+			GLST 350
+			M 50
+			AA 350
+			GLST 30
+			P2 50
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom K2
+		DisplayName "K"
+		TypeLocalisation PLOSIVE
+		LibExemple "loCK"
+		TypeFragment 3
+		Taille 40
+		BeginTrans 6
+		EndTrans 16
+		Noise 20
+		PowerStart 20
+		PowerMax 20
+		CloseLips 0.1
+		DebutMot
+			GLST 350
+			L 90
+			O 350
+			GLST 30
+			K2 50
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom G2
+		DisplayName "G"
+		TypeLocalisation PLOSIVE
+		LibExemple "gaG"
+		TypeFragment 3
+		Taille 40
+		BeginTrans 6
+		EndTrans 15
+		Noise 20
+		PowerStart 20
+		PowerMax 20
+		CloseLips 0.3
+		DebutMot
+			GLST 350
+			G2 60
+			AA 350
+			SQ 30
+			G2 50
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom B
+		TypeLocalisation PLOSIVE
+		LibExemple "cab"
+		DisplayName "B"
+		TypeFragment 3
+		Taille 40
+		BeginTrans 9
+		EndTrans 10
+		Noise 20
+		PowerStart 50
+		PowerMax 80
+		CloseLips 0.5
+		DebutMot
+			GLST 350
+			K2 60
+			AA 350
+			SQ 30
+			B 60
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom D2
+		DisplayName "D"
+		TypeLocalisation PLOSIVE
+		LibExemple "laD"
+		TypeFragment 3
+		Taille 40
+		BeginTrans 9
+		EndTrans 16
+		Noise 20
+		PowerStart 20
+		PowerMax 25
+		DebutMot
+			GLST 350
+			L 60
+			AA 350
+			SQ 10
+			DL2 60
+			GLST 60
+		FinMot	
+	FinFragment
+	DebutFragment
+		Nom ASP
+		DisplayName "Aspiration"
+		TypeLocalisation ASPIRATION
+		LibExemple "-Hhh- (breathe in)"
+ 		TypeFragment 3
+ 	  	Taille 10000
+ 	  	BeginTrans 0
+ 	 	EndTrans 0
+ 	 	Noise 0
+ 	 	PowerStart 0
+ 	 	PowerMax 2
+		DebutMot
+			GLST 350
+			H 200
+		FinMot
+	FinFragment
+	DebutFragment
+		Nom Y
+		DisplayName "Y (trans-aka EE)"
+		Alias EE
+		TypeFragment 4
+		Taille 50
+		BeginTrans 12
+		EndTrans 12
+		Noise 0
+		PowerStart 90
+		PowerMax 90
+	FinFragment	
+	DebutFragment
+		Nom ID
+		DisplayName "ID (diphth aka Y)"
+		Alias Y
+		TypeFragment 4
+	    Taille 40
+	    BeginTrans 20
+ 	 	EndTrans 20
+ 	 	Noise 0
+ 	 	PowerStart 100
+ 	 	PowerMax 100
+	FinFragment
+	DebutFragment
+		Nom SQ
+		DisplayName "Glottal Soft"
+		TypeLocalisation GLOTQUIET
+		LibExemple "cluB"
+		TypeFragment 3
+	    Taille 30
+	    BeginTrans 20
+ 	 	EndTrans 1
+ 	 	Noise 0
+ 	 	PowerStart 11
+ 	 	PowerMax 0
+		DebutMot
+			GLST 350
+			K2 30	
+			L 60
+			U 1000
+			SQ 60
+			B 50
+			GLST 60			
+		FinMot
+	FinFragment
+
+	DebutFragment
+		Nom IB
+		DisplayName "IB (diphth aka R)"
+		Alias R
+		TypeFragment 4
+	    Taille 40
+	    BeginTrans 20
+ 	 	EndTrans 20
+ 	 	Noise 0
+ 	 	PowerStart 100
+ 	 	PowerMax 100
+	FinFragment
+	DebutFragment
+		Nom OV
+		DisplayName "OV (diphth aka W)"
+		Alias W
+		TypeFragment 4
+	    Taille 2
+	    BeginTrans 20
+ 	 	EndTrans 20
+ 	 	Noise 0
+ 	 	PowerStart 60
+ 	 	PowerMax 60
+	FinFragment	
+	
+FinFichier	

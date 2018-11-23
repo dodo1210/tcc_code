@@ -1,0 +1,10 @@
+strongest_beat	0.69817218
+spectral_crest_factor	0.60441405
+percusiviness	0.51851147
+spectral_dissonance	0.36231983
+roughness	0.30664613
+media_rhythm_strength	0.28212615
+espectograma_maximo	0.26230551
+mfcc	0.25072876
+attack_time	0.25560259
+loudness_flatness	0.24672971

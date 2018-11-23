@@ -1,0 +1,37 @@
+#***************************************************************************************
+#			MACEDONIAN
+#	Link between Sampa notation & fragments (with examples)
+# Source : none. Macedonian SAMPA not normalized yet.
+
+'	6R
+
+a	A
+u	U
+e	EIS
+i	IS
+o	OS
+O	OI
+y	UUF
+j	Y
+
+b	SQ B
+d	SQ DL2
+f	F
+g	SQ G2
+k	GLST K2
+l	LL
+m	M
+n	N
+p	GLST P2
+r	RX
+t	GLST T2
+v	V
+x	KH
+s	S
+S	SH
+z	Z
+Z	ZH ZH
+tS	GLST T2 SH
+ts	GLST T2 S
+dZ	SQ DL2 ZH
+dz	DL2 Z

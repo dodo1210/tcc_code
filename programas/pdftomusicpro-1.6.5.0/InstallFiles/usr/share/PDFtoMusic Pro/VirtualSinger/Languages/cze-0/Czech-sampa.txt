@@ -1,0 +1,75 @@
+﻿#***************************************************************************************
+#			Czech 
+#	Link between Sampa notation & fragments (with examples)
+# Source : http://noel.feld.cvut.cz/sampa/CZECH-SAMPA.pdf
+#	http://www.fit.vutbr.cz/study/courses/ZRE/public/pred/10_phn_lvcsr/czech.htm.cs
+# -- Glottal stop
+/	GLST 	[]
+#-- Vowels
+i	EEF	[myš]
+e	EI	[les]
+a	AF	[pas]
+o	AW	[rok]
+u	OOCZ	[kus]
+# --- long vowels are useless in chant
+# i:	EEF	[pít]	# Unused
+# e:	EI	[lék]	# Unused
+# a:	AF	[rád]	# Unused
+# o:	AW	[móda]	# Unused
+# u:	OOCZ 	[půl]	# Unused
+
+#---- diphtongs ??(W W | UUF)
+au	AF W 	[auto]
+eu	EI W 	[neuron]
+ou	AW W 	[mouka]
+
+aj	AF YS	[kraj]
+a:j	AF YS	[ráj]
+
+#-- consonants (devoiced/voiced pairs)
+p	GLST P2	[pes]
+b	SQ B	[bota]
+t	GLST T2	[tam]
+d	SQ DL2	[dům]	
+t'	GLST TL2 6R	[tito]
+d'	SQ DL2 6R 	[děd]
+k	GLST K2	[krk]
+g	SQ G2	[kde]
+
+#-- affricates ?? ts: GLST ??tS: GLST T2 CI
+ts	TL2 S	[cíl]
+dz	SQ DL2 Z	[podzim]
+tS	CI	[čas]
+dZ	SQ DLS ZH	[džbán]
+
+# labiodental, alveolar, palatoalveolar devoiced/voiced pairs
+# Addition: r" w/sh, w (letter "q"=kw)	
+f	F	[forma]
+v	V	[vak]
+s	S	[sen]
+z	Z	[zub]
+r'	RCZ2	[řek]
+r"	RCZ1	[]
+S	JSH	[šál]
+Z	ZH	[žal]
+j	YS	[boj]
+w	W	[]
+x	KHCZ	[chlapec]
+h\	HCZ	[had]
+
+# liquids, nasals
+
+r	RXCZ	[ret]
+l	LL	[led]
+
+m	M	[mrak]
+n	N	[noc]
+n'	N 6R	[nic]
+
+# syllabic consonants (act as vowels).
+
+l=	LL ACZ	[vlk]
+m=	ACZ M	[osm]
+r=	RXCZ ACZ	[krk]
+
+# ------------------- End of file

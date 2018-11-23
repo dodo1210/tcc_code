@@ -1,0 +1,40 @@
+﻿############### Esperanto ###############
+############## (c) 2010 Sylvain Machefert
+$ENTITLE Esperanto
+$ENAUTHOR by Sylvain Machefert
+$ENCOMMENT 
+
+$FRTITLE Esperanto
+$FRAUTHOR par Sylvain Machefert
+$FRCOMMENT 
+
+$DATASTART
+ch|Ch|CH|cx|Cx|CX|ĉ|Ĉ=GLST+T2+SH
+gh|Gh|GH|gx|Gx|GX|ĝ|Ĝ=SQ+DL2+ZH
+hh|Hh|HH|hx|Hx|HX|ĥ|Ĥ=KH
+jh|Jh|JH|jx|Jx|JX|ĵ|Ĵ=ZH
+sh|Sh|SH|sx|Sx|SX|ŝ|Ŝ=SH
+ux|Ux|UX|ŭ|Ŭ=UUFS
+a|A=A
+b|B=SQ+B
+c|C=GLST+T2+S
+d|D=SQ+DL2
+e|E=EIS
+f|F=F
+g|G=SQ+G2
+h|H=HFI
+i|I=IS
+j|J=EEFS
+k|K=GLST+K2
+l|L=LFR
+m|M=M
+n|N=N
+o|O=OS
+p|P=GLST+P2
+r|R=RX
+s|S=SS
+t|T=GLST+T2
+u|U=UUF
+v|V=V
+z|Z=Z
+$DATAEND

@@ -1,0 +1,129 @@
+#---------------------- Font replacement table -------------------
+# Search scheme:
+# Each same name is evaluated only once to avoid infinite loops.
+# When a font name is not present in system:
+#	1- searches line that starts with this name
+#		1.1 - Use first available font in the line font list
+#	if none present in system
+#	2- searches all line contents for the required name
+#		2.1 - Use first available font in each line font list
+#	if none present in system
+#	3- searches all lines for the required name
+#		3.1 - recursively searches each name in these lines 
+#	if none present in system
+#	4- Try to use default font: Times New Roman
+#	if not present in system
+#	5- Error (returns "Default" name)
+
+
+# Standard Windows fonts
+
+Arial,Tahoma,Verdana,Helvetica,Helvetica Neue,Swiss
+Courier New,Courier,American Typewriter
+Times New Roman,Times,Times Roman,TimesRoman,TimesNewRoman
+Verdana,Trebuchet MS,Trebuchet,Arial
+Tahoma,Geneva,Verdana
+Impact,Techno,Charcoal
+Palatino Linotype,Palatino,Times New Roman
+Lucida Console,Lucida Sans Unicode,Lucida Sans,Gill Sans,Arial
+Microsoft Sans Serif,MS Sans Serif,Arial
+Arial Black,Gadget,Arial
+Arial Rounded MT Bold,Arial Rounded MT,Gadget,Arial
+Arial Hebrew,Arial
+Arial Narrow,Arial
+Comic Sans MS,Marker Felt Thin,Marker Felt,Marker Felt Wide,Brush Script,Arial
+MS Serif,New York,Times New Roman
+
+# Standard Macintosh fonts
+Charcoal,Chicago,Impact
+Courier,Courier New
+Geneva,Tahoma
+Helvetica,Helvetica Neue,Arial
+Helvetica Neue Black Condensed,Helvetica Neue Bold Condensed,Arial Black
+Helvetica Neue Light,Helvetica Neue UltraLight,Century
+Monaco,Geneva
+Palatino,Palatino Linotype
+Sand,Papyrus,Herculanum
+Times,Times New Roman
+Apple Chancery,Zapf Chancery,ZapfChancery,Comic Sans MS
+Bookman,Palatino Linotype
+New Century,New Century Schoolbook,New Century Schlbk,Times New Roman
+
+#Wine Fonts (SUSE 9.1)
+Bitsream Vera Sans,Arial
+Bitsream Vera Serif,Times New Roman
+Luxi Sans,Tahoma,Verdana,Arial
+Luxi Serif,Times New Roman,Palatino
+#Wine Fonts (UBUNTU 9.1)
+Nimbus Roman No9 L,FreeSerif,Times New Roman
+FreeSans,Arial
+FreeMono,Courier New
+DejaVu Sans,Arial
+DejaVu Serif,Times New Roman
+DejaVu Sans Mono,Courier New
+
+# Less standard fonts
+American Tyewriter,Courier New
+American Typewriter Condensed,American Typewriter
+American Typewriter Light,American Typewriter Condensed Light,American Typewriter
+Georgia,Cochin,Palatino Linotype
+Franklin Gothic Medium,Franklin Gothic,Gill Sans,Arial
+Baskerville,Palatino Linotype,Baskerville Semibold
+BiauKai,Baskerville
+Big Caslon,Big Caslon Medium,BigCaslon,BigCaslon Medium,Baskerville
+Brush Script MT,Brush Script,Comic Sans MS
+Book Antiqua,Palatino Linotype
+Calisto MT,Palatino Linotype
+Century Gothic,Century,New Century,Gill Sans,Geneva
+Copperplate,Copperplate Gothic,Copperplate Gothic Bold,Copperplate Light,Copperplate Gothic Light,Arial Black
+Curlz MT,Comic Sans MS
+Didot,Palatino Linotype
+Edwardian Script ITC,Brush Script
+Euphemia UCAS,Euphemia UCAS Bold,Euphemia UCAS Italic,Geneva
+Futura,Century
+Futura Condensed,Arial Narrow
+Geeza Pro,Geeza Pro Bold,Geneva
+Gill Sans,Gill Sans Light,Gill Sans Condensed,Arial Narrow
+Tempus Sans ITC,Comic Sans MS
+Papyrus,Tempus Sans ITC
+Herculanum,Tempus Sans ITC
+Hoefler Text,Palatino Linotype
+Hoefler Text Ornaments,Verdana
+Meta Sans,Meta Sans Italic,Tahoma
+News Gothic MT,News Gothic,Arial
+Optima,Gill Sans
+Optima ExtraBlack,Arial Black
+Textyle,Sand
+Zapfino,Tempus Sans ITC,Papyrus,Arial
+Andale Mono,Geneva
+Skia,Geneva
+Anastasia,Geneva
+Hei,Arial
+Ayuthaya,Andale Mono
+Baghdag,Geneva
+Chalkboard,Chalkboard Bold,Comic Sans MS
+Lucida Grande,Lucida Sans Unicode
+Lucida Handwriting,Brush Script,Comic Sans MS
+VT100,Terminal,Courier
+
+#Language-specific fonts
+Aharoni,Arial Black
+Andalus,Palatino Linotype
+Angsana New,Times New Roman
+Batang,Times New Roman
+David,Times New Roman
+Dotum,Verdana
+Estrangelo Edessa,Arial
+FrankRuehl,Times New Roman
+Gulim,Arial
+Gungsuh,Courier New
+InkPen2 Script,Comic Sans MS
+JazzText,JazzTextExtended,InkPen2 Script
+Sylfaen,Times New Roman
+Vringa,Arial
+
+#Japanese fonts
+MS Gothic,MS UI Gothic,HeiseiKakuGothic,Hiragino Kaku Gothic Pro,Hiragino Maru Gothic Pro,Hiragino Kaku Gothic Std,Hiragino,TakaoPGothic,Osaka,Arial Unicode MS,Arial
+MS Mincho,MS UI Mincho,Hiragino Mincho Pro,HeiseiMincho,Hiragino,Osaka,Times New Roman
+MS PMincho,MS Mincho
+Osaka,MS Gothic

@@ -1,0 +1,73 @@
+﻿#### Turkic languages phonetic file
+#### 2011 Sylvain Machefert
+
+$ENTITLE Turkic languages
+$ENAUTHOR by Sylvain Machefert
+$ENCOMMENT Azeri, Kazakh, Tuvan..., cyrilic and latin, v20111212
+
+$FRTITLE Langues turciques
+$FRAUTHOR par Sylvain Machefert
+$FRCOMMENT Azéri, Kazakh, Touvain... cyrillique et latin, v20111212
+
+#Touvain
+#Bashkir
+#Kazakh
+#Dolgane
+#http://fr.wikipedia.org/wiki/Dolgane
+#Chuvash
+#http://en.wikipedia.org/wiki/Chuvash_language
+
+$DATASTART
+;gamma
+ГЪ|Гъ|гъ|Ғ|ғ|Ҕ|ҕ|Ğ|ğ=RFR
+НГ|Нг|нг|NG|Ng|ng=NG
+D'|d'=SQ+D2+Y
+T'|t'=SQ+T2+Y
+Ѳ|ѳ|Θ|θ|TH|Th|th=TH
+Щ|щ|ŠC|Šc|šc|ŠČ|Šč|šč|SHCH|SHch|Shch|shch=SH+T2+SS
+Ц|ц|C|c=SQ+T2+S
+Ч|ч|Č|č|Ç|ç|CH|Ch|ch=GLST+T2+SH
+Ш|ш|Š|š|Ş|ş|SH|Sh|sh=SH
+Ж|ж|Ɉ|ɉ|Ž|ž|Ƶ|ƶ|ZH|Zh|zh=ZH
+Х|х|X|x|KH|Kh|kh=KH
+А|а|A|a=A
+Б|б|B|b=SQ+B
+В|в|V|v=V
+Г|г|G|g=SQ+G2
+Д|д|D|d=SQ+DL2
+Ҙ|ҙ=DH
+[_]Е|е|E|e=Y+E
+Е|е|E|e|É|é=E
+Ё|ё|Ë|ë=Y+OS
+З|з|Z|z=Z
+И|и|İ|I|i=EF
+Й|й|J|j=Y
+К|к|K|k=SQ+K2
+Ҡ|ҡ|Қ|қ|Q|q=GLST+K2
+Л|л|L|l=L
+М|м|M|m=M
+Н|н|N|n=N
+Ń|ń=N+Y
+Ң|ң|Ñ|ñ|Ŋ|ŋ|Ņ|ņ=NG
+О|о|O|o=OS
+Ö|ö|Ө|ө|Ö|ö=E9
+П|п|P|p=GLST+P2
+Р|р|R|r=RX
+С|с|S|s=S
+Ҫ|ҫ|Ś|ś=SH+Y
+Т|т|T|t[*]=T2
+ТТ|тт|TT|tt|Т|т|T|t=SQ+T2
+У|у|U|u=UUF
+Ӱ|ӱ|Ү|ү|Ұ|ұ|Ў|ў|Ü|ü=UFR
+Ф|ф|F|f=F
+Һ|һ|Ҳ|ҳ|H|h=H
+Ъ|ъ=GLST
+;i sans point ou â roumain
+Ы|ы|І|і|Ï|ï|ı|Y|y=E2
+Ь|ь|'|"=EEFS
+Э|э|Ӗ|ӗ|Ĕ|ě|È|è=EF
+Ä|ä|Ә|ә|Â|â|Ä|ä=AAS
+Ӑ|ӑ|Ă|ă=ARF
+Ю|ю=Y+UUF
+Я|я=Y+A
+$DATAEND$

@@ -1,0 +1,57 @@
+﻿#***************************************************************************************
+#			Hebrew (transliteration)
+#	Link between Sampa notation & fragments (with examples)
+# Source : http://www.phon.ucl.ac.uk/home/sampa/hebrew.htm
+
+# Plosives 
+p 	GLST P2	[]
+b 	SQ B	[]
+t 	GLST TL2 []
+d 	SQ DL2	[]
+k 	GLST K2	[]
+g 	SQ G2	[]
+'	SHVA	[] 
+#??: ?	GLST	[]
+ 
+# Fricatives
+f	F	[falafel]
+v 	V	[]
+s 	S 	[]
+z 	Z 	[]
+S 	SH 	[]
+X 	KH 	[]
+h 	HHE	[]
+ 
+#Affricate
+ts 	GLST T2 S	[]
+ 
+#Nasals
+m 	M	[]
+n 	N	[]
+
+#Liquids
+l	LFR
+R 	RXS RXS	[]
+ 
+#Semivowel
+j 	Y	[]
+w	W	[karaui]
+ 
+
+#Vowels
+i 	EEF 	[]
+e 	E 	[]
+a 	U	[]
+o 	O 	[]
+u 	UUF	[]
+ 
+# Rare, dialectal or marginal phonemes
+Z 	ZH	[]
+#??: X\ 	X\a"tul (Xa"tul) 	cat 	חָתוּל
+tS 	GLST T2 SH	[]
+dZ 	SQ DL2 ZH	[jeans]
+#??: ?\ 	pa"?\al (pa"?al) 	acted 	פָּעַל
+ 
+# Stress mark
+#??: " 	"beReX 	knee 	בֶּרֶךְ
+#??: 	be"ReX 	he blessed 	בֵּרֵךְ 

@@ -1,0 +1,76 @@
+﻿#### Greek phonetic file ####################
+#### 2011 Sylvain Machefert #################
+$ENTITLE Greek
+$ENAUTHOR by Sylvain Machefert
+$ENCOMMENT Greek and latin alphabet, v20111212
+
+$FRTITLE Grec
+$FRAUTHOR par Sylvain Machefert
+$FRCOMMENT Alphabet grec et latin, v20111212
+$PROCESSUNBREAKABLESPACE
+$SAMPA
+$DATASTART
+
+# [_]ΓΓ|Γγ|γγ|ΓΚ|Γκ|γκ|GG|Gg|gg|GK|Gk|gk=g
+# [Α|α|Ά|ά|A|a|Á|á]ΓΓ|ΓΚ|γγ|γκ|GG|GK|gg|gk=N+gj
+# Gamma nasal
+[_]Γ|γ|G|g|GH|Gh|gh[Γ|γ|G|g|GH|Gh|gh|Κ|κ|K|k|Χ|χ|X|x|KH|Kh|kh|CH|Ch|ch|Ξ|ξ|KS|Ks|ks]=
+Γ|γ|G|g|GH|Gh|gh[Γ|γ|G|g|GH|Gh|gh|Κ|κ|K|k|Χ|χ|X|x|KH|Kh|kh|CH|Ch|ch|Ξ|ξ|KS|Ks|ks]=N
+
+[Γ|γ|G|g|GH|Gh|gh]Γ|γ|G|g|GH|Gh|gh|Κ|κ|K|k[Α|α|Ά|ά|A|a|Á|á|Ο|ο|Ό|ό|Ω|ω|Ώ|ώ|O|o|Ó|ó|W|w]=g
+[Γ|γ|G|g|GH|Gh|gh]Γ|γ|G|g|GH|Gh|gh|Κ|κ|K|k[ΟΥ|Ου|ου|ΟΎ|Ού|ού|OY|Oy|oy|OU|Ou|ou|OÚ|Oú|oú|OÝ|Oý|oý]=g
+[Γ|γ|G|g|GH|Gh|gh]Γ|γ|G|g|GH|Gh|gh|Κ|κ|K|k=gj
+
+[_]ΜΠ|Μπ|μπ|µπ|MP|Mp|mp|MB|Mb|mb=b
+# M+B ?
+ΜΠ|μπ|µπ|MP|mp|MB|mb=m+b
+[_]ΝΤ|Ντ|ντ|NT|Nt|nt=d
+# N+DL2?
+ΝΤ|ντ|NT|nt=n+d
+Χ|χ[ΑΙ|αι|ΑΊ|αί|Ε|ε|Έ|έ|Η|η|Ή|ή|Ι|ι|Ί|ί]=C
+X|x|KH|Kh|kh|CH|Ch|ch[AI|ai|AÍ|aí|E|e|É|é|ē|H|h|I|i|Í|í]=C
+Χ|χ|X|x|KH|Kh|kh|CH|Ch|ch=x
+ΓΙ|Γι|γι|GI|Gi|gi|YI|Yi|yi=j
+Γ|γ[ΑΙ|αι|ΑΊ|αί|Ε|ε|Έ|έ|Η|η|Ή|ή|Ι|ι|Ί|ί|Υ|υ|Ύ|ύ]=j
+G|g|GH|Gh|gh[AI|ai|AÍ|aí|E|e|É|é|I|i|Í|í|Y|y|U|u|Ý|ý|Ú|ú]=j
+Γ|γ|G|g|GH|Gh|gh=G
+Φ|φ|PH|Ph|ph=f
+Δ|δ|D|d|DH|Dh|dh=D
+Θ|θ|TH|Th|th=T
+# GLST+P2+SS?
+Ψ|ψ|PS|Ps|ps=p+s
+# GLST+K2+SS?
+Ξ|ξ|KS|Ks|ks=k+s
+# Vowels
+ΑΥ|Αυ|αυ|ΑΎ|Αύ|αύ[Θ|θ|Κ|κ|Π|π|Τ|τ|Φ|φ|Χ|χ|Ξ|ξ|Ψ|ψ|Σ|σ|ς]=a+f
+AU|Au|au|AÚ|Aú|aú|AV|Av|av|AF|Af|af|AY|Ay|ay|AÝ|Aý|aý[TH|Th|th|K|k|P|p|T|t|F|f|PH|Ph|ph|X|x|CH|Ch|ch|KH|Kh|kh|KS|Ks|ks|PS|Ps|ps|S|s]=a+f
+ΑΥ|Αυ|αυ|ΑΎ|Αύ|αύ|AU|Au|au|AÚ|Aú|aú|AY|Ay|ay|AÝ|Aý|aý=a+v
+ΕΥ|Ευ|ευ|ΕΎ|Εύ|εύ[Θ|θ|Κ|κ|Π|π|Τ|τ|Φ|φ|Χ|χ|Ξ|ξ|Ψ|ψ|Σ|σ|ς]=e+f
+EU|Eu|eu|EÚ|Eú|eú|EV|Ev|ev|EF|Ef|ef|EY|Ey|ey|EÝ|Eý|eý[TH|Th|th|K|k|P|p|T|t|F|f|PH|Ph|ph|X|x|CH|Ch|ch|KH|Kh|kh|KS|Ks|ks|PS|Ps|ps|S|s]=e+f
+ΕΥ|Ευ|ευ|ΕΎ|Εύ|εύ|EU|Eu|eu|EÚ|Eú|eú|EY|Ey|ey|EÝ|Eý|eý=e+v
+ΟΥ|Ου|ου|ΟΎ|Ού|ού|OY|Oy|oy|OU|Ou|ou|OÚ|Oú|oú|OÝ|Oý|oý=u
+ΕΙ|Ει|ει|ΟΙ|Οι|οι|ΥΙ|Υι|υι|ΕΊ|Εί|εί|ΟΊ|Οί|οί|ΥΊ|Υί|υί=i
+EI|Ei|ei|OI|Oi|oi|YI|Yi|yi|UI|Ui|ui|EÍ|Eí|eí|OÍ|Oí|oí|YÍ|Yí|yí|UÍ|Uí|uí=i
+ΑΙ|Αι|αι|AI|Ai|ai|ΑΊ|Αί|αί|AÍ|Aí|aí=e
+Ι|ι|Υ|υ[Α|α|Ά|ά|Ε|ε|Έ|έ|Ο|ο|Ό|ό|Ω|ω|Ώ|ώ]=j
+I|i|Y|y|U|u[A|a|Á|á|E|e|É|é|O|o|Ó|ó|ō|W|w]=j
+Η|η|Ή|ή|H|h|Ι|ι|Ί|ί|Υ|υ|Ύ|ύ|Ϊ|ϊ|Ϋ|ϋ|I|i|Í|í|Y|y|U|u|Ý|ý|Ú|ú|Ï|ï|Ÿ|ÿ|Ü|ü=i
+Α|α|Ά|ά|A|a|Á|á=a
+Ε|ε|Έ|έ|E|e|É|é=e
+Ο|ο|Ό|ό|Ω|ω|Ώ|ώ|O|o|Ó|ó|W|w=o
+Β|β|V|v=v
+Ζ|ζ|Z|z=z
+[_]κι|Κι|ΚΙ|ki|Ki|KI[^|_]=k+j
+Κ|κ|K|k[Ε|ε|Έ|έ|E|e|É|é|Η|η|Ή|ή|H|h|Ι|ι|Ί|ί|Υ|υ|Ύ|ύ|Ϊ|ϊ|Ϋ|ϋ|I|i|Í|í|Y|y|U|u|Ý|ý|Ú|ú|Ï|ï|Ÿ|ÿ|Ü|ü]=c
+Κ|κ|K|k[ΕΙ|Ει|ει|ΟΙ|Οι|οι|ΥΙ|Υι|υι|ΕΊ|Εί|εί|ΟΊ|Οί|οί|ΥΊ|Υί|υί|ΑΙ|Αι|αι|AI|Ai|ai|ΑΊ|Αί|αί|AÍ|Aí|aí]=c
+Κ|κ|K|k=k
+Λ|λ|L|l=l
+Μ|μ|µ|M|m=m
+Ν|ν|N|n=n
+Π|π|P|p=p
+Ρ|ρ|R|r=r
+Σ|σ[Β|β|Μ|μ|µ]=z
+S|s[V|v|M|m]=z
+Σ|σ|ς|S|s=s
+Τ|τ|T|t=t
+$DATAEND

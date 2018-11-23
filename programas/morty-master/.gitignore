@@ -1,0 +1,10 @@
+.idea/
+*.pyc
+.ipynb_checkpoints
+*.egg-info
+.*
+!.travis.yml
+!.gitignore
+build/
+dist/
+demos/train_dir/

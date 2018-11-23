@@ -1,0 +1,99 @@
+﻿#### Portuguese phonetic file ########
+#### 2011 Sylvain Machefert ##########
+#Sources:
+#http://wikitravel.org/fr/Guide_linguistique_portugais
+#http://wikitravel.org/en/Portuguese_phrasebook
+#http://fr.wikiversity.org/wiki/Alphabet/Portugais#Prononciation
+#See also:
+#http://rudhar.com/foneport/en/foneport.htm
+
+$ENTITLE Portuguese
+$ENAUTHOR by Sylvain Machefert
+$ENCOMMENT v20111212
+
+$FRTITLE Portugais
+$FRAUTHOR par Sylvain Machefert
+$FRCOMMENT v20111212
+
+$DATASTART
+gue|GUE|Gue|guê|GUÊ|Guê|gué|GUÉ|Gué=SQ+G2+E
+gui|GUI|Gui=SQ+G2+EE
+que|QUE|Que|quê|QUÊ|Quê|qué|QUÉ|Qué=GLST+K2+E
+qui|QUI|Qui=GLST+K2+EE
+uei|UEI|Uei=AIR+ID
+ai|AI|Ai=A+EEFS
+au|AU|Au=A+UUFS
+ão|ÃO|Ão=EIN+ON2
+ea|EA|Ea=EEFS+A
+ei|EI|Ei=EIS+EEFS
+eo|EO|Eo=Y+OS
+eu|EU|Eu=Y+OOS
+io|IO|Io=Y+UU
+oi|OI|Oi=OS+EEFS
+ou|OU|Ou=OOS
+ua|UA|Ua=UUFS+A
+ui|UI|Ui=UUFS+IS
+ã|Ã|am|AM|Am=EIN
+em|EM|Em|êm|ÊM|Êm|ém|ÉM|Ém=E+N
+õ|Õ|om|OM|Om=ON2
+[_Y|_y|_L|_l]a|A[_]=ARF
+a|A[_]=E9S
+a|A|â|Â=ARF
+á|Á|à|À=AS
+[_]e|E[_]=EEFS
+e|E[_]=E9S
+e|E[*]=EFIS
+e|E[b|B|c|C|ç|Ç|f|F|j|J|k|K|l|L|v|V|w|W]=ES
+e|E=EIS
+é|É|è|È=EIS
+ê|Ê=ES
+i|I|í|Í|î|Î|ì|Ì=IS
+o|O[_]=OOS
+[_]o|O=OS
+o|O|ó|Ó|ò|Ò=OS
+ô|Ô=OI
+u|U|ú|Ú|ù|Ù|ü|Ü=OOS
+û|Û=UU
+ch|CH|Ch=SH
+lh|LH|Lh=L+Y
+nh|NH|Nh=N+Y
+b|B=SQ+B
+c|C[e|E|ê|Ê|i|I]=SS
+c|C=GLST+K2
+ç|Ç=SS
+d|D[_]=SQ
+d|D=SQ+DL2
+#BP : de[_]->SQ+DL+ZH+EFR, di[_]->SQ+DL+ZH+IS
+f|F=F
+g|G[e|E|i|I]=ZH
+g|G=SQ+G2
+#h|H=muet
+j|J=ZH
+k|K=GLST+K2
+l|L[_]=WS
+#BP: W (plus prononcé)
+l|L=L
+m|M[_]=NS
+#BP : prononcer n
+m|M=M
+[a|A|á|Á|ã|Ã|à|À|e|E|é|É|ê|Ê|i|I|o|O|õ|Õ|u|U]n|N=NS
+n|N=N
+p|P=GLST+P2
+q|Q=GLST+K2
+rr|RR|r|R=RX
+#BP : guttural, comme un h aspiré
+ss|SS=SS
+s|S[_]=SH
+[_|b|B|c|C|d|D|f|F|g|G|j|J|k|K|l|L|m|M|n|N|p|P|q|Q|r|R|t|T|v|V|w|W|x|X|z|Z]s|S=SS
+s|S[b|B|c|C|d|D|f|F|g|G|j|J|k|K|l|L|m|M|n|N|p|P|q|Q|r|R|t|T|v|V|w|W|x|X|z|Z]=SS
+s|S=Z
+t|T=GLST+T2
+#BP : te, ti final -> tch (comme litchi)
+v|V=V
+w|W=W
+x|X=SH
+#taXi, SHip, Same
+y|Y=EEFS
+z|Z[_]=SH
+z|Z=Z
+$DATAEND

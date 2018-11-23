@@ -1,0 +1,5 @@
+﻿
+DICT=Romanian.txt
+SAMPA=Romanian-sampa.txt
+FLAG=romanian.png
+TAG=rum

@@ -1,0 +1,5 @@
+﻿
+DICT=Romani.txt
+SAMPA=Romani-sampa.txt
+FLAG=Romani.png
+TAG=rom

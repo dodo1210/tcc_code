@@ -1,0 +1,54 @@
+﻿#### Macedonian Phonetic file ################
+#### 2011 Sylvain Machefert ##################
+$ENTITLE Macedonian
+$ENAUTHOR by Sylvain Machefert
+$ENCOMMENT Cyrillic and latin alphabet, v20111212
+
+$FRTITLE Macédonien
+$FRAUTHOR par Sylvain Machefert
+$FRCOMMENT Alphabets cyrillique et latin, v20111212
+$SAMPA 
+
+$DATASTART
+ш|Ш|sh|Sh|SH|š|Š=S
+ч|Ч|ch|Ch|CH|č|Č=tS
+џ|Џ|dzh|Dzh|DZH|dž|Dž|DŽ|ǆ|ǅ|Ǆ=dZ
+ѕ|Ѕ|dz|Dz|DZ|ẑ|Ẑ|ǳ|ǲ|Ǳ=dz
+ж|Ж|zh|Zh|ZH|ž|Ž=Z
+ц|Ц|ts|Ts|TS|c|C|tz|Tz|TZ=ts
+ѓ|Ѓ|gj|Gj|GJ|g'|G'|đ|Đ|ġ|Ġ=g+'
+љ|Љ|л'|Л'|lj|Lj|LJ|ǉ|ǈ|Ǉ=l+'
+њ|Њ|nj|Nj|NJ|ǌ|ǋ|Ǌ=n+'
+ќ|Ќ|к'|К'|kj|Kj|KJ|k'|K'|ḱ|Ḱ|ć|Ć=k+'
+х|Х|h|H|kh|Kh|KH|x|X=x
+â|Â|y|Y|ǎ|Ǎ|ŭ|Ŭ|ă|Ă=u
+# [е|Е|e|E|а|А|a|A]а|А|a|A=j+a
+а|А|a|A=a
+б|Б|b|B=b
+в|В|v|V=v
+г|Г|g|G=g
+д|Д|d|D=d
+# [о|О|o|O]е|Е|e|E=j+e
+е|Е|ѐ|Ѐ|e|E|è|È=e
+з|З|z|Z=z
+и|И|ѝ|Ѝ|i|I|ì|Ì=i
+ј|Ј|j|J=j
+к|К|k|K=k
+л|Л|l|L=l
+м|М|m|M=m
+н|Н|n|N=n
+о|О[д|Д|ј|Ј|м|М|н|Н|п|П|р|Р|т|Т]=o
+o|O[d|D|j|J|m|M|n|N|p|P|r|R|t|T]=o
+о|О|o|O=O
+п|П|p|P=p
+[â|Â|y|Y|ǎ|Ǎ|ŭ|Ŭ|ă|Ă|a|A|e|E|è|È|i|I|ì|Ì|j|J|o|O|u|U]r|R=r
+r|R[â|Â|y|Y|ǎ|Ǎ|ŭ|Ŭ|ă|Ă|a|A|e|E|è|È|i|I|ì|Ì|j|J|o|O|u|U]=r
+[а|А|е|Е|ѐ|Ѐ|и|И|ѝ|Ѝ|ј|Ј|о|О|у|У]р|Р=r
+р|Р[а|А|е|Е|ѐ|Ѐ|и|И|ѝ|Ѝ|ј|Ј|о|О|у|У]=r
+# р|Р|r|R=u+r
+р|Р|r|R=r
+с|С|s|S=s
+т|Т|t|T=t
+у|У|u|U=y
+ф|Ф|f|F=f
+$DATAEND

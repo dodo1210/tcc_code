@@ -1,0 +1,73 @@
+Intervalo,1
+Melody,1
+Scale,1
+Pitch,1
+Pitch Histogram,1
+Chromagram,1
+Mode,1
+Tonality,1
+Chord,1
+Chords Strength,1
+Harmonic Pitch Class Profile (HPCP),1
+Variation  Chord,1
+Harmony,1
+Key Clarity (harmonia),1
+Chromagra Centroid (Harmony),1
+Chormagram peak (Harmony),1
+Harmonic Flux,1
+Tempo,1
+Attack time (Tempo,1
+Rhythm strength,1
+Cyclic Tempograms Based on a short-time discrete Fourier transformation,1
+Cyclic Tempograms based on the,1
+Inter-Onset Intervals,1
+Onsets,1
+variation of beat length,1
+Beats (ritmo),1
+Average Onset Frequency,1
+Average Tempo,1
+Average Beat-spectrum (B),1
+Beats Loudness Band Ratio,1
+Regularity of Rhythm,1
+Roughness (Timbre),1
+Zero Crossing Rate (ZCR) (timbre),1
+Spectral Centroid l (SC) (timbre),1
+Spectral Flux (timbre),1
+spectral-Brightness (Timbre),1
+Spectral Flatness (Timbre),1
+Rolloff (timbre),1
+Spectral Crest Factor(SCF),1
+Inharmonicity,1
+Spectral Kurtosis,1
+Spectral Valley,1
+Spectral Contrast,1
+octave-based spectral contrast (OSC),1
+coeficientes ceftrais de alta frequência (MFCC) (Timbre),1
+Loudness,1
+Volume,1
+Sharpness,1
+Loudness-Std,1
+Low-energy,1
+Loudness-flux,1
+Loudness-centroid,1
+Loudness-flatness,1
+Root Mean Square -RMS (Intensidade/dinâmica),1
+Bandwidth,1
+Percussiveness,1
+Spectral Spread (SS),1
+Dynamics,1
+Spectral,1
+Spectral Variability,1
+Magnitude Spectrum,1
+Power Spectrum,1
+Spectral dissonance (HK S),1
+Strongest Beat,1
+Beat Sum,1
+Spectral smoothness,1
+Salient pitch,1
+Attack,1
+Entropy of Spectrum,1
+Slope,1
+Melbands Kurtosis,1
+Melbands Skewness,1
+Spectral Energy,1

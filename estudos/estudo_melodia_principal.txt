@@ -1,0 +1,4 @@
+Encontrar melodia principal:
+	Método baseado em saliência (salient-method)
+	Médodo baseado no timbre (timbre-method)
+	Filtro de volume (loudness filter)

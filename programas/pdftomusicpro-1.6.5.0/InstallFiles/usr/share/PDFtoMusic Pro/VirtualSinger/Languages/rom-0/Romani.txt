@@ -1,0 +1,56 @@
+﻿############### Romani (Gypsy) phonetic file ################
+##############     (c) 2008 Sylvain Machefert      ################
+$ENTITLE Romani (gypsy)
+$ENAUTHOR by Sylvain Machefert
+$ENCOMMENT Standardized romani
+
+$FRTITLE Romani (tsigane)
+$FRAUTHOR par Sylvain Machefert
+$FRCOMMENT Romani standardisé
+$SAMPA 
+
+$DATASTART
+sh|Sh|SH|š|Š|ś|Ś=S
+ch|Ch|CH|č|Č|ć|Ć=tS
+zh|Zh|ZH|ž|Ž|ź|Ź=Z
+a|A|à|À|á|Á=a
+ǎ|Ǎ|ă|Ă='+a
+b|B=b
+c|C=ts
+d|D=d
+e|E|é|É|è|È=e
+ě|Ě|ĕ|Ĕ='+e
+f|F=f
+g|G=g
+h|H=h
+x|X=x
+i|I|í|Í|ì|Ì=i
+ĭ|Ĭ|ǐ|Ǐ='+i
+j|J=j
+k|K[*]=K
+k|K=k
+l|L[e|E|é|É|è|È|i|I|í|Í|ì|Ì]=l
+l|L=L
+m|M=m
+n|N=n
+o|O|ó|Ó|ò|Ò[d|D|j|J|m|M|n|N|p|P|r|R|t|T]=O
+o|O|ó|Ó|ò|Ò=o
+ŏ|Ŏ|ǒ|Ǒ='+o
+p|P=p
+q|Q=k
+[a|A|à|À|á|Á|ǎ|Ǎ|ă|Ă|e|E|é|É|è|È|ě|Ě|ĕ|Ĕ|i|I|í|Í|ì|Ì|ĭ|Ĭ|ǐ|Ǐ|j|J|o|O|ó|Ó|ò|Ò|ŏ|Ŏ|ǒ|Ǒ|u|U|ú|Ú|ù|Ù|ŭ|Ŭ|ǔ|Ǔ]r|R=r
+r|R[a|A|à|À|á|Á|ǎ|Ǎ|ă|Ă|e|E|é|É|è|È|ě|Ě|ĕ|Ĕ|i|I|í|Í|ì|Ì|ĭ|Ĭ|ǐ|Ǐ|j|J|o|O|ó|Ó|ò|Ò|ŏ|Ŏ|ǒ|Ǒ|u|U|ú|Ú|ù|Ù|ŭ|Ŭ|ǔ|Ǔ]=r
+r|R=u+r
+s|S=s
+t|T=t
+u|U|ú|Ú|ù|Ù=y
+ŭ|Ŭ|ǔ|Ǔ='+y
+v|V=v
+z|Z=z
+ʒ=dZ
+[n|N]θ|Θ=d
+θ|Θ=t
+[n|N]ç|Ç=ts
+ç|Ç=s
+[n|N]q|Q=G
+$DATAEND

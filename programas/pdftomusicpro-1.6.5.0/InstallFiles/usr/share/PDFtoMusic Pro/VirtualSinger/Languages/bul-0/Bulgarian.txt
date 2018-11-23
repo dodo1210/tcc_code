@@ -1,0 +1,43 @@
+﻿############### Bulgarian (Cyrlillic & Latin) Phonetic file ################
+##############     (c) 2008 Alexander Sadovski      ################
+$ENTITLE Bulgarian
+$ENAUTHOR by Alexander Sadovski
+$ENCOMMENT Cyrillic and Latin transliteration
+
+$FRTITLE Bulgare
+$FRAUTHOR par Alexander Sadovski
+$FRCOMMENT Cyrillique et translitération latine
+$SAMPA
+$DATASTART
+щ|Щ|sht|Sht|SHT|št|Št|ŠT|ŝ|Ŝ=S+t
+ш|Ш|sh|Sh|SH|š|Š=S
+ч|Ч|ch|Ch|CH|č|Č=tS
+ж|Ж|zh|Zh|ZH|ž|Ž=Z
+ц|Ц|ts|Ts|TS|c|C|tz|Tz|TZ=ts
+я|Я|ya|Ya|YA|ja|Ja|JA|â|Â|îā|Îā|ÎĀ=j+a
+х|Х|h|H|kh|Kh|KH|x|X=x
+ю|Ю|yu|Yu|YU|ju|Ju|JU|û|Û|îū|Îū|ÎŪ=j+u
+у|У|u|U|ou|Ou|OU=u
+а|А|a|A=a
+е|Е|e|E=e
+и|И|i|I=i
+о|О|o|O=O
+н|Н|n|N=n
+т|Т|t|T=t
+р|Р|r|R=r
+с|С|s|S=s
+в|В|v|V=v
+л|Л|l|L[я|Я|y|Y|j|J|â|Â|î|Î|ю|Ю|û|Û|е|Е|e|E|и|И|i|I|ь|']=l
+л|Л|l|L=L
+д|Д|d|D=d
+п|П|p|P=p
+к|К|k|K=k
+м|М|m|M=m
+з|З|z|Z=z
+ъ|Ъ|y|Y|ǎ|Ǎ|ŭ|Ŭ|w|W|ă|Ă|ә|Ә=@
+б|Б|b|B=b
+г|Г|g|G=g
+ф|Ф|f|F=f
+й|Й|j|J|ĭ|Ĭ=I
+ь|'=I
+$DATAEND

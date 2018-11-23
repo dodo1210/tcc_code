@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Graphical User Interface</title>
+</head>
+
+<body text="#000000" bgcolor="#e4e4e4" link="#0033C4" vlink="#0033C4" alink="#0033C4">
+
+<a name="Top"></a>
+
+<TABLE cellSpacing=0 cellPadding=4 width="100%" bgColor=#0033C4 border=0>
+  <TBODY><TR>
+      <TH align=left><FONT face=Arial color=#ffffff size=+3>Graphical User Interface</FONT></TH>
+    </TR></TBODY>
+</TABLE>
+<p><strong>EXPLANATION OF THIS SECTION</strong></p>
+<p>This section of the manual explains how to use the jProductionCritic GUI.</p>
+<p><strong>RUNNING JPRODUTIONCRITIC'S GUI</strong></p>
+<p>A file named &quot;jProductionCritic.jar&quot; is produced upon installation. As noted in the section of the manual on jProductionCritic's <a href="03_command_line_arguments.html">command line arguments</a>, the GUI can be run by double clicking on this JAR or, better yet, by typing the following at the command line in the directory of the JAR:</p>
+<blockquote>
+  <p>	java -mx1000M -jar jProductionCritic.jar</p>
+</blockquote>
+<p>This second option is preferable, as it helps to avoid problems associated with Java running out of memory (which can result in the JRE suddenly quitting).</p>
+<p><strong>OVERVIEW OF JPRODUTIONCRITIC'S GUI</strong></p>
+<p>The jProductionCritic GUI consists of two primary panes: a Configuration Settings Pane for selecting <a href="06_configuration_settings_file.html">configuration settings</a> governing which production errors are checked for and using what thresholds, and an Analysis Pane for controlling the reports that are generated, displaying the results of processing and initiating processing. There are also two menu commands that can be accessed by the user:</p>
+<ul>
+  <li><strong>About:</strong> Brings up a dialog box displaying basic jProductionCritic version data.</li>
+  <li><strong>Help: </strong>Brings up a window containing the jProductionCritic manual. Different sections can be jumped to using the pane on the left (Figure 1).</li>
+</ul>
+<p>It should be noted that the GUI is simply a front end for jProductionCritic, which in essence simply allows users to enter settings which are then formulated by the GUI as command line arguments, and sent to the backend to be run as if only  <a href="03_command_line_arguments.html">command line arguments</a> were used. The <a href="08_processing_sequence.html">processing sequence</a> is therefore identical to that executed when using the command line interface. The only functionality that can be performed with the GUI that cannot be performed via command line arguments is the editing of the <a href="06_configuration_settings_file.html">configuration settings</a>, and this is easy enough to do with a text editor for those who prefer to bypass the GUI and use jProductionCritic directly with its <a href="03_command_line_arguments.html">command line argument interface</a>.</p>
+<p><img src="images/ManualSplash.gif"></p>
+<p><em><strong>Figure 1: </strong></em>A screenshot of the on-line manual.</p>
+<p><strong>THE ANALYSIS PANE</strong></p>
+<p>The Analysis Pane (Figure 2) is used for controlling the reports that are generated when audio files are analyzed for technical production errors. It initiates processing and displays the results.</p>
+<p>The top section of the Analysis Pane allows the user to select the  <a href="07_types_of_error_reports.html">error reports</a>  that are to be generated, and where to save them. The checkbox for a type of report must be selected before its save path can be specified. Report paths can be entered directly in the text fields, or via a browse file chooser dialog box. Note that, as explained in the <a href="07_types_of_error_reports.html">error reports</a>  section, sometimes it is appropriate to specify single files and sometimes it is appropriate to specify directories in the report paths, depending on the type of report to be generated and on whether a single selected file is to checked or the contents of a directory (i.e. which button at the bottom of the pane is pressed). In particular, note that automatically generated Audacity label track file names are given the .txt extension, which could cause them to overwrite .txt report files set to be generated in the same directory, so it is wise to save text file reports and Audacity label track reports in separate directories or with different names. An example of an Audacity Labels Track report viewed next to the waveform from which it was generated as seen in <a href="http://audacity.sourceforge.net/" target=top>Audacity</a> is displayed in Figure 3.</p>
+<p>The middle section of the Analysis Pane has two parts: the Status Updates and Command Line Reports area on the left, and the Problems Occurring During Processing  area on the right. The Status Updates and Command Line Reports area displays processing status reports output by jProductionCritic as files are being checked for errors. It also displays Command Line Reports if the checkbox for this report type is checked above. The Problems Occurring During Processing  area indicates details of any problems that may occur during processing (e.g. invalid files chosen for analysis, inappropriate configuration settings chosen by the user, etc.).</p>
+<p>Finally, the buttons on the bottom of the screen allow the user to initiate error checking of audio files for production errors. The Check Single File button brings up a dialog box allowing the user to select a single file for error checking, and the Check Contents of Directory button brings up a dialog box allowing the user to select a directory whose contents will be checked for production errors (the contents of sub-directories are not examined).</p>
+<p><img src="images/AnalysisPane.gif"></p>
+<p><em><strong>Figure 2: </strong></em>A screenshot of the Analysis Pane after checking a file for production errors.</p>
+<p><img src="images/AudacityLabelTrack.gif"></p>
+<p><em><strong>Figure 3: </strong></em>An Audacity Labels Track report viewed next to the waveform from which it was generated, as seen in <a href="http://audacity.sourceforge.net/" target=top>Audacity</a>.</p>
+<p><strong>THE CONFIGURATION SETTINGS PANE</strong></p>
+<p>The Configuration Settings Pane (Figure 4) is used for selecting <a href="06_configuration_settings_file.html">configuration settings</a> governing which production errors are checked for and using what thresholds. It allows users to parse settings from configuration settings files, edit these settings and save the settings to configuration settings files.</p>
+<p>The top area of this pane allows the user to select the path of the configuration settings file to base settings on. The configuration settings file at the default path is loaded at startup. The path can not be entered directly in the text field, and must be selected by browsing via the file chooser dialog box.</p>
+<p>The middle are of this pane shows the <a href="06_configuration_settings_file.html">configuration settings</a> that have been parsed from the selected file. The title of each configuration setting is indicated on the left, and its value on the right. The values of the configuration settings can be edited by double clicking on them, although their titles may not be edited.</p>
+<p>The Revert to Default File button at the bottom of the pane causes the configuration settings file at the default location to be loaded. If the file there is invalid, it is regenerated with default values. The Save and Save As buttons allow the user to save the settings in the middle of the screen to the file path referred to at the top of the screen.</p>
+<p>It is important to note that processing is done using the saved configuration settings file referred to at the top of this pane. Any changes made by the user to the setting values will only be incorporated into processing if saved, which happens via the Save and Save As buttons on this pane. Any changes entered to the table by the user are also automatically saved to the path  referred to at the top of this pane if the Check Single File button or the Check Contents of Directory button is pressed in the Analysis Panel.</p>
+<p>Extensive error checking is performed by jProductionCritic on all loaded and edited configuration settings values. Such error checking is done whenever a configuration settings file is loaded or saved. The user is alerted when this happens. In the case of invalid setting values, a dialog box is presented to the user instructing the user to correct the invalid settings. In the case of invalid configuration settings files being loaded, settings are automatically returned to default values. Note that when incomplete configuration settings files are opened, they are assigned default values for the settings that they are missing.</p>
+<p>Note that if the user wishes to return all settings to defaults but has made changes to the default configuration settings file, a new file can simply be auto-generated by deleting the configuration settings file at the default location and rerunning jProductionCritic.</p>
+<p><img src="images/ConfigurationSettingsPane.gif"></p>
+<p><em><strong>Figure 4: </strong></em><em><strong> </strong></em>A screenshot of the Configuration Settings Pane.</p>
+<p></p>
+<TABLE height=5 width="100%" bgColor=#0033C4 border=0><TBODY><TR><TH></TH></TR></TBODY></TABLE>
+<p><tt><a href="#Top">-top of page-</a></tt></p>
+
+</body>
+</html>

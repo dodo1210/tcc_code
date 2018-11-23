@@ -1,0 +1,50 @@
+0 - Gwen Stefani - The Sweet Escape ft Akon.wav 2527.6953 52.936954
+001 - Bruno Mars - The Lazy Song [OFFICIAL VIDEO].mp3.wav 16432.799 57.93851
+002 - Aerosmith - Crazy.mp3.wav 1357.9225 32.735085
+003 - Journey - Dont Stop Believin (Audio).mp3.wav 6461.8633 95.89294
+005 - Elvis Presley - Jailhouse Rock (Music Video).mp3.wav 5.668934e-06 1.88816e-06
+006 - Earth, Wind _ Fire - September.mp3.wav 4515.52 37.087437
+008 - Bee Gees Stayin Alive (Extended Remaster).mp3.wav 6928.184 118.79553
+009 - Michael Jackson - Beat It - Single Version.mp3.wav 5.668934e-06 1.9049315e-06
+011 - Queen _ David Bowie - Under Pressure (Remastered Audio 2011).mp3.wav 18107.547 235.7193
+014 - Mark Ronson - Uptown Funk ft. Bruno Mars.mp3.wav 9408.538 69.86878
+017 - Gwen Stefani - Hollaback Girl.mp3.wav 3196.8254 61.807095
+020 - Wannabe (Radio Edit).mp3.wav 14585.738 105.483086
+025 - Spice Girls - Spiceworld - 7. Do It.mp3.wav 11443.905 144.16922
+027 - Spice Girls - Stop.mp3.wav 1170.2915 12.326259
+028 - Spice Girls - Spice Up Your Life.mp3.wav 1589.1613 20.054346
+030 - Jamiroquai - Seven Days In Sunny June.mp3.wav 6483.8027 79.69218
+032 - Alanis Morissette - Ironic (OFFICIAL VIDEO).mp3.wav 1576.279 18.10775
+035 - Britney Spears - (You Drive Me) Crazy.mp3.wav 2239.3176 30.531034
+037 - Britney Spears What U See (Is What U Get) Lyrics.mp3.wav 14969.522 149.37434
+040 - Britney Spears - I Love Rock _N_ Roll.mp3.wav 9288.829 106.77114
+044 - Britney Spears - Till The World Ends.mp3.wav 1541.4972 27.060081
+046 - Britney Spears - Criminal.mp3.wav 7958.3394 70.07428
+049 - Christina Aguilera - Come On Over (All I Want Is You) (AC3 Stereo).mp3.wav 4809.0923 32.44113
+053 - Aqua - Barbie Girl.mp3.wav 1771.2074 23.053486
+054 - Cartoon Heroes - Aqua.mp3.wav 14900.853 168.9366
+056 - Ricky Martin - Livin_ La Vida Loca.mp3.wav 4212.01 53.325123
+057 - Hanson - MMMBop.mp3.wav 936.0686 16.248539
+060 - No Doubt - Don_t Speak.mp3.wav 1232.5115 30.046944
+063 - No Doubt - Simple Kind Of Life.mp3.wav 1726.4025 50.807686
+064 - No Doubt - Ex-Girlfriend.mp3.wav 6015.4795 57.853073
+067 - Will Smith - Men In Black (Video Version).mp3.wav 8393.178 41.74653
+075 - Nelly Furtado - Promiscuous ft. Timbaland.mp3.wav 2806.4768 35.822826
+076 - Nelly Furtado - I_m Like A Bird.mp3.wav 176.32047 0.0738969
+079 - Nelly Furtado - Powerless (Say What You Want) [official music video].mp3.wav 2611.0005 36.765007
+083 - Savage Garden - The Animal Song (Video Version).mp3.wav 6390.8604 88.498795
+085 - Natalie Imbruglia - Wrong Impression.mp3.wav 4565.898 76.47976
+088 - Vengaboys - Boom, Boom, Boom, Boom!!.mp3.wav 321.77527 0.024976334
+089 - Marc Anthony - I Need to Know (Video).mp3.wav 4099.658 24.782623
+090 - Marc Anthony - Vivir Mi Vida.mp3.wav 17274.6 253.39832
+092 - Jennifer Lopez - If You Had My Love (Official Video).mp3.wav 7918.881 20.893044
+094 - Jennifer Lopez - Feelin' So Good ft. Fat Joe, big pun.mp3.wav 1931.8118 13.461301
+098 - Jennifer Lopez - Play.mp3.wav 3203.075 19.632215
+099 - Jennifer Lopez - Get Right.mp3.wav 3096.514 19.991026
+100 - Jennifer Lopez - Hold You Down ft. Fat Joe.mp3.wav 3567.8433 18.999926
+102 - Madonna - Ray Of Light.mp3.wav 7104.024 107.28555
+104 - Madonna - Like A Virgin (video).mp3.wav 2763.505 24.635946
+105 - Madonna - Material Girl (Official Music Video).mp3.wav 1358.1141 16.335938
+106 - Madonna - Hung Up (Official Music Video).mp3.wav 4807.3184 66.12196
+121 - Everybody (Backstreet_s Back) (Radio Edit).mp3.wav 5968.2983 73.95077
+168 - Justin Bieber - Sorry (PURPOSE _ The Movement).mp3.wav 19436.344 270.80243

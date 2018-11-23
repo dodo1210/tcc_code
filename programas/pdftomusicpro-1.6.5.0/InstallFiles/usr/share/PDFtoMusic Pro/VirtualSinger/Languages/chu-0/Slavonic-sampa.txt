@@ -1,0 +1,47 @@
+﻿#***************************************************************************************
+#			Slavonic
+#	Link between Sampa notation & fragments (with examples)
+
+#--- Consonants
+p	GLST P2	[пак]	
+b	SQ B	[бал]
+t	GLST T2	[там]
+T	TH	[?]
+d	SQ DL2	[дам]
+k	GLST K2	[как]
+g	SQ G2	[газ]
+ts	T2 S	[цар]
+dz	SQ DLZ Z [дзън]
+tS	T2 SH	[чам]
+St	SH T2	[]
+f	F	[фал]
+v	V	[вал]
+s	S	[сам]
+z	Z   [зар]
+S	SH	[шал]
+Z	ZH 	[жал]
+x	KH	[хал]
+m	M	[мах]
+n	N	[нас]
+L	LL	[лак]
+r	RXB	[раз]
+#---------- Semivowels
+j 	Y	[ял]
+w	WS	[]
+#---------- Vowels
+i	EEF	[пик]
+I	I	[й]
+e	E	[пек]
+a	ARF	[пак]
+@	A	[пък]
+o	AW	[]
+O	OI 	[под]
+u	UUF	[пук]
+U	UFR	[?]
+y	UUFS	[]
+e~	EIN	[]
+o~	ON2	[]
+
+# ---- Depalatizer
+'  EEFS	[???]
+# ------------------- End of file

@@ -1,0 +1,184 @@
+EXTRACT: control_change channel=0 control=101 value=0 time=0
+EXTRACT: control_change channel=0 control=100 value=0 time=0
+EXTRACT: control_change channel=0 control=6 value=12 time=0
+EXTRACT: control_change channel=0 control=38 value=0 time=0
+EXTRACT: control_change channel=1 control=101 value=0 time=0
+EXTRACT: control_change channel=1 control=100 value=0 time=0
+EXTRACT: control_change channel=1 control=6 value=12 time=0
+EXTRACT: control_change channel=1 control=38 value=0 time=0
+EXTRACT: control_change channel=2 control=101 value=0 time=0
+EXTRACT: control_change channel=2 control=100 value=0 time=0
+EXTRACT: control_change channel=2 control=6 value=12 time=0
+EXTRACT: control_change channel=2 control=38 value=0 time=0
+EXTRACT: control_change channel=3 control=101 value=0 time=0
+EXTRACT: control_change channel=3 control=100 value=0 time=0
+EXTRACT: control_change channel=3 control=6 value=12 time=0
+EXTRACT: control_change channel=3 control=38 value=0 time=0
+EXTRACT: control_change channel=4 control=101 value=0 time=0
+EXTRACT: control_change channel=4 control=100 value=0 time=0
+EXTRACT: control_change channel=4 control=6 value=12 time=0
+EXTRACT: control_change channel=4 control=38 value=0 time=0
+EXTRACT: control_change channel=5 control=101 value=0 time=0
+EXTRACT: control_change channel=5 control=100 value=0 time=0
+EXTRACT: control_change channel=5 control=6 value=12 time=0
+EXTRACT: control_change channel=5 control=38 value=0 time=0
+EXTRACT: control_change channel=6 control=101 value=0 time=0
+EXTRACT: control_change channel=6 control=100 value=0 time=0
+EXTRACT: control_change channel=6 control=6 value=12 time=0
+EXTRACT: control_change channel=6 control=38 value=0 time=0
+EXTRACT: control_change channel=7 control=101 value=0 time=0
+EXTRACT: control_change channel=7 control=100 value=0 time=0
+EXTRACT: control_change channel=7 control=6 value=12 time=0
+EXTRACT: control_change channel=7 control=38 value=0 time=0
+EXTRACT: control_change channel=8 control=101 value=0 time=0
+EXTRACT: control_change channel=8 control=100 value=0 time=0
+EXTRACT: control_change channel=8 control=6 value=12 time=0
+EXTRACT: control_change channel=8 control=38 value=0 time=0
+EXTRACT: control_change channel=9 control=101 value=0 time=0
+EXTRACT: control_change channel=9 control=100 value=0 time=0
+EXTRACT: control_change channel=9 control=6 value=12 time=0
+EXTRACT: control_change channel=9 control=38 value=0 time=0
+EXTRACT: control_change channel=10 control=101 value=0 time=0
+EXTRACT: control_change channel=10 control=100 value=0 time=0
+EXTRACT: control_change channel=10 control=6 value=12 time=0
+EXTRACT: control_change channel=10 control=38 value=0 time=0
+EXTRACT: control_change channel=11 control=101 value=0 time=0
+EXTRACT: control_change channel=11 control=100 value=0 time=0
+EXTRACT: control_change channel=11 control=6 value=12 time=0
+EXTRACT: control_change channel=11 control=38 value=0 time=0
+EXTRACT: control_change channel=12 control=101 value=0 time=0
+EXTRACT: control_change channel=12 control=100 value=0 time=0
+EXTRACT: control_change channel=12 control=6 value=12 time=0
+EXTRACT: control_change channel=12 control=38 value=0 time=0
+EXTRACT: control_change channel=13 control=101 value=0 time=0
+EXTRACT: control_change channel=13 control=100 value=0 time=0
+EXTRACT: control_change channel=13 control=6 value=12 time=0
+EXTRACT: control_change channel=13 control=38 value=0 time=0
+EXTRACT: control_change channel=14 control=101 value=0 time=0
+EXTRACT: control_change channel=14 control=100 value=0 time=0
+EXTRACT: control_change channel=14 control=6 value=12 time=0
+EXTRACT: control_change channel=14 control=38 value=0 time=0
+EXTRACT: control_change channel=15 control=101 value=0 time=0
+EXTRACT: control_change channel=15 control=100 value=0 time=0
+EXTRACT: control_change channel=15 control=6 value=12 time=0
+EXTRACT: control_change channel=15 control=38 value=0 time=0
+EXTRACT: pitchwheel channel=0 pitch=0 time=0
+EXTRACT: control_change channel=0 control=7 value=55 time=0
+EXTRACT: control_change channel=0 control=10 value=63 time=0
+EXTRACT: control_change channel=0 control=93 value=0 time=0
+EXTRACT: control_change channel=0 control=91 value=0 time=0
+EXTRACT: control_change channel=0 control=95 value=0 time=0
+EXTRACT: control_change channel=0 control=92 value=0 time=0
+EXTRACT: control_change channel=0 control=11 value=127 time=0
+EXTRACT: program_change channel=0 program=25 time=0
+EXTRACT: control_change channel=1 control=7 value=55 time=0
+EXTRACT: control_change channel=1 control=10 value=63 time=0
+EXTRACT: control_change channel=1 control=93 value=0 time=0
+EXTRACT: control_change channel=1 control=91 value=0 time=0
+EXTRACT: control_change channel=1 control=95 value=0 time=0
+EXTRACT: control_change channel=1 control=92 value=0 time=0
+EXTRACT: control_change channel=1 control=11 value=127 time=0
+EXTRACT: program_change channel=1 program=25 time=0
+EXTRACT: note_on channel=0 note=65 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_on channel=0 note=58 velocity=95 time=0
+EXTRACT: note_on channel=0 note=53 velocity=95 time=0
+EXTRACT: note_on channel=0 note=46 velocity=95 time=0
+EXTRACT: pitchwheel channel=2 pitch=0 time=0
+EXTRACT: control_change channel=2 control=7 value=127 time=0
+EXTRACT: control_change channel=2 control=10 value=63 time=0
+EXTRACT: control_change channel=2 control=93 value=0 time=0
+EXTRACT: control_change channel=2 control=91 value=0 time=0
+EXTRACT: control_change channel=2 control=95 value=0 time=0
+EXTRACT: control_change channel=2 control=92 value=0 time=0
+EXTRACT: control_change channel=2 control=11 value=127 time=0
+EXTRACT: program_change channel=2 program=32 time=0
+EXTRACT: control_change channel=3 control=7 value=127 time=0
+EXTRACT: control_change channel=3 control=10 value=63 time=0
+EXTRACT: control_change channel=3 control=93 value=0 time=0
+EXTRACT: control_change channel=3 control=91 value=0 time=0
+EXTRACT: control_change channel=3 control=95 value=0 time=0
+EXTRACT: control_change channel=3 control=92 value=0 time=0
+EXTRACT: control_change channel=3 control=11 value=127 time=0
+EXTRACT: program_change channel=3 program=32 time=0
+EXTRACT: pitchwheel channel=4 pitch=0 time=0
+EXTRACT: control_change channel=4 control=7 value=79 time=0
+EXTRACT: control_change channel=4 control=10 value=63 time=0
+EXTRACT: control_change channel=4 control=93 value=0 time=0
+EXTRACT: control_change channel=4 control=91 value=0 time=0
+EXTRACT: control_change channel=4 control=95 value=0 time=0
+EXTRACT: control_change channel=4 control=92 value=0 time=0
+EXTRACT: control_change channel=4 control=11 value=127 time=0
+EXTRACT: program_change channel=4 program=62 time=0
+EXTRACT: control_change channel=5 control=7 value=79 time=0
+EXTRACT: control_change channel=5 control=10 value=63 time=0
+EXTRACT: control_change channel=5 control=93 value=0 time=0
+EXTRACT: control_change channel=5 control=91 value=0 time=0
+EXTRACT: control_change channel=5 control=95 value=0 time=0
+EXTRACT: control_change channel=5 control=92 value=0 time=0
+EXTRACT: control_change channel=5 control=11 value=127 time=0
+EXTRACT: program_change channel=5 program=62 time=0
+EXTRACT: pitchwheel channel=6 pitch=0 time=0
+EXTRACT: control_change channel=6 control=7 value=71 time=0
+EXTRACT: control_change channel=6 control=10 value=127 time=0
+EXTRACT: control_change channel=6 control=93 value=0 time=0
+EXTRACT: control_change channel=6 control=91 value=0 time=0
+EXTRACT: control_change channel=6 control=95 value=0 time=0
+EXTRACT: control_change channel=6 control=92 value=0 time=0
+EXTRACT: control_change channel=6 control=11 value=127 time=0
+EXTRACT: program_change channel=6 program=26 time=0
+EXTRACT: control_change channel=7 control=7 value=71 time=0
+EXTRACT: control_change channel=7 control=10 value=127 time=0
+EXTRACT: control_change channel=7 control=93 value=0 time=0
+EXTRACT: control_change channel=7 control=91 value=0 time=0
+EXTRACT: control_change channel=7 control=95 value=0 time=0
+EXTRACT: control_change channel=7 control=92 value=0 time=0
+EXTRACT: control_change channel=7 control=11 value=127 time=0
+EXTRACT: program_change channel=7 program=26 time=0
+EXTRACT: pitchwheel channel=9 pitch=0 time=0
+EXTRACT: control_change channel=9 control=7 value=103 time=0
+EXTRACT: control_change channel=9 control=10 value=63 time=0
+EXTRACT: control_change channel=9 control=93 value=0 time=0
+EXTRACT: control_change channel=9 control=91 value=0 time=0
+EXTRACT: control_change channel=9 control=95 value=0 time=0
+EXTRACT: control_change channel=9 control=92 value=0 time=0
+EXTRACT: control_change channel=9 control=11 value=127 time=0
+EXTRACT: program_change channel=9 program=0 time=0
+EXTRACT: pitchwheel channel=8 pitch=0 time=0
+EXTRACT: control_change channel=8 control=7 value=79 time=0
+EXTRACT: control_change channel=8 control=10 value=0 time=0
+EXTRACT: control_change channel=8 control=93 value=0 time=0
+EXTRACT: control_change channel=8 control=91 value=0 time=0
+EXTRACT: control_change channel=8 control=95 value=0 time=0
+EXTRACT: control_change channel=8 control=92 value=0 time=0
+EXTRACT: control_change channel=8 control=11 value=127 time=0
+EXTRACT: program_change channel=8 program=0 time=0
+EXTRACT: control_change channel=10 control=7 value=79 time=0
+EXTRACT: control_change channel=10 control=10 value=0 time=0
+EXTRACT: control_change channel=10 control=93 value=0 time=0
+EXTRACT: control_change channel=10 control=91 value=0 time=0
+EXTRACT: control_change channel=10 control=95 value=0 time=0
+EXTRACT: control_change channel=10 control=92 value=0 time=0
+EXTRACT: control_change channel=10 control=11 value=127 time=0
+EXTRACT: program_change channel=10 program=0 time=0
+EXTRACT: note_off channel=0 note=65 velocity=95 time=0.692307
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=0 note=58 velocity=95 time=0
+EXTRACT: note_off channel=0 note=53 velocity=95 time=0
+EXTRACT: note_off channel=0 note=46 velocity=95 time=0
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=65 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0.461538
+EXTRACT: note_off channel=0 note=65 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_on channel=0 note=68 velocity=95 time=0
+EXTRACT: note_on channel=0 note=65 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_off channel=0 note=68 velocity=95 time=0.230769
+EXTRACT: note_off channel=0 note=65 velocity=95 time=0
+EXTRACT: note_off channel=0 note=61 velocity=95 time=0
+EXTRACT: note_on channel=0 note=65 velocity=95 time=0
+EXTRACT: note_on channel=0 note=61 velocity=95 time=0
+EXTRACT: note_on channel=0 note=60 velocity=95 time=0
+EXTRACT: note_on channel=0 note=57 velocity=95 time=0

@@ -1,0 +1,8 @@
+﻿NAME_FR=Macédonien
+NAME_EN=Macedonian
+CREDIT_FR=Sylvain Machefert
+CREDIT_EN=Sylvain Machefert
+DICT=Macedonian.txt
+SAMPA=Macedonian-Sampa.txt
+FLAG=Macedonian.png
+TAG=mac

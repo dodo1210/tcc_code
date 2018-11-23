@@ -1,0 +1,50 @@
+﻿############### Hebrew ###############
+############## (c) 2015 Olivier Guillion
+
+$ENTITLE Hebrew (roman transliteration)
+$ENAUTHOR by OG(Myriad), HazMJM,...
+$ENCOMMENT 
+
+$FRTITLE Hébreu (transliteration)
+$FRAUTHOR par OG(Myriad), HazMJM,...
+$FRCOMMENT 
+
+$DATASTART
+
+
+a|A=U
+#e|E|eh|Eh|EH=E
+e|E=E
+è=SHVA
+i|I|ee|Ee|EE=EEF
+ch|Ch|CH|kh|Kh|KH=KH
+o|O=O
+sh|Sh|SH=SH
+ts|Ts|TS|tz|Tz|TZ=GLST+T2+S
+u|U|oo|Oo|OO[i*|I*|ee*|Ee*|EE*]=W
+u|U|oo|Oo|OO=UUF
+y|Y=Y
+ei|Ei|EI=E+Y
+oi|Oi|OI=O+Y
+ai|Ai|AI=U+Y
+
+p|P|pp|Pp|PP=GLST+P2
+b|B|bb|Bb|BB=SQ+B
+t|T|tt|Tt|TT=GLST+TL2 
+d|D|dd|Dd|DD=SQ+DL2
+k|K|kk|Kk|KK=GLST+K2
+g|G|gg|Gg|GG=SQ+G2
+
+f|F=F
+v|V=V
+s|S=S
+z|Z=Z
+h|H=HHE
+
+m|M=M 
+n|N=N 
+
+l|L=LFR
+r|R=RXS+RXS
+
+$DATAEND

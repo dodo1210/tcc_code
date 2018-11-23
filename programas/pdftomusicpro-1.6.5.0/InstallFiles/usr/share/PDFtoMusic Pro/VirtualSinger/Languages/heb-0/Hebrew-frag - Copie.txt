@@ -1,0 +1,182 @@
+FragmentListStart 
+
+	 DebutFragment 
+	 	 ID "HHE" 
+	 	 Nom "Hebrew aspired h" 
+	 	 Poids 58.000 
+	 	 Duree 6.279 
+	 	 TypeFrag 2 
+	 	 PRM_F1 
+	 	 	 Val 351.064 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.635 
+	 	 	 DutTDeb 0.529 
+	 	 	 DurTAp 1.749 
+	 	 FinPrm 
+	 	 PRM_F2 
+	 	 	 Val 1117.021 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.597 
+	 	 	 DutTDeb 0.398 
+	 	 	 DurTAp 2.530 
+	 	 FinPrm 
+	 	 PRM_F3 
+	 	 	 Val 2680.851 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.741 
+	 	 	 DutTDeb 0.529 
+	 	 	 DurTAp 3.546 
+	 	 FinPrm 
+	 	 PRM_F4 
+	 	 	 Val 4340.425 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 4.000 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 4.000 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_F5 
+	 	 	 Val 3743.524 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_F6 
+	 	 	 Val 5218.085 
+	 	 	 RaAv 73.973 
+	 	 	 DurTAv 0.495 
+	 	 	 DutTDeb 0.412 
+	 	 	 RaAp 80.137 
+	 	 	 DurTFi 0.550 
+	 	 	 DurTAp 0.770 
+	 	 FinPrm 
+	 	 PRM_B1 
+	 	 	 Val 159.574 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 3.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.000 
+	 	 	 DurTAp 3.000 
+	 	 FinPrm 
+	 	 PRM_B2 
+	 	 	 Val 207.447 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 3.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.000 
+	 	 	 DurTAp 3.000 
+	 	 FinPrm 
+	 	 PRM_B3 
+	 	 	 Val 239.362 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 3.000 
+	 	 	 DutTDeb 2.000 
+	 	 	 RaAp 50.000 
+	 	 	 DurTFi 2.000 
+	 	 	 DurTAp 3.000 
+	 	 FinPrm 
+	 	 PRM_B4 
+	 	 	 Val 191.489 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 0.389 
+	 	 	 DutTDeb 0.389 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 0.389 
+	 	 	 DurTAp 0.252 
+	 	 FinPrm 
+	 	 PRM_B5 
+	 	 	 Val 239.362 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 0.441 
+	 	 	 DutTDeb 0.321 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 0.589 
+	 	 	 DurTAp 0.417 
+	 	 FinPrm 
+	 	 PRM_B6 
+	 	 	 Val 494.681 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 0.305 
+	 	 	 DutTDeb 0.633 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 0.412 
+	 	 	 DurTAp 0.389 
+	 	 FinPrm 
+	 	 PRM_A1 
+	 	 	 Val 25.962 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.741 
+	 	 	 DutTDeb 0.423 
+	 	 	 RaAp 49.286 
+	 	 	 DurTFi 1.740 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A2 
+	 	 	 Val 45.352 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.438 
+	 	 	 DutTDeb 0.358 
+	 	 	 RaAp 51.429 
+	 	 	 DurTFi 1.146 
+	 	 	 DurTAp 1.527 
+	 	 FinPrm 
+	 	 PRM_A3 
+	 	 	 Val 45.352 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.478 
+	 	 	 DutTDeb 0.677 
+	 	 	 RaAp 49.286 
+	 	 	 DurTFi 2.588 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A4 
+	 	 	 Val 35.164 
+	 	 	 RaAv 100.000 
+	 	 	 DurTAv 4.000 
+	 	 	 DutTDeb 1.980 
+	 	 	 RaAp 100.000 
+	 	 	 DurTFi 1.251 
+	 	 	 DurTAp 4.000 
+	 	 FinPrm 
+	 	 PRM_A5 
+	 	 	 Val 45.023 
+	 	 	 RaAv 100.000 
+	 	 	 RaAp 100.000 
+	 	 FinPrm 
+	 	 PRM_A6 
+	 	 	 Val 29.577 
+	 	 	 RaAv 88.356 
+	 	 	 DurTAv 0.190 
+	 	 	 DutTDeb 0.412 
+	 	 	 RaAp 76.712 
+	 	 	 DurTFi 0.425 
+	 	 	 DurTAp 0.401 
+	 	 FinPrm 
+	 	 PRM_AV 
+	 	 	 DurTAv 1.290 
+	 	 	 DurTAp 2.750 
+	 	 FinPrm 
+	 	 PRM_RL 
+	 	 FinPrm 
+	 	 PRM_ASP 
+	 	 	 Val 60.000 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.525 
+	 	 	 DutTDeb 0.748 
+	 	 	 RaAp 12.143 
+	 	 	 DurTFi 1.117 
+	 	 	 DurTAp 5.843 
+	 	 FinPrm 
+	 	 PRM_AF 
+	 	 	 Val 40.634 
+	 	 	 RaAv 50.000 
+	 	 	 DurTAv 0.870 
+	 	 	 DutTDeb 1.107 
+	 	 	 RaAp 10.000 
+	 	 	 DurTFi 0.988 
+	 	 	 DurTAp 6.100 
+	 	 FinPrm 
+	 FinFragment 
+FragmentListEnd  

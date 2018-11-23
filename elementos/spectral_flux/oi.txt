@@ -1,0 +1,101 @@
+0.05576044321060181
+0.06310994178056717
+0.06917291134595871
+0.045953311026096344
+0.05756150931119919
+0.06585467606782913
+0.08980216085910797
+0.04829971864819527
+0.05653563514351845
+0.07725609838962555
+0.08475673198699951
+0.0868581011891365
+0.09092814475297928
+0.06838975846767426
+0.09864025563001633
+0.07099739462137222
+0.05028162896633148
+0.08999862521886826
+0.07517412304878235
+0.08635418117046356
+0.08271156251430511
+0.05646231025457382
+0.06237969547510147
+0.06672142446041107
+0.06784497201442719
+0.10050052404403687
+0.10249613225460052
+0.0716584101319313
+0.06622496247291565
+0.06772375106811523
+0.08035092800855637
+0.09895049035549164
+0.0642734095454216
+0.07450316101312637
+0.0887695923447609
+0.07345466315746307
+0.10121180862188339
+0.05923814699053764
+0.08042827993631363
+0.05012229084968567
+0.08951527625322342
+0.05598321184515953
+0.1115092933177948
+0.07594936341047287
+0.07392618060112
+0.04512324929237366
+0.06365097314119339
+0.03595250844955444
+0.06418520212173462
+0.0944259837269783
+['01 - Alicia Keys - If I Aint Got You.mp3.wav\n', '003 - Ariana Grande - My Everything (Lyrics+Official Audio).mp3.wav\n', "03 - Meghan Trainor - Like I'm Gonna Lose You ft. John Legend.mp3.wav\n", '005 - A Great Big World Christina Aguilera - Say Something.wav\n', '006 - Drake - Marvins Room (Explicit).mp3.wav\n', '008 - Adele - Chasing Pavements.mp3.wav\n', '010 - Jason Mraz - I Won_t Give Up [Official Video].mp3.wav\n', '11 - Camila Cabello - Never Be the Same.mp3.wav\n', "13 - James Arthur - Say You Won't Let Go.mp3.wav\n", '013 - Rihanna - Stay ft. Mikky Ekko.mp3.wav\n', '014 - Plain White T_s - Hey There Delilah.mp3.wav\n', '015 - Adele - Hello.mp3.wav\n', '016 - Beyoncé - Halo.mp3.wav\n', '16 - Ruth B. - Lost Boy (Official Video).mp3.wav\n', '17 - Adele - Hometown Glory.mp3.wav\n', '19 - One Republic - Secrets.wav\n', '023 - Blackbear - idfc [LYRICS].mp3.wav\n', '025 - Breathe me -- sia.mp3.wav\n', '26 - John Legend - All of Me (Edited Video).mp3.wav\n', '028 - Christina Perri - Jar of Hearts [Official Music Video].mp3.wav\n', '029 - Ron Pope- A Drop In The Ocean- lyrics.mp3.wav\n', '30 - Don_t Look Back In Anger (Remastered).mp3.wav\n', '31 - Adele - Someone Like You.mp3.wav\n', '032 - Christina Perri - A Thousand Years [Official Music Video].wav\n', '034 - Ed Sheeran - Thinking Out Loud [Official Video].mp3.wav\n', '34 - ZAYN - PILLOWTALK.mp3.wav\n', '037 - Adele - Turning Tables (With Lyrics).mp3.wav\n', '38 - Noah Cyrus - Again (Official Music Video) ft. XXXTENTACION.mp3.wav\n', '039 - Helplessly- Tatiana Manaois Lyrics.mp3.wav\n', '041 - Birdy Not About Angels Lyrics.mp3.wav\n', '043 - Little Big Town - Girl Crush.mp3.wav\n', '47 - Destiny_s Child - Emotion.mp3.wav\n', '051 - Bruno Mars - When I Was Your Man [Official Video] (1).mp3.wav\n', '51 - Kelly Clarkson - Because Of You (VIDEO).mp3.wav\n', "052 - Sam Smith - I'm Not The Only One (Official Audio) ft. A$AP Rocky.mp3.wav\n", '59 - Avril Lavigne - I_m With You (Video).mp3.wav\n', "061 - Ed Sheeran - Don't [Official].mp3.wav\n", '66 - Titanic Theme Song ___ My Heart Will Go On ___ Celine Dion.mp3.wav\n', '069 - Justin Bieber - Love Yourself  (PURPOSE _ The Movement).mp3.wav\n', '70 - Beyonc__ - Broken-Hearted Girl (Video).mp3.wav\n', '71 - Coldplay - The Scientist.mp3.wav\n', "74 - Alicia Keys - Fallin'.mp3.wav\n", '75 - Howie Day - Collide (Video w- Chris Lord-Alge Mix Audio).mp3.wav\n', '76 - Coldplay - In My Place.mp3.wav\n', '78 - Ed Sheeran - Photograph (Official Music Video).mp3.wav\n', '081 - Rihanna - Take A Bow.mp3.wav\n', '092 - Girl on Fire by Alicia Keys (Lyrics).mp3.wav\n', '131 - Rihanna - Love The Way You Lie (Part 2) ft. Eminem (Lyrics).mp3.wav\n', '138 - Maroon 5 - She Will Be Loved.mp3.wav\n', '185 - Coldplay-Sparks.mp3.wav\n']
+Filename: 0.04290247708559036
+Filename: 0.04192778468132019
+Filename: 0.06042845547199249
+Filename: 0.02825949527323246
+Filename: 0.05506018549203873
+Filename: 0.03907099738717079
+Filename: 0.031617600470781326
+Filename: 0.037802804261446
+Filename: 0.04758986085653305
+Filename: 0.04138049855828285
+Filename: 0.07217879593372345
+Filename: 0.049000389873981476
+Filename: 0.06154251843690872
+Filename: 0.036001790314912796
+Filename: 0.04163384065032005
+Filename: 0.06951731443405151
+Filename: 0.048698220402002335
+Filename: 0.03758728504180908
+Filename: 0.03833818435668945
+Filename: 0.0404253788292408
+Filename: 0.044506270438432693
+Filename: 0.06999067217111588
+Filename: 0.03893611207604408
+Filename: 0.034171443432569504
+Filename: 0.03714533895254135
+Filename: 0.07060189545154572
+Filename: 0.0371585413813591
+Filename: 0.04795560613274574
+Filename: 0.03912058845162392
+Filename: 0.022860446944832802
+Filename: 0.04022118076682091
+Filename: 0.08230595290660858
+Filename: 0.03049088455736637
+Filename: 0.038696251809597015
+Filename: 0.09089378267526627
+Filename: 0.04931671917438507
+Filename: 0.12273133546113968
+Filename: 0.0325835645198822
+Filename: 0.0395832359790802
+Filename: 0.04028886556625366
+Filename: 0.05049360543489456
+Filename: 0.05138377845287323
+Filename: 0.04751301184296608
+Filename: 0.06491383165121078
+Filename: 0.05093354359269142
+Filename: 0.07888559997081757
+Filename: 0.04782386124134064
+Filename: 0.049868229776620865
+Filename: 0.04540906846523285
+Filename: 0.062062621116638184

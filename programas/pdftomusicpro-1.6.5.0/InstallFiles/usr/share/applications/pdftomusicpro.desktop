@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PDFtoMusic Pro
+Icon=pdftomusicpro
+GenericName=PDF Score Player - Pro version
+GenericName[fr]=Convertisseur de partitions musicales PDF - Version Pro
+Comment=PDF score player/converter from Myriad
+Comment[fr]=Interpréteur/Convertisseur de partitions musicales PDF par Myriad - Version Pro
+Exec="/usr/bin/PDFtoMusic Pro" %F
+Terminal=false
+Categories=AudioVideo;Audio;Music;Midi;Sequencer;
+MimeType=application/x-myriad-music;
+StartupWMClass=PDFtoMusic Pro
+X-MultipleArgs=false
+

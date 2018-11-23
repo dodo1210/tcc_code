@@ -1,0 +1,572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="content-type"
+ content="text/html; charset=iso-8859-1">
+  <title>PDFtoMusic - Manuel de l'utilisateur</title>
+  <link href="../css/default.css" rel="styleSheet" type="text/css">
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" border="0"
+ background="../pictures/headerframe/back.gif"
+ style="text-align: center; width: 100%; height: 41px;">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; height: 41px; width: 9px;"> <img
+ src="../pictures/headerframe/lback.gif" alt=""
+ style="width: 9px; height: 41px;"></td>
+      <td style="text-align: left; vertical-align: middle;">
+      <table style="text-align: left; width: 798px;" border="0"
+ cellspacing="0" cellpadding="0">
+        <tbody>
+          <tr>
+            <td style="vertical-align: top; width: 190px;">&nbsp;<span
+ style="font-weight: bold; color: rgb(102, 102, 102);"></span><br>
+            </td>
+            <td
+ style="vertical-align: top; text-align: center; width: 620px;"><table cellspacing='0' cellpadding='0' border='0' width=608><tr><td width='30%%' align='left'><a href='kooplet.htm'><img border='0' align='texttop' src='../pictures/previous.gif'>&nbsp;Previous page</a>&nbsp;&nbsp;&nbsp;&nbsp;</td><td width='40%' align='center'><span style='font-size:20px;font-weight:600;color:#777;'>PDFtoMusic Pro</span></td><td width='30%' align='right'>&nbsp;&nbsp;&nbsp;&nbsp;<a href='problems.htm'>Next page&nbsp;<img border='0' align='texttop' src='../pictures/next.gif'></a></td></tr></table></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td style="vertical-align: top; height: 41px; width: 9px;"><img
+ src="../pictures/headerframe/rback.gif" alt=""
+ style="width: 9px; height: 41px;"></td>
+    </tr>
+  </tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0">
+  <tbody>
+    <tr>
+      <td
+ style="vertical-align: top; background-color: rgb(255, 250, 228); width: 2px;">&nbsp;<br>
+      </td>
+      <td
+ style="vertical-align: top; text-align: center; width: 190px; background-color: rgb(255, 248, 217);">
+      <table width="190" cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+          <tr>
+            <td align="left"><br> <a style='font-size:11px;' href='index.htm'>Introduction</a>
+<br><a href='pdfgen.htm'><img border='0' align='texttop' src='../pictures/closed.gif'></a> <a style='font-size:11px;' href='pdfgen.htm'>How to generate a PDF?</a>
+<br><a href='menugeneral.htm'><img border='0' align='texttop' src='../pictures/closed.gif'></a> <a style='font-size:11px;' href='menugeneral.htm'>Menus</a> <img border='0' align='texttop' src='../pictures/littlenew.gif'>
+<br> <a style='font-size:11px;' href='document.htm'>Document</a>
+<br> <a style='font-size:11px;' href='setuppro.htm'>Preferences</a>
+<br> <a style='font-size:11px;' href='expert.htm'>Expert mode</a>
+<br> <a style='font-size:11px;' href='kooplet.htm'>Kooplet search</a>
+<br> <span style='font-size:11px; font-weight:600; color:#800;'>Command Line version</span>
+<br> <a style='font-size:11px;' href='problems.htm'>Amendments</a>
+<br> <a style='font-size:11px;' href='mixer.htm'>Mixer</a>
+<br> <a style='font-size:11px;' href='virtualkeyboard.htm'>Virtual Keyboard</a>
+<br> <a style='font-size:11px;' href='karaoke.htm'>Lyrics following</a>
+<br> <a style='font-size:11px;' href='annotationspro.htm'>Annotations</a>
+<br> <a style='font-size:11px;' href='whatsnew.htm'>What's new?</a> <img border='0' align='texttop' src='../pictures/littlenew.gif'>
+<br> <a style='font-size:11px;' href='limits.htm'>Limits</a>
+<br> <a style='font-size:11px;' href='faq.htm'>FAQ</a>
+<br> <a style='font-size:11px;' href='annexes.htm'>Appendices</a>
+<br> <a style='font-size:11px;' href='bugreport.htm'>Problem report</a>
+<br> <a style='font-size:11px;' href='license.htm'>Software license</a>
+<br> <a style='font-size:11px;' href='order.htm'>Order</a>
+<br> <a style='font-size:11px;' href='greetings.htm'>Greetings</a>
+<br> <a style='font-size:11px;' href='printable.htm' target='_blank'>Printable manual</a>
+<br><br><hr><center><span style='font-size:11px; color:#777'><img border='0' align='texttop' src='../pictures/littlenew.gif'> symbol marks changed chapters.</span></center><hr> </td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td
+ style="vertical-align: top; width: 2px; background-color: rgb(255, 250, 228);">&nbsp;<br>
+      </td>
+      <td
+ style="width: 600px; vertical-align: top; text-align: center; background-color: rgb(255, 255, 255);">
+      <table style="width: 600px;" border="0" cellspacing="0"
+ cellpadding="12">
+        <tbody>
+          <tr>
+            <td class="xxcontentxx"
+ style="vertical-align: top; text-align: left;">
+<center>
+<table bgcolor="#ffffff" width="100%">
+<tbody>
+<tr>
+<td>
+<center>
+<h1><b>
+<h2>Command line version<br>
+</h2>
+</b></h1>
+</center>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<br>
+PDFtoMusic enables to convert or hear PDF files
+without using the graphical user interface (GUI).<br>
+It is ran through a command line. <br>
+This operating mode is especially&nbsp; intended to
+be used by visually impaired people, who cannot
+navigate within the interface.<br>
+<br>
+<span style="font-weight: bold;">On Macintosh</span>
+:<br>
+When the program is installed, a p2mp command is
+created in the Applications folder.<br>
+Run the terminal and enter<br>
+/Applications/p2mp followed by the complete name of
+the PDF file to process.<br>
+<br>
+<span style="font-weight: bold;">On Linux</span>
+:<br>
+When the program is installed, a p2mp command is
+created in the /usr/bin folder.<br>
+Run the terminal and enter<br>
+<i>p2mp </i>followed by the complete name of
+the PDF file to process.<br>
+<br>
+<span style="font-weight: bold;">On Windows :</span><br>
+<br>
+A command called p2mp is available in the program
+install folder ("PDFtoMusic Pro" subfolder in
+"C:\Program Files" or "C:\Program Files (x86)").<br>
+From an MS/DOS command window, move to this folder
+then enter <i>p2mp </i>followed by the complete
+name of the PDF file to process.<br>
+<span style="font-weight: bold;"><br>
+</span> By default, the result file is created at
+the same level as the PDF file.<br>
+<br>
+<span style="font-weight: bold;">This way of working
+is provided for your personal purpose only. Using
+it in an automated system for the benefit of a
+third party is strictly forbidden. <br>
+<br>
+</span><br>
+Here are the available options:<br>
+<table style="width: 100%; text-align: left;" border="0" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td style="vertical-align: top;" width="150">-h,
+--help</td>
+<td style="vertical-align: top;">display this
+help</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">-v
+language<br>
+</td>
+<td style="vertical-align: top;">(EN,FR) turn
+verbose output on</td>
+<td style="vertical-align: top;">default: off<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">
+-firstpage nnn</td>
+<td style="vertical-align: top;">first page to
+process&nbsp;&nbsp; <br>
+</td>
+<td style="vertical-align: top;">default: 1<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">
+-lastpage nnn</td>
+<td style="vertical-align: top;">last page to
+process<br>
+</td>
+<td style="vertical-align: top;">default:
+document's last<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">-password
+pass<br>
+</td>
+<td style="vertical-align: top;">password for
+protected PDF<br>
+</td>
+<td style="vertical-align: top;">default: none<br>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150">-signal unique_id<br>
+</td>
+<td valign="top">provide an unique ID for
+slave computing (see below for all details)<br>
+</td>
+<td valign="top">default: none<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">
+-pathdest target_folder</td>
+<td style="vertical-align: top;">path where to
+create result files<br>
+</td>
+<td style="vertical-align: top;">default: same
+as the PDF file</td>
+</tr>
+<tr>
+<td valign="top" width="150">-pathtemp
+target_folder<br>
+</td>
+<td valign="top">path where to create
+temporary files<br>
+</td>
+<td valign="top">default: temp system folder<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">
+-format name</td>
+<td style="vertical-align: top;">XML,MXL,MYR,MID,KAR,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+WAV,AIFF,MP3,OGG,BMP,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+MYRWEB,SVG,SVGM,NONE&nbsp;</td>
+<td style="vertical-align: top;">default: XML
+for PDFtoMusic Pro, MYR for PDFtoMusic<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">
+-multivoices n</td>
+<td style="vertical-align: top;"> 0 or 1 <br>
+</td>
+<td style="vertical-align: top;">default: 1</td>
+</tr>
+<tr>
+<td valign="top" width="150">-chords n<br>
+</td>
+<td valign="top">0 or 1<br>
+</td>
+<td valign="top">default: 1<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">
+-enhancedchords n</td>
+<td style="vertical-align: top;">0 or
+1&nbsp;&nbsp; <br>
+</td>
+<td style="vertical-align: top;">default: 1</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">-tuplets
+n<br>
+</td>
+<td style="vertical-align: top;"> 0 or 1 </td>
+<td style="vertical-align: top;">default: 1</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">-fingering
+n</td>
+<td style="vertical-align: top;"> 0 or 1 </td>
+<td style="vertical-align: top;">default: 1</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">-keychanges
+n<br>
+</td>
+<td style="vertical-align: top;"> 0 or 1 </td>
+<td style="vertical-align: top;">default: 1</td>
+</tr>
+<tr>
+<td valign="top">-timesignaturechanges n</td>
+<td valign="top">0 or 1 </td>
+<td valign="top">default: 1</td>
+</tr>
+<tr>
+<td valign="top">-lyrics n</td>
+<td valign="top">0 or 1 </td>
+<td valign="top">default: 1</td>
+</tr>
+<tr>
+<td valign="top" width="150">-sharedlyrics<br>
+</td>
+<td valign="top">0 or 1<br>
+</td>
+<td valign="top">default: 1<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">-clefshift
+n</td>
+<td style="vertical-align: top;"> 0 or 1 </td>
+<td style="vertical-align: top;">default: 1</td>
+</tr>
+<tr>
+<td valign="top" width="150">-complexlines n<br>
+</td>
+<td valign="top">0 or 1<br>
+</td>
+<td valign="top">default: 0<br>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150">-thinbeams n<br>
+</td>
+<td valign="top">0 or 1<br>
+</td>
+<td valign="top">default: 0<br>
+</td>
+</tr>
+<tr>
+<td valign="top" width="150">-breakadjust n<br>
+</td>
+<td valign="top">0 or 1<br>
+</td>
+<td valign="top">default: 1<br>
+</td>
+</tr>
+<tr>
+<td valign="top">-multirest n</td>
+<td valign="top">0 or 1</td>
+<td valign="top">default: 1</td>
+</tr>
+<tr>
+<td valign="top">-shortbar n</td>
+<td valign="top">0 or 1</td>
+<td valign="top">default: 0</td>
+</tr>
+<tr>
+<td valign="top">-leadgerlines n<br>
+</td>
+<td valign="top">0 or 1</td>
+<td valign="top">default: 1</td>
+</tr>
+<tr>
+<td valign="top">-tempi n</td>
+<td valign="top">0 or 1</td>
+<td valign="top">default: 1</td>
+</tr>
+<tr>
+<td valign="top">-dynamics n</td>
+<td valign="top">0 or 1</td>
+<td valign="top">default: 1</td>
+</tr>
+<tr>
+<td valign="top">-groupname n</td>
+<td valign="top">0 or 1</td>
+<td valign="top">default: 1</td>
+</tr>
+<tr>
+<td valign="top" width="150">-bracketgroup</td>
+<td valign="top">0 or 1 </td>
+<td valign="top">default: 0<br>
+</td>
+</tr>
+<tr>
+<td valign="top">-modernnotation n</td>
+<td valign="top">0 or 1</td>
+<td valign="top">default: 0<br>
+</td>
+</tr>
+<tr>
+<td valign="top">-matchlevel n</td>
+<td valign="top">0 to 3<br>
+</td>
+<td valign="top">default: 2<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">-highdef
+n</td>
+<td style="vertical-align: top;"> 0 or 1 </td>
+<td style="vertical-align: top;">default: 0<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">-register
+xxxx</td>
+<td style="vertical-align: top;">xxxx is your
+personal registration number</td>
+<td style="vertical-align: top;"><br>
+</td>
+</tr>
+<tr>
+<td valign="top">-vs n<br>
+</td>
+<td valign="top">Virtual Singer activity, 0 or
+1<br>
+</td>
+<td valign="top">default: 1<br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;" width="150">-play</td>
+<td style="vertical-align: top;">the result is
+played once the PDF has <br>
+been processed</td>
+<td style="vertical-align: top;">default:
+inactive<br>
+</td>
+</tr>
+</tbody>
+</table>
+&nbsp; <br>
+MyrWeb setup :<br>
+<br>
+<table border="0" cellpadding="2" cellspacing="2" width="100%">
+<tbody>
+<tr>
+<td>-mw_displayScore n: 0 or 1 <br>
+</td>
+<td> (default 1)</td>
+</tr>
+<tr>
+<td>-mw_embedAllViews n: 0 or 1 <br>
+</td>
+<td> (default 1)</td>
+</tr>
+<tr>
+<td>-mw_displayLyrics n: 0 or 1 <br>
+</td>
+<td> (default 1)</td>
+</tr>
+<tr>
+<td>-mw_exportMp3 n: 0 or 1 <br>
+</td>
+<td> (default 1)</td>
+</tr>
+<tr>
+<td>-mw_exportOgg n: 0 or 1 <br>
+</td>
+<td> (default 0)</td>
+</tr>
+<tr>
+<td>-mw_exportWav n: 0 or 1 <br>
+</td>
+<td> (default 0)</td>
+</tr>
+<tr>
+<td>-mw_seeKeyboard n: 0 or 1 <br>
+</td>
+<td> (default 1)</td>
+</tr>
+<tr>
+<td>-mw_embedOriginal n: 0 or 1 <br>
+</td>
+<td> (default 1)</td>
+</tr>
+<tr>
+<td>-mw_embedMXL n: 0 or 1 <br>
+</td>
+<td> (default 0)</td>
+</tr>
+<tr>
+<td>-mw_embedXML n: 0 or 1 <br>
+</td>
+<td> (default 0)</td>
+</tr>
+<tr>
+<td>-mw_embedMID n: 0 or 1 <br>
+</td>
+<td> (default 0)</td>
+</tr>
+<tr>
+<td>-mw_embedMYR n: 0 or 1 <br>
+</td>
+<td> (default 1)</td>
+</tr>
+<tr>
+<td>-mw_metronome n: 0 or 1 <br>
+</td>
+<td> (default 1)</td>
+</tr>
+<tr>
+<td>-mw_compressData n: 0 or 1 <br>
+</td>
+<td> (default 1)</td>
+</tr>
+<tr>
+<td>-mw_exportQuality n: 0 to 4 <br>
+</td>
+<td> (default 2)</td>
+</tr>
+<tr>
+<td>-mw_autoGroups n: 0 or 1 <br>
+</td>
+<td> (default 0)</td>
+</tr>
+<tr>
+<td>-mw_commands string <br>
+</td>
+<td><br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<b>Slave Mode :</b><br>
+<br style="font-weight: bold;">
+The "-signal" option allow to launch PDFtoMusic or
+PDFtoMusic PRO from an external program, called
+Father.<br>
+From the PDF file name provided (with a full path) a
+result file will be generated.<br>
+Additionnaly, an additional file will be created to
+inform the father about the computation status.<br>
+The parameter unique_id guaranteed multiple
+simultaneous tasks using PDFtoMusic as Son, will not
+collide.<br>
+Unique_id will determine the name of the additional
+file created. The path to this file will be
+-pathdest.<br>
+For example, if unique_id is "1962", PDFtoMusic will
+create a file "C2F_1962.txt" and log every step of
+the process. It is up to the caller to regularly
+scan the presence of this file and delete it
+immediately after reading.<br>
+It contains either :<br>
+- !DONE!=xxx to indicate that the processing is
+ended<br>
+<table border="0" cellpadding="5" cellspacing="2" width="100%">
+<tbody>
+<tr>
+<td bgcolor="#ffffcc" valign="top">xxx value
+can be:<br>
+0 Result file succesfully created<br>
+1 Document is password protected<br>
+2 Copy is not allowed<br>
+3 Can't extract text encoding<br>
+4 This is not a PDF file or the file is
+damaged<br>
+5 There is no exploitable music data in this
+file <br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+-!PID! = xxxx, where xxxx is the PDFtoMusic PID<br>
+- The caption of the step<br></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td style="background-color: rgb(255, 255, 255); width: 100%;"><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table style="width: 100%; height: 20px;" border="0" cellspacing="0"
+ cellpadding="0" background="../pictures/footerframe/m.gif">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; height: 20px; width: 3px;"><img
+ style="width: 3px; height: 20px;" alt=""
+ src="../pictures/footerframe/l.gif"><br>
+      </td>
+      <td><small><span style="color: rgb(102, 102, 102);">(c) Myriad 2007-2018 - All rights reserved</span></small>
+      <br>
+      </td>
+      <td style="vertical-align: top; height: 20px; width: 3px;"><img
+ src="../pictures/footerframe/r.gif" alt=""
+ style="width: 3px; height: 20px;"></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

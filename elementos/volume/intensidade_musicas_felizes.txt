@@ -1,0 +1,71 @@
+001 - Bruno Mars - The Lazy Song [OFFICIAL VIDEO],mp3,wav -12,301656126064952
+002 - Aerosmith - Crazy,mp3,wav -20,77816251864578
+003 - Journey - Dont Stop Believin (Audio),mp3,wav -15,76142731016458
+005 - Elvis Presley - Jailhouse Rock (Music Video),mp3,wav -16,430943877873144
+006 - Earth, Wind _ Fire - September,mp3,wav -21,322516837219823
+008 - Bee Gees Stayin Alive (Extended Remaster),mp3,wav -15,552428581278663
+009 - Michael Jackson - Beat It - Single Version,mp3,wav -18,465463551277022
+011 - Queen _ David Bowie - Under Pressure (Remastered Audio 2011),mp3,wav -13,382256456598252
+014 - Mark Ronson - Uptown Funk ft, Bruno Mars,mp3,wav -13,555967542266508
+017 - Gwen Stefani - Hollaback Girl,mp3,wav -17,78013819256846
+020 - Wannabe (Radio Edit),mp3,wav -13,08309082866044
+025 - Spice Girls - Spiceworld - 7, Do It,mp3,wav -12,609694735179705
+027 - Spice Girls - Stop,mp3,wav -24,406456994150535
+028 - Spice Girls - Spice Up Your Life,mp3,wav -22,522132474152798
+030 - Jamiroquai - Seven Days In Sunny June,mp3,wav -13,818672139050175
+032 - Alanis Morissette - Ironic (OFFICIAL VIDEO),mp3,wav -21,459403317905384
+035 - Britney Spears - (You Drive Me) Crazy,mp3,wav -20,154579165482083
+037 - Britney Spears What U See (Is What U Get) Lyrics,mp3,wav -13,423183834107494
+040 - Britney Spears - I Love Rock _N_ Roll,mp3,wav -13,719063704790708
+044 - Britney Spears - Till The World Ends,mp3,wav -21,35963608019924
+046 - Britney Spears - Criminal,mp3,wav -14,065443216019279
+049 - Christina Aguilera - Come On Over (All I Want Is You) (AC3 Stereo),mp3,wav -18,31788687947475
+053 - Aqua - Barbie Girl,mp3,wav -22,398976213081838
+054 - Cartoon Heroes - Aqua,mp3,wav -10,930005079567504
+056 - Ricky Martin - Livin_ La Vida Loca,mp3,wav -17,2660065911613
+057 - Hanson - MMMBop,mp3,wav -21,09705492124233
+060 - No Doubt - Don_t Speak,mp3,wav -21,233461505385517
+063 - No Doubt - Simple Kind Of Life,mp3,wav -19,15404386636499
+064 - No Doubt - Ex-Girlfriend,mp3,wav -18,423358122958234
+067 - Will Smith - Men In Black (Video Version),mp3,wav -16,612091466306108
+075 - Nelly Furtado - Promiscuous ft, Timbaland,mp3,wav -17,605357726069006
+076 - Nelly Furtado - I_m Like A Bird,mp3,wav -21,130201461387834
+079 - Nelly Furtado - Powerless (Say What You Want) [official music video],mp3,wav -17,71265477882404
+083 - Savage Garden - The Animal Song (Video Version),mp3,wav -16,381870924527714
+085 - Natalie Imbruglia - Wrong Impression,mp3,wav -15,074951348366103
+088 - Vengaboys - Boom, Boom, Boom, Boom!!,mp3,wav -15,459209407558854
+089 - Marc Anthony - I Need to Know (Video),mp3,wav -18,209366107045724
+090 - Marc Anthony - Vivir Mi Vida,mp3,wav -12,013675960677308
+092 - Jennifer Lopez - If You Had My Love (Official Video),mp3,wav -19,792559656061105
+094 - Jennifer Lopez - Feelin' So Good ft, Fat Joe, big pun,mp3,wav -19,187775519003704
+098 - Jennifer Lopez - Play,mp3,wav -17,32035423436202
+099 - Jennifer Lopez - Get Right,mp3,wav -16,622865777761724
+0 - Gwen Stefani - The Sweet Escape ft Akon,wav -17,37700366478689
+100 - Jennifer Lopez - Hold You Down ft, Fat Joe,mp3,wav -16,00899935095351
+102 - Madonna - Ray Of Light,mp3,wav -15,6546918921945
+104 - Madonna - Like A Virgin (video),mp3,wav -23,142685897550443
+105 - Madonna - Material Girl (Official Music Video),mp3,wav -22,086710328176263
+106 - Madonna - Hung Up (Official Music Video),mp3,wav -16,680555584774186
+121 - Everybody (Backstreet_s Back) (Radio Edit),mp3,wav -16,162706027420196
+168 - Justin Bieber - Sorry (PURPOSE _ The Movement),mp3,wav -9,839011068234116
+refrao_Girl_on_Fire.wav -10.80587913106057
+refrao_someone_like_you.wav -14.21122380674653
+refrao_thousend_years.wav -17.78835374261398
+refrao_Sorry.wav -8.648985307663693
+refrao_the_lazy_song.wav -10.823371521637748
+refrao_Girl_on_Fire.wav -10.80587913106057
+refrao_someone_like_you.wav -14.21122380674653
+refrao_thousend_years.wav -17.78835374261398
+refrao_Sorry.wav -8.648985307663693
+refrao_the_lazy_song.wav -10.823371521637748
+refrao_till_the_words_ends.wav -20.04464669783558
+refrao_Girl_on_Fire.wav -10.80587913106057
+refrao_someone_like_you.wav -14.21122380674653
+refrao_thousend_years.wav -17.78835374261398
+refrao_Sorry.wav -8.648985307663693
+refrao_the_lazy_song.wav -10.823371521637748
+refrao_till_the_words_ends.wav -20.04464669783558
+refrao_jailhouse_rock.wav -15.997287661330432
+refrao_  my_heart_will_go_on.wav -17.067069790835887
+refrao_setember.wav -21.291704851599032
+refrao_when_was_your_man.wav -14.175904219357145

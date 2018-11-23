@@ -1,0 +1,60 @@
+﻿#***************************************************************************************
+#			Vietnamese
+#	Link between Sampa notation & fragments (with examples)
+# Source : none
+
+#-- Glottal stop
+/	GLST
+
+#-- Vowels
+a	AR	[bàn]
+a:	AR	[năm]
+A	U	[dân]
+e	EI	[đẹp]	
+E	EF	[quê]
+i	EE	[đi]
+o	AWF	[to]
+O	OI	[cô]
+o'	OVT	[mơ]
+u	UUF	[ngủ]
+u'	OOVT	[tư]
+y	EE	[mỹ]
+
+#--- Nasalized
+a~	EI NS N	[anh]
+
+#-- Semivowels
+a)	ASVT
+e)	E2SVT
+i)	ID
+o)	OSVT
+u)	OV
+w)	W
+y) 	Y
+~	NG
+6	6R
+
+#---- Consonants
+b	SQ B
+k	GLST K2
+z	Z
+d	SQ DL2
+g	SQ G2
+h	HCZ
+x	KH
+l	L
+m	M M
+n	N N
+f	F
+p	GLST P2
+r	RXS
+s	S
+S	SH
+t	GLST TL2
+T	GLST T2
+v	V
+tS	GLST T2 CI
+
+
+
+# ------------------- End of file

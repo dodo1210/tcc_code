@@ -1,0 +1,7 @@
+﻿
+DICT=Vietnamese.txt
+SAMPA=Vietnamese-sampa.txt
+FLAG=Vietnamese.png
+FRAGMENTS=Vietnamese-frag.txt
+TAG=vie
+

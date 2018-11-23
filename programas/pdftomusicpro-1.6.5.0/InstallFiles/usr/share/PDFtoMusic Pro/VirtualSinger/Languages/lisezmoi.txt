@@ -1,0 +1,59 @@
+		POUR AJOUTER UNE NOUVELLE LANGUE
+	
+Ci-dessous, <langue> correspond au nom de la langue (p.ex "Bordurien")
+<code langue> correspond au code ISO-639-3 de cette langue (p.ex "bor")
+
+
+1- Trouver le code langue en 3 lettres de la langue dans le tableau:
+http://www.loc.gov/standards/iso639-2/php/code_list.php
+
+2- Creer un dossier <code langue>-0 dans "VirtualSinger\Languages"
+Tous les fichiers spécifiques à la langue se rangeront ici.
+
+3- Créer une image PNG du drapeau au format 75x60 et le sauvegarder dans ce dossier sous le nom <langue>.png
+
+4- Trouver les phonemes SAMPA de la langue 
+http://www.phon.ucl.ac.uk/home/sampa/
+S'ils n'existent pas, créer sa propre table en s'inspirant de langues proches
+
+5- Vérifier si des fragments supplémentaires pourraient améliorer la prononciation. Si oui, modifier des fragments existants pour les créer.
+Editer les fragments en cliquant sur le bouton de l'onglet "avancé" de l'édition de la voix en maintenant la touche Maj appuyée.
+Un bouton "Sauver" est alors présent dans la boite d'édition des fragments. L'utiliser pour créer un fichier texte contenant tous les fragments modifiés.
+Editer ce fichier, et donner un nom unique à chaque nouveau fragment (tag "ID" et "Nom"). Sauvegarder ce fichier en "<langue>.frag.txt" dans le dossier des "Languages"
+
+6- Trouver les fragments correspondant à chaque élément phonetique SAMPA,  créer un fichier "<langue>.sampa.txt" en texte UTF-8 contenant:
+# commentaire
+<sampa> <frag1> <frag2> ... [<exemple de mot]
+...
+
+7- Créer le fichier des règles de prononciation "<langue>.txt" . Il est compatible avec le fichier <langue>.txt de "Other languages" :
+http://www.myriad-online.com/fr/scriptdocs/otherlanguages.htm
+à une exception près : le changement de syllabe [*] n'est plus valide. S'il est rencontré, il sera traité comme un changement de mot [_]
+
+Dans ce fichier, chaque combinaison de lettres est phonétisée en fragments, mais peut maintenant (préférable) l'être en SAMPA. Pour ce faire, ajouter 
+$SAMPA dans le fichier, avant $DATASTART 
+Les éléments phonetiques (sampa ou fragments) sont séparés par des "+"
+S'il s'agit de fragments, ils doivent correspondre aux suites de fragments définies dans le fichier "<langue>.sampa.txt" en -6-. Pour changer la prononciation d'un phonème, il faut donc reprendre la liste des fragments du phonème dans le fichier "<langue>.sampa.txt" mais également à tous les endroits où ce phoneme est utilisé dans "<langue>.txt". 
+
+C'est pourquoi l'utilisation de la phonétique SAMPA dans ce fichier est préférable. Pour changer la prononciation d'un phonème, il suffit de changer la liste des fragments dans le fichier "<langue>.sampa.txt".
+	
+8- Créer un fichier texte (UTF-8 ou ANSI) appelé 
+<code langue>-0-setup.txt
+contenant:
+
+DICT=<langue>.txt
+SAMPA=<langue>-Sampa.txt
+FRAGMENTS=<langue>-frag.txt
+FLAG=<langue>.png
+TAG=<code langue>
+
+puis (optionnel) pour chaque lettre majuscule de l'alphabet:
+<lettre>=<sampa de prononciation de la lettre isolée>
+
+9 - Essayer tout cela avec la version beta
+A noter que, pour l'instant, si un changement est fait dans les fichiers ci-dessus, il ne sera pris en compte qu'au prochain lancement de l'application.
+
+10- Collecter tous les textes de paroles, poêmes, à défaut textes littéraires de la langue et les stocker dans un fichier ZIP. Ils serviront à alimenter le Bayesien de détermination automatique de la langue. S'il y a trop peu de données, cela conduira à des erreurs. La taille totale recommandée (en texte UTF8) est de 1Mo
+
+11- Collecter quelques chansons dans la langue au format MYR pour servir d'exemple et de test
+

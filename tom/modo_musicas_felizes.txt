@@ -1,0 +1,54 @@
+001 - Bruno Mars - The Lazy Song.mid B major
+002 - Aerosmith - Crazy.mid D major
+003 - Journey_-_Don__t_Stop_Believin__.mid E major
+004 - Queen_-_Bohemian_Rhapsody.mid E- major
+005 - Elvis Presley - Jailhouse Rock 1.mid E major
+006 - Earth,_Wind,_And_Fire_-_September.mid A major
+008 - Bee_Gees_-_Stayin__Alive.mid F minor
+009 - Jackson,_Michael_-_Beat_It_(3).mid B major
+011 - Queen_-_Under_Pressure_(3)(1).mid D major
+025 - Spice Girls - Spiceworld - 7.mid D major
+028 - Spice Girls - Spice Up Your Life.mid F minor
+0 - gwen_stefani-the_sweet_escape.mid C# major
+100 - jennifer_lopez-hold_you_down_feat_fat_joe.mid F major
+102 - madonna-ray_of_light.mid E- major
+104 - Madonna_-_Like_A_Virgin(1).mid B major
+105 - Madonna - Material Girl 1.mid C major
+106 - madonna-hung_up.mid D minor
+14 - mark_ronson-uptown_funk_ft_bruno_mars.mid D minor
+16 - beyonce-halo.mid D major
+17 - Stefani,_Gwen_-_Hollaback_Girl.mid E minor
+20 - Spice_Girls_-_Wannabe.mid B major
+27 - Spice_Girls_-_Stop.mid C major
+30 - seven_days_in_sunny_june_4.mid D major
+32 - ironic.mid B major
+35 - crazy.mid A- major
+37 - whatusee.mid C minor
+39 - Overprotected.mid C minor
+40 - Spears,_Britney_-_I_Love_Rock_N___Roll.mid E minor
+44 - tilltheworldends.mid E- major
+46 - britney_spears-criminal.mid A minor
+49 - Come_On_Over_Baby.mid E- major
+53 - Aqua_-_Barbie_Girl.mid C# minor53 - Aqua_-_Barbie_Girl.mid C# minor
+56 - Martin,_Ricky_-_Livin__la_Vida_Loca.mid C# minor
+57 - Hanson_-_MMMBop.mid A major
+60 - No_Doubt_-_Don_t_Speak.mid F minor
+63 - SimpleKindOfLife.mid C major
+64 - no_doubt-ex-girlfriend.mid A minor
+67 - (Will_Smith)-Men_In_Black_1 (1).mid G minor
+75 - Nelly Furtado - Promiscuous Girl.mid F# major
+76 - nelly_furtado-im_like_a_bird.mid B- major
+79 - Powerless (1).mid D major
+83 - AnimalSong.mid F# major
+85 - natalie_imbruglia-wrong_impression.mid C major
+88 - Venga_Boys_-_Boom_Boom_Boom_Boom.mid A- major
+89 - INeedToKnow1.mid B- minor
+90 - Vivir_Mi_Vida_by_Marc_Anthony.mid C minor
+92 - jennifer_lopez-if_you_had_my_love.mid B minor
+94 - Jennifer Lopez - Feelin So Good.mid E- major
+98 - jenifer_lopez-play.mid C# minor
+Backstreet Boys - Everybody.mid E- minor
+54 - Aqua - Cartoon Heroes.mid A- major
+99 - Jennifer Lopez - Get Right.mid D major
+008 - Bee_Gees_-_Stayin__Alive.mid F minor
+168 - Justin Bieber - Sorry .mid E- major
