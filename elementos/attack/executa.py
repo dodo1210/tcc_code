@@ -12,7 +12,7 @@ import numpy as np
 # 2. Load the audio as a waveform `y`
 #    Store the sampling rate as `sr`
 #captura da musica
-arq = open('/home/douglas/Documentos/tcc_code/musicas/wav/felizes/felizes.txt','r')
+arq = open('/home/douglas/Música/musicas/wav/felizes/felizes.txt','r')
 lines = arq.readlines()
 arq.close()
 
@@ -23,7 +23,7 @@ for l in lines:
     #carregamento dos arquivos
     music, erro = l.split("\n",1)
     #VERIFIQUE O CAMINHO, POR FAVOR
-    y, sr = librosa.load('/home/douglas/Documentos/tcc_code/musicas/wav/felizes/'+music)
+    y, sr = librosa.load('/home/douglas/Música/musicas/wav/felizes/'+music)
     oenv = librosa.onset.onset_strength(y=y, sr=sr)
     # Detect events without backtracking
     onset_raw = librosa.onset.onset_detect(onset_envelope=oenv,backtrack=False)
@@ -33,7 +33,7 @@ for l in lines:
     minimum = librosa.frames_to_time(onset_raw, sr=sr)
     soma=0
     for i in range(len(minimum)-1):
-        sound = AudioSegment.from_wav('/home/douglas/Documentos/tcc_code/musicas/wav/felizes/'+music)
+        sound = AudioSegment.from_wav('/home/douglas/Música/musicas/wav/felizes/'+music)
         parte1 = sound[maximum[i]*1000:minimum[i+1]*1000]
         parte1.export('parte1.wav',format="wav")
         import IPython
