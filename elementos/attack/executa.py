@@ -48,7 +48,7 @@ for l in lines:
         lista.append(soma)
     print(music)
     
-arq = open('/home/douglas/Documentos/tcc_code/resultado/resultado.csv','r')
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultado','r')
 musics = arq.readlines()
 arq.close()
 
