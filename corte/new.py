@@ -5,7 +5,7 @@ import librosa
 
 #captura da musica
 #abertura do arquivo
-arq = open('/media/douglas/Douglas/Musicas_tristes/Bad_Days/felizes.txt','r')
+arq = open('/home/douglas/Música/musicas/wav/tristes/tristes.txt','r')
 lines = arq.readlines()
 arq.close()
 print(lines)
@@ -17,8 +17,8 @@ for l in lines:
     #carregamento dos arquivos
     music, erro = l.split("\n",1)
     print(music)
-    sound = AudioSegment.from_mp3("/media/douglas/Douglas/Musicas_tristes/Bad_Days/"+music)
+    sound = AudioSegment.from_mp3("/home/douglas/Música/musicas/wav/tristes/"+music)
     cut = sound[0:30*1000]
     #exportação da musica
-    cut.export("/home/douglas/Documentos/tcc_code/musicas/wav/tristes/"+music+".wav", format="wav")
+    cut.export(music+"wav", format="wav")
 

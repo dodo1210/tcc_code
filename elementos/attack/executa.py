@@ -36,8 +36,6 @@ for l in lines:
         sound = AudioSegment.from_wav('/home/douglas/Música/musicas/wav/felizes/'+music)
         parte1 = sound[maximum[i]*1000:minimum[i+1]*1000]
         parte1.export('parte1.wav',format="wav")
-        import IPython
-        IPython.display.Audio('parte1.wav')
         features, features_frames = es.MusicExtractor(lowlevelStats=['mean', 'stdev'],
                                                 rhythmStats=['mean', 'stdev'],
                                                 tonalStats=['mean', 'stdev'],
@@ -48,16 +46,14 @@ for l in lines:
         lista.append(soma)
     print(music)
     
-arq = open('/home/douglas/Documentos/tcc_code/resultado/resultado','r')
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_felizes.csv','r')
 musics = arq.readlines()
 arq.close()
 
 count=0
-arq = open('/home/douglas/Documentos/tcc_code/resultado/resultado.csv','w')
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_felizes.csv','w')
 for m in musics:
     music, erro = m.split("\n",1)
     print(music+","+str(lista[count])+"\n")
     arq.write(music+","+str(lista[count])+"\n")
     count+=1
-    if count == 2:
-        break
