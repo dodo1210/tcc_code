@@ -33,3 +33,4 @@ for l in lines:
         temp, beat_frames = librosa.beat.beat_track(y=y, sr=sr)
         tempo+=temp
     print(music,tempo/len(beat_times))
+
