@@ -17,8 +17,8 @@ for l in lines:
     #carregamento dos arquivos
     music, erro = l.split("\n",1)
     print(music)
-    sound = AudioSegment.from_mp3("/home/douglas/Música/musicas/wav/tristes/"+music)
+    sound = AudioSegment.from_mp3("/home/douglas/Documentos/teste/"+music)
     cut = sound[0:30*1000]
     #exportação da musica
-    cut.export(music+"wav", format="wav")
+    cut.export("/home/douglas/Música/musicas/wav/tristes/"+music+".wav", format="wav")
 
