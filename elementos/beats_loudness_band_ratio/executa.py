@@ -28,7 +28,7 @@ for l in lines:
                                               tonalStats=['mean', 'stdev'])('/home/douglas/Música/musicas/wav/tristes/'+music)
 
     # See all feature names in the pool in a sorted order
-    print("Filename:", features['rhythm.beats_loudness_band_ratio.mean'])
+    print(music, features['rhythm.beats_loudness_band_ratio.mean'])
     lista.append(features['rhythm.beats_loudness_band_ratio.mean'])
 
 arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','r')
