@@ -20,12 +20,11 @@ treino = SelectKBest(mutual_info_regression,k=10).fit(x,y)
 selecao = treino.transform(x)
 scores = treino.scores_
 #print(scores)
-for i in range(100):
-    X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
+X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
 
-    #classificação e predição
-    clf=RandomForestClassifier(n_estimators=100)
-    clf.fit(X_train,y_train)
-    y_pred=clf.predict(X_test)
-    print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
+#classificação e predição
+clf=RandomForestClassifier(n_estimators=100)
+clf.fit(X_train,y_train)
+y_pred=clf.predict(X_test)
+print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
     
