@@ -12,7 +12,7 @@ import numpy as np
 # 2. Load the audio as a waveform `y`
 #    Store the sampling rate as `sr`
 #captura da musica
-arq = open('/home/douglas/Música/musicas/wav/tristes/tristes.txt','r')
+arq = open('/home/douglas/Música/musicas/wav/felizes/felizes.txt','r')
 lines = arq.readlines()
 arq.close()
 
@@ -23,7 +23,7 @@ for l in lines:
     #carregamento dos arquivos
     music, erro = l.split("\n",1)
     #VERIFIQUE O CAMINHO, POR FAVOR
-    y, sr = librosa.load('/home/douglas/Música/musicas/wav/tristes/'+music)
+    y, sr = librosa.load('/home/douglas/Música/musicas/wav/felizes/'+music)
     oenv = librosa.onset.onset_strength(y=y, sr=sr)
     # Detect events without backtracking
     onset_raw = librosa.onset.onset_detect(onset_envelope=oenv,backtrack=False)
@@ -31,9 +31,10 @@ for l in lines:
     onset_bt = librosa.onset.onset_backtrack(onset_raw, oenv)
     maximum = librosa.frames_to_time(onset_bt, sr=sr)
     minimum = librosa.frames_to_time(onset_raw, sr=sr)
+    
     soma=0
     for i in range(len(minimum)-1):
-        sound = AudioSegment.from_wav('/home/douglas/Música/musicas/wav/tristes/'+music)
+        sound = AudioSegment.from_wav('/home/douglas/Música/musicas/wav/felizes/'+music)
         parte1 = sound[maximum[i]*1000:minimum[i+1]*1000]
         parte1.export('parte1.wav',format="wav")
         features, features_frames = es.MusicExtractor(lowlevelStats=['mean', 'stdev'],
@@ -46,12 +47,12 @@ for l in lines:
         lista.append(soma)
     print(music)
     
-arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','r')
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_felizes.csv','r')
 musics = arq.readlines()
 arq.close()
 
 count=0
-arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','w')
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_felizes.csv','w')
 for m in musics:
     music, erro = m.split("\n",1)
     print(music+","+str(lista[count])+"\n")

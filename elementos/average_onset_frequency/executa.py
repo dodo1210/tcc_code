@@ -15,7 +15,7 @@ for l in lines:
     #VERIFIQUE O CAMINHO, POR FAVOR
     y, sr = librosa.load('/home/douglas/Música/musicas/wav/tristes/'+music,sr=44100)
     y = librosa.onset.onset_strength(y=y, sr=sr)
-    print(y.mean())
+    print(music,y.mean())
     lista.append(y.mean())
 
 

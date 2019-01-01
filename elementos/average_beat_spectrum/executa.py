@@ -40,7 +40,7 @@ for l in lines:
         frequencies, times, spectrogram = signal.spectrogram(X, 44100)
         sin_data = np.sin(spectrogram) 
         soma+=sin_data.mean()
-    print(soma)
+    print(music,soma)
     lista.append(soma)
         
 arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','r')

@@ -194,19 +194,21 @@ if __name__=="__main__":
         description = "Estimate fundamental frequency and inharmonicity coefficient from an isolated piano note."
     )
 
-    arq = open('/home/douglas/Documentos/tcc_code/musicas/wav/tristes/tristes.txt','r')
+    arq = open('/home/douglas/Música/musicas/wav/felizes/felizes.txt','r')
     lines = arq.readlines()
     arq.close()
-    cont =0 
+
+    lista = []
+
+    count=0
     for l in lines:
         #carregamento dos arquivos
         music, erro = l.split("\n",1)
         
-        arq = open('/home/douglas/Documentos/tcc_code/musicas/midi/tristes.txt','r')
         lines = arq.readlines()
         arq.close()
         musics, erro = lines[cont].split("\n",1)
-        score = music21.converter.parse('/home/douglas/Documentos/tcc_code/musicas/midi/tristes/'+musics)
+        score = music21.converter.parse('/home/douglas/Documentos/tcc_code/musicas/midi/felizes/'+musics)
         tom = score.analyze('key')
         frequencia = note.Note(tom.tonic.name)
         #print(str(key.pitchToSharps(str(tom.tonic.name),str(tom.mode))))
@@ -244,7 +246,7 @@ if __name__=="__main__":
 
         # x = MonoLoader(filename=wav_file)()
         fs = 44100
-        x, sr = librosa.load('/home/douglas/Documentos/tcc_code/musicas/wav/tristes_30/'+music,sr=44100)
+        x, sr = librosa.load('/home/douglas/Documentos/tcc_code/musicas/wav/felizes_30/'+music,sr=44100)
 
         B = loadmat('./data/initialB.mat')
         B = B['B']
@@ -294,5 +296,20 @@ if __name__=="__main__":
         f0_final =  f0[r]*fR
 
         print("%s" %B1[r])
+        valor = float(B1[r])
+        print(music,valor)
+        lista.append(valor)
+        arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_felizes.csv','r')
+        musics = arq.readlines()
+        arq.close()
+
+
+        count=0
+        arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_felizes.csv','w')
+        for m in musics:
+            music, erro = m.split("\n",1)
+            print(music+","+str(lista[count])+"\n")
+            arq.write(music+","+str(lista[count])+"\n")
+            count+=1
         cont+=1
 

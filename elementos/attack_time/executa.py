@@ -33,8 +33,8 @@ for l in lines:
     soma=0
     for i in range(len(onset_bt)) :
         soma+=minimum[i]-maximum[i]
-        lista.append(soma)
-    print(soma/len(onset_bt))
+    lista.append(soma/len(onset_bt))
+    print(music,soma/len(onset_bt))
 
 arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','r')
 musics = arq.readlines()

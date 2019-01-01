@@ -11,7 +11,7 @@ import essentia.standard as es
 # 2. Load the audio as a waveform `y`
 #    Store the sampling rate as `sr`
 #captura da musica
-arq = open('/home/douglas/Música/musicas/wav/tristes/tristes.txt','r')
+arq = open('/home/douglas/Música/musicas/wav/felizes/felizes.txt','r')
 lines = arq.readlines()
 arq.close()
 
@@ -26,18 +26,18 @@ for l in lines:
     print(music)
     features, features_frames = es.MusicExtractor(lowlevelStats=['mean', 'stdev'],
                                               rhythmStats=['mean', 'stdev'],
-                                              tonalStats=['mean', 'stdev'])('/home/douglas/Música/musicas/wav/tristes/'+music)
+                                              tonalStats=['mean', 'stdev'])('/home/douglas/Música/musicas/wav/felizes/'+music)
 
     # See all feature names in the pool in a sorted order
     lista.append(features['tonal.chords_strength.mean'])
     print(music, features['tonal.chords_strength.mean'])
 
-arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','r')
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_felizes.csv','r')
 musics = arq.readlines()
 arq.close()
 
 count=0
-arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','w')
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_felizes.csv','w')
 for m in musics:
     music, erro = m.split("\n",1)
     print(music+","+str(lista[count])+"\n")

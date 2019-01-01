@@ -11,20 +11,36 @@ import essentia.standard as es
 # 2. Load the audio as a waveform `y`
 #    Store the sampling rate as `sr`
 #captura da musica
-arq = open('/home/douglas/Documentos/tcc_code/musicas/wav/tristes/tristes.txt','r')
+arq = open('/home/douglas/Música/musicas/wav/tristes/tristes.txt','r')
 lines = arq.readlines()
 arq.close()
-print(lines)
+
+lista = []
+
+count=0
 for l in lines:
     #carregamento dos arquivos
     music, erro = l.split("\n",1)
     #VERIFIQUE O CAMINHO, POR FAVOR
     # Loading audio file
-    import IPython
-    IPython.display.Audio('/home/douglas/Documentos/tcc_code/musicas/wav/tristes_30/'+music)
     features, features_frames = es.MusicExtractor(lowlevelStats=['mean', 'stdev'],
                                               rhythmStats=['mean', 'stdev'],
-                                              tonalStats=['mean', 'stdev'])('/home/douglas/Documentos/tcc_code/musicas/wav/tristes_30/'+music)
+                                              tonalStats=['mean', 'stdev'])('/home/douglas/Música/musicas/wav/tristes/'+music)
 
     # See all feature names in the pool in a sorted order
-    print("Filename:", features['lowlevel.spectral_flux.mean'])
+    print(music, features['lowlevel.spectral_flux.mean'])
+    lista.append(features['lowlevel.spectral_flux.mean'])
+
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','r')
+musics = arq.readlines()
+arq.close()
+
+
+count=0
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','w')
+for m in musics:
+    music, erro = m.split("\n",1)
+    arq.write(music+","+str(lista[count])+"\n")
+    count+=1
+    
+

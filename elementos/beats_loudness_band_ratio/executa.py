@@ -28,8 +28,13 @@ for l in lines:
                                               tonalStats=['mean', 'stdev'])('/home/douglas/Música/musicas/wav/tristes/'+music)
 
     # See all feature names in the pool in a sorted order
-    print(music, features['rhythm.beats_loudness_band_ratio.mean'])
-    lista.append(features['rhythm.beats_loudness_band_ratio.mean'])
+    print(music, features['rhythm.beats_loudness_band_ratio.mean'][0],features['rhythm.beats_loudness_band_ratio.mean'][1],features['rhythm.beats_loudness_band_ratio.mean'][2],features['rhythm.beats_loudness_band_ratio.mean'][3],features['rhythm.beats_loudness_band_ratio.mean'][4],features['rhythm.beats_loudness_band_ratio.mean'][5])
+    lista.append(features['rhythm.beats_loudness_band_ratio.mean'][0])
+    lista.append(features['rhythm.beats_loudness_band_ratio.mean'][1])
+    lista.append(features['rhythm.beats_loudness_band_ratio.mean'][2])
+    lista.append(features['rhythm.beats_loudness_band_ratio.mean'][3])
+    lista.append(features['rhythm.beats_loudness_band_ratio.mean'][4])
+    lista.append(features['rhythm.beats_loudness_band_ratio.mean'][5])
 
 arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','r')
 musics = arq.readlines()
@@ -39,7 +44,7 @@ count=0
 arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','w')
 for m in musics:
     music, erro = m.split("\n",1)
-    print(music+","+str(lista[count])+"\n")
-    arq.write(music+","+str(lista[count])+"\n")
-    count+=1
+    print(music+","+str(lista[count])+","+str(lista[count+1])+","+str(lista[count+2])+","+str(lista[count+3])+","+str(lista[count+4])+","+str(lista[count+5])+"\n")
+    arq.write(music+","+str(lista[count])+","+str(lista[count+1])+","+str(lista[count+2])+","+str(lista[count+3])+","+str(lista[count+4])+","+str(lista[count+5])+"\n")
+    count+=6
     

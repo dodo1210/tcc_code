@@ -1,19 +1,35 @@
 import librosa
 
-arq = open('/home/douglas/Documentos/tcc_code/musicas/wav/felizes/felizes.txt','r')
+arq = open('/home/douglas/Música/musicas/wav/tristes/tristes.txt','r')
 lines = arq.readlines()
 arq.close()
-print(lines)
+
+lista = []
+
+count=0
 for l in lines:
     #carregamento dos arquivos
     music, erro = l.split("\n",1)
     #VERIFIQUE O CAMINHO, POR FAVOR
-    y, sr = librosa.load('/home/douglas/Documentos/tcc_code/musicas/wav/felizes_30/'+music,sr=44100)
+    y, sr = librosa.load('/home/douglas/Música/musicas/wav/tristes/'+music,sr=44100)
     y_harmonic = librosa.effects.harmonic(y)
     i=1
     max = y_harmonic[0]-y_harmonic[1]
     for i in range(len(y_harmonic)-1):
         if max<(y_harmonic[i]-y_harmonic[i+1]):
             max = y_harmonic[i]-y_harmonic[i+1]
-    print(max)
+    print(music,max)
+    lista.append(max)
 
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','r')
+musics = arq.readlines()
+arq.close()
+
+
+count=0
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','w')
+for m in musics:
+    music, erro = m.split("\n",1)
+    print(music+","+str(lista[count])+"\n")
+    arq.write(music+","+str(lista[count])+"\n")
+    count+=1

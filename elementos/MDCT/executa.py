@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import numpy as np
 
 def mdct4(x):
@@ -67,32 +69,28 @@ import numpy as np
 #import matplotlib.pyplot as plt
 from scipy import signal
 import scipy.io.wavfile
-arq = open('/home/douglas/Documentos/tcc_code/musicas/wav/felizes/felizes.txt','r')
+arq = open('/home/douglas/Música/musicas/wav/felizes/felizes.txt','r')
 lines = arq.readlines()
 arq.close()
-print(lines)
 
-#iniciar teste
-print("BEGIN")
+lista = []
 
-arq = open("isso.txt",'a+')
+count=0
 for l in lines:
     #carregamento dos arquivos
     music, erro = l.split("\n",1)
     #carregamento dos arquivos
-    sample_rate, X = scipy.io.wavfile.read("/home/douglas/Documentos/tcc_code/musicas/wav/felizes_30/"+music)
+    sample_rate, X = scipy.io.wavfile.read("/home/douglas/Música/musicas/wav/felizes/"+music)
     frequencies, times, spectrogram = signal.spectrogram(X, sample_rate)
     sin_data = np.sin(spectrogram)
     
 
     y = mdct4(sin_data)
-    print(y)
 
 
     # In[52]:
 
     z = imdct4(y)
-    print(z)
 
 
     # THe following test is after https://github.com/stevengj/MDCT.jl, but that has a small error.  The idea of this test is, have two overlapping windows, do a forward then an inverse mdct, so that the errors cancel out.  The result of this test should be 0, within machine FP accuracy.
@@ -104,4 +102,19 @@ for l in lines:
     Y2 = mdct4(X[50:150])
     Z1 = imdct4(Y1)
     Z2 = imdct4(Y2)
-    print(np.linalg.norm(Z1[50:100] + Z2[:50] - 2*X[50:100])) # should be about 0
+    print(music,np.linalg.norm(Z1[50:100] + Z2[:50] - 2*X[50:100])) # should be about 0
+    lista.append(np.linalg.norm(Z1[50:100] + Z2[:50] - 2*X[50:100]))
+
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_felizes.csv','r')
+musics = arq.readlines()
+arq.close()
+
+
+count=0
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_felizes.csv','w')
+for m in musics:
+    music, erro = m.split("\n",1)
+    arq.write(music+","+str(lista[count])+"\n")
+    count+=1
+
+

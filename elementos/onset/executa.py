@@ -10,15 +10,31 @@ import matplotlib.pyplot as plt
 # 2. Load the audio as a waveform `y`
 #    Store the sampling rate as `sr`
 #captura da musica
-arq = open('/home/douglas/Documentos/tcc_code/musicas/wav/tristes/tristes.txt','r')
+arq = open('/home/douglas/Música/musicas/wav/tristes/tristes.txt','r')
 lines = arq.readlines()
 arq.close()
-print(lines)
+
+lista = []
+
+count=0
 for l in lines:
     #carregamento dos arquivos
     music, erro = l.split("\n",1)
     #VERIFIQUE O CAMINHO, POR FAVOR
-    y, sr = librosa.load('/home/douglas/Documentos/tcc_code/musicas/wav/tristes_30/'+music)
+    y, sr = librosa.load('/home/douglas/Música/musicas/wav/tristes/'+music)
     # 3. Run the default beat tracker
     onset_frames = librosa.onset.onset_detect(y=y, sr=sr)
-    print(len(onset_frames))
+    print(music,len(onset_frames))
+    lista.append(len(onset_frames))
+    
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','r')
+musics = arq.readlines()
+arq.close()
+
+
+count=0
+arq = open('/home/douglas/Documentos/tcc_code/resultado/resultados_tristes.csv','w')
+for m in musics:
+    music, erro = m.split("\n",1)
+    arq.write(music+","+str(lista[count])+"\n")
+    count+=1
