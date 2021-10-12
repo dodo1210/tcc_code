@@ -1,5 +1,5 @@
 <p>
-<h1> DMusic - <h4> Uma futura possível API para processamento e recomendação de musicas através da emoção</h4> </h1>
+<h1> DoMusic - <h4> Uma futura possível API para processamento e recomendação de musicas através da emoção</h4> </h1>
 
 Este trabalho se desenvolve em 3 etapas, 1ª formação de um dataset, 2ª analisar valores extraídos da música para destacar emoções e 3ª Realizar a similaridade/recomendação das músicas.
 
